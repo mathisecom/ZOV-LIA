@@ -554,6 +554,7 @@
         "image_CK93NX": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/d6674493-e3ee-40ec-8a5b-776c230633e5.jpg",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center text-center",
