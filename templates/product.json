@@ -366,6 +366,64 @@
         "heading_gradient": ""
       }
     },
+    "whyicons_xFWREH": {
+      "type": "whyicons",
+      "blocks": {
+        "feature_iPTnJr": {
+          "type": "feature",
+          "settings": {
+            "text": "Powerful on stains, gentle on your budget!"
+          }
+        },
+        "feature_nickQa": {
+          "type": "feature",
+          "settings": {
+            "text": "No more messy strips or trays"
+          }
+        },
+        "feature_D4U4Pq": {
+          "type": "feature",
+          "settings": {
+            "text": "Proven safe & effective"
+          }
+        },
+        "feature_QGfPyX": {
+          "type": "feature",
+          "settings": {
+            "text": "Hassle-free teeth whitening that fits easily into your routine"
+          }
+        },
+        "feature_Gyjppb": {
+          "type": "feature",
+          "settings": {
+            "text": "60-day money-back guarantee"
+          }
+        },
+        "feature_tHMcJ9": {
+          "type": "feature",
+          "settings": {
+            "text": "Conscious Formula"
+          }
+        }
+      },
+      "block_order": [
+        "feature_iPTnJr",
+        "feature_nickQa",
+        "feature_D4U4Pq",
+        "feature_QGfPyX",
+        "feature_Gyjppb",
+        "feature_tHMcJ9"
+      ],
+      "name": "Why Smileactives",
+      "settings": {
+        "background_color": "#ffffff",
+        "title": "Why Smileactives?",
+        "title_color": "#01322d",
+        "subtitle": "Get a healthy, more confident smile with a simple and easy-to-use routine from Smileactives",
+        "subtitle_color": "#01322d",
+        "feature_text_color": "#01322d"
+      }
+    },
     "before_after_image_9TJF7U": {
       "type": "before-after-image",
       "name": "Before/after image",
@@ -782,6 +840,7 @@
     "rich_text_arxcnt",
     "press_VBgARV",
     "image_link_blocks_AthhUE",
+    "whyicons_xFWREH",
     "before_after_image_9TJF7U",
     "media_with_text_b9hfhr",
     "multi_column_TPHqFB",
