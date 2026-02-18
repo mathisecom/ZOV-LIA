@@ -371,7 +371,7 @@
       "type": "before-after-image",
       "name": "Before/after image",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "subheading": "",
         "title": "Éliminez les Gonflements et Révélez un Corps Ferme et Affiné",
         "content": "<p><strong>Zovélia</strong> active votre système lymphatique, régénère votre peau et booste votre vitalité</p>",
@@ -508,7 +508,7 @@
           "type": "image",
           "settings": {
             "media_width": 50,
-            "media_position": "start",
+            "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
