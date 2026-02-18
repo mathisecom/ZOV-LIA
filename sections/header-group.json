@@ -16,7 +16,6 @@
       "blocks": {
         "message": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "Livraison Offerte Dès 40€ d’achat",
             "url": ""
@@ -26,7 +25,6 @@
       "block_order": [
         "message"
       ],
-      "disabled": true,
       "settings": {
         "enable_sticky": false,
         "autoplay": false,
@@ -34,7 +32,7 @@
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#1a1a1a",
+        "background": "#01322d",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
