@@ -366,6 +366,33 @@
         "heading_gradient": ""
       }
     },
+    "before_after_image_9TJF7U": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Éliminez les Gonflements et Révélez un Corps Ferme et Affiné",
+        "content": "<p><strong>Zovélia</strong> active votre système lymphatique, régénère votre peau et booste votre vitalité</p>",
+        "before_image": "shopify://shop_images/gempages_584723707562295877-6fa8e13a-08a6-4b44-8b36-cbc5aa662c25.webp",
+        "before_image_mobile": "shopify://shop_images/gempages_584723707562295877-6fa8e13a-08a6-4b44-8b36-cbc5aa662c25.webp",
+        "after_image": "shopify://shop_images/gempages_584723707562295877-b0890c2c-78b7-4c20-b173-bb955762da93.webp",
+        "after_image_mobile": "shopify://shop_images/gempages_584723707562295877-b0890c2c-78b7-4c20-b173-bb955762da93.webp",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "bottom",
+        "before_text": "",
+        "after_text": "",
+        "drag_initial_position": 50,
+        "background": "#effefa",
+        "background_gradient": "",
+        "text_color": "#01322d",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#effefa",
+        "drag_cursor_color": "#000000"
+      }
+    },
     "whyicons_xFWREH": {
       "type": "whyicons",
       "blocks": {
@@ -416,41 +443,14 @@
       ],
       "name": "Why Smileactives",
       "settings": {
-        "padding_top": 60,
+        "padding_top": 80,
         "padding_bottom": 60,
         "background_color": "#ffffff",
-        "title": "Why Smileactives?",
+        "title": "Pourquoi Faire Confiance À Zovélia ?",
         "title_color": "#01322d",
-        "subtitle": "Get a healthy, more confident smile with a simple and easy-to-use routine from Smileactives",
+        "subtitle": "",
         "subtitle_color": "#01322d",
         "feature_text_color": "#01322d"
-      }
-    },
-    "before_after_image_9TJF7U": {
-      "type": "before-after-image",
-      "name": "Before/after image",
-      "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "Éliminez les Gonflements et Révélez un Corps Ferme et Affiné",
-        "content": "<p><strong>Zovélia</strong> active votre système lymphatique, régénère votre peau et booste votre vitalité</p>",
-        "before_image": "shopify://shop_images/gempages_584723707562295877-6fa8e13a-08a6-4b44-8b36-cbc5aa662c25.webp",
-        "before_image_mobile": "shopify://shop_images/gempages_584723707562295877-6fa8e13a-08a6-4b44-8b36-cbc5aa662c25.webp",
-        "after_image": "shopify://shop_images/gempages_584723707562295877-b0890c2c-78b7-4c20-b173-bb955762da93.webp",
-        "after_image_mobile": "shopify://shop_images/gempages_584723707562295877-b0890c2c-78b7-4c20-b173-bb955762da93.webp",
-        "expand_image": false,
-        "text_position": "center",
-        "before_after_text_position": "bottom",
-        "before_text": "",
-        "after_text": "",
-        "drag_initial_position": 50,
-        "background": "#effefa",
-        "background_gradient": "",
-        "text_color": "#01322d",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#effefa",
-        "drag_cursor_color": "#000000"
       }
     },
     "media_with_text_b9hfhr": {
@@ -842,8 +842,8 @@
     "rich_text_arxcnt",
     "press_VBgARV",
     "image_link_blocks_AthhUE",
-    "whyicons_xFWREH",
     "before_after_image_9TJF7U",
+    "whyicons_xFWREH",
     "media_with_text_b9hfhr",
     "multi_column_TPHqFB",
     "media_with_text_tPiHLM",
