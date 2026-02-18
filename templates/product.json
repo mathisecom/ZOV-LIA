@@ -414,26 +414,16 @@
         "feature_Gyjppb",
         "feature_tHMcJ9"
       ],
-      "disabled": true,
       "name": "Why Smileactives",
       "settings": {
         "padding_top": 60,
         "padding_bottom": 60,
         "background_color": "#ffffff",
-        "title_color": "#01322d",
-        "subtitle_color": "#01322d",
-        "feature_text_color": "#01322d",
         "title": "Why Smileactives?",
-        "title_font": "assistant_n4",
-        "title_font_size": 48,
-        "title_font_weight": "600",
+        "title_color": "#01322d",
         "subtitle": "Get a healthy, more confident smile with a simple and easy-to-use routine from Smileactives",
-        "subtitle_font": "figtree_n4",
-        "subtitle_font_size": 20,
-        "subtitle_font_weight": "400",
-        "feature_font": "figtree_n4",
-        "feature_font_size": 18,
-        "feature_font_weight": "400"
+        "subtitle_color": "#01322d",
+        "feature_text_color": "#01322d"
       }
     },
     "before_after_image_9TJF7U": {
