@@ -884,8 +884,8 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
-            "author": "John S.",
+            "rating": 5,
+            "author": "Julia S.",
             "title": "Visage plus fin en quelques jours",
             "content": "<p>J’ai vu une vraie différence dès la première semaine : mon visage est plus affiné, moins gonflé et beaucoup plus frais chaque matin.</p>"
           }
@@ -906,7 +906,7 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
+            "rating": 5,
             "author": "Joshua A.",
             "title": "Sensation de légèreté au réveil",
             "content": "<p>Un petit geste quotidien qui change tout. Je me sens plus légère, moins bouffie et ma peau est plus lumineuse.</p>"
@@ -918,9 +918,31 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "",
+            "author": "Océane L.",
             "title": "Traits visiblement affinés",
             "content": "<p>Après quelques jours seulement, j’ai remarqué que mon visage est moins enflé au réveil et paraît plus reposé.</p>"
+          }
+        },
+        "testimonial_xBxTyL": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Lisa K.",
+            "title": "Peau plus fraîche et tonique",
+            "content": "<p>Effet drainant impressionnant, mes traits sont plus sculptés et ma peau paraît plus ferme. Je suis vraiment ravie.</p>"
+          }
+        },
+        "testimonial_TCcdGU": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Laurianne G.",
+            "title": "Résultats rapides et visibles",
+            "content": "<p>Visage plus sculpté, sensation de fraîcheur et vraie amélioration dès les premières utilisations.</p>"
           }
         }
       },
@@ -928,7 +950,9 @@
         "testimonial_CNfRAD",
         "testimonial_XzDF9f",
         "testimonial_xLFWxh",
-        "testimonial_wmRxM4"
+        "testimonial_wmRxM4",
+        "testimonial_xBxTyL",
+        "testimonial_TCcdGU"
       ],
       "name": "Testimonials",
       "settings": {
