@@ -211,8 +211,8 @@
           "type": "quote",
           "settings": {
             "logo_width": 100,
-            "author": "",
-            "content": "Write some content about what they says about your store.",
+            "author": "Julia M.",
+            "content": "\"Visage visiblement plus fin et moins gonflé dès la première semaine. J’adore !\"",
             "show_rating": true,
             "rating": 5
           }
@@ -221,8 +221,8 @@
           "type": "quote",
           "settings": {
             "logo_width": 100,
-            "author": "",
-            "content": "Write some content about what they says about your store.",
+            "author": "Clara S.",
+            "content": "\"Un geste simple, des résultats rapides : je me sens plus légère chaque matin.\"",
             "show_rating": true,
             "rating": 4
           }
@@ -231,8 +231,8 @@
           "type": "quote",
           "settings": {
             "logo_width": 100,
-            "author": "",
-            "content": "Write some content about what they says about your store.",
+            "author": "Alice K.",
+            "content": "\"Effet drainant bluffant, mon visage dégonfle vraiment. Je recommande !\"",
             "show_rating": true,
             "rating": 5
           }
@@ -241,8 +241,8 @@
           "type": "quote",
           "settings": {
             "logo_width": 100,
-            "author": "",
-            "content": "Write some content about what they says about your store.",
+            "author": "Naelle P.",
+            "content": "Traits plus affinés, peau plus fraîche, résultat visible rapidement. Je recommande !",
             "show_rating": true,
             "rating": 4
           }
