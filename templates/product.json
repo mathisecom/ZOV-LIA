@@ -161,6 +161,13 @@
         "input_text_color": ""
       }
     },
+    "presslogo_TdftVP": {
+      "type": "presslogo",
+      "name": "Logos Presse",
+      "settings": {
+        "title": "ILS PARLENT DE NOUS"
+      }
+    },
     "press_VBgARV": {
       "type": "press",
       "blocks": {
@@ -350,6 +357,7 @@
   },
   "order": [
     "main",
+    "presslogo_TdftVP",
     "press_VBgARV",
     "image_link_blocks_AthhUE",
     "before_after_image_9TJF7U"
