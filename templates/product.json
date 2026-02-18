@@ -479,6 +479,56 @@
         "feature_text_color": "#01322d"
       }
     },
+    "whyitsworks_cjQfT4": {
+      "type": "whyitsworks",
+      "blocks": {
+        "benefit_card_fk99Kg": {
+          "type": "benefit_card",
+          "settings": {
+            "featured": true,
+            "title": "1.",
+            "description": "Powered by clinical-grade Garcinia Cambogia, Lunari helps block the enzyme your body uses to turn carbohydrates into fat storage. It's your insurance policy for pasta night, sushi dates, and those 'oops' meals that usually derail your progress. Instead of storing carbs as fat, your body is encouraged to use them for energy or pass them through. Think of it as a metabolic safety net that lets you live your life without the next-day scale spike."
+          }
+        },
+        "benefit_card_FEKknY": {
+          "type": "benefit_card",
+          "settings": {
+            "featured": true,
+            "title": "2.",
+            "description": "Bloating isn't just uncomfortable—it's a confidence killer. Lunari is infused with Pomegranate Extract and Maltodextrin (a prebiotic fiber) that keeps your digestive system moving smoothly. Say goodbye to heavy, sluggish feeling after lunch. No more awkward tight dresses because you're worried about your stomach."
+          }
+        },
+        "benefit_card_GNiAjX": {
+          "type": "benefit_card",
+          "settings": {
+            "featured": true,
+            "title": "3.",
+            "description": "The best supplement in the world is worthless if it's sitting in your drawer. Lunari was designed for real life: no pills to choke down, no water required, no shaker bottles to clean. Just tear open a delicious pomegranate jelly stick and enjoy it anywhere."
+          }
+        }
+      },
+      "block_order": [
+        "benefit_card_fk99Kg",
+        "benefit_card_FEKknY",
+        "benefit_card_GNiAjX"
+      ],
+      "name": "Why It Works - Benefits",
+      "settings": {
+        "badge_text": "LA Science du corps",
+        "title": "",
+        "subtitle": "Le problème ne vient ni de votre alimentation, ni de votre activité physique.\n<br>\n<b>Voici le vrai mécanisme :</b>",
+        "button_text": "",
+        "button_link": "",
+        "guarantee_text": "90-day money back guarantee",
+        "background_color": "#f9f9f9",
+        "text_color": "#01322d",
+        "card_background_color": "#ffffff",
+        "border_color": "#f5f5f5",
+        "accent_color": "#01322d",
+        "button_background_color": "#01322d",
+        "button_text_color": "#ffffff"
+      }
+    },
     "multi_column_qPLFLW": {
       "type": "multi-column",
       "blocks": {
@@ -1237,6 +1287,7 @@
     "logoscroll_gMRmYX",
     "before_after_image_9TJF7U",
     "whyicons_xFWREH",
+    "whyitsworks_cjQfT4",
     "multi_column_qPLFLW",
     "media_with_text_b9hfhr",
     "multi_column_TPHqFB",
