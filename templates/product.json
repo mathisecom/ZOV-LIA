@@ -287,6 +287,27 @@
     "logoscroll_gMRmYX": {
       "type": "logoscroll",
       "blocks": {
+        "image_pcaDLC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BfIK0d9JGx.jpg",
+            "url": ""
+          }
+        },
+        "image_DenrjH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lwMGLDsyp6.jpg",
+            "url": ""
+          }
+        },
+        "image_i4zPCf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5xl6wO-OiO.jpg",
+            "url": ""
+          }
+        },
         "image_k7nKLE": {
           "type": "image",
           "settings": {
@@ -324,6 +345,9 @@
         }
       },
       "block_order": [
+        "image_pcaDLC",
+        "image_DenrjH",
+        "image_i4zPCf",
         "image_k7nKLE",
         "image_DYtLzn",
         "image_39pRfL",
@@ -341,7 +365,7 @@
         "heading_size_mobile": 18,
         "heading_height": 130,
         "scrolling_velocity": 16,
-        "scrolling_velocity_mobile": 12,
+        "scrolling_velocity_mobile": 18,
         "scrolling_direction": "left",
         "pause_hover": false,
         "scrolling_gap": 70,
@@ -858,6 +882,20 @@
     "logoscroll_tMWgkz": {
       "type": "logoscroll",
       "blocks": {
+        "image_4eH4NY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BfIK0d9JGx.jpg",
+            "url": ""
+          }
+        },
+        "image_FLiXiD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lwMGLDsyp6.jpg",
+            "url": ""
+          }
+        },
         "image_xA88NF": {
           "type": "image",
           "settings": {
@@ -895,6 +933,8 @@
         }
       },
       "block_order": [
+        "image_4eH4NY",
+        "image_FLiXiD",
         "image_xA88NF",
         "image_TKQkNE",
         "image_gNyz4R",
@@ -912,7 +952,7 @@
         "heading_size_mobile": 18,
         "heading_height": 130,
         "scrolling_velocity": 16,
-        "scrolling_velocity_mobile": 12,
+        "scrolling_velocity_mobile": 18,
         "scrolling_direction": "left",
         "pause_hover": false,
         "scrolling_gap": 70,
