@@ -581,6 +581,13 @@
             "title": "Puis-je en prendre toute l’année ?",
             "content": "<p>Oui, par cycles. Nous recommandons des cures de 1 à 3 mois avec une pause d’1 mois entre chaque si prise prolongée. C’est idéal pour soutenir le corps à chaque changement de saison ou en cas de sensation de lourdeur accrue.</p>"
           }
+        },
+        "item_VjeDDG": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que je vais devoir aller souvent aux toilettes ?",
+            "content": "<p><strong>Pas forcément.</strong> Ce produit aide à relancer en douceur la circulation lymphatique et l’élimination des excès d’eau et des toxines. Certaines personnes peuvent ressentir un besoin urinaire légèrement plus fréquent les premiers jours, signe que le corps se détoxifie.</p>"
+          }
         }
       },
       "block_order": [
@@ -590,7 +597,8 @@
         "item_GRybfD",
         "item_YPX4XH",
         "item_Lg7DHQ",
-        "item_J8fCDW"
+        "item_J8fCDW",
+        "item_VjeDDG"
       ],
       "name": "FAQ",
       "settings": {
