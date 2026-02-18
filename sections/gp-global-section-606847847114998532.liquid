@@ -1,0 +1,313 @@
+
+    {% render 'gp-head', isThemeSection: true %}
+    
+    <style {% if section.settings.section_preload == "false" %} class="gps-link gps-style" type="text/disabled-css" {% endif %}>.gps-606847847114998532.gps.gpsil [style*="--as:"]{align-self:var(--as)}.gps-606847847114998532.gps.gpsil [style*="--aspect:"]{aspect-ratio:var(--aspect)}.gps-606847847114998532.gps.gpsil [style*="--bg:"]{background:var(--bg)}.gps-606847847114998532.gps.gpsil [style*="--bga:"]{background-attachment:var(--bga)}.gps-606847847114998532.gps.gpsil [style*="--bgc:"]{background-color:var(--bgc)}.gps-606847847114998532.gps.gpsil [style*="--bgi:"]{background-image:var(--bgi)}.gps-606847847114998532.gps.gpsil [style*="--bgp:"]{background-position:var(--bgp)}.gps-606847847114998532.gps.gpsil [style*="--bgr:"]{background-repeat:var(--bgr)}.gps-606847847114998532.gps.gpsil [style*="--bgs:"]{background-size:var(--bgs)}.gps-606847847114998532.gps.gpsil [style*="--b:"]{border:var(--b)}.gps-606847847114998532.gps.gpsil [style*="--bb:"]{border-bottom:var(--bb)}.gps-606847847114998532.gps.gpsil [style*="--bc:"]{border-color:var(--bc)}.gps-606847847114998532.gps.gpsil [style*="--bblr:"]{border-bottom-left-radius:var(--bblr)}.gps-606847847114998532.gps.gpsil [style*="--bbrr:"]{border-bottom-right-radius:var(--bbrr)}.gps-606847847114998532.gps.gpsil [style*="--bl:"]{border-left:var(--bl)}.gps-606847847114998532.gps.gpsil [style*="--radius:"]{border-radius:var(--radius)}.gps-606847847114998532.gps.gpsil [style*="--bs:"]{border-style:var(--bs)}.gps-606847847114998532.gps.gpsil [style*="--bt:"]{border-top:var(--bt)}.gps-606847847114998532.gps.gpsil [style*="--btlr:"]{border-top-left-radius:var(--btlr)}.gps-606847847114998532.gps.gpsil [style*="--btrr:"]{border-top-right-radius:var(--btrr)}.gps-606847847114998532.gps.gpsil [style*="--bw:"]{border-width:var(--bw)}.gps-606847847114998532.gps.gpsil [style*="--shadow:"]{box-shadow:var(--shadow)}.gps-606847847114998532.gps.gpsil [style*="--c:"]{color:var(--c)}.gps-606847847114998532.gps.gpsil [style*="--cg:"]{-moz-column-gap:var(--cg);column-gap:var(--cg)}.gps-606847847114998532.gps.gpsil [style*="--ff:"]{font-family:var(--ff)}.gps-606847847114998532.gps.gpsil [style*="--size:"]{font-size:var(--size)}.gps-606847847114998532.gps.gpsil [style*="--weight:"]{font-weight:var(--weight)}.gps-606847847114998532.gps.gpsil [style*="--fs:"]{font-style:var(--fs)}.gps-606847847114998532.gps.gpsil [style*="--gtc:"]{grid-template-columns:var(--gtc)}.gps-606847847114998532.gps.gpsil [style*="--h:"]{height:var(--h)}.gps-606847847114998532.gps.gpsil [style*="--jc:"]{justify-content:var(--jc)}.gps-606847847114998532.gps.gpsil [style*="--ls:"]{letter-spacing:var(--ls)}.gps-606847847114998532.gps.gpsil [style*="--lh:"]{line-height:var(--lh)}.gps-606847847114998532.gps.gpsil [style*="--tdt:"]{text-decoration-thickness:var(--tdt)}.gps-606847847114998532.gps.gpsil [style*="--tdl:"]{text-decoration-line:var(--tdl)}.gps-606847847114998532.gps.gpsil [style*="--m:"]{margin:var(--m)}.gps-606847847114998532.gps.gpsil [style*="--mb:"]{margin-bottom:var(--mb)}.gps-606847847114998532.gps.gpsil [style*="--mt:"]{margin-top:var(--mt)}.gps-606847847114998532.gps.gpsil [style*="--objf:"]{-o-object-fit:var(--objf);object-fit:var(--objf)}.gps-606847847114998532.gps.gpsil [style*="--op:"]{opacity:var(--op)}.gps-606847847114998532.gps.gpsil [style*="--o:"]{order:var(--o)}.gps-606847847114998532.gps.gpsil [style*="--of:"]{overflow:var(--of)}.gps-606847847114998532.gps.gpsil [style*="--pc:"]{place-content:var(--pc)}.gps-606847847114998532.gps.gpsil [style*="--p:"]{padding:var(--p)}.gps-606847847114998532.gps.gpsil [style*="--pb:"]{padding-bottom:var(--pb)}.gps-606847847114998532.gps.gpsil [style*="--pl:"]{padding-left:var(--pl)}.gps-606847847114998532.gps.gpsil [style*="--pr:"]{padding-right:var(--pr)}.gps-606847847114998532.gps.gpsil [style*="--pt:"]{padding-top:var(--pt)}.gps-606847847114998532.gps.gpsil [style*="--rg:"]{row-gap:var(--rg)}.gps-606847847114998532.gps.gpsil [style*="--ta:"]{text-align:var(--ta)}.gps-606847847114998532.gps.gpsil [style*="--t:"]{transform:var(--t)}.gps-606847847114998532.gps.gpsil [style*="--w:"]{width:var(--w)}.gps-606847847114998532.gps.gpsil [style*="--line-clamp:"]{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp)}@media only screen and (max-width:1024px){.gps-606847847114998532.gps.gpsil [style*="--size-tablet:"]{font-size:var(--size-tablet)}.gps-606847847114998532.gps.gpsil [style*="--h-tablet:"]{height:var(--h-tablet)}.gps-606847847114998532.gps.gpsil [style*="--lh-tablet:"]{line-height:var(--lh-tablet)}.gps-606847847114998532.gps.gpsil [style*="--of-tablet:"]{overflow:var(--of-tablet)}.gps-606847847114998532.gps.gpsil [style*="--pb-tablet:"]{padding-bottom:var(--pb-tablet)}.gps-606847847114998532.gps.gpsil [style*="--pl-tablet:"]{padding-left:var(--pl-tablet)}.gps-606847847114998532.gps.gpsil [style*="--pr-tablet:"]{padding-right:var(--pr-tablet)}.gps-606847847114998532.gps.gpsil [style*="--pt-tablet:"]{padding-top:var(--pt-tablet)}.gps-606847847114998532.gps.gpsil [style*="--w-tablet:"]{width:var(--w-tablet)}.gps-606847847114998532.gps.gpsil [style*="--line-clamp-tablet:"]{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp-tablet)}}@media only screen and (max-width:767px){.gps-606847847114998532.gps.gpsil [style*="--cg-mobile:"]{-moz-column-gap:var(--cg-mobile);column-gap:var(--cg-mobile)}.gps-606847847114998532.gps.gpsil [style*="--size-mobile:"]{font-size:var(--size-mobile)}.gps-606847847114998532.gps.gpsil [style*="--gtc-mobile:"]{grid-template-columns:var(--gtc-mobile)}.gps-606847847114998532.gps.gpsil [style*="--h-mobile:"]{height:var(--h-mobile)}.gps-606847847114998532.gps.gpsil [style*="--lh-mobile:"]{line-height:var(--lh-mobile)}.gps-606847847114998532.gps.gpsil [style*="--mt-mobile:"]{margin-top:var(--mt-mobile)}.gps-606847847114998532.gps.gpsil [style*="--o-mobile:"]{order:var(--o-mobile)}.gps-606847847114998532.gps.gpsil [style*="--of-mobile:"]{overflow:var(--of-mobile)}.gps-606847847114998532.gps.gpsil [style*="--pb-mobile:"]{padding-bottom:var(--pb-mobile)}.gps-606847847114998532.gps.gpsil [style*="--pl-mobile:"]{padding-left:var(--pl-mobile)}.gps-606847847114998532.gps.gpsil [style*="--pr-mobile:"]{padding-right:var(--pr-mobile)}.gps-606847847114998532.gps.gpsil [style*="--pt-mobile:"]{padding-top:var(--pt-mobile)}.gps-606847847114998532.gps.gpsil [style*="--rg-mobile:"]{row-gap:var(--rg-mobile)}.gps-606847847114998532.gps.gpsil [style*="--w-mobile:"]{width:var(--w-mobile)}.gps-606847847114998532.gps.gpsil [style*="--line-clamp-mobile:"]{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp-mobile)}}.gps-606847847114998532 .gp-g-paragraph-1{font-family:var(--g-p1-ff);font-size:var(--g-p1-size);font-style:var(--g-p1-fs);font-weight:var(--g-p1-weight);letter-spacing:var(--g-p1-ls);line-height:var(--g-p1-lh)}.gps-606847847114998532 .gp-relative{position:relative}.gps-606847847114998532 .gp-mx-auto{margin-left:auto;margin-right:auto}.gps-606847847114998532 .gp-mb-0{margin-bottom:0}.gps-606847847114998532 .gp-inline-block{display:inline-block}.gps-606847847114998532 .gp-flex{display:flex}.gps-606847847114998532 .gp-grid{display:grid}.gps-606847847114998532 .gp-contents{display:contents}.gps-606847847114998532 .\!gp-hidden{display:none!important}.gps-606847847114998532 .gp-hidden{display:none}.gps-606847847114998532 .gp-h-auto{height:auto}.gps-606847847114998532 .gp-h-full{height:100%}.gps-606847847114998532 .gp-w-full{width:100%}.gps-606847847114998532 .gp-max-w-full{max-width:100%}.gps-606847847114998532 .gp-flex-none{flex:none}.gps-606847847114998532 .gp-grid-rows-\[1fr\]{grid-template-rows:1fr}.gps-606847847114998532 .gp-flex-col{flex-direction:column}.gps-606847847114998532 .gp-transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-606847847114998532 .gp-duration-200{transition-duration:.2s}.gps-606847847114998532 .gp-ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}@media (max-width:1024px){.gps-606847847114998532 .tablet\:\!gp-hidden{display:none!important}.gps-606847847114998532 .tablet\:gp-hidden{display:none}.gps-606847847114998532 .tablet\:gp-h-auto{height:auto}.gps-606847847114998532 .tablet\:gp-flex-none{flex:none}}@media (max-width:767px){.gps-606847847114998532 .mobile\:\!gp-hidden{display:none!important}.gps-606847847114998532 .mobile\:gp-hidden{display:none}.gps-606847847114998532 .mobile\:gp-h-auto{height:auto}.gps-606847847114998532 .mobile\:gp-flex-none{flex:none}}.gps-606847847114998532 .\[\&_\*\]\:gp-max-w-full *{max-width:100%}</style>
+    
+  
+    
+    
+    
+
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+
+    
+        <section
+          class="gp-mx-auto gp-max-w-full [&_*]:gp-max-w-full {% if section.settings.section_preload == "false" %}gps-lazy {% endif %}"
+          style="--w:100%;--w-tablet:calc(var(--g-ct-w, 100%) + 2 * var(--g-ct-p, 15px));--w-mobile:calc(var(--g-ct-w, 100%) + 2 * var(--g-ct-p, 15px));--pl:none;--pl-tablet:none;--pl-mobile:none;--pr:none;--pr-tablet:none;--pr-mobile:none"
+        >
+          
+    <gp-row gp-data='{"background":{"desktop":{"type":"color","color":"transparent","image":{"src":"","width":0,"height":0},"size":"cover","position":{"x":50,"y":50},"repeat":"no-repeat","attachment":"scroll"}},"uid":"gg-zq9Y89F"}' data-id="gg-zq9Y89F" id="gg-zq9Y89F" data-same-height-subgrid-container class="gg-zq9Y89F gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--blockPadding:base;--pt:0px;--pb:0px;--pt-tablet:0px;--pb-tablet:0px;--pt-mobile:0px;--pb-mobile:0px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--cg:16px;--rg:0px;--gtc:minmax(0, 12fr);--w:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:start"
+      class="guNbfAFP0x gp-relative gp-flex gp-flex-col"
+    >
+      
+  
+    <div
+      
+      style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--ta:left;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+      data-keep-class="true"
+      class="gY_uQSSC1P gp-custom-code">
+      <div>
+    <section class="gp-mx-auto gp-max-w-full [&amp;_*]:gp-max-w-full " style="--w:100%;--w-tablet:100%;--w-mobile:100%;--pl:none;--pl-tablet:none;--pl-mobile:none;--pr:none;--pr-tablet:none;--pr-mobile:none">
+          
+    <gp-row gp-data="{&quot;background&quot;:{&quot;desktop&quot;:{&quot;attachment&quot;:&quot;scroll&quot;,&quot;color&quot;:&quot;#F7F7F7&quot;,&quot;image&quot;:{&quot;height&quot;:0,&quot;src&quot;:&quot;&quot;,&quot;width&quot;:0},&quot;position&quot;:{&quot;x&quot;:50,&quot;y&quot;:50},&quot;repeat&quot;:&quot;no-repeat&quot;,&quot;size&quot;:&quot;cover&quot;,&quot;type&quot;:&quot;color&quot;,&quot;preload&quot;:false}},&quot;uid&quot;:&quot;g0FUnQeO-3&quot;}" data-id="g0FUnQeO-3" id="g0FUnQeO-3" data-same-height-subgrid-container="" class="g0FUnQeO-3 gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&amp;_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--pt:var(--g-s-5xl);--pl:15px;--pb:var(--g-s-5xl);--pr:15px;--pt-mobile:var(--g-s-4xl);--pl-mobile:15px;--pb-mobile:var(--g-s-4xl);--pr-mobile:15px;--pt-tablet:var(--g-s-5xl);--pl-tablet:15px;--pb-tablet:var(--g-s-5xl);--pr-tablet:15px;--cg:var(--g-s-2xl);--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:#F7F7F7;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
+      
+
+      <div data-same-height-display-contents="" style="--jc:start" class="gyHLgfMS2B gp-relative gp-flex gp-flex-col">
+      
+    
+
+    
+
+    
+    <gp-row gp-data="{&quot;background&quot;:{&quot;desktop&quot;:{&quot;attachment&quot;:&quot;scroll&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;,&quot;image&quot;:{&quot;height&quot;:0,&quot;src&quot;:&quot;&quot;,&quot;width&quot;:0},&quot;position&quot;:{&quot;x&quot;:50,&quot;y&quot;:50},&quot;repeat&quot;:&quot;no-repeat&quot;,&quot;size&quot;:&quot;cover&quot;,&quot;type&quot;:&quot;color&quot;,&quot;preload&quot;:false}},&quot;uid&quot;:&quot;g8M3PzvwE3&quot;}" data-id="g8M3PzvwE3" id="g8M3PzvwE3" data-same-height-subgrid-container="" class="g8M3PzvwE3 gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&amp;_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--bs:solid;--bw:1px 1px 1px 1px;--bc:#828282;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--pageType:GP_STATIC;--bblr:40px;--bbrr:40px;--btlr:40px;--btrr:40px;--cg:33px;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--of:hidden;--of-tablet:hidden;--of-mobile:hidden;--bgc:#FFFFFF;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
+      
+
+      <div data-same-height-display-contents="" style="--jc:center;--o-mobile:1" class="gugBdVgbAS gp-relative gp-flex gp-flex-col">
+      
+    <div role="presentation" data-id="g86NbsHBeT" style="--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mt-mobile:var(--g-s-3xl);--ta:left" class="gp-group/image gp-relative force-publish-1769169105868 gp-flex-none gp-h-auto mobile:gp-flex-none mobile:gp-h-auto tablet:gp-flex-none tablet:gp-h-auto g86NbsHBeT">
+      <div style="border-radius:inherit;--jc:left" class="gp-h-full gp-w-full gp-flex pointer-events-auto">
+        
+    <picture style="border-radius:inherit" class="gp-contents">
+      
+      <source media="(max-width: 767px)" data-srcset="//lynae.co/cdn/shop/files/hf_20260123_112740_b3b59015-de2d-47d2-bc5c-d491f1304133.png?v=12387611604460442178" srcset="https://lynae.co/cdn/shop/files/hf_20260123_112740_b3b59015-de2d-47d2-bc5c-d491f1304133.png?v=12387611604460442178&amp;width=875 767w">
+      <source media="(max-width: 1024px)" data-srcset="//lynae.co/cdn/shop/files/hf_20260123_112740_b3b59015-de2d-47d2-bc5c-d491f1304133.png?v=12387611604460442178" srcset="https://lynae.co/cdn/shop/files/hf_20260123_112740_b3b59015-de2d-47d2-bc5c-d491f1304133.png?v=12387611604460442178&amp;width=875 1023w">
+    
+      
+      <img base-src="//lynae.co/cdn/shop/files/hf_20260123_112740_b3b59015-de2d-47d2-bc5c-d491f1304133.png?v=12387611604460442178" quality-type="{}" quality-percent="{}" src="//lynae.co/cdn/shop/files/hf_20260123_112740_b3b59015-de2d-47d2-bc5c-d491f1304133.png?v=12387611604460442178" data-src="//lynae.co/cdn/shop/files/hf_20260123_112740_b3b59015-de2d-47d2-bc5c-d491f1304133.png?v=12387611604460442178" alt="Alt Image" width="100%" style="--aspect:1/1;--objf:contain;--w-tablet:100%;--w-mobile:100%;--h:auto;--h-tablet:auto;--h-mobile:auto;--b:none;--btrr:8px;--bblr:8px;--bbrr:8px;--btlr:8px;--radiusType:custom" class="gp-inline-block gp-w-full gp-max-w-full gp_lazyloaded" data-quality="150" data-srcset="https://lynae.co/cdn/shop/files/hf_20260123_112740_b3b59015-de2d-47d2-bc5c-d491f1304133.png?v=12387611604460442178&amp;width=875 1440w" srcset="https://lynae.co/cdn/shop/files/hf_20260123_112740_b3b59015-de2d-47d2-bc5c-d491f1304133.png?v=12387611604460442178&amp;width=875 1440w">
+    
+    </picture>
+  
+      </div>
+    </div>
+  
+    </div><div data-same-height-display-contents="" style="--jc:center;--o-mobile:0" class="gixBCiFCSb gp-relative gp-flex gp-flex-col">
+      
+    
+
+    
+
+    
+    <gp-row gp-data="{&quot;background&quot;:{&quot;desktop&quot;:{&quot;attachment&quot;:&quot;scroll&quot;,&quot;color&quot;:&quot;transparent&quot;,&quot;image&quot;:{&quot;height&quot;:0,&quot;src&quot;:&quot;&quot;,&quot;width&quot;:0},&quot;position&quot;:{&quot;x&quot;:50,&quot;y&quot;:50},&quot;repeat&quot;:&quot;no-repeat&quot;,&quot;size&quot;:&quot;cover&quot;,&quot;type&quot;:&quot;color&quot;}},&quot;uid&quot;:&quot;gDfhpiJ_-A&quot;}" data-id="gDfhpiJ_-A" id="gDfhpiJ_-A" data-same-height-subgrid-container="" class="gDfhpiJ_-A gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&amp;_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--pt-mobile:15px;--pl-mobile:15px;--pr-mobile:15px;--cg:var(--g-s-2xl);--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--h:auto;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
+      
+
+      <div data-same-height-display-contents="" style="--jc:start" class="gZBtJqt-Vm gp-relative gp-flex gp-flex-col">
+      
+    
+    <div data-id="gD42-_SIbo" class="gD42-_SIbo" style="--ta:center;--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:var(--g-s-2xl);--dynamic-source-color:#F4F4F4">
+      <div class="gp-flex" style="--jc:center">
+        <h2 data-gp-text="" class=" gp-text-instant gp-text" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--ta:left;--c:#242424;--fs:normal;--ff:var(--g-font-heading, heading);--weight:600;--size:28px;--size-tablet:28px;--size-mobile:24px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--ls:normal;word-break:break-word;overflow:hidden;--tdl:">
+          Zovélia est née d’une compréhension intime du corps
+        </h2>
+      </div>
+    </div>
+    
+    
+    <div data-id="gJeYpdBHIY" class="gJeYpdBHIY" style="--ta:center;--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:var(--g-s-2xl);--dynamic-source-color:#F4F4F4">
+      <div class="gp-flex" style="--jc:center">
+        <div data-gp-text="" class="gp-g-paragraph-1  gp-text-instant gp-text" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#575757;word-break:break-word;overflow:hidden;--tdl:">
+          <p>Et d’un refus des solutions approximatives.</p><p>&nbsp;</p><p>Lynae est une marque française dédiée à l’équilibre lymphatique et au bien-être durable.</p><p><br>Nos formules sont pensées pour accompagner le corps avec justesse, sans forcer, sans masquer, sans sur-promettre.</p><p>&nbsp;</p><p>Derrière chaque produit Zovélia, il y a une même exigence :<br>respecter les rythmes naturels du corps et agir là où tout commence, la circulation, l’élimination, l’équilibre interne.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div role="presentation" data-id="gc1CjMc0bu" style="--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:var(--g-s-xs);--ta:left" class="gp-group/image gp-relative force-publish-1769169105869 gp-flex-none gp-h-auto mobile:gp-flex-none mobile:gp-h-auto tablet:gp-flex-none tablet:gp-h-auto gc1CjMc0bu">
+      <div style="border-radius:inherit;--jc:left" class="gp-h-full gp-w-full gp-flex pointer-events-auto">
+        
+    <picture style="border-radius:inherit" class="gp-contents">
+      
+      <source media="(max-width: 767px)" data-srcset="//lynae.co/cdn/shop/files/ChatGPT_Image_21_janv._2026_23_03_15.png?v=4491911437204481286" srcset="https://lynae.co/cdn/shop/files/ChatGPT_Image_21_janv._2026_23_03_15.png?v=4491911437204481286&amp;width=225 767w">
+      <source media="(max-width: 1024px)" data-srcset="//lynae.co/cdn/shop/files/ChatGPT_Image_21_janv._2026_23_03_15.png?v=4491911437204481286" srcset="https://lynae.co/cdn/shop/files/ChatGPT_Image_21_janv._2026_23_03_15.png?v=4491911437204481286&amp;width=225 1023w">
+    
+      
+      <img base-src="//lynae.co/cdn/shop/files/ChatGPT_Image_21_janv._2026_23_03_15.png?v=4491911437204481286" quality-type="{}" quality-percent="{}" src="//lynae.co/cdn/shop/files/ChatGPT_Image_21_janv._2026_23_03_15.png?v=4491911437204481286" data-src="//lynae.co/cdn/shop/files/ChatGPT_Image_21_janv._2026_23_03_15.png?v=4491911437204481286" alt="Alt Image" width="100%" style="--aspect:auto;--objf:cover;--w:150px;--w-tablet:120px;--w-mobile:120px;--h:auto;--h-tablet:auto;--h-mobile:auto" class="gp-inline-block gp-w-full gp-max-w-full gp_lazyloaded" data-quality="150" data-srcset="https://lynae.co/cdn/shop/files/ChatGPT_Image_21_janv._2026_23_03_15.png?v=4491911437204481286&amp;width=225 1440w" srcset="https://lynae.co/cdn/shop/files/ChatGPT_Image_21_janv._2026_23_03_15.png?v=4491911437204481286&amp;width=225 1440w">
+    
+    </picture>
+  
+      </div>
+    </div>
+  
+    
+    <div data-id="gOSycd5XIs" class="gOSycd5XIs" style="--ta:center;--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:var(undefined);--dynamic-source-color:#F4F4F4">
+      <div class="gp-flex" style="--jc:center">
+        <div data-gp-text="" class="gp-g-paragraph-1  gp-text-instant gp-text" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#575757;word-break:break-word;overflow:hidden;--tdl:">
+          <p><span style="color:#242424;"><strong>Anne P.</strong></span> <span style="color:#B4B4B4;">/ Co-fondatrice</span></p>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+
+      
+    </gp-row>
+  
+  
+    </div>
+
+      
+    </gp-row>
+  
+  
+    </div>
+
+      
+    </gp-row>
+  
+        </section>
+    </div>
+    </div>
+  
+  
+    <div
+      
+      style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--ta:left;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+      data-keep-class="true"
+      class="gFDRWrgD6l gp-custom-code">
+      <div>
+    <section class="gp-mx-auto gp-max-w-full [&amp;_*]:gp-max-w-full " style="--w:100%;--w-tablet:100%;--w-mobile:100%;--pl:none;--pl-tablet:none;--pl-mobile:none;--pr:none;--pr-tablet:none;--pr-mobile:none">
+          
+    <gp-row gp-data="{&quot;background&quot;:{&quot;desktop&quot;:{&quot;attachment&quot;:&quot;scroll&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;,&quot;image&quot;:{&quot;height&quot;:0,&quot;src&quot;:&quot;&quot;,&quot;width&quot;:0},&quot;position&quot;:{&quot;x&quot;:50,&quot;y&quot;:50},&quot;repeat&quot;:&quot;no-repeat&quot;,&quot;size&quot;:&quot;cover&quot;,&quot;type&quot;:&quot;color&quot;}},&quot;uid&quot;:&quot;gUrgMAR20B&quot;}" data-id="gUrgMAR20B" id="gUrgMAR20B" data-same-height-subgrid-container="" class="gUrgMAR20B gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&amp;_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--pt:var(undefined);--pl:15px;--pb:32px;--pr:15px;--pt-mobile:var(undefined);--pb-mobile:16px;--cg:var(--g-s-2xl);--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:#FFFFFF;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
+      
+
+      <div data-same-height-display-contents="" style="--jc:start" class="gawbn44fc5 gp-relative gp-flex gp-flex-col">
+      
+    
+
+    
+
+    
+    <gp-row gp-data="{&quot;background&quot;:{&quot;desktop&quot;:{&quot;attachment&quot;:&quot;scroll&quot;,&quot;color&quot;:&quot;transparent&quot;,&quot;image&quot;:{&quot;height&quot;:0,&quot;src&quot;:&quot;&quot;,&quot;width&quot;:0},&quot;position&quot;:{&quot;x&quot;:50,&quot;y&quot;:50},&quot;repeat&quot;:&quot;no-repeat&quot;,&quot;size&quot;:&quot;cover&quot;,&quot;type&quot;:&quot;color&quot;}},&quot;uid&quot;:&quot;gExXKz2IDe&quot;}" data-id="gExXKz2IDe" id="gExXKz2IDe" data-same-height-subgrid-container="" class="gExXKz2IDe gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&amp;_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:0px;--pt:16px;--pl:16px;--pb:16px;--pr:16px;--pl-tablet:50px;--pr-tablet:50px;--pl-mobile:0px;--pr-mobile:0px;--cg:var(--g-s-2xl);--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
+      
+
+      <div data-same-height-display-contents="" style="--jc:start" class="gQjGBar13F gp-relative gp-flex gp-flex-col">
+      
+    
+    <div data-id="gSx4WVf4wt" class="gSx4WVf4wt" style="--ta:center;--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:var(--g-s-xl);--dynamic-source-color:#F4F4F4">
+      <div class="gp-flex" style="--jc:center">
+        <h2 data-gp-text="" class=" gp-text-instant gp-text" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--ta:center;--c:#242424;--fs:normal;--ff:var(--g-font-heading, heading);--weight:600;--size:33px;--size-tablet:33px;--size-mobile:29px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--ls:normal;word-break:break-word;overflow:hidden;--tdl:">
+          Notre genèse
+        </h2>
+      </div>
+    </div>
+    
+    
+    <div data-id="g649-cjuNa" class="g649-cjuNa" style="--ta:center;--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:var(--g-s-2xl);--dynamic-source-color:#F4F4F4">
+      <div class="gp-flex" style="--jc:center">
+        <div data-gp-text="" class="gp-g-paragraph-1  gp-text-instant gp-text" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#575757;word-break:break-word;overflow:hidden;--tdl:">
+          <p>Zovélia a été formulée par <strong>Anne</strong>, conseillère agréée, spécialisée dans l’accompagnement du système lymphatique.</p><p>&nbsp;</p><p>Son approche ne vient pas d’un laboratoire anonyme, mais d’un parcours de vie.</p><p><br>Enfant déjà, Anne passait du temps dans les champs, au contact direct des plantes, observant leurs cycles, leur énergie, leur saisonnalité.&nbsp;</p><p>Cette relation précoce au vivant a façonné sa manière de comprendre le corps :&nbsp;</p><p><strong>comme un système intelligent, sensible, interconnecté.</strong></p><p>&nbsp;</p><p>Au fil des années, elle s’est formée, a affiné sa lecture du corps humain, et s’est spécialisée dans le fonctionnement lymphatique, souvent négligé, pourtant central dans les sensations de lourdeur, de gonflement, de fatigue diffuse.</p>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+
+      
+    </gp-row>
+  
+  
+    
+
+    
+
+    
+    <gp-row gp-data="{&quot;background&quot;:{&quot;desktop&quot;:{&quot;attachment&quot;:&quot;scroll&quot;,&quot;color&quot;:&quot;transparent&quot;,&quot;image&quot;:{&quot;height&quot;:0,&quot;src&quot;:&quot;&quot;,&quot;width&quot;:0},&quot;position&quot;:{&quot;x&quot;:50,&quot;y&quot;:50},&quot;repeat&quot;:&quot;no-repeat&quot;,&quot;size&quot;:&quot;cover&quot;,&quot;type&quot;:&quot;color&quot;}},&quot;uid&quot;:&quot;gmsI03R6yv&quot;}" data-id="gmsI03R6yv" id="gmsI03R6yv" data-same-height-subgrid-container="" class="gmsI03R6yv gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&amp;_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:var(--g-s-2xl);--pl-mobile:0px;--pr-mobile:0px;--cg:30px;--cg-mobile:16px;--rg-mobile:16px;--gtc:minmax(0, 4fr) minmax(0, 4fr) minmax(0, 4fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
+      
+
+      <div data-same-height-display-contents="" style="--jc:start" class="gYb3pnNh2c gp-relative gp-flex gp-flex-col">
+      
+    <div role="presentation" data-id="gF5htb6mEC" style="--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:0px;--ta:center" class="gp-group/image gp-relative force-publish-1769168846898 gp-flex-none gp-h-auto mobile:gp-flex-none mobile:gp-h-auto tablet:gp-flex-none tablet:gp-h-auto gF5htb6mEC">
+      <div style="border-radius:inherit;--jc:center" class="gp-h-full gp-w-full gp-flex pointer-events-auto">
+        
+    <picture style="border-radius:inherit" class="gp-contents">
+      
+      <source media="(max-width: 767px)" data-srcset="//lynae.co/cdn/shop/files/anne_jeune.png?v=8856186740361318261" srcset="https://lynae.co/cdn/shop/files/anne_jeune.png?v=8856186740361318261&amp;width=570 767w">
+      <source media="(max-width: 1024px)" data-srcset="//lynae.co/cdn/shop/files/anne_jeune.png?v=8856186740361318261" srcset="https://lynae.co/cdn/shop/files/anne_jeune.png?v=8856186740361318261&amp;width=570 1023w">
+    
+      
+      <img base-src="//lynae.co/cdn/shop/files/anne_jeune.png?v=8856186740361318261" quality-type="{}" quality-percent="{}" src="//lynae.co/cdn/shop/files/anne_jeune.png?v=8856186740361318261" data-src="//lynae.co/cdn/shop/files/anne_jeune.png?v=8856186740361318261" alt="Alt Image" width="100%" style="--aspect:auto;--objf:cover;--w-tablet:370px;--w-mobile:370px;--h:320px;--h-tablet:auto;--h-mobile:auto;--b:solid;--bc:#828282;--bw:1px 1px 1px 1px;--btrr:8px;--bblr:8px;--bbrr:8px;--btlr:8px;--radiusType:rounded" class="gp-inline-block gp-w-full gp-max-w-full gp_lazyloaded" data-quality="150" data-srcset="https://lynae.co/cdn/shop/files/anne_jeune.png?v=8856186740361318261&amp;width=570 1440w" srcset="https://lynae.co/cdn/shop/files/anne_jeune.png?v=8856186740361318261&amp;width=570 1440w">
+    
+    </picture>
+  
+      </div>
+    </div>
+  
+    </div><div data-same-height-display-contents="" style="--jc:start" class="g9XujnXNkE gp-relative gp-flex gp-flex-col">
+      
+    <div role="presentation" data-id="gHjZb5CU1v" style="--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--ta:center" class="gp-group/image gp-relative force-publish-1769168846898 gp-flex-none gp-h-auto mobile:gp-flex-none mobile:gp-h-auto tablet:gp-flex-none tablet:gp-h-auto gHjZb5CU1v">
+      <div style="border-radius:inherit;--jc:center" class="gp-h-full gp-w-full gp-flex pointer-events-auto">
+        
+    <picture style="border-radius:inherit" class="gp-contents">
+      
+      <source media="(max-width: 767px)" data-srcset="//lynae.co/cdn/shop/files/Capture_d_ecran_2026-01-23_a_12.41.17.png?v=16869078847650781352" srcset="https://lynae.co/cdn/shop/files/Capture_d_ecran_2026-01-23_a_12.41.17.png?v=16869078847650781352&amp;width=570 767w">
+      <source media="(max-width: 1024px)" data-srcset="//lynae.co/cdn/shop/files/Capture_d_ecran_2026-01-23_a_12.41.17.png?v=16869078847650781352" srcset="https://lynae.co/cdn/shop/files/Capture_d_ecran_2026-01-23_a_12.41.17.png?v=16869078847650781352&amp;width=570 1023w">
+    
+      
+      <img base-src="//lynae.co/cdn/shop/files/Capture_d_ecran_2026-01-23_a_12.41.17.png?v=16869078847650781352" quality-type="{}" quality-percent="{}" src="//lynae.co/cdn/shop/files/Capture_d_ecran_2026-01-23_a_12.41.17.png?v=16869078847650781352" data-src="//lynae.co/cdn/shop/files/Capture_d_ecran_2026-01-23_a_12.41.17.png?v=16869078847650781352" alt="Alt Image" width="100%" style="--aspect:auto;--objf:cover;--w-tablet:370px;--w-mobile:370px;--h:320px;--h-tablet:auto;--h-mobile:auto;--b:solid;--bc:#828282;--bw:1px 1px 1px 1px;--btrr:8px;--bblr:8px;--bbrr:8px;--btlr:8px;--radiusType:rounded" class="gp-inline-block gp-w-full gp-max-w-full gp_lazyloaded" data-quality="150" data-srcset="https://lynae.co/cdn/shop/files/Capture_d_ecran_2026-01-23_a_12.41.17.png?v=16869078847650781352&amp;width=570 1440w" srcset="https://lynae.co/cdn/shop/files/Capture_d_ecran_2026-01-23_a_12.41.17.png?v=16869078847650781352&amp;width=570 1440w">
+    
+    </picture>
+  
+      </div>
+    </div>
+  
+    </div><div data-same-height-display-contents="" style="--jc:start" class="gE5BUKuZk8 gp-relative gp-flex gp-flex-col">
+      
+    <div role="presentation" data-id="gQQXLybsAd" style="--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--ta:center" class="gp-group/image gp-relative force-publish-1769168846898 gp-flex-none gp-h-auto mobile:gp-flex-none mobile:gp-h-auto tablet:gp-flex-none tablet:gp-h-auto gQQXLybsAd">
+      <div style="border-radius:inherit;--jc:center" class="gp-h-full gp-w-full gp-flex pointer-events-auto">
+        
+    <picture style="border-radius:inherit" class="gp-contents">
+      
+      <source media="(max-width: 767px)" data-srcset="https://cdn.shopify.com/s/files/1/0943/9402/4261/files/d6674493-e3ee-40ec-8a5b-776c230633e5.jpg?v=1771238842" srcset="https://cdn.shopify.com/s/files/1/0943/9402/4261/files/d6674493-e3ee-40ec-8a5b-776c230633e5.jpg?v=1771238842">
+      <source media="(max-width: 1024px)" data-srcset="https://cdn.shopify.com/s/files/1/0943/9402/4261/files/d6674493-e3ee-40ec-8a5b-776c230633e5.jpg?v=1771238842" srcset="https://cdn.shopify.com/s/files/1/0943/9402/4261/files/d6674493-e3ee-40ec-8a5b-776c230633e5.jpg?v=1771238842">
+    
+      
+      <img base-src="https://cdn.shopify.com/s/files/1/0943/9402/4261/files/d6674493-e3ee-40ec-8a5b-776c230633e5.jpg?v=1771238842" quality-type="{}" quality-percent="{}" src="https://cdn.shopify.com/s/files/1/0943/9402/4261/files/d6674493-e3ee-40ec-8a5b-776c230633e5.jpg?v=1771238842" data-src="https://cdn.shopify.com/s/files/1/0943/9402/4261/files/d6674493-e3ee-40ec-8a5b-776c230633e5.jpg?v=1771238842" alt="Alt Image" width="100%" style="--aspect:auto;--objf:cover;--w-tablet:370px;--w-mobile:370px;--h:320px;--h-tablet:auto;--h-mobile:auto;--b:solid;--bc:#828282;--bw:1px 1px 1px 1px;--btrr:8px;--bblr:8px;--bbrr:8px;--btlr:8px;--radiusType:rounded" class="gp-inline-block gp-w-full gp-max-w-full gp_lazyloaded" data-quality="150" data-srcset="https://lynae.co/cdn/shop/files/d6674493-e3ee-40ec-8a5b-776c230633e5.png?v=366387229987861036&amp;width=570 1440w" srcset="https://cdn.shopify.com/s/files/1/0943/9402/4261/files/d6674493-e3ee-40ec-8a5b-776c230633e5.jpg?v=1771238842">
+    
+    </picture>
+  
+      </div>
+    </div>
+  
+    </div>
+
+      
+    </gp-row>
+  
+  
+    
+
+    
+
+    
+    <gp-row gp-data="{&quot;background&quot;:{&quot;desktop&quot;:{&quot;attachment&quot;:&quot;scroll&quot;,&quot;color&quot;:&quot;transparent&quot;,&quot;image&quot;:{&quot;height&quot;:0,&quot;src&quot;:&quot;&quot;,&quot;width&quot;:0},&quot;position&quot;:{&quot;x&quot;:50,&quot;y&quot;:50},&quot;repeat&quot;:&quot;no-repeat&quot;,&quot;size&quot;:&quot;cover&quot;,&quot;type&quot;:&quot;color&quot;}},&quot;uid&quot;:&quot;gyKjqZSF4Z&quot;}" data-id="gyKjqZSF4Z" id="gyKjqZSF4Z" data-same-height-subgrid-container="" class="gyKjqZSF4Z gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&amp;_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--pl-tablet:15px;--pr-tablet:15px;--cg:var(--g-s-2xl);--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
+      
+
+      <div data-same-height-display-contents="" style="--jc:start" class="giO0Fnp0uX gp-relative gp-flex gp-flex-col">
+      
+    
+    <div data-id="g6gqF2-p8M" class="g6gqF2-p8M" style="--ta:center;--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--dynamic-source-color:#F4F4F4">
+      <div class="gp-flex" style="--jc:center">
+        <div data-gp-text="" class="gp-g-paragraph-1  gp-text-instant gp-text" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:italic;word-break:break-word;overflow:hidden;--tdl:">
+          <p>"Zovélia ne promet pas des miracles.<br>Nous croyons aux résultats progressifs, ressentis, durables.&nbsp;</p><p>À une relation plus consciente avec son corps.&nbsp;</p><p>À des gestes simples, intégrables au quotidien.<br>À une sensation de légèreté qui ne vient pas de la contrainte, mais de l’équilibre retrouvé.</p><p>Zovélia, c’est une autre manière de prendre soin de soi.</p><p>Plus respectueuse. Plus lucide. Plus alignée."</p>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+
+      
+    </gp-row>
+  
+  
+    </div>
+
+      
+    </gp-row>
+  
+        </section>
+    </div>
+    </div>
+  
+    </div>
+
+      
+    </gp-row>
+  
+        </section>
+      
+  
+    
+{% schema %}
+  {
+    "presets": [{ "name": "Genèse" }],
+    "name": "Genèse",
+    "tag": "section",
+    "class": "gps-606847847114998532 gps gpsil",
+    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/j8f0pt-e4/apps/gempages-cro/app/shopify/edit?pageType=THEME_SECTION&editorId=606847847114998532)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"off_lazy_script"},{"type":"text","label":"Checksum","id":"checksum"}],
+    "blocks": [{"type": "@app"}],
+    "locales": {}
+  }
+{% endschema %}
