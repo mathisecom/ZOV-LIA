@@ -316,11 +316,35 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "before_after_image_9TJF7U": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Before/after",
+        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "bottom",
+        "before_text": "Avant",
+        "after_text": "Après",
+        "drag_initial_position": 50,
+        "background": "#effefa",
+        "background_gradient": "",
+        "text_color": "#01322d",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
     }
   },
   "order": [
     "main",
     "press_VBgARV",
-    "image_link_blocks_AthhUE"
+    "image_link_blocks_AthhUE",
+    "before_after_image_9TJF7U"
   ]
 }
