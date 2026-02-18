@@ -616,6 +616,7 @@
       "blocks": {
         "heading_D6CncH": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "Comparison table #29",
             "heading_tag": "h2",
@@ -630,6 +631,7 @@
         },
         "subtitle_jgtWad": {
           "type": "subtitle",
+          "disabled": true,
           "settings": {
             "text": "Everything you need in one simple scoop.",
             "font_size": 18,
@@ -672,7 +674,7 @@
         "feature_row_TfPgYm": {
           "type": "feature_row",
           "settings": {
-            "feature_name": "Multivitamins",
+            "feature_name": "Jambes légères dès les premiers jours",
             "primary_has_feature": true,
             "competitor_has_feature": false
           }
@@ -680,7 +682,7 @@
         "feature_row_QDPnGb": {
           "type": "feature_row",
           "settings": {
-            "feature_name": "Antioxidants",
+            "feature_name": "Rééquilibre la rétention d'eau hormonale",
             "primary_has_feature": true,
             "competitor_has_feature": false
           }
@@ -688,7 +690,7 @@
         "feature_row_ydmerN": {
           "type": "feature_row",
           "settings": {
-            "feature_name": "Gut-friendly Bacteria",
+            "feature_name": "Silhouette redessinée naturellement",
             "primary_has_feature": true,
             "competitor_has_feature": false
           }
@@ -696,7 +698,7 @@
         "feature_row_xey8dx": {
           "type": "feature_row",
           "settings": {
-            "feature_name": "Gut-friendly Fibre",
+            "feature_name": "Plantes cliniquement étudiées",
             "primary_has_feature": true,
             "competitor_has_feature": false
           }
@@ -704,17 +706,17 @@
         "feature_row_xztAfj": {
           "type": "feature_row",
           "settings": {
-            "feature_name": "High Quality Adaptogens",
+            "feature_name": "S'intègre à votre routine",
             "primary_has_feature": true,
             "competitor_has_feature": false
           }
         },
-        "text_row_c6MQFW": {
-          "type": "text_row",
+        "feature_row_nJWjzq": {
+          "type": "feature_row",
           "settings": {
-            "feature_name": "Benefits in",
-            "primary_text": "One Scoop",
-            "competitor_text": "Multi-Supp."
+            "feature_name": "Différence avant/après claire",
+            "primary_has_feature": true,
+            "competitor_has_feature": false
           }
         }
       },
@@ -727,7 +729,7 @@
         "feature_row_ydmerN",
         "feature_row_xey8dx",
         "feature_row_xztAfj",
-        "text_row_c6MQFW"
+        "feature_row_nJWjzq"
       ],
       "name": "SS - Comparison table #29",
       "settings": {
@@ -764,10 +766,10 @@
         "cross_stroke_style": "transparent",
         "badge_background": "#ffffff26",
         "badge_icon_color": "#ffffff",
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 28,
+        "padding_bottom": 32,
         "padding_sides": 24,
-        "mobile_padding_top": 40,
+        "mobile_padding_top": 16,
         "mobile_padding_bottom": 40,
         "mobile_padding_sides": 16,
         "width": "custom",
