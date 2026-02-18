@@ -42,8 +42,9 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo_max_width": 120,
-        "logo_mobile_max_width": 100,
+        "logo": "shopify://shop_images/logo_Secondaire_noir.png",
+        "logo_max_width": 135,
+        "logo_mobile_max_width": 130,
         "menu": "main-menu",
         "sidebar_menu": "",
         "secondary_menu": "",
