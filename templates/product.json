@@ -59,6 +59,13 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "image_9tci6K": {
+          "type": "image",
+          "settings": {
+            "alignment": "start",
+            "max_width": 150
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -121,6 +128,7 @@
         "description",
         "variant_picker",
         "quantity_selector",
+        "image_9tci6K",
         "buy_buttons",
         "liquid_fi8yVJ",
         "liquid_G8LA8A",
