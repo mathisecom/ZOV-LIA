@@ -430,11 +430,11 @@
       "name": "Scrolling text",
       "settings": {
         "full_width": true,
-        "text": "✓ Testé en Laboratoire",
+        "text": "✓ Testé en Laboratoire‎ ‎ ‎ ‎ ✓ Certifié GMP ‎ ‎ ‎ ✓ Ingrédients Validés par la Science ‎ ‎ ‎ ✓ Non-Testé sur les Animaux ‎ ‎ ‎ ✓ Actifs de Hautes Qualité",
         "text_size": "xsmall",
         "text_style": "fill",
         "scrolling_mode": "auto",
-        "scrolling_speed": 10,
+        "scrolling_speed": 5,
         "background": "#effefa",
         "background_gradient": "",
         "text_color": "#01322d",
