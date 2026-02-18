@@ -436,7 +436,7 @@
           "type": "item",
           "settings": {
             "column_size": "4",
-            "title": "Column title",
+            "title": "Semaine 1 — Début du drainage",
             "heading_tag": "h4",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_url": "",
@@ -448,7 +448,7 @@
           "type": "item",
           "settings": {
             "column_size": "4",
-            "title": "Column title",
+            "title": "Semaine 2 — Circulation relancée",
             "heading_tag": "h4",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_url": "",
@@ -460,7 +460,7 @@
           "type": "item",
           "settings": {
             "column_size": "4",
-            "title": "Column title",
+            "title": "Semaine 3 — Confort & équilibre",
             "heading_tag": "h4",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_url": "",
@@ -472,7 +472,7 @@
           "type": "item",
           "settings": {
             "column_size": "4",
-            "title": "Column title",
+            "title": "Mois 2–3+ — Résultats consolidés",
             "heading_tag": "h4",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_url": "",
