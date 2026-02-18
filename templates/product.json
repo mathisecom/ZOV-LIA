@@ -977,6 +977,7 @@
         "testimonial_CNfRAD": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/Nta9nYgB_b.jpg",
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
