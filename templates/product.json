@@ -173,12 +173,14 @@
       "blocks": {
         "subheading_A6P34B": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
-            "text": "+800 CLIENTES SATISFAITES"
+            "text": "Elles ont ressenti le changement. Bientôt, ce sera votre tour."
           }
         },
         "heading_VBzy9w": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "Elles ont ressenti le changement. Bientôt, ce sera votre tour.",
             "heading_tag": "h3",
@@ -191,6 +193,7 @@
         "subheading_A6P34B",
         "heading_VBzy9w"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": false,
@@ -422,6 +425,111 @@
         "spacing": "none"
       }
     },
+    "rich_text_jfqbyf": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_3dDLgb": {
+          "type": "subheading",
+          "settings": {
+            "text": "ILS EN PARLENT MIEUX QUE NOUS"
+          }
+        },
+        "heading_EnWffK": {
+          "type": "heading",
+          "settings": {
+            "text": "+800 Clientes Satisfaites",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_3dDLgb",
+        "heading_EnWffK"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "testimonials_PMRggW": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_CNfRAD": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "John S.",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_XzDF9f": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_xLFWxh": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_wmRxM4": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_CNfRAD",
+        "testimonial_XzDF9f",
+        "testimonial_xLFWxh",
+        "testimonial_wmRxM4"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
     "17714313193ace51d7": {
       "type": "apps",
       "blocks": {
@@ -457,6 +565,8 @@
     "image_link_blocks_AthhUE",
     "before_after_image_9TJF7U",
     "media_with_text_b9hfhr",
+    "rich_text_jfqbyf",
+    "testimonials_PMRggW",
     "17714313193ace51d7"
   ]
 }
