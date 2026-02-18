@@ -425,6 +425,22 @@
         "spacing": "none"
       }
     },
+    "scrolling_text_6hNjaU": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "✓ Testé en Laboratoire",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "#effefa",
+        "background_gradient": "",
+        "text_color": "#01322d",
+        "text_gradient": ""
+      }
+    },
     "rich_text_jfqbyf": {
       "type": "rich-text",
       "blocks": {
@@ -658,6 +674,7 @@
     "image_link_blocks_AthhUE",
     "before_after_image_9TJF7U",
     "media_with_text_b9hfhr",
+    "scrolling_text_6hNjaU",
     "rich_text_jfqbyf",
     "testimonials_PMRggW",
     "faq_UhYAbq",
