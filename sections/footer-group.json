@@ -109,8 +109,16 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "title": "Contactez-Nous",
+            "content": "<p>Assistance par email : <em>contact@zovélia.com</em></p><p>Assistance téléphonique de 8h à 18h, du Lundi au Vendredi (Numéro Gratuit) : 09 70 70 43 66</p>",
+            "enable_follow_on_shop": true
+          }
+        },
+        "text_nhAQic": {
+          "type": "text",
+          "settings": {
+            "title": "À Propos",
+            "content": "<p>Zovélia vous accompagne avec une solution 100% naturelle de<strong> drainage lymphatique</strong>. Retrouver <strong>légèreté</strong>, <strong>vitalité</strong> et <strong>bien-être</strong> au quotidien n’a jamais été aussi simple.</p>",
             "enable_follow_on_shop": true
           }
         }
@@ -118,7 +126,8 @@
       "block_order": [
         "newsletter",
         "links",
-        "text"
+        "text",
+        "text_nhAQic"
       ],
       "settings": {
         "show_social_media": true,
