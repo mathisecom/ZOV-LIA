@@ -688,18 +688,21 @@
         "image_TKQkNE": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-18T225703.347.jpg",
             "url": ""
           }
         },
         "image_gNyz4R": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-18T225734.158.jpg",
             "url": ""
           }
         },
         "image_6Y3Aat": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-18T225751.349.jpg",
             "url": ""
           }
         }
