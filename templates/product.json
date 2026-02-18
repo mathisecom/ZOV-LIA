@@ -12,12 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "liquid_88iMRA": {
-          "type": "liquid",
-          "settings": {
-            "liquid": ""
-          }
-        },
         "liquid_QgfhRq": {
           "type": "liquid",
           "settings": {
@@ -114,7 +108,6 @@
         }
       },
       "block_order": [
-        "liquid_88iMRA",
         "liquid_QgfhRq",
         "title",
         "liquid_zgkaNk",
