@@ -621,7 +621,7 @@
             "heading_tag": "h2",
             "font_size": 40,
             "mobile_font_size": 26,
-            "italic": true,
+            "italic": false,
             "use_gradient": true,
             "gradient_start": "#0e5348",
             "gradient_end": "#01322d",
@@ -630,12 +630,11 @@
         },
         "subtitle_jgtWad": {
           "type": "subtitle",
-          "disabled": true,
           "settings": {
-            "text": "Everything you need in one simple scoop.",
-            "font_size": 18,
+            "text": "Pourquoi ce sérum change tout pour vos jambes.",
+            "font_size": 14,
             "font_weight": "400",
-            "subtitle_color": "#121212"
+            "subtitle_color": "#0e5348"
           }
         },
         "button_hBpjMb": {
