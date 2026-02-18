@@ -476,9 +476,9 @@
         "stack_on_mobile": false,
         "gap": "medium",
         "text_alignment": "center",
-        "subheading": "About",
+        "subheading": "",
         "title": "Featured content",
-        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "content": "",
         "background": "#effefa",
         "background_gradient": "",
         "text_color": "#01322d"
