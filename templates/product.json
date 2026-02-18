@@ -438,7 +438,7 @@
             "column_size": "4",
             "title": "Semaine 1 — Début du drainage",
             "heading_tag": "h4",
-            "content": "",
+            "content": "<p><em>« Tu as l'air en forme ! »</em><br/>Votre visage paraît moins gonflé au réveil, vos bagues s'enfilent plus facilement. Votre ventre commence à dégonfler et vos pantalons marquent moins la peau.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -450,7 +450,7 @@
             "column_size": "4",
             "title": "Semaine 2 — Circulation relancée",
             "heading_tag": "h4",
-            "content": "",
+            "content": "<p><em>« Je me sens moins lourde ! »</em><br/>Vos jambes restent légères même après une longue journée de travail. La sensation de jambes gonflées s'estompe, vous retrouvez une vraie légèreté dans vos mouvements.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -462,7 +462,7 @@
             "column_size": "4",
             "title": "Semaine 3 — Confort & équilibre",
             "heading_tag": "h4",
-            "content": "",
+            "content": "<p><em>« Mon corps commence enfin à répondre »</em><br/>Votre silhouette s'affine visiblement dans le miroir, particulièrement vue de côté. L'envie de porter des vêtements plus ajustés revient naturellement.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -474,7 +474,7 @@
             "column_size": "4",
             "title": "Mois 2–3+ — Résultats consolidés",
             "heading_tag": "h4",
-            "content": "",
+            "content": "<p><em>« Je me sens plus sûre de moi et pleine d'entrain »</em><br/>Vous acceptez à nouveau les invitations et les sorties avec plaisir. Votre niveau d'énergie augmente, vous vous accordez davantage de moments pour vous. Et côté intimité... La lumière reste désormais allumée.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
