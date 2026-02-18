@@ -16,8 +16,9 @@
       "blocks": {
         "message": {
           "type": "message",
+          "disabled": true,
           "settings": {
-            "text": "Announce something here",
+            "text": "Livraison Offerte Dès 40€ d’achat",
             "url": ""
           }
         }
@@ -25,6 +26,7 @@
       "block_order": [
         "message"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky": false,
         "autoplay": false,
