@@ -85,8 +85,8 @@
         "collapsible_text_gYxMMD": {
           "type": "collapsible_text",
           "settings": {
-            "icon": "none",
-            "icon_width": 20,
+            "icon": "picto-leaf",
+            "icon_width": 16,
             "title": "INGRÉDIENTS",
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
@@ -95,8 +95,8 @@
         "collapsible_text_rMRpY4": {
           "type": "collapsible_text",
           "settings": {
-            "icon": "none",
-            "icon_width": 20,
+            "icon": "picto-love",
+            "icon_width": 16,
             "title": "LES BIENFAITS",
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
@@ -105,8 +105,8 @@
         "collapsible_text_fjrKbn": {
           "type": "collapsible_text",
           "settings": {
-            "icon": "none",
-            "icon_width": 20,
+            "icon": "picto-question",
+            "icon_width": 16,
             "title": "CONSEILS D'UTILISATION",
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
