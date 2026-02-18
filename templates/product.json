@@ -530,6 +530,59 @@
         "testimonial_card_text_color": ""
       }
     },
+    "faq_UhYAbq": {
+      "type": "faq",
+      "blocks": {
+        "item_FW44a6": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_yQtXUd": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_cJfMnP": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_FW44a6",
+        "item_yQtXUd",
+        "item_cJfMnP"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Questions Fréquentes",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "Temps Moyen de Réponse : 24H",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "#effefa",
+        "background_gradient": "",
+        "text_color": "#01322d",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
     "17714313193ace51d7": {
       "type": "apps",
       "blocks": {
@@ -567,6 +620,7 @@
     "media_with_text_b9hfhr",
     "rich_text_jfqbyf",
     "testimonials_PMRggW",
+    "faq_UhYAbq",
     "17714313193ace51d7"
   ]
 }
