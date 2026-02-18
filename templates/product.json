@@ -537,6 +537,7 @@
         "image_8VBMgz": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T004836.216.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
