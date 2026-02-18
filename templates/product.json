@@ -91,7 +91,7 @@
         "liquid_jFpEJ8": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_AxGAPX\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <style style=\"z-index: 22;\">\n.unique-body-Xyz123 {\n  font-family: Arial, sans-serif;\n  background-color: #f9f9f9;\n  color: #333;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n  margin: 0;\n}\n\n.unique-container-Abc456 {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 10px; /* Badge'ler arasındaki boşluk */\n}\n\n.unique-badge-Def789 {\n  display: inline-flex;\n  align-items: center;\n  background-color: #e0ffd8; /* Çok açık yeşil arka plan */\n  color: #004d00; /* Koyu yeşil metin */\n  padding: 2px 4px; /* Küçültülmüş padding */\n  border-radius: 3px; /* Küçültülmüş yuvarlama */\n  font-size: 10px; /* Küçültülmüş font boyutu */\n  font-weight: bold;\n  text-align: center;\n  position: relative;\n}\n\n.unique-badge-Ghi012 {\n  display: inline-flex;\n  align-items: center;\n  background-color: #ffdede; /* Açık kırmızı arka plan */\n  color: #b22222; /* Koyu kırmızı metin */\n  padding: 2px 4px; /* Küçültülmüş padding */\n  border-radius: 3px; /* Küçültülmüş yuvarlama */\n  font-size: 10px; /* Küçültülmüş font boyutu */\n  font-weight: bold;\n  text-align: center;\n  position: relative;\n}\n\n.unique-icon-Jkl345 {\n  width: 12px; /* Küçültülmüş ikon boyutu */\n  height: 12px; /* Küçültülmüş ikon boyutu */\n  margin-right: 2px;\n  vertical-align: middle;\n}\n\n.unique-badge-Def789 span, .unique-badge-Ghi012 span {\n  display: flex;\n  align-items: center;\n  white-space: nowrap; /* Metinlerin tek satırda kalmasını sağlar */\n}\n\n@keyframes\n unique-rotate-Mno678 {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n.unique-clock-hand-Pqr901 {\n  transform-origin: 50% 50%;\n  animation: unique-rotate-Mno678 2s linear infinite;\n}\n</style>\n\n<div class=\"unique-container-Abc456\" style=\"z-index: 21;\">\n  <div class=\"unique-badge-Def789\">\n    <span>\n      <svg class=\"unique-icon-Jkl345\" viewBox=\"0 0 24 24\" xmlns=\"http://w3.org/2000/svg\">\n        <path fill=\"#004d00\" d=\"M12 2C9.24 2 7 4.24 7 7V10H5C3.9 10 3 10.9 3 12V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V12C21 10.9 20.1 10 19 10H17V7C17 4.24 14.76 2 12 2M12 4C13.66 4 15 5.34 15 7V10H9V7C9 5.34 10.34 4 12 4M12 12C13.1 12 14 12.9 14 14C14 15.1 13.1 16 12 16C10.9 16 10 15.1 10 14C10 12.9 10.9 12 12 12Z\"></path>\n      </svg>\n60J Satisfait ou remboursé</span>\n  </div>\n\n  <div class=\"unique-badge-Ghi012\">\n    <span>\n      <svg class=\"unique-icon-Jkl345\" viewBox=\"0 0 24 24\" xmlns=\"http://w3.org/2000/svg\">\n        <circle cx=\"12\" cy=\"12\" r=\"10\" stroke=\"#b22222\" stroke-width=\"2\" fill=\"none\"></circle>\n        <line x1=\"12\" y1=\"12\" x2=\"12\" y2=\"6\" stroke=\"#b22222\" stroke-width=\"2\" class=\"unique-clock-hand-Pqr901\"></line>\n        <line x1=\"12\" y1=\"12\" x2=\"16\" y2=\"12\" stroke=\"#b22222\" stroke-width=\"2\"></line>\n      </svg>\nSTOCK LIMITÉ!    </span>\n  </div>\n</div>\n            </div></div>"
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_AxGAPX\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <style style=\"z-index: 22;\">\n.unique-body-Xyz123 {\n  font-family: Arial, sans-serif;\n  background-color: #f9f9f9;\n  color: #333;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n  margin: 0;\n}\n\n.unique-container-Abc456 {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 10px; /* Badge'ler arasındaki boşluk */\n}\n\n.unique-badge-Def789 {\n  display: inline-flex;\n  align-items: center;\n  background-color: #e0ffd8; /* Çok açık yeşil arka plan */\n  color: #004d00; /* Koyu yeşil metin */\n  padding: 2px 4px; /* Küçültülmüş padding */\n  border-radius: 3px; /* Küçültülmüş yuvarlama */\n  font-size: 10px; /* Küçültülmüş font boyutu */\n  font-weight: bold;\n  text-align: center;\n  position: relative;\n}\n\n.unique-badge-Ghi012 {\n  display: inline-flex;\n  align-items: center;\n  background-color: #ffdede; /* Açık kırmızı arka plan */\n  color: #b22222; /* Koyu kırmızı metin */\n  padding: 2px 4px; /* Küçültülmüş padding */\n  border-radius: 3px; /* Küçültülmüş yuvarlama */\n  font-size: 10px; /* Küçültülmüş font boyutu */\n  font-weight: bold;\n  text-align: center;\n  position: relative;\n}\n\n.unique-icon-Jkl345 {\n  width: 12px; /* Küçültülmüş ikon boyutu */\n  height: 12px; /* Küçültülmüş ikon boyutu */\n  margin-right: 2px;\n  vertical-align: middle;\n}\n\n.unique-badge-Def789 span, .unique-badge-Ghi012 span {\n  display: flex;\n  align-items: center;\n  white-space: nowrap; /* Metinlerin tek satırda kalmasını sağlar */\n}\n\n@keyframes\n unique-rotate-Mno678 {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n.unique-clock-hand-Pqr901 {\n  transform-origin: 50% 50%;\n  animation: unique-rotate-Mno678 2s linear infinite;\n}\n</style>\n\n<div class=\"unique-container-Abc456\" style=\"z-index: 21;\">\n  <div class=\"unique-badge-Def789\">\n    <span>\n      <svg class=\"unique-icon-Jkl345\" viewBox=\"0 0 24 24\" xmlns=\"http://w3.org/2000/svg\">\n        <path fill=\"#004d00\" d=\"M12 2C9.24 2 7 4.24 7 7V10H5C3.9 10 3 10.9 3 12V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V12C21 10.9 20.1 10 19 10H17V7C17 4.24 14.76 2 12 2M12 4C13.66 4 15 5.34 15 7V10H9V7C9 5.34 10.34 4 12 4M12 12C13.1 12 14 12.9 14 14C14 15.1 13.1 16 12 16C10.9 16 10 15.1 10 14C10 12.9 10.9 12 12 12Z\"></path>\n      </svg>\n30J Satisfait ou remboursé</span>\n  </div>\n\n  <div class=\"unique-badge-Ghi012\">\n    <span>\n      <svg class=\"unique-icon-Jkl345\" viewBox=\"0 0 24 24\" xmlns=\"http://w3.org/2000/svg\">\n        <circle cx=\"12\" cy=\"12\" r=\"10\" stroke=\"#b22222\" stroke-width=\"2\" fill=\"none\"></circle>\n        <line x1=\"12\" y1=\"12\" x2=\"12\" y2=\"6\" stroke=\"#b22222\" stroke-width=\"2\" class=\"unique-clock-hand-Pqr901\"></line>\n        <line x1=\"12\" y1=\"12\" x2=\"16\" y2=\"12\" stroke=\"#b22222\" stroke-width=\"2\"></line>\n      </svg>\nSTOCK LIMITÉ!    </span>\n  </div>\n</div>\n            </div></div>"
           }
         },
         "liquid_fi8yVJ": {
@@ -453,6 +453,82 @@
         "subtitle": "",
         "subtitle_color": "#01322d",
         "feature_text_color": "#01322d"
+      }
+    },
+    "multi_column_qPLFLW": {
+      "type": "multi-column",
+      "blocks": {
+        "item_DxyPJC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002028.620.jpg",
+            "column_size": "4",
+            "title": "Gaillet gratteron – Galium aparine",
+            "heading_tag": "h4",
+            "content": "<p>→ <strong>L’activateur lymphatique naturel </strong>Cette plante <strong>débloque la circulation interne</strong> et aide le corps à <strong>éliminer l’eau piégée</strong>, pas seulement l’<strong>eau superficielle</strong>.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_ieLKDD": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002046.249.jpg",
+            "column_size": "4",
+            "title": "Trèfle rouge – Trifolium pratense",
+            "heading_tag": "h4",
+            "content": "<p>→ <strong>L’équilibre féminin </strong>Aide le corps à <strong>stabiliser les cycles hormonaux</strong> qui favorisent la <strong>rétention d’eau</strong>, les <strong>gonflements matinaux</strong> et le <strong>visage gonflé</strong>.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_VPJaPK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002053.831.jpg",
+            "column_size": "4",
+            "title": "Stillingia – Stillingia sylvatica",
+            "heading_tag": "h4",
+            "content": "<p>→ <strong>Le purificateur en profondeur </strong>Plante peu commune qui agit dans les <strong>tissus profonds</strong> pour <strong>dissoudre les déchets accumulés</strong>, à l’origine de la <strong>lourdeur</strong> et de la <strong>pression interne</strong>.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_CFCgNf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002100.551.jpg",
+            "column_size": "4",
+            "title": "Frêne épineux – Zanthoxylum americanum",
+            "heading_tag": "h4",
+            "content": "<p>→ <strong>Le stimulant circulatoire </strong>Réactive la <strong>microcirculation</strong> et remet en mouvement les <strong>fluides stagnants</strong> dans les zones les plus sensibles : <strong>visage</strong>, <strong>mâchoire</strong>, <strong>chevilles</strong>.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_DxyPJC",
+        "item_ieLKDD",
+        "item_VPJaPK",
+        "item_CFCgNf"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Ce Qui Rend Nos Gouttes Si Efficaces !",
+        "content": "<p>Notre <strong>mélange botanique</strong> n’agit pas comme une simple <strong>détox</strong>. Chaque <strong>plante</strong> joue un <strong>rôle spécifique et complémentaire</strong> :</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#01322d"
       }
     },
     "media_with_text_b9hfhr": {
@@ -1119,6 +1195,7 @@
     "logoscroll_gMRmYX",
     "before_after_image_9TJF7U",
     "whyicons_xFWREH",
+    "multi_column_qPLFLW",
     "media_with_text_b9hfhr",
     "multi_column_TPHqFB",
     "media_with_text_tPiHLM",
