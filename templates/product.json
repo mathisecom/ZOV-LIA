@@ -681,6 +681,7 @@
         "image_xA88NF": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-18T225556.657.jpg",
             "url": ""
           }
         },
@@ -720,13 +721,13 @@
         "heading_size_mobile": 18,
         "heading_height": 130,
         "scrolling_velocity": 16,
-        "scrolling_velocity_mobile": 18,
+        "scrolling_velocity_mobile": 12,
         "scrolling_direction": "left",
         "pause_hover": false,
         "scrolling_gap": 70,
         "scrolling_gap_mobile": 30,
         "card_width_desktop": 130,
-        "card_width_mobile": 100,
+        "card_width_mobile": 170,
         "heading_color": "#121212",
         "layout_bg_color": "#FFFFFF",
         "layout_border_color": "#121212",
