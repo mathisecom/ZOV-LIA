@@ -438,7 +438,7 @@
             "column_size": "4",
             "title": "Semaine 1 — Début du drainage",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -494,8 +494,8 @@
         "gap": "medium",
         "text_alignment": "center",
         "subheading": "",
-        "title": "",
-        "content": "",
+        "title": "Des résultats visibles, dès les premières semaines",
+        "content": "<p><strong>Zovélia</strong> offre une transformation progressive, naturelle et durable. Voici ce que vous pouvez ressentir à chaque étape.</p>",
         "background": "#effefa",
         "background_gradient": "",
         "text_color": "#01322d"
