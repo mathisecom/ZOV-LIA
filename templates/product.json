@@ -616,16 +616,15 @@
       "blocks": {
         "heading_D6CncH": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "text": "Comparison table #29",
+            "text": "Nous VS Les Autres",
             "heading_tag": "h2",
-            "font_size": 48,
-            "mobile_font_size": 32,
+            "font_size": 40,
+            "mobile_font_size": 26,
             "italic": true,
             "use_gradient": true,
-            "gradient_start": "#121212",
-            "gradient_end": "#404040",
+            "gradient_start": "#0e5348",
+            "gradient_end": "#01322d",
             "heading_color": "#121212"
           }
         },
@@ -769,7 +768,7 @@
         "padding_top": 28,
         "padding_bottom": 32,
         "padding_sides": 24,
-        "mobile_padding_top": 16,
+        "mobile_padding_top": 36,
         "mobile_padding_bottom": 40,
         "mobile_padding_sides": 16,
         "width": "custom",
