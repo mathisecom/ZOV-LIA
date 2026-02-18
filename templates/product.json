@@ -32,7 +32,6 @@
         },
         "liquid_zgkaNk": {
           "type": "liquid",
-          "disabled": true,
           "settings": {
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_CjmEAF\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <style>\n.ml-stk{font-family:'Outfit',system-ui,sans-serif;display:inline-flex;align-items:center;gap:8px;padding:4px 6px 4px 4px;border-radius:50px;background:rgba(210,70,55,.05);border:1px solid rgba(210,70,55,.1);margin:0}\n.ml-stk-bar{display:flex;gap:2px}\n.ml-stk-bar span{width:4px;height:14px;border-radius:2px;background:#E8E8E6}\n.ml-stk-bar span.on{background:#D24637;animation:mlBl 1.4s ease-in-out infinite}\n.ml-stk-bar span.warn{background:#E8943A;animation:mlBl 1.4s ease-in-out .2s infinite}\n@keyframes mlBl{0%,100%{opacity:1}50%{opacity:.35}}\n.ml-stk-txt{font-size:11px;color:#555;font-weight:500;padding-right:4px}\n.ml-stk-txt b{color:#C0392B;font-weight:700}\n</style>\n\n<div class=\"ml-stk\">\n  <div class=\"ml-stk-bar\">\n    <span class=\"on\"></span><span class=\"on\"></span><span class=\"on\"></span><span class=\"warn\"></span><span></span><span></span><span></span><span></span><span></span><span></span>\n  </div>\n  <span class=\"ml-stk-txt\"><b>7</b> flacons restants</span>\n</div>\n            </div></div>"
           }
