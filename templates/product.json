@@ -611,6 +611,170 @@
         "text_gradient": ""
       }
     },
+    "tabsvs_qMqjhj": {
+      "type": "tabsvs",
+      "blocks": {
+        "heading_D6CncH": {
+          "type": "heading",
+          "settings": {
+            "text": "Comparison table #29",
+            "heading_tag": "h2",
+            "font_size": 48,
+            "mobile_font_size": 32,
+            "italic": true,
+            "use_gradient": true,
+            "gradient_start": "#121212",
+            "gradient_end": "#404040",
+            "heading_color": "#121212"
+          }
+        },
+        "subtitle_jgtWad": {
+          "type": "subtitle",
+          "settings": {
+            "text": "Everything you need in one simple scoop.",
+            "font_size": 18,
+            "font_weight": "400",
+            "subtitle_color": "#121212"
+          }
+        },
+        "button_hBpjMb": {
+          "type": "button",
+          "settings": {
+            "button": "OBTENIR MAINTENANT",
+            "url": "#shopify-section-template--28737387036997__main",
+            "open_in_new_tab": false,
+            "button_style": "non_outline",
+            "button_custom": false,
+            "button_font": "josefin_sans_n4",
+            "button_size": 14,
+            "button_size_mobile": 14,
+            "button_advanced": false,
+            "button_height": 100,
+            "button_padding_horizontal": 40,
+            "button_padding_horizontal_mobile": 32,
+            "button_padding_vertical": 20,
+            "button_padding_vertical_mobile": 20,
+            "button_radius": 100,
+            "button_border_thickness": 1,
+            "button_mt": 16,
+            "button_mt_mobile": 16,
+            "button_custom_styling": true,
+            "button_full_width_mobile": true,
+            "button_color": "#FFFFFF",
+            "button_hover_color": "#FFFFFF",
+            "button_bg_color": "#0e5348",
+            "button_bg_hover_color": "#2D2D2D",
+            "button_border_color": "#1A1A1A",
+            "button_border_hover_color": "#1A1A1A",
+            "button_shadow_color": "#000000"
+          }
+        },
+        "feature_row_TfPgYm": {
+          "type": "feature_row",
+          "settings": {
+            "feature_name": "Multivitamins",
+            "primary_has_feature": true,
+            "competitor_has_feature": false
+          }
+        },
+        "feature_row_QDPnGb": {
+          "type": "feature_row",
+          "settings": {
+            "feature_name": "Antioxidants",
+            "primary_has_feature": true,
+            "competitor_has_feature": false
+          }
+        },
+        "feature_row_ydmerN": {
+          "type": "feature_row",
+          "settings": {
+            "feature_name": "Gut-friendly Bacteria",
+            "primary_has_feature": true,
+            "competitor_has_feature": false
+          }
+        },
+        "feature_row_xey8dx": {
+          "type": "feature_row",
+          "settings": {
+            "feature_name": "Gut-friendly Fibre",
+            "primary_has_feature": true,
+            "competitor_has_feature": false
+          }
+        },
+        "feature_row_xztAfj": {
+          "type": "feature_row",
+          "settings": {
+            "feature_name": "High Quality Adaptogens",
+            "primary_has_feature": true,
+            "competitor_has_feature": false
+          }
+        },
+        "text_row_c6MQFW": {
+          "type": "text_row",
+          "settings": {
+            "feature_name": "Benefits in",
+            "primary_text": "One Scoop",
+            "competitor_text": "Multi-Supp."
+          }
+        }
+      },
+      "block_order": [
+        "heading_D6CncH",
+        "subtitle_jgtWad",
+        "button_hBpjMb",
+        "feature_row_TfPgYm",
+        "feature_row_QDPnGb",
+        "feature_row_ydmerN",
+        "feature_row_xey8dx",
+        "feature_row_xztAfj",
+        "text_row_c6MQFW"
+      ],
+      "name": "SS - Comparison table #29",
+      "settings": {
+        "primary_title": "R-01",
+        "primary_badge": "Convenient",
+        "competitor_title": "Others",
+        "competitor_badge": "Tedious",
+        "content_align": "center",
+        "content_align_mobile": "center",
+        "layout_direction": "heading_first_vertical",
+        "content_gap": 64,
+        "column_width": 140,
+        "column_radius": 16,
+        "row_padding": 16,
+        "image_width": 70,
+        "product_title_size": 18,
+        "feature_font_size": 15,
+        "feature_font_weight": "600",
+        "show_dividers": true,
+        "divider_thickness": 1,
+        "icon_size": 22,
+        "gradient_start": "#ffffff",
+        "gradient_end": "#f4f4f4",
+        "primary_column_use_gradient": false,
+        "primary_column_color": "#01322d",
+        "primary_column_gradient_start": "#121212",
+        "primary_column_gradient_end": "#404040",
+        "primary_column_text_color": "#ffffff",
+        "feature_text_color": "#0e5348",
+        "competitor_text_color": "#01322d",
+        "divider_color": "#e0e0e0",
+        "check_color": "#ffffff",
+        "cross_color": "#0e5348",
+        "cross_stroke_style": "transparent",
+        "badge_background": "#ffffff26",
+        "badge_icon_color": "#ffffff",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_sides": 24,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40,
+        "mobile_padding_sides": 16,
+        "width": "custom",
+        "content_width": 1200,
+        "lazy": true
+      }
+    },
     "rich_text_jfqbyf": {
       "type": "rich-text",
       "blocks": {
@@ -848,6 +1012,7 @@
     "multi_column_TPHqFB",
     "media_with_text_tPiHLM",
     "scrolling_text_6hNjaU",
+    "tabsvs_qMqjhj",
     "rich_text_jfqbyf",
     "testimonials_PMRggW",
     "faq_UhYAbq",
