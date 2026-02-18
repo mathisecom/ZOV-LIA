@@ -168,6 +168,39 @@
         "title": "ILS PARLENT DE NOUS"
       }
     },
+    "rich_text_arxcnt": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_A6P34B": {
+          "type": "subheading",
+          "settings": {
+            "text": "+800 Clientes Satisfaites"
+          }
+        },
+        "heading_VBzy9w": {
+          "type": "heading",
+          "settings": {
+            "text": "Elles ont ressenti le changement. Bientôt, ce sera votre tour.",
+            "heading_tag": "h3",
+            "text_color": "#01322d",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_A6P34B",
+        "heading_VBzy9w"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": false,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "press_VBgARV": {
       "type": "press",
       "blocks": {
@@ -178,7 +211,7 @@
             "author": "",
             "content": "Write some content about what they says about your store.",
             "show_rating": true,
-            "rating": 4
+            "rating": 5
           }
         },
         "quote_PY9XVV": {
@@ -198,7 +231,7 @@
             "author": "",
             "content": "Write some content about what they says about your store.",
             "show_rating": true,
-            "rating": 4
+            "rating": 5
           }
         },
         "quote_bxhVJL": {
@@ -419,6 +452,7 @@
   "order": [
     "main",
     "presslogo_TdftVP",
+    "rich_text_arxcnt",
     "press_VBgARV",
     "image_link_blocks_AthhUE",
     "before_after_image_9TJF7U",
