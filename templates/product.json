@@ -30,6 +30,12 @@
             "heading_tag": "h3"
           }
         },
+        "text_tP7KiX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Un puissant mélange d'herbes pour <strong>réduire les gonflements, stimuler la circulation</strong> et soutenir la désintoxication quotidienne.</p>"
+          }
+        },
         "liquid_zgkaNk": {
           "type": "liquid",
           "settings": {
@@ -129,6 +135,7 @@
         "liquid_b6RnYx",
         "liquid_QgfhRq",
         "title",
+        "text_tP7KiX",
         "liquid_zgkaNk",
         "badges",
         "description",
