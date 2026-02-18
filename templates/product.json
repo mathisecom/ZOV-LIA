@@ -209,7 +209,8 @@
         "quote_DkCUYL": {
           "type": "quote",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000842.181.png",
+            "logo_width": 50,
             "author": "Julia M.",
             "content": "\"Visage visiblement plus fin et moins gonflé dès la première semaine. J’adore !\"",
             "show_rating": true,
@@ -219,7 +220,8 @@
         "quote_PY9XVV": {
           "type": "quote",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000819.153.png",
+            "logo_width": 50,
             "author": "Clara S.",
             "content": "\"Un geste simple, des résultats rapides : je me sens plus légère chaque matin.\"",
             "show_rating": true,
@@ -229,7 +231,8 @@
         "quote_Tc6Qfy": {
           "type": "quote",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000829.919.png",
+            "logo_width": 50,
             "author": "Alice K.",
             "content": "\"Effet drainant bluffant, mon visage dégonfle vraiment. Je recommande !\"",
             "show_rating": true,
@@ -239,7 +242,8 @@
         "quote_bxhVJL": {
           "type": "quote",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000836.717.png",
+            "logo_width": 50,
             "author": "Naelle P.",
             "content": "Traits plus affinés, peau plus fraîche, résultat visible rapidement. Je recommande !",
             "show_rating": true,
