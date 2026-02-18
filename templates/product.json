@@ -405,6 +405,7 @@
       "block_order": [
         "judge_me_reviews_review_widget_NxjHTw"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
