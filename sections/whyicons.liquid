@@ -6,7 +6,7 @@
 <style>
   .why-smileactives {
     background: {{ section.settings.background_color }};
-    padding: 0;
+    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px 0;
     margin: 0;
   }
 
@@ -68,6 +68,10 @@
 
   /* Responsive Tablet */
   @media screen and (max-width: 1024px) {
+    .why-smileactives {
+      padding: {{ section.settings.padding_top | divided_by: 1.2 }}px 0 {{ section.settings.padding_bottom | divided_by: 1.2 }}px 0;
+    }
+
     .why-smileactives__features {
       grid-template-columns: repeat(2, 1fr);
       gap: 40px 30px;
@@ -84,6 +88,10 @@
 
   /* Responsive Mobile */
   @media screen and (max-width: 768px) {
+    .why-smileactives {
+      padding: {{ section.settings.padding_top | divided_by: 1.5 }}px 0 {{ section.settings.padding_bottom | divided_by: 1.5 }}px 0;
+    }
+
     .why-smileactives__container {
       padding: 0 15px;
     }
@@ -172,6 +180,26 @@
 {
   "name": "Why Smileactives",
   "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 60
+    },
     {
       "type": "color",
       "id": "background_color",
