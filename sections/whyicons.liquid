@@ -3,7 +3,7 @@
   Description: Displays brand benefits with icons and descriptions
 {% endcomment %}
 
-<style>
+{% style %}
   .why-smileactives {
     background: {{ section.settings.background_color }};
     padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px 0;
@@ -22,18 +22,15 @@
   }
 
   .why-smileactives__title {
-    font-family: {{ section.settings.title_font.family }}, {{ section.settings.title_font.fallback_families }};
-    font-size: {{ section.settings.title_font_size }}px;
-    font-weight: {{ section.settings.title_font_weight }};
+    font-size: 48px;
+    font-weight: 600;
     color: {{ section.settings.title_color }};
     margin: 0 0 20px 0;
     line-height: 1.2;
   }
 
   .why-smileactives__subtitle {
-    font-family: {{ section.settings.subtitle_font.family }}, {{ section.settings.subtitle_font.fallback_families }};
-    font-size: {{ section.settings.subtitle_font_size }}px;
-    font-weight: {{ section.settings.subtitle_font_weight }};
+    font-size: 20px;
     color: {{ section.settings.subtitle_color }};
     margin: 0;
     line-height: 1.6;
@@ -63,9 +60,7 @@
   }
 
   .why-smileactives__feature-text {
-    font-family: {{ section.settings.feature_font.family }}, {{ section.settings.feature_font.fallback_families }};
-    font-size: {{ section.settings.feature_font_size }}px;
-    font-weight: {{ section.settings.feature_font_weight }};
+    font-size: 18px;
     color: {{ section.settings.feature_text_color }};
     line-height: 1.5;
     margin: 0;
@@ -83,11 +78,11 @@
     }
 
     .why-smileactives__title {
-      font-size: {{ section.settings.title_font_size | times: 0.83 }}px;
+      font-size: 40px;
     }
 
     .why-smileactives__subtitle {
-      font-size: {{ section.settings.subtitle_font_size | times: 0.9 }}px;
+      font-size: 18px;
     }
   }
 
@@ -106,12 +101,12 @@
     }
 
     .why-smileactives__title {
-      font-size: {{ section.settings.title_font_size | times: 0.67 }}px;
+      font-size: 32px;
       margin-bottom: 15px;
     }
 
     .why-smileactives__subtitle {
-      font-size: {{ section.settings.subtitle_font_size | times: 0.8 }}px;
+      font-size: 16px;
     }
 
     .why-smileactives__features {
@@ -126,17 +121,17 @@
     }
 
     .why-smileactives__feature-text {
-      font-size: {{ section.settings.feature_font_size | times: 0.83 }}px;
+      font-size: 15px;
     }
   }
 
   @media screen and (max-width: 480px) {
     .why-smileactives__title {
-      font-size: {{ section.settings.title_font_size | times: 0.58 }}px;
+      font-size: 28px;
     }
 
     .why-smileactives__subtitle {
-      font-size: {{ section.settings.subtitle_font_size | times: 0.75 }}px;
+      font-size: 15px;
     }
 
     .why-smileactives__icon {
@@ -145,14 +140,10 @@
     }
 
     .why-smileactives__feature-text {
-      font-size: {{ section.settings.feature_font_size | times: 0.78 }}px;
+      font-size: 14px;
     }
   }
-</style>
-
-{{ section.settings.title_font | font_face: font_display: 'swap' }}
-{{ section.settings.subtitle_font | font_face: font_display: 'swap' }}
-{{ section.settings.feature_font | font_face: font_display: 'swap' }}
+{% endstyle %}
 
 <section class="why-smileactives">
   <div class="why-smileactives__container">
@@ -190,10 +181,6 @@
   "name": "Why Smileactives",
   "settings": [
     {
-      "type": "header",
-      "content": "Spacing"
-    },
-    {
       "type": "range",
       "id": "padding_top",
       "min": 0,
@@ -214,20 +201,28 @@
       "default": 60
     },
     {
-      "type": "header",
-      "content": "Colors"
-    },
-    {
       "type": "color",
       "id": "background_color",
       "label": "Background Color",
       "default": "#F8F8F8"
     },
     {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Why Smileactives?"
+    },
+    {
       "type": "color",
       "id": "title_color",
       "label": "Title Color",
       "default": "#5A5A5A"
+    },
+    {
+      "type": "textarea",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Get a healthy, more confident smile with a simple and easy-to-use routine from Smileactives"
     },
     {
       "type": "color",
@@ -240,117 +235,6 @@
       "id": "feature_text_color",
       "label": "Feature Text Color",
       "default": "#5A5A5A"
-    },
-    {
-      "type": "header",
-      "content": "Title Typography"
-    },
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Title",
-      "default": "Why Smileactives?"
-    },
-    {
-      "type": "font_picker",
-      "id": "title_font",
-      "label": "Title Font",
-      "default": "assistant_n4"
-    },
-    {
-      "type": "range",
-      "id": "title_font_size",
-      "min": 20,
-      "max": 80,
-      "step": 2,
-      "unit": "px",
-      "label": "Title Font Size",
-      "default": 48
-    },
-    {
-      "type": "select",
-      "id": "title_font_weight",
-      "label": "Title Font Weight",
-      "options": [
-        { "value": "300", "label": "Light" },
-        { "value": "400", "label": "Normal" },
-        { "value": "500", "label": "Medium" },
-        { "value": "600", "label": "Semi Bold" },
-        { "value": "700", "label": "Bold" }
-      ],
-      "default": "600"
-    },
-    {
-      "type": "header",
-      "content": "Subtitle Typography"
-    },
-    {
-      "type": "textarea",
-      "id": "subtitle",
-      "label": "Subtitle",
-      "default": "Get a healthy, more confident smile with a simple and easy-to-use routine from Smileactives"
-    },
-    {
-      "type": "font_picker",
-      "id": "subtitle_font",
-      "label": "Subtitle Font",
-      "default": "assistant_n4"
-    },
-    {
-      "type": "range",
-      "id": "subtitle_font_size",
-      "min": 14,
-      "max": 32,
-      "step": 1,
-      "unit": "px",
-      "label": "Subtitle Font Size",
-      "default": 20
-    },
-    {
-      "type": "select",
-      "id": "subtitle_font_weight",
-      "label": "Subtitle Font Weight",
-      "options": [
-        { "value": "300", "label": "Light" },
-        { "value": "400", "label": "Normal" },
-        { "value": "500", "label": "Medium" },
-        { "value": "600", "label": "Semi Bold" },
-        { "value": "700", "label": "Bold" }
-      ],
-      "default": "400"
-    },
-    {
-      "type": "header",
-      "content": "Feature Text Typography"
-    },
-    {
-      "type": "font_picker",
-      "id": "feature_font",
-      "label": "Feature Text Font",
-      "default": "assistant_n4"
-    },
-    {
-      "type": "range",
-      "id": "feature_font_size",
-      "min": 12,
-      "max": 28,
-      "step": 1,
-      "unit": "px",
-      "label": "Feature Text Font Size",
-      "default": 18
-    },
-    {
-      "type": "select",
-      "id": "feature_font_weight",
-      "label": "Feature Text Font Weight",
-      "options": [
-        { "value": "300", "label": "Light" },
-        { "value": "400", "label": "Normal" },
-        { "value": "500", "label": "Medium" },
-        { "value": "600", "label": "Semi Bold" },
-        { "value": "700", "label": "Bold" }
-      ],
-      "default": "400"
     }
   ],
   "blocks": [
