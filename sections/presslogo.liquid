@@ -1,0 +1,201 @@
+{% comment %}
+  Section "Ils parlent de nous" - Logos de presse
+  Usage: Ajouter cette section dans votre thème Shopify
+{% endcomment %}
+
+<style>
+  .press-section {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 40px 20px;
+    overflow: hidden;
+  }
+
+  .press-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .press-badge {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 8px 16px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-radius: 2px;
+  }
+
+  .press-logos {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .press-logo {
+    height: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .press-logo-text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: opacity 0.3s ease;
+  }
+
+  .press-logo-text:hover {
+    opacity: 0.7;
+  }
+
+  /* Style pour choose */
+  .press-logo-text.choose {
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  /* Style pour BRADERY */
+  .press-logo-text.bradery {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+
+  /* Style pour Bsissim */
+  .press-logo-text.bsissim {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  /* Style pour marieclaire */
+  .press-logo-text.marieclaire {
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  /* Style pour Oprah Daily */
+  .press-logo-text.oprah {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  /* Responsive Mobile */
+  @media screen and (max-width: 768px) {
+    .press-section {
+      padding: 30px 15px;
+    }
+
+    .press-container {
+      gap: 25px;
+    }
+
+    .press-badge {
+      font-size: 10px;
+      padding: 6px 12px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .press-logos {
+      gap: 25px;
+      width: 100%;
+    }
+
+    .press-logo {
+      height: 18px;
+    }
+
+    .press-logo-text {
+      font-size: 14px;
+    }
+
+    .press-logo-text.choose {
+      font-size: 13px;
+    }
+
+    .press-logo-text.bradery {
+      font-size: 14px;
+    }
+
+    .press-logo-text.bsissim {
+      font-size: 14px;
+    }
+
+    .press-logo-text.marieclaire {
+      font-size: 13px;
+    }
+
+    .press-logo-text.oprah {
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .press-section {
+      padding: 25px 10px;
+    }
+
+    .press-logos {
+      gap: 20px;
+    }
+  }
+</style>
+
+<section class="press-section">
+  <div class="press-container">
+    <div class="press-badge">ILS PARLENT DE NOUS</div>
+    
+    <div class="press-logos">
+      <div class="press-logo">
+        <span class="press-logo-text choose">choose</span>
+      </div>
+      
+      <div class="press-logo">
+        <span class="press-logo-text bradery">BRADERY.</span>
+      </div>
+      
+      <div class="press-logo">
+        <span class="press-logo-text bsissim">Bsissim</span>
+      </div>
+      
+      <div class="press-logo">
+        <span class="press-logo-text marieclaire">marieclaire</span>
+      </div>
+      
+      <div class="press-logo">
+        <span class="press-logo-text oprah">Oprah Daily</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Logos Presse",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre du badge",
+      "default": "ILS PARLENT DE NOUS"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Logos Presse"
+    }
+  ]
+}
+{% endschema %}
