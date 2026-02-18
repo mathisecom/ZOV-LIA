@@ -22,12 +22,6 @@
           "type": "badges",
           "settings": {}
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -67,7 +61,6 @@
       "block_order": [
         "title",
         "badges",
-        "price",
         "description",
         "variant_picker",
         "quantity_selector",
