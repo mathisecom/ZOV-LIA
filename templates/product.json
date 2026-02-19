@@ -978,7 +978,7 @@
         "mobile_padding_bottom": 40,
         "mobile_padding_sides": 16,
         "width": "custom",
-        "content_width": 1200,
+        "content_width": 800,
         "lazy": true
       }
     },
