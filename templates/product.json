@@ -425,6 +425,7 @@
         "feature_iPTnJr": {
           "type": "feature",
           "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011510.151.png",
             "text": "<b>Soutien lymphatique</b>"
           }
         },
@@ -438,24 +439,28 @@
         "feature_D4U4Pq": {
           "type": "feature",
           "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011205.153.png",
             "text": "<b>Drainage naturel</b>"
           }
         },
         "feature_QGfPyX": {
           "type": "feature",
           "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011333.165.png",
             "text": "<b>Soutien Hormonal</b>"
           }
         },
         "feature_Gyjppb": {
           "type": "feature",
           "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011233.400.png",
             "text": "<b>Énergie & Vitalité</b>"
           }
         },
         "feature_tHMcJ9": {
           "type": "feature",
           "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011305.248.png",
             "text": "<b>Détox Naturelle</b>"
           }
         }
