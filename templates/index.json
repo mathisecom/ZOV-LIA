@@ -78,11 +78,11 @@
         "gap": "medium",
         "text_alignment": "center",
         "subheading": "",
-        "title": "",
-        "content": "",
+        "title": "Ce Qui Rend Nos Gouttes Si Efficaces !",
+        "content": "<p>Notre <strong>mélange botanique</strong> n’agit pas comme une simple <strong>détox</strong>. Chaque <strong>plante</strong> joue un <strong>rôle spécifique et complémentaire</strong> :</p>",
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#01322d"
       }
     },
     "scrolling_text_erxBgG": {
