@@ -162,7 +162,7 @@
         "feature_row_rjNLq7": {
           "type": "feature_row",
           "settings": {
-            "feature_name": "Multivitamins",
+            "feature_name": "Jambes légères dès les premiers jours",
             "primary_has_feature": true,
             "competitor_has_feature": false
           }
@@ -170,7 +170,7 @@
         "feature_row_LtUEmJ": {
           "type": "feature_row",
           "settings": {
-            "feature_name": "Antioxidants",
+            "feature_name": "Rééquilibre la rétention d'eau hormonale",
             "primary_has_feature": true,
             "competitor_has_feature": false
           }
@@ -178,7 +178,7 @@
         "feature_row_GNqpnp": {
           "type": "feature_row",
           "settings": {
-            "feature_name": "Gut-friendly Bacteria",
+            "feature_name": "Silhouette redessinée naturellement",
             "primary_has_feature": true,
             "competitor_has_feature": false
           }
@@ -186,7 +186,7 @@
         "feature_row_7MwU7Y": {
           "type": "feature_row",
           "settings": {
-            "feature_name": "Gut-friendly Fibre",
+            "feature_name": "Plantes cliniquement étudiées",
             "primary_has_feature": true,
             "competitor_has_feature": false
           }
@@ -194,17 +194,17 @@
         "feature_row_fY3JLj": {
           "type": "feature_row",
           "settings": {
-            "feature_name": "High Quality Adaptogens",
+            "feature_name": "S'intègre à votre routine",
             "primary_has_feature": true,
             "competitor_has_feature": false
           }
         },
-        "text_row_7dHcY4": {
-          "type": "text_row",
+        "feature_row_cnAYGd": {
+          "type": "feature_row",
           "settings": {
-            "feature_name": "Benefits in",
-            "primary_text": "One Scoop",
-            "competitor_text": "Multi-Supp."
+            "feature_name": "Différence avant/après claire",
+            "primary_has_feature": true,
+            "competitor_has_feature": false
           }
         }
       },
@@ -217,7 +217,7 @@
         "feature_row_GNqpnp",
         "feature_row_7MwU7Y",
         "feature_row_fY3JLj",
-        "text_row_7dHcY4"
+        "feature_row_cnAYGd"
       ],
       "name": "SS - Comparison table #29",
       "settings": {
