@@ -614,6 +614,48 @@
         "text_color": "#01322d"
       }
     },
+    "clinicalresults_P9KXtA": {
+      "type": "clinicalresults",
+      "blocks": {
+        "stat_7gmGih": {
+          "type": "stat",
+          "settings": {
+            "percentage": "94%",
+            "description": "Ont constaté une réduction visible de la cellulite"
+          }
+        },
+        "stat_i8ALtE": {
+          "type": "stat",
+          "settings": {
+            "percentage": "96%",
+            "description": "Ont ressenti une diminution des gonflements (visage, jambes, ventre)"
+          }
+        },
+        "stat_cKkhRY": {
+          "type": "stat",
+          "settings": {
+            "percentage": "92%",
+            "description": "Disent avoir moins de fringales et un esprit plus clair"
+          }
+        }
+      },
+      "block_order": [
+        "stat_7gmGih",
+        "stat_i8ALtE",
+        "stat_cKkhRY"
+      ],
+      "name": "Clinical Results",
+      "settings": {
+        "title": "Appuyé par les chiffres. Ressenti par le corps.",
+        "title_color": "#01322d",
+        "subtitle": "",
+        "percentage_color": "#01322d",
+        "button_text": "COMMENCER AUJOURD'HUI",
+        "button_link": "#shopify-section-template--28737387036997__main",
+        "button_background": "#01322d",
+        "button_text_color": "#FFFFFF"
+      }
+    },
     "media_with_text_b9hfhr": {
       "type": "media-with-text",
       "blocks": {
@@ -1299,6 +1341,7 @@
     "whyicons_xFWREH",
     "whyitsworks_cjQfT4",
     "multi_column_qPLFLW",
+    "clinicalresults_P9KXtA",
     "media_with_text_b9hfhr",
     "multi_column_TPHqFB",
     "media_with_text_tPiHLM",
