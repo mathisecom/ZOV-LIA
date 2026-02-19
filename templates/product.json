@@ -485,6 +485,7 @@
         "benefit_card_fk99Kg": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T010825.172.png",
             "featured": true,
             "title": "1. Des fluides piégés qui exercent une tension",
             "description": "L'accumulation de liquides comprime vos tissus de l'intérieur. Conséquence directe : cette sensation de lourdeur dans les jambes, d'abdomen distendu, de traits tirés au réveil."
