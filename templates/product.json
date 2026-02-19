@@ -494,6 +494,7 @@
         "benefit_card_FEKknY": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T010913.437.png",
             "featured": true,
             "title": "2. Un système d'évacuation défaillant",
             "description": "Lorsque votre circulation lymphatique perd en efficacité, elle ne remplit plus son rôle de nettoyage. Déchets cellulaires, substances usagées et impuretés s'accumulent. Votre corps peine à se débarrasser du superflu."
