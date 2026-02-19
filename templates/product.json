@@ -503,6 +503,7 @@
         "benefit_card_GNiAjX": {
           "type": "benefit_card",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011017.376.png",
             "featured": true,
             "title": "3. Des parois fragilisées qui laissent fuir",
             "description": "Vos vaisseaux lymphatiques, endommagés avec le temps, deviennent perméables. Le liquide s'échappe et s'installe dans vos tissus. C'est l'origine de ce gonflement persistant et de cette pesanteur qui ne vous quitte plus."
