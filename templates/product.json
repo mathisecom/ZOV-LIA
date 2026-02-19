@@ -646,6 +646,7 @@
       ],
       "name": "Clinical Results",
       "settings": {
+        "image": "shopify://shop_images/1771499439950_h692te.jpg",
         "title": "Appuyé par les chiffres. Ressenti par le corps.",
         "title_color": "#01322d",
         "subtitle": "",
