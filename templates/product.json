@@ -431,6 +431,7 @@
         "feature_nickQa": {
           "type": "feature",
           "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011120.177.png",
             "text": "<b>Visage & Corps Dégonflés</b>"
           }
         },
