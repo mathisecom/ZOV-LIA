@@ -15,6 +15,7 @@
         "item_Ajq9Kw": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002028.620_fd1dae00-2a81-45ee-9668-f6166bdd024c.jpg",
             "column_size": "4",
             "title": "Column title",
             "heading_tag": "h4",
@@ -27,6 +28,7 @@
         "item_6EpMyF": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002046.249.jpg",
             "column_size": "4",
             "title": "Column title",
             "heading_tag": "h4",
@@ -39,6 +41,7 @@
         "item_Wn6R9g": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002053.831.jpg",
             "column_size": "4",
             "title": "Column title",
             "heading_tag": "h4",
@@ -51,6 +54,7 @@
         "item_t7QbdB": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002100.551.jpg",
             "column_size": "4",
             "title": "Column title",
             "heading_tag": "h4",
@@ -79,6 +83,99 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "rich_text_zG8a9r": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_eTkrmh": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_tEUqq7": {
+          "type": "heading",
+          "settings": {
+            "text": "+800 Clientes Satisfaites",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_eTkrmh",
+        "heading_tEUqq7"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#01322d"
+      }
+    },
+    "testimonials_dPaBmc": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_cLyixe": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "John S.",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_9Ad839": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_bpXMC4": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_cLyixe",
+        "testimonial_9Ad839",
+        "testimonial_bpXMC4"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
       }
     },
     "faq": {
@@ -136,6 +233,8 @@
   },
   "order": [
     "multi_column_rExXPT",
+    "rich_text_zG8a9r",
+    "testimonials_dPaBmc",
     "faq"
   ]
 }
