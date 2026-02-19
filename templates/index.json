@@ -85,6 +85,98 @@
         "text_color": ""
       }
     },
+    "logoscroll_JrgLGB": {
+      "type": "logoscroll",
+      "blocks": {
+        "image_UPrfQn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-18T225556.657.jpg",
+            "url": ""
+          }
+        },
+        "image_69mMx4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BfIK0d9JGx.jpg",
+            "url": ""
+          }
+        },
+        "image_xVxwwJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-18T225703.347.jpg",
+            "url": ""
+          }
+        },
+        "image_rnD3pb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-18T225556.657.jpg",
+            "url": ""
+          }
+        },
+        "image_Pezpcx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-18T225751.349.jpg",
+            "url": ""
+          }
+        },
+        "image_9zqzLT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-18T225734.158.jpg",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_UPrfQn",
+        "image_69mMx4",
+        "image_xVxwwJ",
+        "image_rnD3pb",
+        "image_Pezpcx",
+        "image_9zqzLT"
+      ],
+      "name": "SS - Scrolling logo cloud #5",
+      "settings": {
+        "layout_radius": 30,
+        "layout_border_thickness": 0,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "heading_height": 130,
+        "scrolling_velocity": 30,
+        "scrolling_velocity_mobile": 20,
+        "scrolling_direction": "left",
+        "pause_hover": false,
+        "scrolling_gap": 70,
+        "scrolling_gap_mobile": 30,
+        "card_width_desktop": 160,
+        "card_width_mobile": 170,
+        "heading_color": "#121212",
+        "layout_bg_color": "#FFFFFF",
+        "layout_border_color": "#121212",
+        "background_color": "#FFFFFF",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "rich_text_zG8a9r": {
       "type": "rich-text",
       "blocks": {
@@ -233,6 +325,7 @@
   },
   "order": [
     "multi_column_rExXPT",
+    "logoscroll_JrgLGB",
     "rich_text_zG8a9r",
     "testimonials_dPaBmc",
     "faq"
