@@ -135,16 +135,16 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "link_text": "",
+            "title": "Votre Allié Quotidien Anti-Rétention",
+            "content": "<p>Les gouttes <strong>Zovélia </strong>aident votre corps à éliminer en douceur les fluides emprisonnés, <strong>pour une sensation de légèreté, de dégonflement et de confort au quotidien.</strong></p><p>Quelques gouttes avant le coucher favorisent le drainage naturel, la circulation et l'équilibre hydrique. <strong>Un geste simple. Une différence visible.</strong></p>",
+            "link_text": "COMMENCER AUJOURDHUI",
             "link_url": "",
             "background": "#01322d",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
+            "button_background": "#ffffff",
+            "button_text_color": "#01322d"
           }
         }
       },
