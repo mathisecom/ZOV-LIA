@@ -661,7 +661,7 @@
         "button_text": "COMMENCER AUJOURD'HUI",
         "button_link": "#shopify-section-template--28737387036997__main",
         "button_background": "#01322d",
-        "button_text_color": "#FFFFFF"
+        "button_text_color": "#ffffff"
       }
     },
     "media_with_text_b9hfhr": {
@@ -1101,7 +1101,7 @@
         "heading_EnWffK": {
           "type": "heading",
           "settings": {
-            "text": "+800 Clientes Satisfaites",
+            "text": "+800 Clients Satisfaites",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
