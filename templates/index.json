@@ -122,6 +122,42 @@
         "lazy": true
       }
     },
+    "media_with_text_qXf7qK": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_X9VpLn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1771499439950_h692te_4abc5da2-aa14-4017-a210-2d4dc43a6a39.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#01322d",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_X9VpLn"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
     "multi_column_rExXPT": {
       "type": "multi-column",
       "blocks": {
@@ -619,6 +655,7 @@
   "order": [
     "slideshow_7VhzCn",
     "logoscroll_QdmVnG",
+    "media_with_text_qXf7qK",
     "multi_column_rExXPT",
     "scrolling_text_erxBgG",
     "tabsvs_UJEzPJ",
