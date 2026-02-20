@@ -653,22 +653,62 @@
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Quand vais-je voir les premiers résultats ?",
+            "content": "<p>De nombreuses utilisatrices rapportent une sensation de légèreté dès les premiers jours. Pour un résultat visible (jambes moins gonflées, peau plus ferme, réduction de la cellulite aqueuse), une cure de 3 à 6 semaines est recommandée. L’effet s’intensifie avec la régularité.</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Combien de temps dure une cure ?",
+            "content": "<p>Un Flacon contient l’équivalent de 30 jours. Pour des résultats optimaux et durables, nous conseillons une cure d’au moins 2 à 3 mois. Idéalement, à renouveler à chaque changement de saison ou en période de forte rétention d’eau.</p>"
+          }
+        },
+        "item_AYWAgU": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce 100 % naturel ?",
+            "content": "<p>Oui. Ce complément est exclusivement formulé à base d’extraits de plantes reconnues pour leurs propriétés drainantes et détoxifiante.</p>"
+          }
+        },
+        "item_pUGCMa": {
+          "type": "item",
+          "settings": {
+            "title": "Y a-t-il des effets secondaires ?",
+            "content": "<p>La formule est bien tolérée. Toutefois, en raison de l’effet drainant, il est conseillé de bien s’hydrater. Elle est déconseillée aux femmes enceintes ou allaitantes, ainsi qu’aux personnes sous traitement diurétique sans avis médical.</p>"
+          }
+        },
+        "item_3apWbM": {
+          "type": "item",
+          "settings": {
+            "title": "Comment le prendre ?",
+            "content": "<p>Dosage recommandé : 1/4 de cuillère à café par jour, correspondant à environ 1 à 2 ml dans un grand verre d’eau, 1 à 2 fois par jour, idéalement le matin à jeun ou après un repas léger. Astuce : l’ajouter à une bouteille d’eau pour boire tout au long de la journée facilite la prise.</p>"
+          }
+        },
+        "item_r3xfjn": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je en prendre toute l’année ?",
+            "content": "<p>Oui, par cycles. Nous recommandons des cures de 1 à 3 mois avec une pause d’1 mois entre chaque si prise prolongée. C’est idéal pour soutenir le corps à chaque changement de saison ou en cas de sensation de lourdeur accrue.</p>"
+          }
+        },
+        "item_96YEnB": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que je vais devoir aller souvent aux toilettes ?",
+            "content": "<p><strong>Pas forcément.</strong>Ce produit aide à relancer en douceur la circulation lymphatique et l’élimination des excès d’eau et des toxines. Certaines personnes peuvent ressentir un besoin urinaire légèrement plus fréquent les premiers jours, signe que le corps se détoxifie.</p>"
           }
         }
       },
       "block_order": [
         "166442457738b23caf-0",
         "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "166442457738b23caf-2",
+        "item_AYWAgU",
+        "item_pUGCMa",
+        "item_3apWbM",
+        "item_r3xfjn",
+        "item_96YEnB"
       ],
       "settings": {
         "full_width": true,
@@ -677,7 +717,7 @@
         "content": "",
         "team_avatar_width": 160,
         "support_hours": "",
-        "answer_time": "Average answer time: 24h",
+        "answer_time": "Temps Moyen de Réponse : 24H",
         "button_text": "",
         "button_url": "",
         "text_position": "center",
