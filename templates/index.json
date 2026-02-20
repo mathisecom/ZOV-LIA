@@ -56,24 +56,28 @@
         "image_cGctw7": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Nouveau_projet_11_1a44539b-de54-42e0-b727-749c1dd15817.png",
             "url": ""
           }
         },
         "image_JBGLan": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/vogue-logo_1.webp",
             "url": ""
           }
         },
         "image_4PNQPC": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/bazaar-logo_1.webp",
             "url": ""
           }
         },
         "image_3neTip": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/elle-logo_1.webp",
             "url": ""
           }
         }
