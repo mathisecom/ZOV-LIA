@@ -15,6 +15,7 @@
         "image_yrriTV": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_PC_18.jpg",
             "mobile_image": "shopify://shop_images/BANNER_MOBILE_72.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
