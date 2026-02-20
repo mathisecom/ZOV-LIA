@@ -163,6 +163,72 @@
         "spacing": "none"
       }
     },
+    "whyicons_yKGyV7": {
+      "type": "whyicons",
+      "blocks": {
+        "feature_hwJTpj": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011510.151.png",
+            "text": "<b>Soutien lymphatique</b>"
+          }
+        },
+        "feature_e8KmLc": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011120.177.png",
+            "text": "<b>Visage & Corps Dégonflés</b>"
+          }
+        },
+        "feature_CAj3kX": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011205.153.png",
+            "text": "<b>Drainage Naturel</b>"
+          }
+        },
+        "feature_nLbiqp": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011333.165.png",
+            "text": "<b>Soutien Hormonal</b>"
+          }
+        },
+        "feature_kRRPEp": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011233.400.png",
+            "text": "<b>Énergie & Vitalité</b>"
+          }
+        },
+        "feature_nQVjWV": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011305.248.png",
+            "text": "<b>Détox Naturelle</b>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_hwJTpj",
+        "feature_e8KmLc",
+        "feature_CAj3kX",
+        "feature_nLbiqp",
+        "feature_kRRPEp",
+        "feature_nQVjWV"
+      ],
+      "name": "Why Smileactives",
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 60,
+        "background_color": "#ffffff",
+        "title": "Pourquoi Faire Confiance À Zovélia ?",
+        "title_color": "#01322d",
+        "subtitle": "",
+        "subtitle_color": "#01322d",
+        "feature_text_color": "#01322d"
+      }
+    },
     "multi_column_rExXPT": {
       "type": "multi-column",
       "blocks": {
@@ -737,6 +803,7 @@
     "slideshow_7VhzCn",
     "logoscroll_QdmVnG",
     "media_with_text_qXf7qK",
+    "whyicons_yKGyV7",
     "multi_column_rExXPT",
     "scrolling_text_erxBgG",
     "tabsvs_UJEzPJ",
