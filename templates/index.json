@@ -596,10 +596,21 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
+            "rating": 5,
             "author": "Lisa K.",
             "title": "Peau plus fraîche et tonique",
             "content": "<p>Effet drainant impressionnant, mes traits sont plus sculptés et ma peau paraît plus ferme. Je suis vraiment ravie.</p>"
+          }
+        },
+        "testimonial_U8xFd7": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Laurianne G.",
+            "title": "Résultats rapides et visibles",
+            "content": "<p>Visage plus sculpté, sensation de fraîcheur et vraie amélioration dès les premières utilisations.</p>"
           }
         }
       },
@@ -608,7 +619,8 @@
         "testimonial_9Ad839",
         "testimonial_bpXMC4",
         "testimonial_bFLFCB",
-        "testimonial_UFkcC4"
+        "testimonial_UFkcC4",
+        "testimonial_U8xFd7"
       ],
       "name": "Testimonials",
       "settings": {
@@ -634,8 +646,8 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Comment ce complément agit-il réellement ?",
+            "content": "<p>Notre formule liquide agit en stimulant le système lymphatique, souvent négligé, mais essentiel pour éliminer les toxines, les excès d’eau et réduire les gonflements. Les plantes comme le gaillet favorisent naturellement le drainage et relancent la circulation lymphatique pour une silhouette plus légère, de l’intérieur.</p>"
           }
         },
         "166442457738b23caf-1": {
