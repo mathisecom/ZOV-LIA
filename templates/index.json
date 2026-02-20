@@ -172,7 +172,7 @@
             "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002028.620_fd1dae00-2a81-45ee-9668-f6166bdd024c.jpg",
             "column_size": "4",
             "title": "Gaillet gratteron – Galium aparine",
-            "heading_tag": "h4",
+            "heading_tag": "h5",
             "content": "<p>→ <strong>L’activateur lymphatique naturel </strong>Cette plante <strong>débloque la circulation interne</strong> et aide le corps à <strong>éliminer l’eau piégée</strong>, pas seulement l’<strong>eau superficielle</strong>.</p>",
             "link_url": "",
             "link_text": "",
@@ -185,7 +185,7 @@
             "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002046.249.jpg",
             "column_size": "4",
             "title": "Trèfle rouge – Trifolium pratense",
-            "heading_tag": "h4",
+            "heading_tag": "h5",
             "content": "<p>→ <strong>L’équilibre féminin </strong>Aide le corps à <strong>stabiliser les cycles hormonaux</strong> qui favorisent la <strong>rétention d’eau</strong>, les <strong>gonflements matinaux</strong> et le <strong>visage gonflé</strong>.</p>",
             "link_url": "",
             "link_text": "",
@@ -198,7 +198,7 @@
             "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002053.831.jpg",
             "column_size": "4",
             "title": "Stillingia – Stillingia sylvatica",
-            "heading_tag": "h4",
+            "heading_tag": "h5",
             "content": "<p>→ <strong>Le purificateur en profondeur </strong>Plante peu commune qui agit dans les <strong>tissus profonds</strong> pour <strong>dissoudre les déchets accumulés</strong>, à l’origine de la <strong>lourdeur</strong> et de la <strong>pression interne</strong>.</p>",
             "link_url": "",
             "link_text": "",
@@ -211,7 +211,7 @@
             "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002100.551.jpg",
             "column_size": "4",
             "title": "Frêne épineux – Zanthoxylum americanum",
-            "heading_tag": "h4",
+            "heading_tag": "h5",
             "content": "<p>→ <strong>Le stimulant circulatoire </strong>Réactive la <strong>microcirculation</strong> et remet en mouvement les <strong>fluides stagnants</strong> dans les zones les plus sensibles : <strong>visage</strong>, <strong>mâchoire</strong>, <strong>chevilles</strong>.</p>",
             "link_url": "",
             "link_text": "",
@@ -553,9 +553,9 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Julia S.",
+            "title": "Visage plus fin en quelques jours",
+            "content": "<p>J’ai vu une vraie différence dès la première semaine : mon visage est plus affiné, moins gonflé et beaucoup plus frais chaque matin.</p>"
           }
         },
         "testimonial_9Ad839": {
@@ -565,8 +565,8 @@
             "show_rating": true,
             "rating": 5,
             "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Effet drainant immédiat",
+            "content": "<p>Très agréable à utiliser et surtout efficace. Mon visage dégonfle visiblement et mes traits sont plus détendus.</p>"
           }
         },
         "testimonial_bpXMC4": {
@@ -576,15 +576,39 @@
             "show_rating": true,
             "rating": 4,
             "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Sensation de légèreté au réveil",
+            "content": "<p>Un petit geste quotidien qui change tout. Je me sens plus légère, moins bouffie et ma peau est plus lumineuse.</p>"
+          }
+        },
+        "testimonial_bFLFCB": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Océane L.",
+            "title": "Traits visiblement affinés",
+            "content": "<p>Après quelques jours seulement, j’ai remarqué que mon visage est moins enflé au réveil et paraît plus reposé.</p>"
+          }
+        },
+        "testimonial_UFkcC4": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Lisa K.",
+            "title": "Peau plus fraîche et tonique",
+            "content": "<p>Effet drainant impressionnant, mes traits sont plus sculptés et ma peau paraît plus ferme. Je suis vraiment ravie.</p>"
           }
         }
       },
       "block_order": [
         "testimonial_cLyixe",
         "testimonial_9Ad839",
-        "testimonial_bpXMC4"
+        "testimonial_bpXMC4",
+        "testimonial_bFLFCB",
+        "testimonial_UFkcC4"
       ],
       "name": "Testimonials",
       "settings": {
