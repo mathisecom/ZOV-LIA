@@ -229,7 +229,7 @@
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "gap": "medium",
+        "gap": "small",
         "text_alignment": "center",
         "subheading": "",
         "title": "Ce Qui Rend Nos Gouttes Si Efficaces !",
