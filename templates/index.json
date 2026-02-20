@@ -219,9 +219,9 @@
       ],
       "name": "Why Smileactives",
       "settings": {
-        "padding_top": 20,
-        "padding_bottom": 60,
-        "background_color": "#ffffff",
+        "padding_top": 45,
+        "padding_bottom": 45,
+        "background_color": "#f9fffd",
         "title": "Pourquoi Faire Confiance À Zovélia ?",
         "title_color": "#01322d",
         "subtitle": "",
