@@ -11,13 +11,13 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "content_width": "80ch"
       }
     },
     "gp_global_section_606774657986593335_KKjbTk": {
       "type": "gp-global-section-606774657986593335",
+      "disabled": true,
       "name": "Notre Histoire",
       "settings": {
         "section_preload": "off_lazy_script",
@@ -26,6 +26,7 @@
     },
     "gp_global_section_606775039819252634_eWTDa7": {
       "type": "gp-global-section-606775039819252634",
+      "disabled": true,
       "name": "Histoire 2",
       "settings": {
         "section_preload": "off_lazy_script",
@@ -34,6 +35,7 @@
     },
     "gp_global_section_606775101005759031_nnPVnp": {
       "type": "gp-global-section-606775101005759031",
+      "disabled": true,
       "name": "Histoire 3",
       "settings": {
         "section_preload": "off_lazy_script",
