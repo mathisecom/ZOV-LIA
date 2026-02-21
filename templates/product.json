@@ -779,7 +779,7 @@
         "image_CK93NX": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/d6674493-e3ee-40ec-8a5b-776c230633e5.jpg",
+            "image": "shopify://shop_images/Gemini_Generated_Image_6xygic6xygic6xyg.jpg",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center text-center",
@@ -1319,20 +1319,6 @@
     },
     "17714313193ace51d7": {
       "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_NxjHTw": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "real_data",
-            "max_width": 1200,
-            "show_shop_reviews": false,
-            "empty_state": "empty_widget"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_NxjHTw"
-      ],
       "disabled": true,
       "settings": {
         "full_width": true,
