@@ -1094,8 +1094,8 @@
             "show_rating": true,
             "rating": 4,
             "author": "Julia S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Visage plus fin en quelques jours",
+            "content": "<p>J’ai vu une vraie différence dès la première semaine : mon visage est plus affiné, moins gonflé et beaucoup plus frais chaque matin.</p>"
           }
         },
         "testimonial_hJ9wUK": {
@@ -1106,8 +1106,8 @@
             "show_rating": true,
             "rating": 5,
             "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Effet drainant immédiat",
+            "content": "<p>Très agréable à utiliser et surtout efficace. Mon visage dégonfle visiblement et mes traits sont plus détendus.</p>"
           }
         },
         "testimonial_J3Cfty": {
@@ -1118,8 +1118,8 @@
             "show_rating": true,
             "rating": 4,
             "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Sensation de légèreté au réveil",
+            "content": "<p>Un petit geste quotidien qui change tout. Je me sens plus légère, moins bouffie et ma peau est plus lumineuse.</p>"
           }
         },
         "testimonial_4Xcp64": {
@@ -1129,9 +1129,9 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "",
-            "title": "Testimonial",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Océane L.",
+            "title": "Traits visiblement affinés",
+            "content": "<p>Après quelques jours seulement, j’ai remarqué que mon visage est moins enflé au réveil et paraît plus reposé.</p>"
           }
         },
         "testimonial_QPTFkR": {
@@ -1141,9 +1141,21 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "",
-            "title": "Testimonial",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Lisa K.",
+            "title": "Peau plus fraîche et tonique",
+            "content": "<p>Effet drainant impressionnant, mes traits sont plus sculptés et ma peau paraît plus ferme. Je suis vraiment ravie.</p>"
+          }
+        },
+        "testimonial_izKm66": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/lwMGLDsyp6.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Laurianne G.",
+            "title": "Résultats rapides et visibles",
+            "content": "<p>Visage plus sculpté, sensation de fraîcheur et vraie amélioration dès les premières utilisations.</p>"
           }
         }
       },
@@ -1152,7 +1164,8 @@
         "testimonial_hJ9wUK",
         "testimonial_J3Cfty",
         "testimonial_4Xcp64",
-        "testimonial_QPTFkR"
+        "testimonial_QPTFkR",
+        "testimonial_izKm66"
       ],
       "name": "Testimonials",
       "settings": {
