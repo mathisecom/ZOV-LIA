@@ -1,0 +1,2336 @@
+
+    {% render 'gp-head', isThemeSection: true %}
+    
+    <style {% if section.settings.section_preload == "false" %} class="gps-link gps-style" type="text/disabled-css" {% endif %}>.gps-607881697198867030.gps.gpsil [style*="--as:"]{align-self:var(--as)}.gps-607881697198867030.gps.gpsil [style*="--aspect:"]{aspect-ratio:var(--aspect)}.gps-607881697198867030.gps.gpsil [style*="--bg:"]{background:var(--bg)}.gps-607881697198867030.gps.gpsil [style*="--hvr-bg:"]:hover{background:var(--hvr-bg)}.gps-607881697198867030.gps.gpsil [style*="--bga:"]{background-attachment:var(--bga)}.gps-607881697198867030.gps.gpsil [style*="--bgc:"]{background-color:var(--bgc)}.gps-607881697198867030.gps.gpsil [style*="--bgi:"]{background-image:var(--bgi)}.gps-607881697198867030.gps.gpsil [style*="--hvr-bgi:"]:hover{background-image:var(--hvr-bgi)}.gps-607881697198867030.gps.gpsil [style*="--bgp:"]{background-position:var(--bgp)}.gps-607881697198867030.gps.gpsil [style*="--bgr:"]{background-repeat:var(--bgr)}.gps-607881697198867030.gps.gpsil [style*="--bgs:"]{background-size:var(--bgs)}.gps-607881697198867030.gps.gpsil [style*="--b:"]{border:var(--b)}.gps-607881697198867030.gps.gpsil [style*="--hvr-b:"]:hover{border:var(--hvr-b)}.gps-607881697198867030.gps.gpsil [style*="--focus-b:"]:focus{border:var(--focus-b)}.gps-607881697198867030.gps.gpsil [style*="--bb:"]{border-bottom:var(--bb)}.gps-607881697198867030.gps.gpsil [style*="--hvr-bb:"]:hover{border-bottom:var(--hvr-bb)}.gps-607881697198867030.gps.gpsil [style*="--focus-bb:"]:focus{border-bottom:var(--focus-bb)}.gps-607881697198867030.gps.gpsil [style*="--bc:"]{border-color:var(--bc)}.gps-607881697198867030.gps.gpsil [style*="--bblr:"]{border-bottom-left-radius:var(--bblr)}.gps-607881697198867030.gps.gpsil [style*="--hvr-bblr:"]:hover{border-bottom-left-radius:var(--hvr-bblr)}.gps-607881697198867030.gps.gpsil [style*="--focus-bblr:"]:focus{border-bottom-left-radius:var(--focus-bblr)}.gps-607881697198867030.gps.gpsil [style*="--bbrr:"]{border-bottom-right-radius:var(--bbrr)}.gps-607881697198867030.gps.gpsil [style*="--hvr-bbrr:"]:hover{border-bottom-right-radius:var(--hvr-bbrr)}.gps-607881697198867030.gps.gpsil [style*="--focus-bbrr:"]:focus{border-bottom-right-radius:var(--focus-bbrr)}.gps-607881697198867030.gps.gpsil [style*="--bl:"]{border-left:var(--bl)}.gps-607881697198867030.gps.gpsil [style*="--bs:"]{border-style:var(--bs)}.gps-607881697198867030.gps.gpsil [style*="--bt:"]{border-top:var(--bt)}.gps-607881697198867030.gps.gpsil [style*="--hvr-bt:"]:hover{border-top:var(--hvr-bt)}.gps-607881697198867030.gps.gpsil [style*="--focus-bt:"]:focus{border-top:var(--focus-bt)}.gps-607881697198867030.gps.gpsil [style*="--btlr:"]{border-top-left-radius:var(--btlr)}.gps-607881697198867030.gps.gpsil [style*="--hvr-btlr:"]:hover{border-top-left-radius:var(--hvr-btlr)}.gps-607881697198867030.gps.gpsil [style*="--focus-btlr:"]:focus{border-top-left-radius:var(--focus-btlr)}.gps-607881697198867030.gps.gpsil [style*="--btrr:"]{border-top-right-radius:var(--btrr)}.gps-607881697198867030.gps.gpsil [style*="--hvr-btrr:"]:hover{border-top-right-radius:var(--hvr-btrr)}.gps-607881697198867030.gps.gpsil [style*="--focus-btrr:"]:focus{border-top-right-radius:var(--focus-btrr)}.gps-607881697198867030.gps.gpsil [style*="--bw:"]{border-width:var(--bw)}.gps-607881697198867030.gps.gpsil [style*="--bottom:"]{bottom:var(--bottom)}.gps-607881697198867030.gps.gpsil [style*="--shadow:"]{box-shadow:var(--shadow)}.gps-607881697198867030.gps.gpsil [style*="--c:"]{color:var(--c)}.gps-607881697198867030.gps.gpsil [style*="--hvr-c:"]:hover{color:var(--hvr-c)}.gps-607881697198867030.gps.gpsil [style*="--cg:"]{-moz-column-gap:var(--cg);column-gap:var(--cg)}.gps-607881697198867030.gps.gpsil [style*="--fd:"]{flex-direction:var(--fd)}.gps-607881697198867030.gps.gpsil [style*="--ff:"]{font-family:var(--ff)}.gps-607881697198867030.gps.gpsil [style*="--size:"]{font-size:var(--size)}.gps-607881697198867030.gps.gpsil [style*="--weight:"]{font-weight:var(--weight)}.gps-607881697198867030.gps.gpsil [style*="--fs:"]{font-style:var(--fs)}.gps-607881697198867030.gps.gpsil [style*="--gg:"]{grid-gap:var(--gg)}.gps-607881697198867030.gps.gpsil [style*="--gtc:"]{grid-template-columns:var(--gtc)}.gps-607881697198867030.gps.gpsil [style*="--h:"]{height:var(--h)}.gps-607881697198867030.gps.gpsil [style*="--jc:"]{justify-content:var(--jc)}.gps-607881697198867030.gps.gpsil [style*="--left:"]{left:var(--left)}.gps-607881697198867030.gps.gpsil [style*="--ls:"]{letter-spacing:var(--ls)}.gps-607881697198867030.gps.gpsil [style*="--lh:"]{line-height:var(--lh)}.gps-607881697198867030.gps.gpsil [style*="--tdt:"]{text-decoration-thickness:var(--tdt)}.gps-607881697198867030.gps.gpsil [style*="--tdl:"]{text-decoration-line:var(--tdl)}.gps-607881697198867030.gps.gpsil [style*="--m:"]{margin:var(--m)}.gps-607881697198867030.gps.gpsil [style*="--mb:"]{margin-bottom:var(--mb)}.gps-607881697198867030.gps.gpsil [style*="--maxw:"]{max-width:var(--maxw)}.gps-607881697198867030.gps.gpsil [style*="--minw:"]{min-width:var(--minw)}.gps-607881697198867030.gps.gpsil [style*="--objf:"]{-o-object-fit:var(--objf);object-fit:var(--objf)}.gps-607881697198867030.gps.gpsil [style*="--op:"]{opacity:var(--op)}.gps-607881697198867030.gps.gpsil [style*="--o:"]{order:var(--o)}.gps-607881697198867030.gps.gpsil [style*="--pc:"]{place-content:var(--pc)}.gps-607881697198867030.gps.gpsil [style*="--p:"]{padding:var(--p)}.gps-607881697198867030.gps.gpsil [style*="--pb:"]{padding-bottom:var(--pb)}.gps-607881697198867030.gps.gpsil [style*="--pl:"]{padding-left:var(--pl)}.gps-607881697198867030.gps.gpsil [style*="--pr:"]{padding-right:var(--pr)}.gps-607881697198867030.gps.gpsil [style*="--pt:"]{padding-top:var(--pt)}.gps-607881697198867030.gps.gpsil [style*="--pos:"]{position:var(--pos)}.gps-607881697198867030.gps.gpsil [style*="--right:"]{right:var(--right)}.gps-607881697198867030.gps.gpsil [style*="--rg:"]{row-gap:var(--rg)}.gps-607881697198867030.gps.gpsil [style*="--ta:"]{text-align:var(--ta)}.gps-607881697198867030.gps.gpsil [style*="--ts:"]{text-shadow:var(--ts)}.gps-607881697198867030.gps.gpsil [style*="--tt:"]{text-transform:var(--tt)}.gps-607881697198867030.gps.gpsil [style*="--top:"]{top:var(--top)}.gps-607881697198867030.gps.gpsil [style*="--t:"]{transform:var(--t)}.gps-607881697198867030.gps.gpsil [style*="--w:"]{width:var(--w)}.gps-607881697198867030.gps.gpsil [style*="--line-clamp:"]{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp)}@media only screen and (max-width:1024px){.gps-607881697198867030.gps.gpsil [style*="--aspect-tablet:"]{aspect-ratio:var(--aspect-tablet)}.gps-607881697198867030.gps.gpsil [style*="--bottom-tablet:"]{bottom:var(--bottom-tablet)}.gps-607881697198867030.gps.gpsil [style*="--cg-tablet:"]{-moz-column-gap:var(--cg-tablet);column-gap:var(--cg-tablet)}.gps-607881697198867030.gps.gpsil [style*="--size-tablet:"]{font-size:var(--size-tablet)}.gps-607881697198867030.gps.gpsil [style*="--gtc-tablet:"]{grid-template-columns:var(--gtc-tablet)}.gps-607881697198867030.gps.gpsil [style*="--h-tablet:"]{height:var(--h-tablet)}.gps-607881697198867030.gps.gpsil [style*="--jc-tablet:"]{justify-content:var(--jc-tablet)}.gps-607881697198867030.gps.gpsil [style*="--left-tablet:"]{left:var(--left-tablet)}.gps-607881697198867030.gps.gpsil [style*="--lh-tablet:"]{line-height:var(--lh-tablet)}.gps-607881697198867030.gps.gpsil [style*="--mb-tablet:"]{margin-bottom:var(--mb-tablet)}.gps-607881697198867030.gps.gpsil [style*="--maxw-tablet:"]{max-width:var(--maxw-tablet)}.gps-607881697198867030.gps.gpsil [style*="--minw-tablet:"]{min-width:var(--minw-tablet)}.gps-607881697198867030.gps.gpsil [style*="--op-tablet:"]{opacity:var(--op-tablet)}.gps-607881697198867030.gps.gpsil [style*="--o-tablet:"]{order:var(--o-tablet)}.gps-607881697198867030.gps.gpsil [style*="--pb-tablet:"]{padding-bottom:var(--pb-tablet)}.gps-607881697198867030.gps.gpsil [style*="--pl-tablet:"]{padding-left:var(--pl-tablet)}.gps-607881697198867030.gps.gpsil [style*="--pr-tablet:"]{padding-right:var(--pr-tablet)}.gps-607881697198867030.gps.gpsil [style*="--pt-tablet:"]{padding-top:var(--pt-tablet)}.gps-607881697198867030.gps.gpsil [style*="--pos-tablet:"]{position:var(--pos-tablet)}.gps-607881697198867030.gps.gpsil [style*="--right-tablet:"]{right:var(--right-tablet)}.gps-607881697198867030.gps.gpsil [style*="--top-tablet:"]{top:var(--top-tablet)}.gps-607881697198867030.gps.gpsil [style*="--w-tablet:"]{width:var(--w-tablet)}.gps-607881697198867030.gps.gpsil [style*="--line-clamp-tablet:"]{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp-tablet)}}@media only screen and (max-width:767px){.gps-607881697198867030.gps.gpsil [style*="--aspect-mobile:"]{aspect-ratio:var(--aspect-mobile)}.gps-607881697198867030.gps.gpsil [style*="--bottom-mobile:"]{bottom:var(--bottom-mobile)}.gps-607881697198867030.gps.gpsil [style*="--cg-mobile:"]{-moz-column-gap:var(--cg-mobile);column-gap:var(--cg-mobile)}.gps-607881697198867030.gps.gpsil [style*="--size-mobile:"]{font-size:var(--size-mobile)}.gps-607881697198867030.gps.gpsil [style*="--gg-mobile:"]{grid-gap:var(--gg-mobile)}.gps-607881697198867030.gps.gpsil [style*="--gtc-mobile:"]{grid-template-columns:var(--gtc-mobile)}.gps-607881697198867030.gps.gpsil [style*="--h-mobile:"]{height:var(--h-mobile)}.gps-607881697198867030.gps.gpsil [style*="--jc-mobile:"]{justify-content:var(--jc-mobile)}.gps-607881697198867030.gps.gpsil [style*="--left-mobile:"]{left:var(--left-mobile)}.gps-607881697198867030.gps.gpsil [style*="--lh-mobile:"]{line-height:var(--lh-mobile)}.gps-607881697198867030.gps.gpsil [style*="--mb-mobile:"]{margin-bottom:var(--mb-mobile)}.gps-607881697198867030.gps.gpsil [style*="--maxw-mobile:"]{max-width:var(--maxw-mobile)}.gps-607881697198867030.gps.gpsil [style*="--minw-mobile:"]{min-width:var(--minw-mobile)}.gps-607881697198867030.gps.gpsil [style*="--op-mobile:"]{opacity:var(--op-mobile)}.gps-607881697198867030.gps.gpsil [style*="--o-mobile:"]{order:var(--o-mobile)}.gps-607881697198867030.gps.gpsil [style*="--pb-mobile:"]{padding-bottom:var(--pb-mobile)}.gps-607881697198867030.gps.gpsil [style*="--pl-mobile:"]{padding-left:var(--pl-mobile)}.gps-607881697198867030.gps.gpsil [style*="--pr-mobile:"]{padding-right:var(--pr-mobile)}.gps-607881697198867030.gps.gpsil [style*="--pt-mobile:"]{padding-top:var(--pt-mobile)}.gps-607881697198867030.gps.gpsil [style*="--pos-mobile:"]{position:var(--pos-mobile)}.gps-607881697198867030.gps.gpsil [style*="--right-mobile:"]{right:var(--right-mobile)}.gps-607881697198867030.gps.gpsil [style*="--ta-mobile:"]{text-align:var(--ta-mobile)}.gps-607881697198867030.gps.gpsil [style*="--top-mobile:"]{top:var(--top-mobile)}.gps-607881697198867030.gps.gpsil [style*="--w-mobile:"]{width:var(--w-mobile)}.gps-607881697198867030.gps.gpsil [style*="--line-clamp-mobile:"]{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp-mobile)}}.gps-607881697198867030 .-gp-rotate-90,.gps-607881697198867030 .-gp-translate-x-1\/2,.gps-607881697198867030 .-gp-translate-y-1\/2,.gps-607881697198867030 .gp-rotate-0,.gps-607881697198867030 .gp-rotate-180,.gps-607881697198867030 .gp-rotate-90,.gps-607881697198867030 .mobile\:gp-rotate-0,.gps-607881697198867030 .mobile\:gp-rotate-180,.gps-607881697198867030 .tablet\:gp-rotate-0,.gps-607881697198867030 .tablet\:gp-rotate-180{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1}.gps-607881697198867030 .gp-g-paragraph-1{font-family:var(--g-p1-ff);font-size:var(--g-p1-size);font-style:var(--g-p1-fs);font-weight:var(--g-p1-weight);letter-spacing:var(--g-p1-ls);line-height:var(--g-p1-lh)}.gps-607881697198867030 .gp-invisible{visibility:hidden}.gps-607881697198867030 .gp-static{position:static}.gps-607881697198867030 .gp-absolute{position:absolute}.gps-607881697198867030 .gp-relative{position:relative}.gps-607881697198867030 .gp-inset-0{inset:0}.gps-607881697198867030 .gp-bottom-0{bottom:0}.gps-607881697198867030 .gp-left-0{left:0}.gps-607881697198867030 .gp-left-1\/2{left:50%}.gps-607881697198867030 .gp-right-0{right:0}.gps-607881697198867030 .gp-top-0{top:0}.gps-607881697198867030 .gp-top-1\/2{top:50%}.gps-607881697198867030 .gp-z-0{z-index:0}.gps-607881697198867030 .gp-z-1{z-index:1}.gps-607881697198867030 .gp-z-2{z-index:2}.gps-607881697198867030 .gp-z-\[90\]{z-index:90}.gps-607881697198867030 .\!gp-m-0{margin:0!important}.gps-607881697198867030 .gp-mx-auto{margin-left:auto;margin-right:auto}.gps-607881697198867030 .gp-my-0{margin-bottom:0;margin-top:0}.gps-607881697198867030 .gp-mb-0{margin-bottom:0}.gps-607881697198867030 .\!gp-block{display:block!important}.gps-607881697198867030 .gp-block{display:block}.gps-607881697198867030 .gp-flex{display:flex}.gps-607881697198867030 .gp-inline-flex{display:inline-flex}.gps-607881697198867030 .gp-grid{display:grid}.gps-607881697198867030 .\!gp-hidden{display:none!important}.gps-607881697198867030 .gp-hidden{display:none}.gps-607881697198867030 .gp-aspect-\[56\/32\]{aspect-ratio:56/32}.gps-607881697198867030 .gp-h-0{height:0}.gps-607881697198867030 .gp-h-5{height:20px}.gps-607881697198867030 .gp-h-6{height:24px}.gps-607881697198867030 .gp-h-full{height:100%}.gps-607881697198867030 .gp-max-h-full{max-height:100%}.gps-607881697198867030 .\!gp-min-h-full{min-height:100%!important}.gps-607881697198867030 .gp-min-h-0{min-height:0}.gps-607881697198867030 .gp-w-14{width:56px}.gps-607881697198867030 .gp-w-5{width:20px}.gps-607881697198867030 .gp-w-6{width:24px}.gps-607881697198867030 .gp-w-full{width:100%}.gps-607881697198867030 .\!gp-min-w-full{min-width:100%!important}.gps-607881697198867030 .\!gp-max-w-full{max-width:100%!important}.gps-607881697198867030 .gp-max-w-full{max-width:100%}.gps-607881697198867030 .gp-flex-1{flex:1 1 0%}.gps-607881697198867030 .gp-shrink-0{flex-shrink:0}.gps-607881697198867030 .-gp-translate-x-1\/2{--tw-translate-x:-50%}.gps-607881697198867030 .-gp-translate-x-1\/2,.gps-607881697198867030 .-gp-translate-y-1\/2{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.gps-607881697198867030 .-gp-translate-y-1\/2{--tw-translate-y:-50%}.gps-607881697198867030 .-gp-rotate-90{--tw-rotate:-90deg}.gps-607881697198867030 .-gp-rotate-90,.gps-607881697198867030 .gp-rotate-0{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.gps-607881697198867030 .gp-rotate-0{--tw-rotate:0deg}.gps-607881697198867030 .gp-rotate-180{--tw-rotate:180deg}.gps-607881697198867030 .gp-rotate-180,.gps-607881697198867030 .gp-rotate-90{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.gps-607881697198867030 .gp-rotate-90{--tw-rotate:90deg}.gps-607881697198867030 .gp-cursor-default{cursor:default}.gps-607881697198867030 .gp-cursor-pointer{cursor:pointer}.gps-607881697198867030 .gp-select-none{-webkit-user-select:none;-moz-user-select:none;user-select:none}.gps-607881697198867030 .gp-grid-rows-\[0fr\]{grid-template-rows:0fr}.gps-607881697198867030 .gp-grid-rows-\[1fr\]{grid-template-rows:1fr}.gps-607881697198867030 .\!gp-flex-row{flex-direction:row!important}.gps-607881697198867030 .gp-flex-row{flex-direction:row}.gps-607881697198867030 .gp-flex-col{flex-direction:column}.gps-607881697198867030 .\!gp-flex-nowrap{flex-wrap:nowrap!important}.gps-607881697198867030 .gp-items-start{align-items:flex-start}.gps-607881697198867030 .gp-items-center{align-items:center}.gps-607881697198867030 .gp-justify-center{justify-content:center}.gps-607881697198867030 .gp-justify-between{justify-content:space-between}.gps-607881697198867030 .gp-gap-2{gap:8px}.gps-607881697198867030 .gp-gap-\[16px\]{gap:16px}.gps-607881697198867030 .gp-overflow-hidden{overflow:hidden}.gps-607881697198867030 .gp-overflow-clip{overflow:clip}.gps-607881697198867030 .gp-break-words{overflow-wrap:break-word}.gps-607881697198867030 .gp-break-all{word-break:break-all}.gps-607881697198867030 .\!gp-rounded-none{border-radius:0!important}.gps-607881697198867030 .gp-rounded{border-radius:4px}.gps-607881697198867030 .gp-bg-black\/50{background-color:rgba(0,0,0,.5)}.gps-607881697198867030 .gp-bg-black\/80{background-color:rgba(0,0,0,.8)}.gps-607881697198867030 .gp-object-cover{-o-object-fit:cover;object-fit:cover}.gps-607881697198867030 .gp-px-0{padding-left:0;padding-right:0}.gps-607881697198867030 .gp-py-0{padding-bottom:0;padding-top:0}.gps-607881697198867030 .\!gp-pb-0{padding-bottom:0!important}.gps-607881697198867030 .gp-pb-1{padding-bottom:4px}.gps-607881697198867030 .gp-pr-1{padding-right:4px}.gps-607881697198867030 .gp-text-center{text-align:center}.gps-607881697198867030 .gp-text-g-text-3{color:var(--g-c-text-3)}.gps-607881697198867030 .gp-text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity,1))}.gps-607881697198867030 .gp-text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.gps-607881697198867030 .gp-no-underline{text-decoration-line:none}.gps-607881697198867030 .gp-opacity-0{opacity:0}.gps-607881697198867030 .gp-opacity-25{opacity:.25}.gps-607881697198867030 .gp-opacity-30{opacity:.3}.gps-607881697198867030 .gp-opacity-75{opacity:.75}.gps-607881697198867030 .gp-outline-1{outline-width:1px}.gps-607881697198867030 .-gp-outline-offset-1{outline-offset:-1px}.gps-607881697198867030 .gp-transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-607881697198867030 .gp-transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-607881697198867030 .gp-transition-opacity{transition-duration:.15s;transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-607881697198867030 .gp-duration-100{transition-duration:.1s}.gps-607881697198867030 .gp-duration-200{transition-duration:.2s}.gps-607881697198867030 .gp-duration-500{transition-duration:.5s}.gps-607881697198867030 .gp-ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-607881697198867030 .disabled\:gp-btn-disabled:disabled{cursor:default}@media (hover:hover) and (pointer:fine){.gps-607881697198867030 .hover\:gp-bg-\[\#ef0800\]:hover{--tw-bg-opacity:1;background-color:rgb(239 8 0/var(--tw-bg-opacity,1))}}.gps-607881697198867030 .disabled\:gp-opacity-30:disabled{opacity:.3}@media (hover:hover) and (pointer:fine){.gps-607881697198867030 .gp-group:hover .group-hover\:gp-opacity-100{opacity:1}.gps-607881697198867030 .gp-group:hover .group-hover\:\[color\:var\(--icon-expand-hover-color\)\]{color:var(--icon-expand-hover-color)}.gps-607881697198867030 .gp-group:hover .group-hover\:\[color\:var\(--icon-hover-color\)\!important\]{color:var(--icon-hover-color)!important}.gps-607881697198867030 .gp-group:hover .group-hover\:\[color\:var\(--text-hover-color\)\!important\]{color:var(--text-hover-color)!important}}.gps-607881697198867030 .gp-group\/button:active .group-active\/button\:\!gp-text-inherit{color:inherit!important}.gps-607881697198867030 .data-\[only-image\=true\]\:gp-hidden[data-only-image=true]{display:none}.gps-607881697198867030 .data-\[outline\=active\]\:gp-outline[data-outline=active]{outline-style:solid}.gps-607881697198867030 .data-\[outline\=deactive\]\:after\:\!gp-border-transparent[data-outline=deactive]:after{border-color:transparent!important;content:var(--tw-content)}.gps-607881697198867030 .gp-group[data-state=loading] .group-data-\[state\=loading\]\:gp-visible{visibility:visible}.gps-607881697198867030 .gp-group[data-state=loading] .group-data-\[state\=loading\]\:gp-invisible{visibility:hidden}@keyframes gp-spin{to{transform:rotate(1turn)}}.gps-607881697198867030 .gp-group[data-state=loading] .group-data-\[state\=loading\]\:gp-animate-spin{animation:gp-spin 1s linear infinite}@media (max-width:1024px){.gps-607881697198867030 .tablet\:gp-static{position:static}.gps-607881697198867030 .tablet\:gp-left-0{left:0}.gps-607881697198867030 .tablet\:gp-right-0{right:0}.gps-607881697198867030 .tablet\:gp-block{display:block}.gps-607881697198867030 .tablet\:\!gp-hidden{display:none!important}.gps-607881697198867030 .tablet\:gp-hidden{display:none}.gps-607881697198867030 .tablet\:\!gp-min-h-full{min-height:100%!important}.gps-607881697198867030 .tablet\:gp-rotate-0{--tw-rotate:0deg}.gps-607881697198867030 .tablet\:gp-rotate-0,.gps-607881697198867030 .tablet\:gp-rotate-180{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.gps-607881697198867030 .tablet\:gp-rotate-180{--tw-rotate:180deg}.gps-607881697198867030 .tablet\:\!gp-flex-row{flex-direction:row!important}.gps-607881697198867030 .tablet\:gp-flex-row{flex-direction:row}.gps-607881697198867030 .tablet\:\!gp-flex-nowrap{flex-wrap:nowrap!important}.gps-607881697198867030 .tablet\:gp-px-0{padding-left:0;padding-right:0}.gps-607881697198867030 .tablet\:gp-py-0{padding-bottom:0;padding-top:0}}@media (max-width:767px){.gps-607881697198867030 .mobile\:gp-static{position:static}.gps-607881697198867030 .mobile\:gp-left-0{left:0}.gps-607881697198867030 .mobile\:gp-right-0{right:0}.gps-607881697198867030 .mobile\:gp-block{display:block}.gps-607881697198867030 .mobile\:\!gp-hidden{display:none!important}.gps-607881697198867030 .mobile\:gp-hidden{display:none}.gps-607881697198867030 .mobile\:\!gp-min-h-full{min-height:100%!important}.gps-607881697198867030 .mobile\:gp-rotate-0{--tw-rotate:0deg}.gps-607881697198867030 .mobile\:gp-rotate-0,.gps-607881697198867030 .mobile\:gp-rotate-180{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.gps-607881697198867030 .mobile\:gp-rotate-180{--tw-rotate:180deg}.gps-607881697198867030 .mobile\:\!gp-flex-row{flex-direction:row!important}.gps-607881697198867030 .mobile\:gp-flex-row{flex-direction:row}.gps-607881697198867030 .mobile\:\!gp-flex-nowrap{flex-wrap:nowrap!important}.gps-607881697198867030 .mobile\:gp-px-0{padding-left:0;padding-right:0}.gps-607881697198867030 .mobile\:gp-py-0{padding-bottom:0;padding-top:0}}.gps-607881697198867030 .\[\&\>svg\]\:\!gp-h-\[var\(--height-configIconSize\)\]>svg{height:var(--height-configIconSize)!important}.gps-607881697198867030 .\[\&\>svg\]\:\!gp-h-\[var\(--height-iconCollapseSize\)\]>svg{height:var(--height-iconCollapseSize)!important}.gps-607881697198867030 .\[\&\>svg\]\:gp-h-full>svg{height:100%}.gps-607881697198867030 .\[\&\>svg\]\:\!gp-w-full>svg{width:100%!important}.gps-607881697198867030 .\[\&\>svg\]\:gp-w-full>svg{width:100%}.gps-607881697198867030 .\[\&_\*\]\:gp-max-w-full *{max-width:100%}.gps-607881697198867030 .\[\&_\*\]\:gp-max-w-none *{max-width:none}.gps-607881697198867030 .\[\&_p\]\:gp-whitespace-pre-line p{white-space:pre-line}</style>
+    <style {% if section.settings.section_preload == "false" %} class="gps-link" type="text/disabled-css" {% endif %}>@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QF5e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_dNQF5e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_ehR15e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_eYR15e.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QF5e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_dNQF5e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_ehR15e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_eYR15e.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QF5e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_dNQF5e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_ehR15e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_eYR15e.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Faculty Glyphic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/facultyglyphic/v4/RrQIbot2-iBvI2mYSyKIrcgoBuQIGw.ttf) format('truetype');
+}
+</style>
+  
+    
+    
+    
+
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+
+    
+        <section
+          class="gp-mx-auto gp-max-w-full [&_*]:gp-max-w-full {% if section.settings.section_preload == "false" %}gps-lazy {% endif %}"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--pl:none;--pl-tablet:none;--pl-mobile:none;--pr:none;--pr-tablet:none;--pr-mobile:none"
+        >
+          
+    <gp-row gp-data='{"background":{"desktop":{"attachment":"scroll","color":"#ffffff","image":{"height":0,"src":"","width":0},"position":{"x":50,"y":50},"repeat":"no-repeat","size":"cover","type":"color"}},"uid":"g-WR9r2JKY"}' data-id="g-WR9r2JKY" id="g-WR9r2JKY" data-same-height-subgrid-container class="g-WR9r2JKY gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--blockPadding:base;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--op-mobile:100%;--op-tablet:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--pt:15px;--pl:15px;--pb:48px;--pr:15px;--pt-tablet:32px;--pb-tablet:32px;--pt-mobile:5px;--pl-mobile:15px;--pb-mobile:14px;--pr-mobile:15px;--cg:32px;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:#ffffff;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:start"
+      class="gTHa0wzmaU gp-relative gp-flex gp-flex-col"
+    >
+      
+    
+      {%- assign gpBkProduct = product -%}
+      
+      {%- liquid
+        if request.page_type == 'product'
+          if 'static' == 'static'
+            if '15689666265413' == 'latest'
+              paginate collections.all.products by 100000
+                assign product = collections.all.products | sort: 'created_at' | reverse | first
+              endpaginate
+            else
+              assign product = all_products['drainant-lymphatique']
+              assign productId = '15689666265413' | times: 1
+              if product == empty or product == null
+                paginate collections.all.products by 100000
+                  for item in collections.all.products
+                    if item.id == productId
+                      assign product = item
+                    endif
+                  endfor
+                endpaginate
+              endif
+            endif
+          endif
+        else
+          if '15689666265413' == 'latest'
+            paginate collections.all.products by 100000
+              assign product = collections.all.products | sort: 'created_at'| reverse | first
+            endpaginate
+          else
+            assign product = all_products['drainant-lymphatique']
+            assign productId = '15689666265413' | times: 1
+            if product == empty or product == null
+              paginate collections.all.products by 100000
+                for item in collections.all.products
+                  if item.id == productId
+                    assign product = item
+                  endif
+                endfor
+              endpaginate
+            endif
+          endif
+        endif
+      -%}
+    
+    
+    {% if product != empty and product != null %}
+      
+      {%- assign initVariantId =  -%}
+      {%- assign product_form_id = 'product-form-' | append: "gbXDmsTGKN" -%}
+      {%- assign variant = product.selected_or_first_available_variant -%}
+      {%- assign productSelectedVariant = product.selected_or_first_available_variant -%}
+      {%-if productSelectedVariant == empty or productSelectedVariant == null -%}
+        {%- assign productSelectedVariant = product.selected_or_first_available_variant -%}
+      {%- endif -%}
+      {%-if variant == empty or variant == null -%}
+        {%- assign variant = product.selected_or_first_available_variant -%}
+      {%- endif -%}
+    
+      <gp-product
+        data-uid="gbXDmsTGKN"
+        data-id="gbXDmsTGKN"
+        
+        
+        gp-context='{"productId": {{ product.id }}, "preSelectedOptionIds": [], "isSyncProduct": "true", "hasPreSelected": true, "variantSelected": {{ variant | json | escape }},  "inventory_management": {{ variant.inventory_management | json | escape  }}, "inventory_policy": {{ variant.inventory_policy | json | escape }}, "inventoryQuantity": {{ variant.inventory_quantity }}, "quantity": 1, "formId": "{{ product_form_id }}" }'
+        gp-data='{"variantSelected": {{ variant | json | escape }}, "quantity": 1, "productUrl":{{ product.url | json | escape }}, "productHandle":{{ product.handle | json | escape }}, "collectionUrl": {{ collection.url | json | escape }}, "collectionHandle": {{ collection.handle | json | escape }}}'
+      >
+        <product-form class="product-form">
+          {%- form 'product', product, id: product_form_id, class: 'form contents', data-type: 'add-to-cart-form', autocomplete: 'off'  -%}
+            <input type="hidden" name="id" value="{{ variant.id }}" />
+            <input type="hidden" name="quantity" value="{{ quantity }}" />
+            <button type="submit" onclick="return false;" style="display:none;"></button>
+            
+    
+
+    
+
+    
+    <gp-row gp-data='{"uid":"gbXDmsTGKN"}' data-id="gbXDmsTGKN-row" id="gbXDmsTGKN" data-same-height-subgrid-container class="gbXDmsTGKN gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--op-mobile:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:0px;--pl:0px;--pr:0px;--mb-tablet:0px;--pl-tablet:0px;--pr-tablet:0px;--mb-mobile:14px;--pl-mobile:0px;--pr-mobile:0px;--cg:30px;--rg:0px;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:100%;--w-mobile:100%;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:start"
+      class="g9-9RHvsrf gp-relative gp-flex gp-flex-col"
+    >
+      
+  {% if product.media.size > 1 %}<style>
+    .gem-slider-item-geHzbHJtuo-{{product.id}}.gp-gallery-image-item::after, .gem-slider-item-gp-gallery-geHzbHJtuo-{{product.id}}.gp-gallery-image-item::after {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      z-index: 999;
+      top: 0;
+      left: 0;
+      border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgba(87, 87, 87, 0.31);
+  
+      
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      
+    }
+    .gem-slider-item-geHzbHJtuo-{{product.id}}.gp-gallery-image-item[data-outline=active]:after, .gem-slider-item-gp-gallery-geHzbHJtuo-{{product.id}}.gp-gallery-image-item[data-outline=active]:after {
+      pointer-events: none;
+    }
+  </style>{% endif %}
+  
+    {% assign featured_image = product.featured_image %}
+    {% if variant != null and variant.featured_image != null %}{% assign featured_image = variant.featured_image %}{% endif %}
+  
+    <gp-product-images
+      gp-data='
+    {
+      "id":"geHzbHJtuo",
+      "pageContext": {"pageType":"","sectionName":"","isPreviewing":false,"isOptimizePlan":false,"isTranslateWithLocale":false,"isLazyLoadSection":true,"isLazyLoadImage":false,"hasCollectionHandle":true,"numberOfProductOfProductList":0,"pageBackground":"","fontType":"","primaryLocale":"","showPriceCurrency":false,"enableLazyLoadImage":false},
+      "setting":{"arrowIcon":"<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM10.6828 8.13017C10.5266 7.95661 10.2734 7.95661 10.1172 8.13017C9.96095 8.30374 9.96095 8.58515 10.1172 8.75871L13.0343 12L10.1172 15.2413C9.96095 15.4149 9.96095 15.6963 10.1172 15.8698C10.2734 16.0434 10.5266 16.0434 10.6828 15.8698L13.8828 12.3143C14.0391 12.1407 14.0391 11.8593 13.8828 11.6857L10.6828 8.13017Z\" fill=\"currentColor\"/>\n    </svg>","arrowIconColor":"#000000","arrowNavBorder":{"border":"none","borderType":"none","borderWidth":"1px","isCustom":false,"width":"1px 1px 1px 1px"},"arrowNavRadius":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"none"},"borderActive":{"border":"solid","borderType":"none","borderWidth":"2px","color":"rgba(87, 87, 87, 0.31)","isCustom":true,"width":"1px 1px 1px 1px"},"clickOpenLightBox":{"desktop":false},"dragToScroll":true,"ftArrowIcon":"<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM10.6828 8.13017C10.5266 7.95661 10.2734 7.95661 10.1172 8.13017C9.96095 8.30374 9.96095 8.58515 10.1172 8.75871L13.0343 12L10.1172 15.2413C9.96095 15.4149 9.96095 15.6963 10.1172 15.8698C10.2734 16.0434 10.5266 16.0434 10.6828 15.8698L13.8828 12.3143C14.0391 12.1407 14.0391 11.8593 13.8828 11.6857L10.6828 8.13017Z\" fill=\"currentColor\"/>\n    </svg>","ftArrowIconColor":"#000000","ftArrowNavBorder":{"border":"none","borderType":"none","borderWidth":"1px","isCustom":false,"width":"1px 1px 1px 1px"},"ftArrowNavRadius":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"none"},"ftClickOpenLightBox":{"desktop":"none"},"ftDotActiveColor":{"desktop":"line-3"},"ftDotColor":{"desktop":"bg-1"},"ftDotGapToCarousel":{"desktop":16},"ftDotSize":{"desktop":12},"ftDotStyle":{"desktop":"none"},"ftDragToScroll":true,"ftLoop":{"desktop":false},"ftNavigationPosition":{"desktop":"none"},"ftPauseOnHover":true,"ftSpeed":1,"galleryHoverEffect":"none","galleryZoom":150,"galleryZoomType":"default","hoverEffect":"none","loop":{"desktop":true},"navigationPosition":{"desktop":"none"},"otherImage":0,"pauseOnHover":true,"preDisplay":"1st-available-variant","preload":false,"qualityPercent":{"desktop":100},"qualityType":{"desktop":"finest"},"speed":1,"type":{"desktop":"slider"},"typeDisplay":"all-images","zoom":150,"zoomType":"default"},
+      "styles":{"align":{"desktop":"flex-start"},"corner":{"bblr":"4px","bbrr":"4px","btlr":"4px","btrr":"4px","radiusType":"custom"},"ftCorner":{"bblr":"6px","bbrr":"6px","btlr":"6px","btrr":"6px","radiusType":"custom"},"ftLayout":{"desktop":"cover"},"ftShape":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"itemSpacing":{"desktop":"var(--g-s-s)","mobile":"9px"},"layout":{"desktop":"cover"},"position":{"desktop":"bottom-center","mobile":"bottom-center"},"ratioLayout":{"desktop":[2,10]},"ratioLayoutRight":{"desktop":[10,2]},"shape":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"shapeFor1Col":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"shapeFor2Col":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"50%"}},"shapeForBottom":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"20%"},"mobile":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"25%","customShapeValue":"","height":"","gap":""}},"shapeForFtOnly":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"shapeForInside":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"20%"}},"shapeForInsideBottom":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"20%"}},"spacing":{"desktop":"16px","mobile":"var(--g-s-s)"}},
+      "productUrl":{{product.url | json | escape}},
+      "product":{{product | json | escape}},
+      "collectionUrl": {{ collection.url | json | escape }},
+      "collection": {{ collection | json | escape}}
+    }
+  '
+      section-id="{{section.id}}" data-id="geHzbHJtuo"
+      style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--op-mobile:100%;--op-tablet:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:20px;--pl:0px;--pr:48px;--mb-tablet:40px;--pl-tablet:0px;--pr-tablet:0px;--mb-mobile:15px;--pl-mobile:0px;--pr-mobile:0px"
+      class="gp-relative gp-w-full geHzbHJtuo "
+    >
+      <div
+        class="{% if product.media.size > 1 %}gp-grid gp-w-full !gp-m-0 gp-relative{% else %}gp-w-full !gp-m-0 gp-relative{% endif %}"
+        style="{% if product.media.size > 1 %}--gtc: minmax(0, 12fr);--gtc-tablet: minmax(0, 12fr);--gtc-mobile: minmax(0, 12fr);--gg: 16px;--gg-mobile: var(--g-s-s);{% else %}--gtc: minmax(0, 12fr);--gg: 16px;--gg-mobile: var(--g-s-s);{% endif %}"
+      >
+        
+    {% capture featureImageOnlyOne %}
+      
+        {% assign featureMedia = variant.featured_media %}
+        {% unless featureMedia %}
+        {% assign featureMedia = product.featured_media %}
+        {% endunless %}
+        {% if product.media.size > 1 %}
+          {% assign featureMedia = variant.featured_media %}
+          {% unless featureMedia %}
+          {% assign featureMedia = product.featured_media %}
+          {% endunless %}
+        {% endif %}
+        {% assign largestRatio = 0 %}
+        {% assign height = featureMedia.height | times: 1.0 %}
+        {% assign width = featureMedia.width | times: 1.0 %}
+        {% assign ratio = height | divided_by: width %}
+        {% if ratio > largestRatio %}{% assign largestRatio = ratio %}{% endif %}
+        {% assign productImageWidth = 0 %}
+        {% case featureMedia.media_type %}
+          {% when 'image' %}
+            {% assign productImageWidth = featureMedia.width %}
+          {% else %}
+            {% assign productImageWidth = featureMedia.preview_image.width %}
+        {% endcase %}
+        {% if featureMedia == null %}{% assign productImageWidth = 1600 %}{% endif %}
+        <div
+          class='gp-feature-image-carousel gp-feature-image-only'
+          style="--jc: flex-start;--o: 0;--o-tablet: 0;--o-mobile: 0;--d: flex;--d-mobile: flex;--d-tablet: flex;"
+        >
+          <div
+            class="gp-relative"
+            style="--w: 100%;--w-tablet: 100%;--w-mobile: 100%;--bblr: 6px;--bbrr: 6px;--btlr: 6px;--btrr: 6px;--hvr-bblr: 6px;--hvr-bbrr: 6px;--hvr-btlr: 6px;--hvr-btrr: 6px;--focus-bblr: 6px;--focus-bbrr: 6px;--focus-btlr: 6px;--focus-btrr: 6px;-undefined-bblr: 6px;-undefined-bbrr: 6px;-undefined-btlr: 6px;-undefined-btrr: 6px;--h: auto;--h-tablet: auto;--h-mobile: auto;"
+          >
+            
+      
+    
+            <div
+              type="gp-feature-image-only"
+              product-id="{{product.id}}"
+              product-media="{{product.media.size}}"
+              class="gp-group gp-z-0 gp-flex !gp-min-w-full !gp-max-w-full gp-w-full gp-relative gp-items-start gp-justify-center gp-overflow-hidden gp-outline-1 -gp-outline-offset-1 gp-image-item gp-ft-image-item data-[outline=active]:gp-outline gp-featured-image-wrapper"
+              style="max-width: 100%;outline-color: var(--g-c-brand, brand);--bblr: 6px;--bbrr: 6px;--btlr: 6px;--btrr: 6px;--hvr-bblr: 6px;--hvr-bbrr: 6px;--hvr-btlr: 6px;--hvr-btrr: 6px;--focus-bblr: 6px;--focus-bbrr: 6px;--focus-btlr: 6px;--focus-btrr: 6px;-undefined-bblr: 6px;-undefined-bbrr: 6px;-undefined-btlr: 6px;-undefined-btrr: 6px;--h: auto;--h-tablet: auto;--h-mobile: auto;width: {{productImageWidth}}px;"
+            >
+              <div
+                class="gp-w-full gp-relative {% if featureMedia == null or featureMedia.media_type == 'image' %}{{ 'gp-h-0' }}{% else %}{{ 'gp-h-full !gp-pb-0' }}{% endif %}"
+                style="--pb: calc((1/1)*100%);--pb-tablet: calc((1/1)*100%);--pb-mobile: calc((1/1)*100%); {% if featureMedia.media_type == 'video' or featureMedia.media_type == 'external_video' %}{{ 'display: flex; align-items: center; justify-content: center' }}{% endif %}"
+              >
+                
+    {% case featureMedia.media_type %}
+      {% when 'image' %}
+        
+      
+    {% assign src = featureMedia.src %}
+    
+    
+    <img
+      alt="{{featureMedia.alt | escape}}" width="{{featureMedia.width}}" height="{{featureMedia.height}}" draggable="false" quality-type="{&quot;desktop&quot;:&quot;finest&quot;}" quality-percent="{&quot;desktop&quot;:100}" data-sizes="auto" sizes="(max-width: 768px) 50vw, 100vw" src="{{src | image_url}}" isNotLazyload="true" srcset="{{src | image_url: width: 480}} 480w, {{src | image_url: width: 768}} 768w, {{src | image_url: width: 1024}} 1024w, {{src | image_url: width: 1440}} 1440w" base-src="{{src | image_url}}" loading="lazy"
+      id="{% if featureMedia != null %}{{featureMedia.id}}{% endif %}"
+      style="--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1;--objf:cover"
+      class="gp-w-full gp-h-full gp-absolute gp-top-0 gp-left-0 featured-image-only gp-cursor-pointer !gp-rounded-none gp-w-full gp-transition-opacity {{shouldHidden}}"
+    />
+       
+       
+    
+      {% when 'external_video' %}
+        {% assign mediaSourceVideo = featureMedia | external_video_url %}
+        
+    <iframe
+      src="{{mediaSourceVideo}}" alt="{{featureMedia.alt | escape}}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0" width="100%" height="100%" controls="true" allowfullscreen="true"
+      style="--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1"
+      class="feature-video gp-w-full gp-h-full gp-relative"
+    >
+    </iframe>
+  
+      {% when 'video' %}
+        {% assign mediaSourceVideo = featureMedia.sources.last.url %}
+        
+  <gp-lite-html5-embed is-check-loaded="true" >
+    
+    <video
+    id="gp-video-undefined" title="{{featureMedia.alt | escape}}" preload="none" data-src="{{mediaSourceVideo}}" poster="{{featureMedia.preview_image.src | product_img_url: '1024x1024'}}" data-poster="{{featureMedia.preview_image.src | product_img_url: '1024x1024'}}"
+      style="width:100%;max-height:100%"
+      class="gp-w-full gp-invisible gp-lazyload-video"
+      controls
+      
+      
+      
+      playsinline
+      
+    ></video>
+    
+     <div
+        role="presentation"
+        style="width:100%;max-height:100%"
+        class="gp-absolute gp-top-0 gp-left-0  gp-w-full gp-thumbnail-video gp-h-full"
+        >
+           
+    <img
+      alt="Alt image" width="2237" height="1678" draggable="false" quality-type quality-percent data-sizes="auto" sizes="100vw" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIzNyIgaGVpZ2h0PSIxNjc4IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPGRlZnM+CiAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZy0yMjM3LTE2NzgiPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iMjAlIiAvPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iNTAlIiAvPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iNzAlIiAvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPHJlY3Qgd2lkdGg9IjIyMzciIGhlaWdodD0iMTY3OCIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iMjIzNyIgaGVpZ2h0PSIxNjc4IiBmaWxsPSJ1cmwoI2ctMjIzNy0xNjc4KSIgLz4KICAgIDxhbmltYXRlIHhsaW5rOmhyZWY9IiNyIiBhdHRyaWJ1dGVOYW1lPSJ4IiBmcm9tPSItMjIzNyIgdG89IjIyMzciIGR1cj0iMXMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiAgLz4KICA8L3N2Zz4=" base-src="{{featureMedia.preview_image.src | product_img_url: '1024x1024'}}" data-src="{{featureMedia.preview_image.src | product_img_url: '1024x1024'}}" data-srcset="{{featureMedia.preview_image.src | product_img_url: '1024x1024'}}"
+      id="video-thumbnail"
+      
+      class="gp-w-full gp-h-full gp-object-cover gp_lazyload"
+    />
+          <button type="button" class="gp-absolute gp-left-1/2 gp-top-1/2 gp-flex gp-aspect-[56/32] gp-w-14 -gp-translate-x-1/2 -gp-translate-y-1/2 gp-items-center gp-justify-center gp-rounded gp-bg-black/80 gp-transition-colors hover:gp-bg-[#ef0800]" aria-label="Play">
+            <svg class="gp-w-5 gp-text-white" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M5 5.274c0-1.707 1.826-2.792 3.325-1.977l12.362 6.726c1.566.853 1.566 3.101 0 3.953L8.325 20.702C6.826 21.518 5 20.432 5 18.726V5.274Z"
+              />
+            </svg>
+          </button>
+        </div>
+  
+  </gp-lite-html5-embed>
+        <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-lite-html5-embed-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+  
+      {% when 'model' %}
+        
+    <model-viewer
+      src="{% if featureMedia.sources.first.url contains '.glb' %}{{ featureMedia.sources.first.url }}{% else %}{{featureMedia.sources.last.url}}{% endif %}" alt="{{featureMedia.preview_image.alt}}" data-shopify-feature="1.12" width="100%" poster="{{featureMedia.preview_image.src | product_img_url: '1024x1024'}}" ar-status="not-presenting" camera-controls="true"
+      class="gp-w-full gp-h-full model-viewer gp-z-[90]"
+      style="--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1">
+    </model-viewer>
+  
+      {% else %}
+        
+    
+    <img
+      alt="No Image" width="2237" height="1678" draggable="false" quality-type="{&quot;desktop&quot;:&quot;finest&quot;}" quality-percent="{&quot;desktop&quot;:100}" data-sizes="auto" sizes="(max-width: 768px) 50vw, 100vw" src isNotLazyload="true" srcset loading="lazy"
+      id=""
+      style="--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1;--objf:cover"
+      class="gp-w-full gp-h-full gp-absolute gp-top-0 gp-left-0 featured-image-only gp-cursor-pointer !gp-rounded-none"
+    />
+    {% endcase %}
+    
+              </div>
+            </div>
+          </div>
+        </div>
+      
+    {% endcapture %}
+    {% if product.media.size > 1 %}
+        
+      
+    <gp-carousel gp-data='{"id":"ft-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}}","isHiddenArrowWhenDisabled":true,"setting":{"loop":{"desktop":false},"itemNumber":{"desktop":1},"dot":{"desktop":true,"tablet":true,"mobile":true},"dotStyle":{"desktop":"none","tablet":"none","mobile":"none"},"dotSize":{"desktop":12},"dotGapToCarousel":{"desktop":16},"dotColor":{"desktop":"bg-1"},"dotActiveColor":{"desktop":"line-3"},"controlOverContent":{"desktop":false,"tablet":false,"mobile":false},"enableDrag":{"desktop":true,"tablet":true,"mobile":true},"arrowCustom":"<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM10.6828 8.13017C10.5266 7.95661 10.2734 7.95661 10.1172 8.13017C9.96095 8.30374 9.96095 8.58515 10.1172 8.75871L13.0343 12L10.1172 15.2413C9.96095 15.4149 9.96095 15.6963 10.1172 15.8698C10.2734 16.0434 10.5266 16.0434 10.6828 15.8698L13.8828 12.3143C14.0391 12.1407 14.0391 11.8593 13.8828 11.6857L10.6828 8.13017Z\" fill=\"currentColor\"/>\n    </svg>","arrowIconSize":{"desktop":24},"arrowCustomColor":"#000000","arrowBorder":{"desktop":{"border":"none","borderType":"none","borderWidth":"1px","isCustom":false,"width":"1px 1px 1px 1px"}},"roundedArrow":{"desktop":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"none"}},"sneakPeakType":{"desktop":"center"},"arrowGapToEachSide":"16","navigationStyle":{"desktop":"none"},"navigationEnable":{"desktop":false},"arrowButtonSize":{"desktop":{}},"enableAction":{"desktop":true}},"styles":{"sizeSetting":{"desktop":{"width":"100%","height":"auto"},"tablet":{"width":"100%","height":"auto"},"mobile":{"width":"100%","height":"auto"}},"align":{"desktop":"flex-start","tablet":"flex-start","mobile":"flex-start"}}}' data-id="gp-carousel-geHzbHJtuo" id="gp-root-carousel-ft-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}}" type="gp-feature-image-carousel" product-id="{{product.id}}" product-media="{{product.media.size}}" style="--jc:flex-start;--jc-tablet:flex-start;--jc-mobile:flex-start;--o:0;--o-tablet:0;--o-mobile:0;--d:flex;--d-mobile:flex;--d-tablet:flex" class="gp-group/carousel gp-w-full gp-flex `gp-flex-1 gp-w-full gp-feature-image-carousel gp-product-images-gallery-undefined">
+      <div
+        
+        class="gp-carousel-geHzbHJtuo gp-featured-image-wrapper gp-relative gp-my-0 tablet:gp-px-0 gp-max-w-full mobile:gp-px-0 gp-carousel-wrapper mobile:gp-block tablet:gp-block gp-block"
+        style="playSpeed:600;--h:auto;--h-tablet:auto;--h-mobile:auto;--w:100%;--w-tablet:100%;--w-mobile:100%"
+      >
+        <div class="gp-relative gp-flex gp-items-center gp-justify-between mobile:!gp-flex-row tablet:!gp-flex-row !gp-flex-row" style="--h:100%;--h-tablet:100%;--h-mobile:100%;gap:16px">
+          
+    <button
+      type="button"
+      aria-label='Carousel Back Arrow'
+      class="gp-z-1 gp-items-center gp-justify-center gp-overflow-hidden gp-shrink-0 gp-carousel-arrow-gp-carousel-geHzbHJtuo ft-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}} gp-carousel-action-back gem-slider-previous gp-cursor-pointer gp-text-gray-500 !gp-hidden tablet:!gp-hidden mobile:!gp-hidden"
+      style="--d:none;--d-tablet:none;--d-mobile:none;--left:3px;--right:initial;--top:initial;--bottom:;--left-tablet:3px;--right-tablet:initial;--top-tablet:initial;--bottom-tablet:;--left-mobile:3px;--right-mobile:initial;--top-mobile:initial;--bottom-mobile:"
+    >
+      <style type="text/css">
+      .ft-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}}.gp-carousel-arrow-gp-carousel-geHzbHJtuo {
+        
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+      }
+      .ft-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}}.gp-carousel-arrow-gp-carousel-geHzbHJtuo::before {
+        content: '';
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        pointer-events: none;
+        z-index: 10;
+        border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+        
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+      }
+      @media only screen and (max-width: 1024px) and (min-width: 768px) {
+        .ft-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}}.gp-carousel-arrow-gp-carousel-geHzbHJtuo {
+          
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+        }
+        .ft-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}}.gp-carousel-arrow-gp-carousel-geHzbHJtuo::before {
+          border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+          
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        .ft-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}}.gp-carousel-arrow-gp-carousel-geHzbHJtuo {
+          
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+        }
+        .ft-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}}.gp-carousel-arrow-gp-carousel-geHzbHJtuo::before {
+          border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+          
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+        }
+      }
+    </style>
+      
+    <div
+      class="gp-flex gp-items-center gp-justify-center [&>svg]:gp-h-full [&>svg]:gp-w-full gp-rotate-180 tablet:gp-rotate-180 mobile:gp-rotate-180"
+      style="--c:#000000;--w:24px;--w-tablet:24px;--w-mobile:24px;--h:24px;--h-tablet:24px;--h-mobile:24px"
+    >
+        <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM10.6828 8.13017C10.5266 7.95661 10.2734 7.95661 10.1172 8.13017C9.96095 8.30374 9.96095 8.58515 10.1172 8.75871L13.0343 12L10.1172 15.2413C9.96095 15.4149 9.96095 15.6963 10.1172 15.8698C10.2734 16.0434 10.5266 16.0434 10.6828 15.8698L13.8828 12.3143C14.0391 12.1407 14.0391 11.8593 13.8828 11.6857L10.6828 8.13017Z" fill="currentColor"/>
+    </svg>
+    </div>
+  
+    </button>
+  
+          <div id="gp-carousel-ft-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}}" class="gem-slider gp-h-full gp-overflow-hidden gp-select-none gp-carousel-slider-gp-carousel-geHzbHJtuo mobile:!gp-flex-nowrap tablet:!gp-flex-nowrap !gp-flex-nowrap mobile:!gp-min-h-full tablet:!gp-min-h-full !gp-min-h-full" style="--cg-mobile:0px;--cg-tablet:0px;--cg:0px">
+            
+    {% if product.media.size > 0 %}
+      
+     {% assign largestRatio = 0 %}
+      {% for featureMedia in product.media %}
+          {% assign height = featureMedia.height | times: 1.0 %}
+          {% assign width = featureMedia.width | times: 1.0 %}
+          {% assign ratio = height | divided_by: width %}
+          {% if ratio > largestRatio %}{% assign largestRatio = ratio %}{% endif %}
+        {% endfor %}
+      {% for featureMedia in product.media %}{% if featureMedia.media_type == 'image' %}{% for image in product.images %}{% if image.src == featureMedia.src %}{% assign imageID = image.id %}{% break %}{% endif %}{% endfor %}{% else %}{% assign imageID = '' %}{% endif %}
+        
+    {% assign productImageWidth = 0 %}
+    {% case featureMedia.media_type %}
+      {% when 'image' %}
+        {% assign productImageWidth = featureMedia.width %}
+      {% else %}
+        {% assign productImageWidth = featureMedia.preview_image.width %}
+    {% endcase %}
+    
+    <div
+      
+      id="{{section.id}}-{{imageID}}"
+      class="gem-slider-item gp-w-full gem-slider-item-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}} gp-image-item gp-flex gp-items-center gp-justify-center gp-group gp-relative gp-overflow-hidden gp-cursor-pointer data-[outline=deactive]:after:!gp-border-transparent gp-ft-image-item !gp-min-w-full !gp-max-w-full' undefined"
+      style="width:{{productImageWidth}}px;--minw:calc(100% / 4 - 33px);--minw-tablet:calc(100% / 4 - 33px);--minw-mobile:calc(100% / 4 - 33px);--maxw:calc(100% / 4 - 33px);--maxw-tablet:calc(100% / 4 - 33px);--maxw-mobile:calc(100% / 4 - 33px);max-width:100%;outline-color:var(--g-c-brand, brand);--bblr:6px;--bbrr:6px;--btlr:6px;--btrr:6px;--hvr-bblr:6px;--hvr-bbrr:6px;--hvr-btlr:6px;--hvr-btrr:6px;--focus-bblr:6px;--focus-bbrr:6px;--focus-btlr:6px;--focus-btrr:6px;-undefined-bblr:6px;-undefined-bbrr:6px;-undefined-btlr:6px;-undefined-btrr:6px;--h:auto;--h-tablet:auto;--h-mobile:auto"
+      data-index=""
+      grid-index="{{forloop.index}}"
+      external-id="{{media.external_id}}"
+      media-type="{{media.media_type}}"
+      media-poster="{{media.preview_image.src}}"
+      media-source-url="{{media.sources.first.url}}"
+      media-last-source-url="{{mediaSourceUrl}}"
+    >
+      <div
+        class="gp-w-full gp-h-full"
+        
+      >
+      
+      <div
+        class="gp-w-full gp-relative {% if featureMedia == null or featureMedia.media_type == 'image' %}{{ 'gp-h-0' }}{% else %}{{ 'gp-h-full !gp-pb-0' }}{% endif %}"
+        style="--pb: calc((1/1)*100%);--pb-tablet: calc((1/1)*100%);--pb-mobile: calc((1/1)*100%); {% if featureMedia.media_type == 'video' or featureMedia.media_type == 'external_video' %}{{ 'display: flex; align-items: center; justify-content: center' }}{% endif %}"
+      >
+        
+    {% case featureMedia.media_type %}
+      {% when 'image' %}
+        
+      
+    {% assign src = featureMedia.src %}
+    
+    
+    <img
+      alt="{{featureMedia.alt | escape}}" width="{{featureMedia.width}}" height="{{featureMedia.height}}" draggable="false" quality-type="{&quot;desktop&quot;:&quot;finest&quot;}" quality-percent="{&quot;desktop&quot;:100}" data-sizes="auto" sizes="(max-width: 768px) 50vw, 100vw" src="{{src | image_url}}" isNotLazyload="true" srcset="{{src | image_url: width: 480}} 480w, {{src | image_url: width: 768}} 768w, {{src | image_url: width: 1024}} 1024w, {{src | image_url: width: 1440}} 1440w" base-src="{{src | image_url}}" loading="lazy"
+      id="{% if featureMedia != null %}{{featureMedia.id}}{% endif %}"
+      style="--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1;--objf:cover"
+      class="gp-w-full gp-h-full gp-absolute gp-top-0 gp-left-0 featured-image-only gp-cursor-pointer !gp-rounded-none gp-w-full gp-transition-opacity {{shouldHidden}}"
+    />
+       
+       
+    
+      {% when 'external_video' %}
+        {% assign mediaSourceVideo = featureMedia | external_video_url %}
+        
+    <iframe
+      src="{{mediaSourceVideo}}" alt="{{featureMedia.alt | escape}}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0" width="100%" height="100%" controls="true" allowfullscreen="true"
+      style="--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1"
+      class="feature-video gp-w-full gp-h-full gp-relative"
+    >
+    </iframe>
+  
+      {% when 'video' %}
+        {% assign mediaSourceVideo = featureMedia.sources.last.url %}
+        
+  <gp-lite-html5-embed is-check-loaded="true" >
+    
+    <video
+    id="gp-video-undefined" title="{{featureMedia.alt | escape}}" preload="none" data-src="{{mediaSourceVideo}}" poster="{{featureMedia.preview_image.src | product_img_url: '1024x1024'}}" data-poster="{{featureMedia.preview_image.src | product_img_url: '1024x1024'}}"
+      style="width:100%;max-height:100%"
+      class="gp-w-full gp-invisible gp-lazyload-video"
+      controls
+      
+      
+      
+      playsinline
+      
+    ></video>
+    
+     <div
+        role="presentation"
+        style="width:100%;max-height:100%"
+        class="gp-absolute gp-top-0 gp-left-0  gp-w-full gp-thumbnail-video gp-h-full"
+        >
+           
+    <img
+      alt="Alt image" width="2237" height="1678" draggable="false" quality-type quality-percent data-sizes="auto" sizes="100vw" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIzNyIgaGVpZ2h0PSIxNjc4IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPGRlZnM+CiAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZy0yMjM3LTE2NzgiPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iMjAlIiAvPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iNTAlIiAvPgogICAgICAgIDxzdG9wIHN0b3AtY29sb3I9InJnYmEoNTEsIDUxLCA1MSwgMCkiIG9mZnNldD0iNzAlIiAvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPHJlY3Qgd2lkdGg9IjIyMzciIGhlaWdodD0iMTY3OCIgZmlsbD0icmdiYSg1MSwgNTEsIDUxLCAwKSIgLz4KICAgIDxyZWN0IGlkPSJyIiB3aWR0aD0iMjIzNyIgaGVpZ2h0PSIxNjc4IiBmaWxsPSJ1cmwoI2ctMjIzNy0xNjc4KSIgLz4KICAgIDxhbmltYXRlIHhsaW5rOmhyZWY9IiNyIiBhdHRyaWJ1dGVOYW1lPSJ4IiBmcm9tPSItMjIzNyIgdG89IjIyMzciIGR1cj0iMXMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiAgLz4KICA8L3N2Zz4=" base-src="{{featureMedia.preview_image.src | product_img_url: '1024x1024'}}" data-src="{{featureMedia.preview_image.src | product_img_url: '1024x1024'}}" data-srcset="{{featureMedia.preview_image.src | product_img_url: '1024x1024'}}"
+      id="video-thumbnail"
+      
+      class="gp-w-full gp-h-full gp-object-cover gp_lazyload"
+    />
+          <button type="button" class="gp-absolute gp-left-1/2 gp-top-1/2 gp-flex gp-aspect-[56/32] gp-w-14 -gp-translate-x-1/2 -gp-translate-y-1/2 gp-items-center gp-justify-center gp-rounded gp-bg-black/80 gp-transition-colors hover:gp-bg-[#ef0800]" aria-label="Play">
+            <svg class="gp-w-5 gp-text-white" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M5 5.274c0-1.707 1.826-2.792 3.325-1.977l12.362 6.726c1.566.853 1.566 3.101 0 3.953L8.325 20.702C6.826 21.518 5 20.432 5 18.726V5.274Z"
+              />
+            </svg>
+          </button>
+        </div>
+  
+  </gp-lite-html5-embed>
+        <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-lite-html5-embed-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+  
+      {% when 'model' %}
+        
+    <model-viewer
+      src="{% if featureMedia.sources.first.url contains '.glb' %}{{ featureMedia.sources.first.url }}{% else %}{{featureMedia.sources.last.url}}{% endif %}" alt="{{featureMedia.preview_image.alt}}" data-shopify-feature="1.12" width="100%" poster="{{featureMedia.preview_image.src | product_img_url: '1024x1024'}}" ar-status="not-presenting" camera-controls="true"
+      class="gp-w-full gp-h-full model-viewer gp-z-[90]"
+      style="--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1">
+    </model-viewer>
+  
+      {% else %}
+        
+    
+    <img
+      alt="No Image" width="2237" height="1678" draggable="false" quality-type="{&quot;desktop&quot;:&quot;finest&quot;}" quality-percent="{&quot;desktop&quot;:100}" data-sizes="auto" sizes="(max-width: 768px) 50vw, 100vw" src isNotLazyload="true" srcset loading="lazy"
+      id=""
+      style="--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1;--objf:cover"
+      class="gp-w-full gp-h-full gp-absolute gp-top-0 gp-left-0 featured-image-only gp-cursor-pointer !gp-rounded-none"
+    />
+    {% endcase %}
+    
+      </div>
+      
+      </div>
+    </div>
+  {% endfor %}
+    {% else %}
+    <img
+      alt="no image" width="480" height="480" draggable="false" quality-type="{&quot;desktop&quot;:&quot;finest&quot;}" quality-percent="{&quot;desktop&quot;:100}" data-sizes="auto" sizes="100vw" src="https://cdn.shopify.com/s/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_large.gif" isNotLazyload="true" srcset base-src="https://cdn.shopify.com/s/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_large.gif" loading="lazy"
+      id="noImageError"
+      style="height:100%;--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1;--objf:cover"
+      class="gp-w-full featured-image-only !gp-rounded-none"
+    />{% endif %}
+          </div>
+          
+    <button
+      type="button"
+      aria-label='Carousel Next Arrow'
+      class="gp-z-1 gp-items-center gp-justify-center gp-overflow-hidden gp-shrink-0 gp-carousel-arrow-gp-carousel-geHzbHJtuo ft-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}} gp-carousel-action-next gem-slider-next gp-cursor-pointer gp-text-gray-500 !gp-hidden tablet:!gp-hidden mobile:!gp-hidden"
+      style="--d:none;--d-tablet:none;--d-mobile:none;--right:3px;--left:initial;--top:;--bottom:initial;--right-tablet:3px;--left-tablet:initial;--top-tablet:;--bottom-tablet:initial;--right-mobile:3px;--left-mobile:initial;--top-mobile:;--bottom-mobile:initial"
+    >
+      <style type="text/css">
+      .ft-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}}.gp-carousel-arrow-gp-carousel-geHzbHJtuo {
+        
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+      }
+      .ft-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}}.gp-carousel-arrow-gp-carousel-geHzbHJtuo::before {
+        content: '';
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        pointer-events: none;
+        z-index: 10;
+        border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+        
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+      }
+      @media only screen and (max-width: 1024px) and (min-width: 768px) {
+        .ft-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}}.gp-carousel-arrow-gp-carousel-geHzbHJtuo {
+          
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+        }
+        .ft-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}}.gp-carousel-arrow-gp-carousel-geHzbHJtuo::before {
+          border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+          
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        .ft-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}}.gp-carousel-arrow-gp-carousel-geHzbHJtuo {
+          
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+        }
+        .ft-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}}.gp-carousel-arrow-gp-carousel-geHzbHJtuo::before {
+          border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+          
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+        }
+      }
+    </style>
+      
+    <div
+      class="gp-flex gp-items-center gp-justify-center [&>svg]:gp-h-full [&>svg]:gp-w-full gp-rotate-0 tablet:gp-rotate-0 mobile:gp-rotate-0"
+      style="--c:#000000;--w:24px;--w-tablet:24px;--w-mobile:24px;--h:24px;--h-tablet:24px;--h-mobile:24px"
+    >
+        <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM10.6828 8.13017C10.5266 7.95661 10.2734 7.95661 10.1172 8.13017C9.96095 8.30374 9.96095 8.58515 10.1172 8.75871L13.0343 12L10.1172 15.2413C9.96095 15.4149 9.96095 15.6963 10.1172 15.8698C10.2734 16.0434 10.5266 16.0434 10.6828 15.8698L13.8828 12.3143C14.0391 12.1407 14.0391 11.8593 13.8828 11.6857L10.6828 8.13017Z" fill="currentColor"/>
+    </svg>
+    </div>
+  
+    </button>
+  
+        </div>
+        
+    
+        <div class="gp-carousel-dot-container gp-carousel-dot-container-ft-gp-carousel-geHzbHJtuo-{{section.id}}-{{product.id}} gp-z-2 gp-flex gp-flex-1 gp-items-center gp-justify-center gp-gap-2 gp-text-center gp-static gp-flex-row gp-left-0 gp-right-0 tablet:gp-static tablet:gp-flex-row tablet:gp-left-0 tablet:gp-right-0 mobile:gp-static mobile:gp-flex-row mobile:gp-left-0 mobile:gp-right-0" style="--bottom:16px;--bottom-tablet:16px;--bottom-mobile:16px;--d:none;--d-tablet:none;--d-mobile:none">
+          <!-- item render by js -->
+        </div>
+      
+  
+      </div>
+    </gp-carousel>
+    {% if product.media.size > 1 %} <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-carousel-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script> {% endif %}
+
+  
+    
+         
+      {% else %}{{ featureImageOnlyOne }}{% endif %}
+  
+        
+      <div
+        class="gallery-wrapper gp-product-images-gallery gp-flex gp-overflow-hidden gp-max-w-full gp-max-h-full data-[only-image=true]:gp-hidden"
+        style="--h: auto;--h-tablet: auto;--h-mobile: auto;--jc: flex-start;--o: 1;--o-tablet: 1;--o-mobile: 1;--pos: static;--pos-tablet: static;--pos-mobile: static;--w: 100%;--w-tablet: 100%;--w-mobile: 100%;--bottom: auto;--bottom-tablet: auto;--bottom-mobile: auto;--top: auto;--top-tablet: auto;--top-mobile: auto;--left: auto;--left-tablet: auto;--left-mobile: auto;--right: auto;--right-tablet: auto;--right-mobile: auto;"
+        data-only-image="{% if product.media.size > 1 %}false{% else %}true{% endif %}"
+      >
+        {% if product.media.size > 1 %}
+    
+    <gp-carousel gp-data='{"id":"gp-gallery-geHzbHJtuo-{{product.id}}","isHiddenArrowWhenDisabled":true,"setting":{"loop":{"desktop":true},"itemNumber":{"desktop":5,"tablet":5,"mobile":4},"dot":{"desktop":false,"tablet":false,"mobile":false},"dotStyle":{"desktop":"none","tablet":"none","mobile":"none"},"controlOverContent":{"desktop":false,"tablet":false,"mobile":false},"enableDrag":{"desktop":true,"tablet":true,"mobile":true},"vertical":{"desktop":false,"mobile":false,"tablet":false},"arrowCustom":"<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM10.6828 8.13017C10.5266 7.95661 10.2734 7.95661 10.1172 8.13017C9.96095 8.30374 9.96095 8.58515 10.1172 8.75871L13.0343 12L10.1172 15.2413C9.96095 15.4149 9.96095 15.6963 10.1172 15.8698C10.2734 16.0434 10.5266 16.0434 10.6828 15.8698L13.8828 12.3143C14.0391 12.1407 14.0391 11.8593 13.8828 11.6857L10.6828 8.13017Z\" fill=\"currentColor\"/>\n    </svg>","arrowIconSize":{"desktop":24},"arrowCustomColor":"#000000","arrowBorder":{"desktop":{"border":"none","borderType":"none","borderWidth":"1px","isCustom":false,"width":"1px 1px 1px 1px"}},"roundedArrow":{"desktop":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"none"}},"sneakPeakType":{"desktop":"center"},"arrowGapToEachSide":"16","navigationStyle":{"desktop":"none"},"navigationEnable":{"desktop":false},"arrowButtonSize":{"desktop":{}},"enableAction":{"desktop":true}},"styles":{"spacing":{"desktop":5,"tablet":5,"mobile":9},"sizeSetting":{"desktop":{"width":"100%","height":"100%"},"tablet":{"width":"100%","height":"100%"},"mobile":{"width":"100%","height":"100%"}}}}' data-id="gp-gallery-geHzbHJtuo" id="gp-root-carousel-gp-gallery-geHzbHJtuo-{{product.id}}" type="grid-carousel" product-media="{{product.media.size}}" style="--d:flex;--d-mobile:flex;--d-tablet:flex" class="gp-group/carousel gp-w-full gp-flex gp-flex-1 gp-w-full carousel-gallery gp-px-0 tablet:gp-px-0 mobile:gp-px-0">
+      <div
+        
+        class="gp-gallery-geHzbHJtuo  gp-py-0 tablet:gp-py-0 mobile:gp-py-0 gp-relative gp-my-0 tablet:gp-px-0 gp-max-w-full mobile:gp-px-0 gp-carousel-wrapper mobile:gp-block tablet:gp-block gp-block"
+        style="--h:100%;--h-tablet:100%;--h-mobile:100%;--w:100%;--w-tablet:100%;--w-mobile:100%"
+      >
+        <div class="gp-relative gp-flex gp-items-center gp-justify-between mobile:!gp-flex-row tablet:!gp-flex-row !gp-flex-row" style="--h:100%;--h-tablet:100%;--h-mobile:100%;gap:16px">
+          
+    <button
+      type="button"
+      aria-label='Carousel Back Arrow'
+      class="gp-z-1 gp-items-center gp-justify-center gp-overflow-hidden gp-shrink-0 gp-carousel-arrow-gp-gallery-geHzbHJtuo gp-gallery-geHzbHJtuo-{{product.id}} gp-carousel-action-back gem-slider-previous gp-cursor-pointer gp-text-gray-500 !gp-hidden tablet:!gp-hidden mobile:!gp-hidden"
+      style="--d:none;--d-tablet:none;--d-mobile:none;--left:3px;--right:initial;--top:initial;--bottom:;--left-tablet:3px;--right-tablet:initial;--top-tablet:initial;--bottom-tablet:;--left-mobile:3px;--right-mobile:initial;--top-mobile:initial;--bottom-mobile:"
+    >
+      <style type="text/css">
+      .gp-gallery-geHzbHJtuo-{{product.id}}.gp-carousel-arrow-gp-gallery-geHzbHJtuo {
+        
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+      }
+      .gp-gallery-geHzbHJtuo-{{product.id}}.gp-carousel-arrow-gp-gallery-geHzbHJtuo::before {
+        content: '';
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        pointer-events: none;
+        z-index: 10;
+        border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+        
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+      }
+      @media only screen and (max-width: 1024px) and (min-width: 768px) {
+        .gp-gallery-geHzbHJtuo-{{product.id}}.gp-carousel-arrow-gp-gallery-geHzbHJtuo {
+          
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+        }
+        .gp-gallery-geHzbHJtuo-{{product.id}}.gp-carousel-arrow-gp-gallery-geHzbHJtuo::before {
+          border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+          
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        .gp-gallery-geHzbHJtuo-{{product.id}}.gp-carousel-arrow-gp-gallery-geHzbHJtuo {
+          
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+        }
+        .gp-gallery-geHzbHJtuo-{{product.id}}.gp-carousel-arrow-gp-gallery-geHzbHJtuo::before {
+          border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+          
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+        }
+      }
+    </style>
+      
+    <div
+      class="gp-flex gp-items-center gp-justify-center [&>svg]:gp-h-full [&>svg]:gp-w-full gp-rotate-180 tablet:gp-rotate-180 mobile:gp-rotate-180"
+      style="--c:#000000;--w:24px;--w-tablet:24px;--w-mobile:24px;--h:24px;--h-tablet:24px;--h-mobile:24px"
+    >
+        <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM10.6828 8.13017C10.5266 7.95661 10.2734 7.95661 10.1172 8.13017C9.96095 8.30374 9.96095 8.58515 10.1172 8.75871L13.0343 12L10.1172 15.2413C9.96095 15.4149 9.96095 15.6963 10.1172 15.8698C10.2734 16.0434 10.5266 16.0434 10.6828 15.8698L13.8828 12.3143C14.0391 12.1407 14.0391 11.8593 13.8828 11.6857L10.6828 8.13017Z" fill="currentColor"/>
+    </svg>
+    </div>
+  
+    </button>
+  
+          <div id="gp-carousel-gp-gallery-geHzbHJtuo-{{product.id}}" class="gem-slider gp-h-full gp-overflow-hidden gp-select-none gp-carousel-slider-gp-gallery-geHzbHJtuo !gp-min-h-full mobile:!gp-min-h-full tablet:!gp-min-h-full mobile:!gp-flex-nowrap tablet:!gp-flex-nowrap !gp-flex-nowrap mobile:!gp-min-h-full tablet:!gp-min-h-full !gp-min-h-full" style="--cg-mobile:9px;--cg-tablet:5px;--cg:5px">
+            
+    {% if product.media.size > 1 %}{% for media in product.media %}{% if media.media_type == 'image' %}{% for image in product.images %}{% if image.src == media.src %}{% assign imageID = image.id %}{% break %}{% endif %}{% endfor %}{% else %}{% assign imageID = '' %}{% endif %}
+          {% if media.id == product.featured_media.id  %}
+    {% if media.media_type == 'video' %}{% assign mediaSourceUrl = media.sources.last.url %}{% endif %}
+    {% if media.media_type == 'external_video' %}{% assign mediaSourceUrl = media | external_video_url %}{% endif %}
+    {% if media.media_type == 'image' %}{% assign mediaSourceUrl = media.src %}{% endif %}
+    
+    <div
+      data-outline="active"
+      id="{{imageID}}"
+      class="gem-slider-item gp-w-full gem-slider-item-gp-gallery-geHzbHJtuo-{{product.id}} gp-image-item gp-flex gp-items-center gp-justify-center gp-group gp-relative gp-overflow-hidden gp-cursor-pointer data-[outline=deactive]:after:!gp-border-transparent gp-gallery-image-item active"
+      style="--minw:calc(20% - 4px);--minw-tablet:calc(20% - 4px);--minw-mobile:calc(25% - 6.75px);--maxw:calc(20% - 4px);--maxw-tablet:calc(20% - 4px);--maxw-mobile:calc(25% - 6.75px);outline-color:var(--g-c-brand, brand);--w:100%;--w-tablet:100%;--w-mobile:100%;--h:auto;--h-tablet:auto;--h-mobile:auto;--bblr:4px;--bbrr:4px;--btlr:4px;--btrr:4px;--hvr-bblr:4px;--hvr-bbrr:4px;--hvr-btlr:4px;--hvr-btrr:4px;--focus-bblr:4px;--focus-bbrr:4px;--focus-btlr:4px;--focus-btrr:4px;-undefined-bblr:4px;-undefined-bbrr:4px;-undefined-btlr:4px;-undefined-btrr:4px"
+      data-index=""
+      grid-index="{{forloop.index}}"
+      external-id="{{media.external_id}}"
+      media-type="{{media.media_type}}"
+      media-poster="{{media.preview_image.src}}"
+      media-source-url="{{media.sources.first.url}}"
+      media-last-source-url="{{mediaSourceUrl}}"
+    >
+      <div
+        class="gp-w-full gp-h-full"
+        
+      >
+      
+      <div class="gp-w-full gp-relative"
+        style="--pb: calc((1/1)*100%);--pb-tablet: calc((1/1)*100%);--pb-mobile: calc((1/1)*100%);;"
+      >
+      
+    <img
+      alt="{{media.alt | escape}}" width="{{media.width}}" height="{{media.height}}" draggable="false" quality-type="{&quot;desktop&quot;:&quot;finest&quot;}" quality-percent="{&quot;desktop&quot;:100}" data-sizes="auto" sizes="100vw" src="{{media.preview_image | image_url}}" isNotLazyload="true" srcset base-src="{{media.preview_image | image_url}}" loading="lazy"
+      id=""
+      style="width:100%;height:100%;cursor:pointer;--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1;--objf:cover"
+      class="!gp-rounded-none gp-w-full gp-h-full gp-absolute gp-top-0 gp-left-0 gp-cursor-pointer"
+    />
+
+    {% if media.media_type == 'video' or media.media_type == 'external_video' %}<div class="gp-absolute gp-pb-1 gp-pr-1 gp-right-0 gp-bottom-0" >
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect opacity="0.9" width="24" height="24" rx="3" fill="#212121"/>
+        <path d="M17.6869 12.2646L17.6868 12.2646L6.78379 18.4464C6.78378 18.4464 6.78376 18.4464 6.78374 18.4464C6.52931 18.5903 6.1665 18.4179 6.1665 18.0416V5.95844C6.1665 5.58218 6.52917 5.40981 6.7836 5.55354C6.78366 5.55357 6.78373 5.55361 6.78379 5.55365L17.6868 11.7354L17.6869 11.7354C17.8819 11.846 17.8819 12.154 17.6869 12.2646Z" stroke="#F9F9F9" stroke-miterlimit="10"/>
+      </svg>
+    </div>{% endif %}
+    {% if media.media_type == 'model' %}<div class="gp-absolute gp-pb-1 gp-pr-1 gp-right-0 gp-bottom-0">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect opacity="0.9" width="24" height="24" rx="3" fill="#212121"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7441 4.57034C11.9017 4.47655 12.098 4.47655 12.2555 4.57034L18.5889 8.33957C18.7404 8.42971 18.8332 8.59296 18.8332 8.76923V15.2308C18.8332 15.407 18.7404 15.5703 18.5889 15.6604L12.2555 19.4297C12.098 19.5234 11.9017 19.5234 11.7441 19.4297L5.41079 15.6604C5.25932 15.5703 5.1665 15.407 5.1665 15.2308V8.76923C5.1665 8.59296 5.25932 8.42971 5.41079 8.33957L11.7441 4.57034ZM6.1665 9.64865V14.9465L11.4998 18.1206V12.8227L6.1665 9.64865ZM12.4998 12.8227V18.1206L17.8332 14.9465V9.64865L12.4998 12.8227ZM17.3555 8.76923L11.9998 11.9566L6.64417 8.76923L11.9998 5.58185L17.3555 8.76923Z" fill="#F9F9F9"/>
+      </svg>
+    </div>{% endif %}
+
+    <div class="gp-absolute gp-inset-0 gp-flex gp-cursor-pointer gp-items-center gp-justify-center gp-bg-black/50 gp-opacity-0 gp-transition-opacity gp-duration-100 group-hover:gp-opacity-100"
+    style="--d: none;--d-mobile: none;--d-tablet: none;"
+    >
+      <svg
+        height="100%"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        class="gp-h-6 gp-w-6"
+        viewBox="0 0 512 512"
+        color="#fff"
+      ><path
+          fill="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M62.2467 345.253C43.7072 326.714 29.1474 305.116 18.9714 281.057C8.42839 256.13 3.08301 229.671 3.08301 202.418C3.08301 175.165 8.43012 148.707 18.974 123.78C29.15 99.7213 43.7098 78.123 62.2485 59.5834C80.788 41.0439 102.386 26.4841 126.445 16.3081C151.372 5.76422 177.831 0.417969 205.084 0.417969C232.337 0.417969 258.794 5.76421 283.722 16.3064C307.78 26.4823 329.379 41.0422 347.918 59.5817C366.458 78.1212 381.017 99.7196 391.194 123.778C401.737 148.706 407.083 175.163 407.083 202.417C407.083 229.671 401.737 256.129 391.194 281.056C388.406 287.648 385.277 294.048 381.839 300.257L493.397 411.815C514.091 432.511 514.091 466.187 493.395 486.883L484.272 496.006C474.245 506.032 460.915 511.553 446.738 511.553C432.559 511.553 419.228 506.032 409.202 496.006L296.022 382.824C291.996 384.854 287.898 386.762 283.721 388.528C258.794 399.073 232.336 404.419 205.082 404.419C177.828 404.419 151.371 399.071 126.443 388.528C102.385 378.352 80.7863 363.793 62.2467 345.253ZM301.699 336.166C313.928 327.317 324.896 316.835 334.282 305.034C342.149 295.142 348.9 284.325 354.355 272.775C364.433 251.432 370.076 227.586 370.076 202.419C370.076 111.296 296.206 37.4253 205.083 37.4253C113.96 37.4253 40.0895 111.294 40.0895 202.418C40.0895 293.541 113.96 367.411 205.084 367.411C227.413 367.411 248.701 362.967 268.126 354.928C280.091 349.976 291.347 343.658 301.699 336.166ZM467.229 460.716C473.507 454.439 473.507 444.26 467.229 437.982L360.595 331.348C356.601 336.153 352.378 340.794 347.919 345.253C341.671 351.502 335.068 357.286 328.147 362.615L435.371 469.839C438.511 472.977 442.624 474.547 446.739 474.547C450.853 474.547 454.967 472.978 458.106 469.839L467.229 460.716ZM223.582 183.91H281.071C291.292 183.91 299.574 192.194 299.575 202.414C299.575 206.778 298.062 210.786 295.533 213.951C292.143 218.195 286.926 220.916 281.072 220.916H228.303H223.583V225.63V278.406C223.583 287.081 217.613 294.358 209.559 296.361C208.124 296.717 206.625 296.909 205.08 296.909C194.861 296.909 186.577 288.625 186.577 278.406V220.917H129.087C118.868 220.917 110.584 212.633 110.584 202.414C110.584 192.195 118.868 183.911 129.087 183.911H186.576V126.421C186.576 116.202 194.86 107.918 205.079 107.918C215.298 107.918 223.582 116.202 223.582 126.421V183.91Z"
+        />
+      </svg>
+    </div>
+    </div>
+    
+      </div>
+    </div>
+  {% else %}
+    {% if media.media_type == 'video' %}{% assign mediaSourceUrl = media.sources.last.url %}{% endif %}
+    {% if media.media_type == 'external_video' %}{% assign mediaSourceUrl = media | external_video_url %}{% endif %}
+    {% if media.media_type == 'image' %}{% assign mediaSourceUrl = media.src %}{% endif %}
+    
+    <div
+      data-outline="deactive"
+      id="{{imageID}}"
+      class="gem-slider-item gp-w-full gem-slider-item-gp-gallery-geHzbHJtuo-{{product.id}} gp-image-item gp-flex gp-items-center gp-justify-center gp-group gp-relative gp-overflow-hidden gp-cursor-pointer data-[outline=deactive]:after:!gp-border-transparent gp-gallery-image-item undefined"
+      style="--minw:calc(20% - 4px);--minw-tablet:calc(20% - 4px);--minw-mobile:calc(25% - 6.75px);--maxw:calc(20% - 4px);--maxw-tablet:calc(20% - 4px);--maxw-mobile:calc(25% - 6.75px);outline-color:var(--g-c-brand, brand);--w:100%;--w-tablet:100%;--w-mobile:100%;--h:auto;--h-tablet:auto;--h-mobile:auto;--bblr:4px;--bbrr:4px;--btlr:4px;--btrr:4px;--hvr-bblr:4px;--hvr-bbrr:4px;--hvr-btlr:4px;--hvr-btrr:4px;--focus-bblr:4px;--focus-bbrr:4px;--focus-btlr:4px;--focus-btrr:4px;-undefined-bblr:4px;-undefined-bbrr:4px;-undefined-btlr:4px;-undefined-btrr:4px"
+      data-index=""
+      grid-index="{{forloop.index}}"
+      external-id="{{media.external_id}}"
+      media-type="{{media.media_type}}"
+      media-poster="{{media.preview_image.src}}"
+      media-source-url="{{media.sources.first.url}}"
+      media-last-source-url="{{mediaSourceUrl}}"
+    >
+      <div
+        class="gp-w-full gp-h-full"
+        
+      >
+      
+      <div class="gp-w-full gp-relative"
+        style="--pb: calc((1/1)*100%);--pb-tablet: calc((1/1)*100%);--pb-mobile: calc((1/1)*100%);;"
+      >
+      
+    <img
+      alt="{{media.alt | escape}}" width="{{media.width}}" height="{{media.height}}" draggable="false" quality-type="{&quot;desktop&quot;:&quot;finest&quot;}" quality-percent="{&quot;desktop&quot;:100}" data-sizes="auto" sizes="100vw" src="{{media.preview_image | image_url}}" isNotLazyload="true" srcset base-src="{{media.preview_image | image_url}}" loading="lazy"
+      id=""
+      style="width:100%;height:100%;cursor:pointer;--aspect:1/1;--aspect-tablet:1/1;--aspect-mobile:1/1;--objf:cover"
+      class="!gp-rounded-none gp-w-full gp-h-full gp-absolute gp-top-0 gp-left-0 gp-cursor-pointer"
+    />
+
+    {% if media.media_type == 'video' or media.media_type == 'external_video' %}<div class="gp-absolute gp-pb-1 gp-pr-1 gp-right-0 gp-bottom-0" >
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect opacity="0.9" width="24" height="24" rx="3" fill="#212121"/>
+        <path d="M17.6869 12.2646L17.6868 12.2646L6.78379 18.4464C6.78378 18.4464 6.78376 18.4464 6.78374 18.4464C6.52931 18.5903 6.1665 18.4179 6.1665 18.0416V5.95844C6.1665 5.58218 6.52917 5.40981 6.7836 5.55354C6.78366 5.55357 6.78373 5.55361 6.78379 5.55365L17.6868 11.7354L17.6869 11.7354C17.8819 11.846 17.8819 12.154 17.6869 12.2646Z" stroke="#F9F9F9" stroke-miterlimit="10"/>
+      </svg>
+    </div>{% endif %}
+    {% if media.media_type == 'model' %}<div class="gp-absolute gp-pb-1 gp-pr-1 gp-right-0 gp-bottom-0">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect opacity="0.9" width="24" height="24" rx="3" fill="#212121"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7441 4.57034C11.9017 4.47655 12.098 4.47655 12.2555 4.57034L18.5889 8.33957C18.7404 8.42971 18.8332 8.59296 18.8332 8.76923V15.2308C18.8332 15.407 18.7404 15.5703 18.5889 15.6604L12.2555 19.4297C12.098 19.5234 11.9017 19.5234 11.7441 19.4297L5.41079 15.6604C5.25932 15.5703 5.1665 15.407 5.1665 15.2308V8.76923C5.1665 8.59296 5.25932 8.42971 5.41079 8.33957L11.7441 4.57034ZM6.1665 9.64865V14.9465L11.4998 18.1206V12.8227L6.1665 9.64865ZM12.4998 12.8227V18.1206L17.8332 14.9465V9.64865L12.4998 12.8227ZM17.3555 8.76923L11.9998 11.9566L6.64417 8.76923L11.9998 5.58185L17.3555 8.76923Z" fill="#F9F9F9"/>
+      </svg>
+    </div>{% endif %}
+
+    <div class="gp-absolute gp-inset-0 gp-flex gp-cursor-pointer gp-items-center gp-justify-center gp-bg-black/50 gp-opacity-0 gp-transition-opacity gp-duration-100 group-hover:gp-opacity-100"
+    style="--d: none;--d-mobile: none;--d-tablet: none;"
+    >
+      <svg
+        height="100%"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        class="gp-h-6 gp-w-6"
+        viewBox="0 0 512 512"
+        color="#fff"
+      ><path
+          fill="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M62.2467 345.253C43.7072 326.714 29.1474 305.116 18.9714 281.057C8.42839 256.13 3.08301 229.671 3.08301 202.418C3.08301 175.165 8.43012 148.707 18.974 123.78C29.15 99.7213 43.7098 78.123 62.2485 59.5834C80.788 41.0439 102.386 26.4841 126.445 16.3081C151.372 5.76422 177.831 0.417969 205.084 0.417969C232.337 0.417969 258.794 5.76421 283.722 16.3064C307.78 26.4823 329.379 41.0422 347.918 59.5817C366.458 78.1212 381.017 99.7196 391.194 123.778C401.737 148.706 407.083 175.163 407.083 202.417C407.083 229.671 401.737 256.129 391.194 281.056C388.406 287.648 385.277 294.048 381.839 300.257L493.397 411.815C514.091 432.511 514.091 466.187 493.395 486.883L484.272 496.006C474.245 506.032 460.915 511.553 446.738 511.553C432.559 511.553 419.228 506.032 409.202 496.006L296.022 382.824C291.996 384.854 287.898 386.762 283.721 388.528C258.794 399.073 232.336 404.419 205.082 404.419C177.828 404.419 151.371 399.071 126.443 388.528C102.385 378.352 80.7863 363.793 62.2467 345.253ZM301.699 336.166C313.928 327.317 324.896 316.835 334.282 305.034C342.149 295.142 348.9 284.325 354.355 272.775C364.433 251.432 370.076 227.586 370.076 202.419C370.076 111.296 296.206 37.4253 205.083 37.4253C113.96 37.4253 40.0895 111.294 40.0895 202.418C40.0895 293.541 113.96 367.411 205.084 367.411C227.413 367.411 248.701 362.967 268.126 354.928C280.091 349.976 291.347 343.658 301.699 336.166ZM467.229 460.716C473.507 454.439 473.507 444.26 467.229 437.982L360.595 331.348C356.601 336.153 352.378 340.794 347.919 345.253C341.671 351.502 335.068 357.286 328.147 362.615L435.371 469.839C438.511 472.977 442.624 474.547 446.739 474.547C450.853 474.547 454.967 472.978 458.106 469.839L467.229 460.716ZM223.582 183.91H281.071C291.292 183.91 299.574 192.194 299.575 202.414C299.575 206.778 298.062 210.786 295.533 213.951C292.143 218.195 286.926 220.916 281.072 220.916H228.303H223.583V225.63V278.406C223.583 287.081 217.613 294.358 209.559 296.361C208.124 296.717 206.625 296.909 205.08 296.909C194.861 296.909 186.577 288.625 186.577 278.406V220.917H129.087C118.868 220.917 110.584 212.633 110.584 202.414C110.584 192.195 118.868 183.911 129.087 183.911H186.576V126.421C186.576 116.202 194.86 107.918 205.079 107.918C215.298 107.918 223.582 116.202 223.582 126.421V183.91Z"
+        />
+      </svg>
+    </div>
+    </div>
+    
+      </div>
+    </div>
+  {% endif %}{% endfor %}{% endif %}
+          </div>
+          
+    <button
+      type="button"
+      aria-label='Carousel Next Arrow'
+      class="gp-z-1 gp-items-center gp-justify-center gp-overflow-hidden gp-shrink-0 gp-carousel-arrow-gp-gallery-geHzbHJtuo gp-gallery-geHzbHJtuo-{{product.id}} gp-carousel-action-next gem-slider-next gp-cursor-pointer gp-text-gray-500 !gp-hidden tablet:!gp-hidden mobile:!gp-hidden"
+      style="--d:none;--d-tablet:none;--d-mobile:none;--right:3px;--left:initial;--top:;--bottom:initial;--right-tablet:3px;--left-tablet:initial;--top-tablet:;--bottom-tablet:initial;--right-mobile:3px;--left-mobile:initial;--top-mobile:;--bottom-mobile:initial"
+    >
+      <style type="text/css">
+      .gp-gallery-geHzbHJtuo-{{product.id}}.gp-carousel-arrow-gp-gallery-geHzbHJtuo {
+        
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+      }
+      .gp-gallery-geHzbHJtuo-{{product.id}}.gp-carousel-arrow-gp-gallery-geHzbHJtuo::before {
+        content: '';
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        pointer-events: none;
+        z-index: 10;
+        border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+        
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+      }
+      @media only screen and (max-width: 1024px) and (min-width: 768px) {
+        .gp-gallery-geHzbHJtuo-{{product.id}}.gp-carousel-arrow-gp-gallery-geHzbHJtuo {
+          
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+        }
+        .gp-gallery-geHzbHJtuo-{{product.id}}.gp-carousel-arrow-gp-gallery-geHzbHJtuo::before {
+          border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+          
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        .gp-gallery-geHzbHJtuo-{{product.id}}.gp-carousel-arrow-gp-gallery-geHzbHJtuo {
+          
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+        }
+        .gp-gallery-geHzbHJtuo-{{product.id}}.gp-carousel-arrow-gp-gallery-geHzbHJtuo::before {
+          border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+          
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+        }
+      }
+    </style>
+      
+    <div
+      class="gp-flex gp-items-center gp-justify-center [&>svg]:gp-h-full [&>svg]:gp-w-full gp-rotate-0 tablet:gp-rotate-0 mobile:gp-rotate-0"
+      style="--c:#000000;--w:24px;--w-tablet:24px;--w-mobile:24px;--h:24px;--h-tablet:24px;--h-mobile:24px"
+    >
+        <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM10.6828 8.13017C10.5266 7.95661 10.2734 7.95661 10.1172 8.13017C9.96095 8.30374 9.96095 8.58515 10.1172 8.75871L13.0343 12L10.1172 15.2413C9.96095 15.4149 9.96095 15.6963 10.1172 15.8698C10.2734 16.0434 10.5266 16.0434 10.6828 15.8698L13.8828 12.3143C14.0391 12.1407 14.0391 11.8593 13.8828 11.6857L10.6828 8.13017Z" fill="currentColor"/>
+    </svg>
+    </div>
+  
+    </button>
+  
+        </div>
+        
+    
+        <div class="gp-carousel-dot-container gp-carousel-dot-container-gp-gallery-geHzbHJtuo-{{product.id}} gp-z-2 gp-flex gp-flex-1 gp-items-center gp-justify-center gp-gap-2 gp-text-center gp-static gp-flex-row gp-left-0 gp-right-0 tablet:gp-static tablet:gp-flex-row tablet:gp-left-0 tablet:gp-right-0 mobile:gp-static mobile:gp-flex-row mobile:gp-left-0 mobile:gp-right-0" style="--bottom:0px;--bottom-tablet:0px;--bottom-mobile:0px;--d:none;--d-tablet:none;--d-mobile:none">
+          <!-- item render by js -->
+        </div>
+      
+  
+      </div>
+    </gp-carousel>
+    <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-carousel-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+
+  
+  {% endif %}
+        
+      </div>
+    
+      </div>
+    </gp-product-images>
+    <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-product-images-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+  
+    </div><div
+      data-same-height-display-contents
+      style="--jc:start"
+      class="gat_0Rjm59 gp-relative gp-flex gp-flex-col"
+    >
+      
+    
+
+    
+
+    
+    <gp-row gp-data='{"background":{"desktop":{"attachment":"scroll","color":"transparent","image":{"height":0,"src":"","width":0},"position":{"x":50,"y":50},"repeat":"no-repeat","size":"cover","type":"color"}},"uid":"gMFStboXdj"}' data-id="gMFStboXdj" id="gMFStboXdj" data-same-height-subgrid-container class="gMFStboXdj gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--op-mobile:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb-mobile:0px;--cg:8px;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:start"
+      class="gLR9ImGjVR gp-relative gp-flex gp-flex-col"
+    >
+      
+  
+    <div
+      
+      style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--mb:14px;--mb-tablet:14px;--mb-mobile:14px;--ta:left;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+      data-keep-class="true"
+      class="gXstttC7MC gp-custom-code">
+      <div>
+    <div class="product-info__block-item" data-block-id="liquid_b6RnYx" data-block-type="liquid"><div class="product-info__liquid">
+              <div class="product-info__block-item" data-block-id="liquid_ythfX4" data-block-type="liquid">
+  <div class="product-info__liquid">
+    <div class="main-product__block main-product__block-custom_liquid">
+      <div class="m-product-text">
+        <style>
+          .badges-container {
+            display: flex;
+            gap: 6px; /* Espacement entre les badges */
+            align-items: center;
+          }
+
+          .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(135deg, #077e6b, #0aa892); /* Dégradé basé sur #077e6b */
+            border-radius: 15px;
+            text-transform: uppercase;
+            white-space: nowrap;
+          }
+        </style>
+
+        <div class="badges-container">
+          <div class="badge">Best Seller</div>
+          <div class="badge">94/100 Yuka - EXCELLENT 💚</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div></div>
+    </div>
+    </div>
+  
+  
+    <div
+      
+      style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--mb:3px;--mb-tablet:3px;--mb-mobile:3px;--ta:left;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+      data-keep-class="true"
+      class="gqCga4LiSU gp-custom-code">
+      <div>
+    <div class="product-info__block-item" data-block-id="liquid_QgfhRq" data-block-type="liquid"><div class="product-info__liquid">
+              <div class="product-info__block-item" data-block-id="liquid_MHHYmH" data-block-type="liquid">
+  <div class="product-info__liquid">
+    <div class="main-product__block main-product__block-custom_liquid">
+      <div class="m-product-text">
+        <div class="main-product__block main-product__block-custom_liquid">
+          <div class="m-product-text">
+            <div class="main-product__block main-product__block-custom_liquid">
+              <div class="m-product-text">
+                <div class="product-info__liquid">
+                  <a class="image-size" style="display: flex; align-items: center; gap: 8px;">
+                    <img src="https://cdn.shopify.com/s/files/1/0776/3751/7627/files/avis.png?v=1687213619" alt="Étoiles" width="63" height="13">
+                    <span class="text-size">Noté <b>4,8/5</b> sur la base de 870 avis</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div></div>
+    </div>
+    </div>
+  <div gp-el-wrapper style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--op-mobile:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:5px;--mb-tablet:5px;--mb-mobile:5px" class="gBw9pVZbAE ">
+      {% unless product %}<p>{{ 'gempages.ProductTitle.product_not_found' | t }}</p>{% else %}
+      <gp-product-title
+        gp-data='{"setting":{"linkProduct":false},"uid":"gBw9pVZbAE"}'
+      >
+        
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gBw9pVZbAE"
+        class="gBw9pVZbAE"
+        style="--dynamic-source-color:#F4F4F4"
+      >
+      <div  >
+        <h1
+          data-gp-text
+          class=" gp-text-instant"
+          style="--w:100%;--tdt:auto;--ts:none;--ta:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#151515;--fs:normal;--ff:var(--g-font-Faculty-Glyphic, 'Faculty Glyphic'), var(--g-font-heading, heading);--weight:400;--size:26px;--size-tablet:40px;--size-mobile:20px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--ls:normal;word-break:break-word;overflow:hidden"
+        >
+          {{ product.title }}
+        </h1>
+      </div>
+    </div>
+    
+      </gp-product-title>
+      <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-product-title-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+    {% endunless %}
+      </div>
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gV9waVpfPQ"
+        class="gV9waVpfPQ"
+        style="--ta:left;--mb:5px;--mb-tablet:5px;--mb-mobile:5px;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Figtree, 'Figtree'), var(--g-font-body, body);--weight:400;--size:14px;--size-tablet:16px;--size-mobile:12px;--lh:180%;--lh-tablet:180%;--lh-mobile:180%;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggV9waVpfPQ_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+  
+    <div
+      
+      style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--mb:5px;--mb-tablet:5px;--mb-mobile:10px;--ta:left;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+      data-keep-class="true"
+      class="gLM5pTNfr1 gp-custom-code">
+      <div>
+    <div class="product-info__block-item" data-block-id="liquid_ixPC7N" data-block-type="liquid"><div class="product-info__liquid">
+              <div class="icons-block">
+  <table class="product-table" style="width: 100%; table-layout: fixed;">
+    <tbody>
+      <tr>
+        <td class="product-cell" style="width: 50%; padding: 10px;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <img class="badge-image" src="https://cdn.shopify.com/s/files/1/0943/9402/4261/files/Design_sans_titre_1.svg?v=1771500170" alt="Silhouette affinée" width="40" height="40">
+            <p style="font-size: 0.7em; margin: 0;"><b>Silhouette affinée</b></p>
+          </div>
+        </td>
+        <td class="product-cell" style="width: 50%; padding: 10px;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <img class="badge-image" src="https://cdn.shopify.com/s/files/1/0943/9402/4261/files/Design_sans_titre_3.svg?v=1771500247" alt="Circulation optimisée" width="40" height="40">
+            <p style="font-size: 0.7em; margin: 0;"><b>Circulation optimisée</b></p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="product-cell" style="width: 50%; padding: 10px;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <img class="badge-image" src="https://cdn.shopify.com/s/files/1/0943/9402/4261/files/Design_sans_titre_4.svg?v=1771500406" alt="Visage sculpté" width="40" height="40">
+            <p style="font-size: 0.7em; margin: 0;"><b>Visage sculpté</b></p>
+          </div>
+        </td>
+        <td class="product-cell" style="width: 50%; padding: 10px;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <img class="badge-image" src="https://cdn.shopify.com/s/files/1/0943/9402/4261/files/Design_sans_titre_5.svg?v=1771500480" alt="Bien-être digestif" width="40" height="40">
+            <p style="font-size: 0.7em; margin: 0;"><b>Bien-être digestif</b></p>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+            </div></div>
+    </div>
+    </div>
+  
+  
+    <div
+      
+      style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--mb:12px;--mb-tablet:12px;--mb-mobile:10px;--ta:left;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+      data-keep-class="true"
+      class="g--5e7g18Y gp-custom-code">
+      <div>
+    <div class="product-info__block-item" data-block-id="liquid_zgkaNk" data-block-type="liquid"><div class="product-info__liquid">
+              <div class="product-info__block-item" data-block-id="liquid_CjmEAF" data-block-type="liquid"><div class="product-info__liquid">
+              <style>
+.ml-stk{font-family:'Figtree',system-ui,sans-serif;display:inline-flex;align-items:center;gap:8px;padding:4px 6px 4px 4px;border-radius:50px;background:rgba(210,70,55,.05);border:1px solid rgba(210,70,55,.1);margin:0}
+.ml-stk-bar{display:flex;gap:2px}
+.ml-stk-bar span{width:4px;height:14px;border-radius:2px;background:#E8E8E6}
+.ml-stk-bar span.on{background:#D24637;animation:mlBl 1.4s ease-in-out infinite}
+.ml-stk-bar span.warn{background:#E8943A;animation:mlBl 1.4s ease-in-out .2s infinite}
+@keyframes mlBl{0%,100%{opacity:1}50%{opacity:.35}}
+.ml-stk-txt{font-size:11px;color:#555;font-weight:500;padding-right:4px}
+.ml-stk-txt b{color:#C0392B;font-weight:700}
+</style>
+
+<div class="ml-stk">
+  <div class="ml-stk-bar">
+    <span class="on"></span><span class="on"></span><span class="on"></span><span class="warn"></span><span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <span class="ml-stk-txt"><b>Bientôt en Rupture - Stock Limité</b> </span>
+</div>
+            </div></div>
+            </div></div>
+    </div>
+    </div>
+  <div gp-el-wrapper style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--mb:15px" class="ggqZBBZfSO ">
+      
+    {% assign app_blocks = section.blocks | where: "type", "@app" %}
+    <div
+      class="gp-flex gp-w-full gp-items-center  !gp-block [&_*]:gp-max-w-none"
+      style="--jc:center"
+    >
+      {% for block in app_blocks %}
+        {% if block.type == '@app' and block.id contains 'gp_app_kaching-bundles_ggqZBBZfSO' %}
+          {% render block %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  
+      </div>
+    
+
+    
+
+    
+    <gp-row gp-data='{"background":{"desktop":{"attachment":"scroll","color":"transparent","image":{"height":0,"src":"","width":0},"position":{"x":50,"y":50},"repeat":"no-repeat","size":"cover","type":"color"}},"uid":"g-dzE1AuJN"}' data-id="g-dzE1AuJN" id="g-dzE1AuJN" data-same-height-subgrid-container class="g-dzE1AuJN gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--op-mobile:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:24px;--mb-mobile:21px;--cg:12px;--cg-mobile:7px;--gtc:minmax(0, auto);--gtc-mobile:minmax(0, auto);--w:var(--g-ct-w, 1200px);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:start"
+      class="g7LeXbBAmm gp-relative gp-flex gp-flex-col"
+    >
+      
+    {%- assign total_combinations = 1 -%}
+    {% for option in product.options_with_values %}{%- assign total_combinations = total_combinations | times: option.values.size -%}{% endfor %}
+    {%- liquid
+      assign inventory_quantity = variant.inventory_quantity | default: 0
+      assign is_in_stock = variant.available
+    -%}
+    <gp-product-button
+      
+      gp-data-wrapper="true"
+      gp-href="{{ request.origin }}{{ routes.root_url | split: '/' | join: '/' }}/cart"
+      class="gp-product-button"
+      gp-label-out-of-stock="{{ section.settings.ggvd0yrJTM2_outOfStockLabel }}"
+      gp-label-unavailable="{{ section.settings.ggvd0yrJTM2_unavailableLabel }}"
+      gp-data='{"styles":{"errorTypo":{"attrs":{"color":"error"},"type":"paragraph-2"},"successTypo":{"attrs":{"color":"success"},"type":"paragraph-2"}},"setting":{"errorType":"built-in","actionEffect":"open-cart-drawer","enableMessage":true,"label":"Ajouter au Panier","errorMessage":"Cannot add product to cart","successMessage":"Add product to cart successfully","outOfStockLabel":"Out of stock","customURL":{"link":"/cart","target":"_self"}},"variantID":"{{variant.id}}","disabled":"{{variant.available}}","totalVariant":"{{total_combinations}}"}'
+      data-variant-selection-required-message=""
+      gp-enable-third-partycart="{{shop.metafields.GEMPAGES.enableThirdPartyCart}}"
+    >
+      
+    <gp-button
+      gp-data='{}'
+      
+      class="gp-flex gp-flex-col"
+    >
+      <div style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--op-mobile:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:15px;--mb-tablet:15px;--mb-mobile:15px;--ta:left" class="{% unless variant.available %} !gp-hidden {% endunless %}">
+        <style>[data-id="gvd0yrJTM2"].gp-button-base::before, [data-id="gvd0yrJTM2-interaction"].gp-button-base::before {
+      
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    border-style: none;
+  
+  
+  
+    
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      
+  
+    }
+  
+      
+  [data-id="gvd0yrJTM2"]:hover::before, [data-id="gvd0yrJTM2-interaction"]:hover::before {
+    border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+    
+  }</style>
+        
+        <button
+          data-id="gvd0yrJTM2" dataId="gvd0yrJTM2" data-state="idle" aria-label="Ajouter au Panier"
+          name="add" gp-data-hidden="{% unless variant.available %}true{% endunless %}"
+          type="submit"
+          style="--w:1000px;--w-tablet:1000px;--w-mobile:1000px;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:24px;--pr:24px;--pt:14px;--pb:14px;--pl-mobile:24px;--pr-mobile:24px;--pt-mobile:12px;--pb-mobile:12px;--bblr:50px;--bbrr:50px;--btlr:50px;--btrr:50px;--hvr-bblr:50px;--hvr-bbrr:50px;--hvr-btlr:50px;--hvr-btrr:50px;--shadow:none;--bgi:;--hvr-bgi:;--hvr-bg:#575757;--bg:#0E5348;--c:var(--g-c-text-3, text-3);--fs:normal;--ff:var(--g-font-Figtree, 'Figtree'), var(--g-font-body, body);--weight:500;--size:18px;--size-tablet:16px;--size-mobile:14px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--ls:normal;--tt:none"
+          class="gp-button-atc tcustomizer-submit-button gvd0yrJTM2 gp-button-base gp-group gp-relative gp-inline-flex gp-max-w-full gp-items-center gp-justify-center gp-no-underline gp-transition-colors gp-duration-200 disabled:gp-btn-disabled disabled:gp-opacity-30 gp-text-g-text-3  undefined"
+        >
+        
+  <svg
+    class="gp-invisible gp-absolute gp-h-5 gp-w-5 group-data-[state=loading]:gp-animate-spin group-data-[state=loading]:gp-visible"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+  >
+    <circle
+      class="gp-opacity-25"
+      cx="12"
+      cy="12"
+      r="10"
+      stroke="currentColor"
+      stroke-width="4"
+    ></circle>
+    <path
+      class="gp-opacity-75"
+      fill="currentColor"
+      d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+    ></path>
+  </svg>
+
+        <div class="gp-inline-flex">
+          
+          
+    <span
+      data-gp-text
+      style="--fs:normal;--ff:var(--g-font-Figtree, 'Figtree'), var(--g-font-body, body);--weight:500;--size:18px;--size-tablet:16px;--size-mobile:14px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--ls:normal;--tt:none;--ts:none;word-break:break-word"
+      class="gp-content-product-button group-active/button:!gp-text-inherit gp-relative gp-flex gp-h-full gp-items-center gp-overflow-hidden gp-break-words group-data-[state=loading]:gp-invisible [&_p]:gp-whitespace-pre-line gp-text button-text"
+    >
+      {{ section.settings.ggvd0yrJTM2_label }}
+    </span>
+        </div>
+        
+    
+    
+  
+        </button>
+      </div>
+      <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-button-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+    </gp-button>
+  
+      
+    <gp-button
+      gp-data='{}'
+      
+      class="gp-flex gp-flex-col"
+    >
+      <div style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--op-mobile:100%;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:15px;--mb-tablet:15px;--mb-mobile:15px;--ta:left" class="{% if variant.available %} !gp-hidden {% endif %}">
+        <style>[data-id="gvd0yrJTM2-sold-out"].gp-button-base::before, [data-id="gvd0yrJTM2-sold-out-interaction"].gp-button-base::before {
+      
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+    
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      
+  
+    }
+  
+      
+  [data-id="gvd0yrJTM2-sold-out"]:hover::before, [data-id="gvd0yrJTM2-sold-out-interaction"]:hover::before {
+    
+    
+  }</style>
+        
+        <button
+          data-id="gvd0yrJTM2-sold-out" dataId="gvd0yrJTM2-sold-out" data-state="idle" aria-label="{{ section.settings.ggvd0yrJTM2_outOfStockLabel }}"
+          gp-data-hidden="{% if variant.available %}true{% endif %}"
+          type="button"
+          style="--w:1000px;--w-tablet:1000px;--w-mobile:1000px;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:24px;--pr:24px;--pt:14px;--pb:14px;--pl-mobile:24px;--pr-mobile:24px;--pt-mobile:12px;--pb-mobile:12px;--bblr:4px;--bbrr:4px;--btlr:4px;--btrr:4px;--hvr-bblr:4px;--hvr-bbrr:4px;--hvr-btlr:4px;--hvr-btrr:4px;--shadow:none;--bgi:;--hvr-bgi:;--bg:#242424;--hvr-bg:#242424;--c:var(--g-c-text-3, text-3);--fs:normal;--ff:var(--g-font-Figtree, 'Figtree'), var(--g-font-body, body);--weight:500;--size:18px;--size-tablet:16px;--size-mobile:14px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--ls:normal;--tt:none"
+          class="gp-cursor-default gp-opacity-30 btn-disabled gp-button-sold-out gvd0yrJTM2-sold-out gp-button-base gp-group gp-relative gp-inline-flex gp-max-w-full gp-items-center gp-justify-center gp-no-underline gp-transition-colors gp-duration-200 disabled:gp-btn-disabled disabled:gp-opacity-30 "
+        >
+        
+        <div class="gp-inline-flex">
+          
+          
+    <span
+      data-gp-text
+      style="--fs:normal;--ff:var(--g-font-Figtree, 'Figtree'), var(--g-font-body, body);--weight:500;--size:18px;--size-tablet:16px;--size-mobile:14px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--ls:normal;--tt:none;--ts:none;word-break:break-word"
+      class="gp-content-product-button group-active/button:!gp-text-inherit gp-relative gp-flex gp-h-full gp-items-center gp-overflow-hidden gp-break-words group-data-[state=loading]:gp-invisible [&_p]:gp-whitespace-pre-line gp-text button-text"
+    >
+      {{ section.settings.ggvd0yrJTM2_outOfStockLabel }}
+    </span>
+        </div>
+        
+    
+    
+  
+        </button>
+      </div>
+      <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-button-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+    </gp-button>
+  
+    </gp-product-button>
+    <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-product-button-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+  
+  
+    <div
+      
+      style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--mb:26px;--mb-tablet:26px;--mb-mobile:25px;--ta:left;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+      data-keep-class="true"
+      class="g1PimP32UP gp-custom-code">
+      <div>
+    <div class="product-info__block-item" data-block-id="liquid_jFpEJ8" data-block-type="liquid"><div class="product-info__liquid">
+              <div class="product-info__block-item" data-block-id="liquid_AxGAPX" data-block-type="liquid"><div class="product-info__liquid">
+              <style style="z-index: 22;">
+.unique-body-Xyz123 {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.unique-container-Abc456 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Badge'ler arasındaki boşluk */
+}
+
+.unique-badge-Def789 {
+  display: inline-flex;
+  align-items: center;
+  background-color: #e0ffd8; /* Çok açık yeşil arka plan */
+  color: #004d00; /* Koyu yeşil metin */
+  padding: 2px 4px; /* Küçültülmüş padding */
+  border-radius: 3px; /* Küçültülmüş yuvarlama */
+  font-size: 10px; /* Küçültülmüş font boyutu */
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+
+.unique-badge-Ghi012 {
+  display: inline-flex;
+  align-items: center;
+  background-color: #ffdede; /* Açık kırmızı arka plan */
+  color: #b22222; /* Koyu kırmızı metin */
+  padding: 2px 4px; /* Küçültülmüş padding */
+  border-radius: 3px; /* Küçültülmüş yuvarlama */
+  font-size: 10px; /* Küçültülmüş font boyutu */
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+
+.unique-icon-Jkl345 {
+  width: 12px; /* Küçültülmüş ikon boyutu */
+  height: 12px; /* Küçültülmüş ikon boyutu */
+  margin-right: 2px;
+  vertical-align: middle;
+}
+
+.unique-badge-Def789 span, .unique-badge-Ghi012 span {
+  display: flex;
+  align-items: center;
+  white-space: nowrap; /* Metinlerin tek satırda kalmasını sağlar */
+}
+
+@keyframes
+ unique-rotate-Mno678 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.unique-clock-hand-Pqr901 {
+  transform-origin: 50% 50%;
+  animation: unique-rotate-Mno678 2s linear infinite;
+}
+</style>
+
+<div class="unique-container-Abc456" style="z-index: 21;">
+  <div class="unique-badge-Def789">
+    <span>
+      <svg class="unique-icon-Jkl345" viewBox="0 0 24 24" xmlns="http://w3.org/2000/svg">
+        <path fill="#004d00" d="M12 2C9.24 2 7 4.24 7 7V10H5C3.9 10 3 10.9 3 12V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V12C21 10.9 20.1 10 19 10H17V7C17 4.24 14.76 2 12 2M12 4C13.66 4 15 5.34 15 7V10H9V7C9 5.34 10.34 4 12 4M12 12C13.1 12 14 12.9 14 14C14 15.1 13.1 16 12 16C10.9 16 10 15.1 10 14C10 12.9 10.9 12 12 12Z"></path>
+      </svg>
+30J Satisfait ou remboursé</span>
+  </div>
+
+  <div class="unique-badge-Ghi012">
+    <span>
+      <svg class="unique-icon-Jkl345" viewBox="0 0 24 24" xmlns="http://w3.org/2000/svg">
+        <circle cx="12" cy="12" r="10" stroke="#b22222" stroke-width="2" fill="none"></circle>
+        <line x1="12" y1="12" x2="12" y2="6" stroke="#b22222" stroke-width="2" class="unique-clock-hand-Pqr901"></line>
+        <line x1="12" y1="12" x2="16" y2="12" stroke="#b22222" stroke-width="2"></line>
+      </svg>
+STOCK LIMITÉ!    </span>
+  </div>
+</div>
+            </div></div>
+            </div></div>
+    </div>
+    </div>
+  
+  
+    <div
+      
+      style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--mb:13px;--mb-tablet:13px;--mb-mobile:14px;--ta:left;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+      data-keep-class="true"
+      class="grql8sBqum gp-custom-code">
+      <div>
+    <div class="product-info__block-item" data-block-id="liquid_fi8yVJ" data-block-type="liquid"><div class="product-info__liquid">
+              <div class="product-info__block-item" data-block-id="liquid_zdRD3p" data-block-type="liquid"><div class="product-info__liquid">
+              <div class="product__block product__block--custom_liquid">
+            <ul aria-label="" class="ss-payment-list" id="ss-payment-list-template--16746986799353__2e7ae7f5-d59f-45a0-9421-6bc2e419d91b">
+    <li class="ss-payment-item">
+     <div class="ss-payment-icon">
+      <svg fill="none" height="167" viewBox="0 0 226 167" width="226" xmlns="http://www.w3.org/2000/svg">
+       <g filter="url(#filter0_d_353_4628)">
+        <rect fill="white" height="124.354" rx="14.5521" stroke="#D9D9D9" stroke-width="2.64583" width="182.562" x="21.3229" y="21.3229">
+        </rect>
+        <path clip-rule="evenodd" d="M107.472 103.386V87.4005H115.723C119.104 87.4005 121.957 86.2676 124.283 84.0334L124.842 83.467C129.091 78.8411 128.812 71.6349 124.283 67.3552C122.019 65.0895 118.917 63.8622 115.723 63.9252H102.478V103.386H107.472ZM107.473 82.5544V68.7713H115.849C117.648 68.7713 119.354 69.4636 120.626 70.7224C123.325 73.3657 123.387 77.7713 120.781 80.509C119.509 81.8621 117.71 82.6174 115.849 82.5544H107.473ZM148.136 78.4949C145.996 76.5124 143.08 75.5054 139.389 75.5054C134.643 75.5054 131.076 77.2676 128.719 80.7606L133.123 83.5613C134.736 81.1697 136.939 79.9739 139.73 79.9739C141.498 79.9739 143.204 80.6347 144.538 81.8305C145.841 82.9634 146.585 84.5997 146.585 86.3305V87.4948C144.662 86.4249 142.243 85.8585 139.265 85.8585C135.791 85.8585 132.999 86.6766 130.921 88.3445C128.843 90.0123 127.788 92.2151 127.788 95.0157C127.726 97.5647 128.812 99.9877 130.735 101.624C132.689 103.386 135.171 104.267 138.086 104.267C141.529 104.267 144.259 102.725 146.337 99.6416H146.554V103.386H151.331V86.7396C151.331 83.2466 150.276 80.4774 148.136 78.4949ZM134.582 98.4145C133.558 97.6592 132.938 96.432 132.938 95.1103C132.938 93.6313 133.62 92.404 134.954 91.4285C136.319 90.453 138.026 89.9495 140.042 89.9495C142.834 89.918 145.006 90.5474 146.557 91.8061C146.557 93.946 145.719 95.8026 144.075 97.376C142.586 98.8865 140.569 99.7361 138.46 99.7361C137.064 99.7676 135.699 99.2956 134.582 98.4145ZM162.063 115.25L178.75 76.3865H173.322L165.599 95.7709H165.506L157.596 76.3865H152.168L163.117 101.656L156.914 115.25H162.063Z" fill="#3C4043" fill-rule="evenodd">
+        </path>
+        <path d="M90.2316 83.9389C90.2316 82.3969 90.1075 80.855 89.8594 79.3445H68.7986V88.0612H80.8644C80.3681 90.8619 78.7552 93.3793 76.3978 94.9527V100.617H83.5939C87.8123 96.6835 90.2316 90.8619 90.2316 83.9389Z" fill="#4285F4">
+        </path>
+        <path d="M68.7995 106.093C74.8169 106.093 79.9038 104.079 83.5948 100.617L76.3988 94.9528C74.3827 96.3374 71.8082 97.1242 68.7995 97.1242C62.9683 97.1242 58.0365 93.1277 56.2685 87.7781H48.8553V93.6312C52.6395 101.278 60.3628 106.093 68.7995 106.093Z" fill="#34A853">
+        </path>
+        <path d="M56.2692 87.7781C55.3385 84.9774 55.3385 81.925 56.2692 79.0929V73.2712H48.8549C45.6595 79.6593 45.6595 87.2117 48.8549 93.5997L56.2692 87.7781Z" fill="#FBBC04">
+        </path>
+        <path d="M68.7995 69.7469C71.9943 69.684 75.0651 70.9113 77.3603 73.1455L83.7499 66.663C79.6866 62.8239 74.3517 60.7155 68.7995 60.7785C60.3628 60.7785 52.6395 65.6246 48.8553 73.2714L56.2685 79.1245C58.0365 73.7434 62.9683 69.7469 68.7995 69.7469Z" fill="#EA4335">
+        </path>
+       </g>
+       <defs>
+        <filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="167" id="filter0_d_353_4628" width="225.208" x="0" y="0">
+         <feFlood flood-opacity="0" result="BackgroundImageFix">
+         </feFlood>
+         <feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0">
+         </feColorMatrix>
+         <feOffset>
+         </feOffset>
+         <feGaussianBlur stdDeviation="10">
+         </feGaussianBlur>
+         <feComposite in2="hardAlpha" operator="out">
+         </feComposite>
+         <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0">
+         </feColorMatrix>
+         <feBlend in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow_353_4628">
+         </feBlend>
+         <feBlend in="SourceGraphic" in2="effect1_dropShadow_353_4628" mode="normal" result="shape">
+         </feBlend>
+        </filter>
+       </defs>
+      </svg>
+     </div>
+    </li>
+    <li class="ss-payment-item">
+     <div class="ss-payment-icon">
+      <svg fill="none" height="167" viewBox="0 0 226 167" width="226" xmlns="http://www.w3.org/2000/svg">
+       <g filter="url(#filter0_d_353_4498)">
+        <rect fill="white" height="124.354" rx="14.5521" stroke="#D9D9D9" stroke-width="2.64583" width="182.562" x="21.3229" y="21.3229">
+        </rect>
+        <path clip-rule="evenodd" d="M64.1654 67.2703C66.6527 67.4801 69.14 66.0114 70.6946 64.1493C72.2232 62.2347 73.2337 59.6645 72.9746 57.0417C70.7723 57.1467 68.0518 58.5105 66.4972 60.425C65.0722 62.0774 63.8545 64.7525 64.1654 67.2703ZM93.7539 101.051V60.163H108.911C116.735 60.163 122.202 65.6182 122.202 73.5913C122.202 81.5643 116.632 87.072 108.704 87.072H100.024V101.051H93.7539ZM72.9484 67.7685C70.7571 67.6409 68.7577 68.4356 67.1427 69.0776C66.1034 69.4907 65.2233 69.8405 64.5538 69.8405C63.8024 69.8405 62.886 69.472 61.857 69.0582C60.5088 68.516 58.9674 67.8962 57.351 67.9259C53.6459 67.9784 50.2 70.1028 48.3086 73.4861C44.4222 80.2526 47.2981 90.2714 51.055 95.7791C52.8946 98.5067 55.0968 101.497 57.9987 101.392C59.2753 101.343 60.1937 100.948 61.1441 100.54C62.2382 100.07 63.3749 99.582 65.1497 99.582C66.863 99.582 67.9499 100.058 68.9933 100.514C69.9854 100.948 70.9381 101.365 72.3525 101.339C75.358 101.287 77.2494 98.6116 79.0889 95.884C81.0741 92.9565 81.9465 90.0994 82.0789 89.6659C82.0865 89.6411 82.0916 89.6242 82.0944 89.6157C82.0912 89.6125 82.0667 89.6011 82.0235 89.5811L82.0235 89.5811C81.3598 89.2736 76.2875 86.923 76.2389 80.6198C76.1901 75.3292 80.2621 72.6487 80.9031 72.2267L80.9033 72.2266C80.9422 72.201 80.9684 72.1837 80.9803 72.1747C78.3894 68.2931 74.3475 67.8735 72.9484 67.7685ZM133.655 101.365C137.593 101.365 141.246 99.3459 142.904 96.1461H143.034V101.051H148.837V80.6984C148.837 74.7973 144.174 70.9944 136.997 70.9944C130.338 70.9944 125.415 74.8498 125.234 80.1476H130.882C131.349 77.6298 133.655 75.9775 136.816 75.9775C140.65 75.9775 142.801 77.7872 142.801 81.118V83.3736L134.976 83.8456C127.695 84.2915 123.757 87.3076 123.757 92.553C123.757 97.8509 127.825 101.365 133.655 101.365ZM135.338 96.5138C131.996 96.5138 129.871 94.8877 129.871 92.3961C129.871 89.8259 131.918 88.331 135.83 88.0949L142.8 87.6491V89.957C142.8 93.7862 139.587 96.5138 135.338 96.5138ZM168.088 102.65C165.575 109.81 162.699 112.171 156.584 112.171C156.118 112.171 154.563 112.118 154.2 112.014V107.109C154.589 107.162 155.548 107.214 156.04 107.214C158.812 107.214 160.367 106.034 161.325 102.965L161.895 101.156L151.273 71.3878H157.828L165.212 95.5429H165.341L172.726 71.3878H179.099L168.088 102.65ZM100.023 65.5128H107.252C112.693 65.5128 115.802 68.4502 115.802 73.617C115.802 78.7837 112.693 81.7474 107.226 81.7474H100.023V65.5128Z" fill="black" fill-rule="evenodd">
+        </path>
+       </g>
+       <defs>
+        <filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="167" id="filter0_d_353_4498" width="225.208" x="0" y="0">
+         <feFlood flood-opacity="0" result="BackgroundImageFix">
+         </feFlood>
+         <feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0">
+         </feColorMatrix>
+         <feOffset>
+         </feOffset>
+         <feGaussianBlur stdDeviation="10">
+         </feGaussianBlur>
+         <feComposite in2="hardAlpha" operator="out">
+         </feComposite>
+         <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0">
+         </feColorMatrix>
+         <feBlend in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow_353_4498">
+         </feBlend>
+         <feBlend in="SourceGraphic" in2="effect1_dropShadow_353_4498" mode="normal" result="shape">
+         </feBlend>
+        </filter>
+       </defs>
+      </svg>
+     </div>
+    </li>
+    <li class="ss-payment-item">
+     <div class="ss-payment-icon">
+      <svg fill="none" height="167" viewBox="0 0 226 167" width="226" xmlns="http://www.w3.org/2000/svg">
+       <g filter="url(#filter0_d_353_4698)">
+        <rect fill="#5A31F4" height="124.354" rx="14.5521" stroke="#D9D9D9" stroke-width="2.64583" width="182.562" x="21.3229" y="21.3229">
+        </rect>
+        <path d="M124.269 78.5323C124.269 86.682 118.556 92.4997 110.571 92.4997H103.049C102.966 92.4997 102.884 92.5161 102.807 92.548C102.73 92.5799 102.661 92.6266 102.602 92.6855C102.543 92.7443 102.497 92.8142 102.466 92.891C102.434 92.9679 102.418 93.0502 102.418 93.1332V103.844C102.418 104.012 102.352 104.173 102.234 104.291C102.116 104.41 101.955 104.477 101.788 104.478H96.5242C96.399 104.477 96.2768 104.44 96.1729 104.37C96.0689 104.3 95.9878 104.202 95.9397 104.086C95.9079 104.011 95.8913 103.929 95.8907 103.847V65.1953C95.8903 65.1123 95.9063 65.03 95.9378 64.9531C95.9693 64.8763 96.0157 64.8064 96.0743 64.7476C96.1328 64.6887 96.2025 64.642 96.2792 64.6101C96.3559 64.5782 96.4381 64.5618 96.5211 64.5618H110.605C118.556 64.5527 124.269 70.3704 124.269 78.5323ZM117.705 78.5323C117.705 73.8469 114.51 70.4224 110.176 70.4224H103.049C102.966 70.4224 102.884 70.4388 102.807 70.4707C102.73 70.5026 102.661 70.5493 102.602 70.6081C102.543 70.667 102.497 70.7369 102.466 70.8137C102.434 70.8905 102.418 70.9728 102.418 71.0559V85.972C102.418 86.1392 102.485 86.2996 102.603 86.4178C102.721 86.536 102.882 86.6024 103.049 86.6024H110.176C114.51 86.633 117.705 83.2055 117.705 78.5323ZM125.83 97.0627C125.775 95.8128 126.034 94.569 126.582 93.4445C127.131 92.32 127.951 91.3504 128.97 90.6237C131.023 89.0783 134.234 88.2795 138.947 88.1143L143.966 87.9367V86.4555C143.966 83.487 141.976 82.2323 138.781 82.2323C135.586 82.2323 133.56 83.3646 133.095 85.2161C133.057 85.3463 132.977 85.4602 132.868 85.54C132.758 85.6198 132.625 85.6608 132.489 85.6568H127.532C127.44 85.6593 127.35 85.6416 127.266 85.6051C127.182 85.5685 127.108 85.514 127.047 85.4453C126.987 85.3766 126.943 85.2955 126.918 85.2078C126.892 85.12 126.887 85.0278 126.901 84.9376C127.636 80.5491 131.287 77.2133 139.008 77.2133C147.222 77.2133 150.187 81.0387 150.187 88.3407V103.844C150.186 104.014 150.117 104.175 149.997 104.294C149.876 104.413 149.714 104.479 149.545 104.478H144.547C144.38 104.477 144.22 104.412 144.1 104.294C144.042 104.236 143.995 104.166 143.964 104.089C143.932 104.013 143.916 103.93 143.917 103.847V102.688C143.918 102.592 143.891 102.498 143.838 102.418C143.786 102.338 143.71 102.275 143.621 102.239C143.532 102.203 143.435 102.195 143.341 102.215C143.247 102.236 143.162 102.284 143.097 102.354C141.597 103.985 139.176 105.163 135.299 105.163C129.594 105.163 125.83 102.195 125.83 97.0627ZM143.966 93.7024V92.4997L137.465 92.8425C134.041 93.0169 132.049 94.44 132.049 96.8362C132.049 99.003 133.876 100.203 137.068 100.203C141.404 100.203 143.966 97.8614 143.966 93.7024ZM155.206 116.193V111.7C155.207 111.606 155.229 111.513 155.27 111.428C155.311 111.343 155.37 111.269 155.443 111.209C155.516 111.149 155.601 111.107 155.692 111.084C155.784 111.061 155.879 111.058 155.971 111.076C156.736 111.22 157.517 111.293 158.297 111.296C159.639 111.362 160.964 110.975 162.059 110.198C163.155 109.421 163.959 108.299 164.341 107.012L164.666 105.977C164.713 105.839 164.713 105.688 164.666 105.549L154.251 78.8016C154.214 78.7047 154.2 78.6 154.212 78.4966C154.224 78.3933 154.26 78.2943 154.319 78.2082C154.377 78.1222 154.456 78.0515 154.547 78.0024C154.639 77.9533 154.741 77.9272 154.845 77.9264H159.895C160.024 77.9277 160.149 77.9678 160.255 78.0415C160.361 78.1152 160.442 78.219 160.488 78.3395L167.561 97.2035C167.605 97.3288 167.687 97.4373 167.796 97.514C167.904 97.5908 168.034 97.632 168.167 97.632C168.3 97.632 168.429 97.5908 168.538 97.514C168.646 97.4373 168.729 97.3288 168.773 97.2035L174.915 78.3915C174.957 78.263 175.04 78.1511 175.149 78.072C175.259 77.9928 175.392 77.9504 175.527 77.9508H180.751C180.856 77.9515 180.959 77.9774 181.051 78.0265C181.143 78.0755 181.223 78.1462 181.282 78.2325C181.341 78.3187 181.379 78.4181 181.391 78.522C181.404 78.6259 181.391 78.7313 181.354 78.8292L170.214 108.533C167.65 115.437 163.252 117.203 158.41 117.203C157.492 117.227 156.574 117.117 155.687 116.875C155.539 116.836 155.41 116.746 155.322 116.622C155.234 116.497 155.193 116.345 155.206 116.193ZM62.0647 62.3339C55.4301 62.2866 49.0297 64.7837 44.1801 69.3115C43.9727 69.5014 43.8434 69.7617 43.8174 70.0418C43.7913 70.3218 43.8704 70.6015 44.0393 70.8264L47.0415 74.9272C47.1388 75.0638 47.2649 75.1773 47.4108 75.2599C47.5567 75.3425 47.719 75.3921 47.8861 75.4052C48.0533 75.4183 48.2213 75.3947 48.3783 75.3359C48.5354 75.2771 48.6776 75.1846 48.7951 75.0649C50.5389 73.3216 52.6127 71.9433 54.8953 71.0106C57.1779 70.0779 59.6235 69.6095 62.0892 69.6328C72.3842 69.6328 77.7612 77.3816 77.7612 85.0325C77.7612 93.3505 72.1118 99.2019 63.9927 99.3182C57.719 99.3182 52.9908 95.1592 52.9908 89.6658C52.9973 88.2781 53.3117 86.909 53.9113 85.6574C54.5109 84.4058 55.3808 83.3029 56.4582 82.4281C56.6859 82.2379 56.8299 81.9658 56.8591 81.6705C56.8883 81.3751 56.8004 81.0802 56.6142 80.849L53.459 76.8644C53.3636 76.7439 53.245 76.6438 53.1103 76.5699C52.9755 76.4959 52.8273 76.4498 52.6744 76.4341C52.5215 76.4184 52.367 76.4335 52.22 76.4785C52.073 76.5235 51.9366 76.5975 51.8187 76.6961C49.8809 78.2573 48.3172 80.2325 47.2422 82.4767C46.1672 84.721 45.6082 87.1774 45.6062 89.6658C45.6062 99.1223 53.6426 106.541 63.9376 106.602H64.0754C76.2984 106.443 85.1367 97.3902 85.1367 85.0172C85.1367 74.0305 77.0451 62.3339 62.0678 62.3339H62.0647Z" fill="white">
+        </path>
+       </g>
+       <defs>
+        <filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="167" id="filter0_d_353_4698" width="225.208" x="0" y="0">
+         <feFlood flood-opacity="0" result="BackgroundImageFix">
+         </feFlood>
+         <feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0">
+         </feColorMatrix>
+         <feOffset>
+         </feOffset>
+         <feGaussianBlur stdDeviation="10">
+         </feGaussianBlur>
+         <feComposite in2="hardAlpha" operator="out">
+         </feComposite>
+         <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0">
+         </feColorMatrix>
+         <feBlend in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow_353_4698">
+         </feBlend>
+         <feBlend in="SourceGraphic" in2="effect1_dropShadow_353_4698" mode="normal" result="shape">
+         </feBlend>
+        </filter>
+       </defs>
+      </svg>
+     </div>
+    </li>
+    <li class="ss-payment-item">
+     <div class="ss-payment-icon">
+      <svg fill="none" height="167" viewBox="0 0 226 167" width="226" xmlns="http://www.w3.org/2000/svg">
+       <g filter="url(#filter0_d_353_4587)">
+        <rect fill="white" height="124.354" rx="14.5521" stroke="#D9D9D9" stroke-width="2.64583" width="182.562" x="21.3229" y="21.3229">
+        </rect>
+        <path clip-rule="evenodd" d="M72.3875 100.65H64.1557C63.5924 100.65 63.1133 101.059 63.0255 101.615L59.6961 122.724C59.63 123.141 59.9525 123.516 60.375 123.516H64.305C64.8683 123.516 65.3474 123.107 65.4352 122.55L66.3332 116.856C66.4198 116.299 66.9001 115.89 67.4622 115.89H70.0681C75.4907 115.89 78.62 113.266 79.4377 108.066C79.8059 105.791 79.4533 104.004 78.3877 102.752C77.218 101.377 75.1425 100.65 72.3875 100.65ZM73.3372 108.36C72.8872 111.313 70.6303 111.313 68.448 111.313H67.2058L68.0773 105.797C68.129 105.464 68.4179 105.218 68.7549 105.218H69.3243C70.8108 105.218 72.2132 105.218 72.9379 106.065C73.3696 106.571 73.5021 107.322 73.3372 108.36ZM96.9944 108.265H93.0524C92.7165 108.265 92.4263 108.511 92.3745 108.844L92.2001 109.947L91.9244 109.547C91.0711 108.308 89.1683 107.894 87.2689 107.894C82.9124 107.894 79.1921 111.194 78.4674 115.822C78.0909 118.13 78.6261 120.338 79.9357 121.877C81.1372 123.293 82.8561 123.883 84.901 123.883C88.4107 123.883 90.3575 121.626 90.3575 121.626L90.1815 122.721C90.1152 123.14 90.4377 123.516 90.8577 123.516H94.4087C94.9735 123.516 95.4498 123.106 95.5389 122.549L97.6695 109.057C97.7369 108.642 97.4155 108.265 96.9944 108.265ZM91.4994 115.937C91.119 118.189 89.3315 119.701 87.0522 119.701C85.9075 119.701 84.9923 119.334 84.4052 118.638C83.8226 117.948 83.6009 116.964 83.7864 115.869C84.1417 113.636 85.9593 112.075 88.2041 112.075C89.3231 112.075 90.2333 112.446 90.8327 113.148C91.4331 113.857 91.6715 114.847 91.4994 115.937ZM114.027 108.264H117.989C118.544 108.264 118.867 108.887 118.552 109.342L105.377 128.359C105.164 128.667 104.812 128.851 104.437 128.851H100.48C99.9232 128.851 99.5979 128.223 99.9204 127.767L104.023 121.976L99.6597 109.172C99.5088 108.727 99.8374 108.264 100.311 108.264H104.203C104.709 108.264 105.155 108.596 105.301 109.08L107.617 116.814L113.081 108.766C113.294 108.452 113.65 108.264 114.027 108.264Z" fill="#253B80" fill-rule="evenodd">
+        </path>
+        <path clip-rule="evenodd" d="M156.977 122.724L160.356 101.229C160.407 100.895 160.696 100.65 161.032 100.649H164.836C165.256 100.649 165.578 101.025 165.512 101.442L162.18 122.55C162.093 123.107 161.614 123.516 161.05 123.516H157.653C157.233 123.516 156.911 123.141 156.977 122.724ZM131.104 100.65H122.871C122.309 100.65 121.83 101.059 121.742 101.615L118.413 122.724C118.346 123.141 118.669 123.516 119.089 123.516H123.314C123.706 123.516 124.042 123.23 124.104 122.84L125.048 116.856C125.135 116.299 125.615 115.89 126.177 115.89H128.782C134.206 115.89 137.334 113.266 138.153 108.066C138.522 105.791 138.167 104.004 137.102 102.751C135.933 101.377 133.859 100.65 131.104 100.65ZM132.054 108.359C131.605 111.313 129.348 111.313 127.164 111.313H125.923L126.796 105.797C126.848 105.464 127.134 105.218 127.472 105.218H128.042C129.527 105.218 130.931 105.218 131.655 106.065C132.087 106.571 132.219 107.322 132.054 108.359ZM155.709 108.265H151.77C151.431 108.265 151.144 108.51 151.093 108.844L150.918 109.946L150.642 109.547C149.788 108.308 147.887 107.894 145.987 107.894C141.631 107.894 137.912 111.194 137.187 115.822C136.811 118.13 137.344 120.338 138.654 121.877C139.858 123.293 141.574 123.882 143.619 123.882C147.129 123.882 149.075 121.625 149.075 121.625L148.9 122.721C148.834 123.14 149.156 123.515 149.579 123.515H153.128C153.69 123.515 154.169 123.106 154.257 122.549L156.389 109.057C156.454 108.642 156.132 108.265 155.709 108.265ZM150.214 115.937C149.836 118.189 148.046 119.701 145.767 119.701C144.624 119.701 143.707 119.334 143.12 118.638C142.537 117.947 142.318 116.964 142.501 115.869C142.858 113.636 144.674 112.075 146.919 112.075C148.038 112.075 148.948 112.446 149.548 113.148C150.15 113.857 150.389 114.847 150.214 115.937Z" fill="#179BD7" fill-rule="evenodd">
+        </path>
+        <path d="M102.852 93.0986L103.864 86.6706L101.61 86.6182H90.8452L98.3259 39.1846C98.3488 39.0414 98.4245 38.9079 98.5348 38.8131C98.6451 38.7183 98.7866 38.666 98.9336 38.666H117.084C123.11 38.666 127.268 39.9199 129.439 42.3948C130.457 43.5559 131.105 44.7691 131.419 46.1043C131.748 47.5053 131.754 49.1791 131.432 51.2205L131.409 51.3696V52.6776L132.427 53.2543C133.284 53.709 133.965 54.2295 134.488 54.8255C135.359 55.8182 135.922 57.0798 136.16 58.5756C136.405 60.114 136.324 61.9445 135.922 64.0169C135.457 66.4009 134.706 68.4772 133.693 70.1762C132.76 71.7416 131.572 73.0398 130.161 74.0463C128.814 75.0021 127.214 75.7279 125.405 76.1925C123.651 76.6487 121.653 76.8793 119.46 76.8793H118.048C117.038 76.8793 116.056 77.243 115.287 77.8953C114.515 78.5609 114.003 79.47 113.847 80.4648L113.74 81.0436L111.952 92.3728L111.871 92.7889C111.85 92.9209 111.813 92.9866 111.759 93.0312C111.711 93.0713 111.641 93.0986 111.573 93.0986H102.852Z" fill="#253B80">
+        </path>
+        <path d="M133.391 51.5212C133.337 51.8676 133.275 52.2217 133.205 52.5855C130.811 64.8749 122.623 69.1204 112.163 69.1204H106.838C105.559 69.1204 104.482 70.0492 104.282 71.3108L101.556 88.6025L100.784 93.5037C100.654 94.332 101.293 95.079 102.128 95.079H111.574C112.692 95.079 113.642 94.2663 113.818 93.1634L113.911 92.6833L115.689 81.3981L115.804 80.7792C115.977 79.6724 116.929 78.8597 118.048 78.8597H119.46C128.611 78.8597 135.775 75.1444 137.869 64.3931C138.743 59.9019 138.29 56.1518 135.976 53.5143C135.276 52.719 134.407 52.0592 133.391 51.5212Z" fill="#179BD7">
+        </path>
+        <path d="M130.886 50.5232C130.52 50.4168 130.143 50.32 129.756 50.2329C129.367 50.1478 128.968 50.0724 128.558 50.0066C127.122 49.7744 125.549 49.6641 123.864 49.6641H109.637C109.287 49.6641 108.954 49.7434 108.656 49.8866C108 50.202 107.513 50.8232 107.395 51.5836L104.368 70.7521L104.281 71.3113C104.48 70.0497 105.558 69.1208 106.837 69.1208H112.162C122.621 69.1208 130.811 64.8735 133.204 52.586C133.276 52.2222 133.336 51.8681 133.39 51.5217C132.784 51.2005 132.128 50.9257 131.422 50.6915C131.248 50.6335 131.068 50.5774 130.886 50.5232Z" fill="#222D65">
+        </path>
+        <path d="M107.395 51.5834C107.513 50.8229 108.001 50.2018 108.657 49.8883C108.957 49.7451 109.288 49.6658 109.637 49.6658H123.864C125.55 49.6658 127.123 49.776 128.558 50.0083C128.969 50.0741 129.368 50.1495 129.756 50.2346C130.144 50.3218 130.521 50.4185 130.887 50.5249C131.068 50.5791 131.248 50.6352 131.424 50.6913C132.13 50.9255 132.787 51.2022 133.392 51.5215C134.105 46.9799 133.387 43.8877 130.931 41.0877C128.224 38.0052 123.338 36.6855 117.086 36.6855H98.9349C97.6577 36.6855 96.5687 37.6143 96.3709 38.8779L88.8111 86.7991C88.6618 87.7472 89.3932 88.6028 90.349 88.6028H101.555L104.369 70.7519L107.395 51.5834Z" fill="#253B80">
+        </path>
+       </g>
+       <defs>
+        <filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="167" id="filter0_d_353_4587" width="225.208" x="0" y="0">
+         <feFlood flood-opacity="0" result="BackgroundImageFix">
+         </feFlood>
+         <feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0">
+         </feColorMatrix>
+         <feOffset>
+         </feOffset>
+         <feGaussianBlur stdDeviation="10">
+         </feGaussianBlur>
+         <feComposite in2="hardAlpha" operator="out">
+         </feComposite>
+         <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0">
+         </feColorMatrix>
+         <feBlend in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow_353_4587">
+         </feBlend>
+         <feBlend in="SourceGraphic" in2="effect1_dropShadow_353_4587" mode="normal" result="shape">
+         </feBlend>
+        </filter>
+       </defs>
+      </svg>
+     </div>
+    </li>
+    <li class="ss-payment-item">
+     <div class="ss-payment-icon">
+      <svg fill="none" height="167" viewBox="0 0 226 167" width="226" xmlns="http://www.w3.org/2000/svg">
+       <g filter="url(#filter0_d_353_4479)">
+        <rect fill="white" height="124.354" rx="14.5521" stroke="#D9D9D9" stroke-width="2.64583" width="182.562" x="21.3229" y="21.3229">
+        </rect>
+        <path clip-rule="evenodd" d="M113.927 110.789C107.622 116.23 99.4425 119.515 90.5049 119.515C70.5624 119.515 54.3958 103.161 54.3958 82.9865C54.3958 62.8125 70.5624 46.4583 90.5049 46.4583C99.4425 46.4583 107.622 49.7431 113.927 55.1844C120.232 49.7431 128.412 46.4583 137.349 46.4583C157.292 46.4583 173.458 62.8126 173.458 82.9866C173.458 103.161 157.292 119.515 137.349 119.515C128.412 119.515 120.232 116.23 113.927 110.789Z" fill="#ED0006" fill-rule="evenodd">
+        </path>
+        <path clip-rule="evenodd" d="M113.927 110.789C121.691 104.089 126.614 94.1193 126.614 82.9865C126.614 71.8538 121.691 61.8843 113.927 55.1843C120.232 49.743 128.412 46.4583 137.349 46.4583C157.292 46.4583 173.458 62.8125 173.458 82.9865C173.458 103.161 157.292 119.515 137.349 119.515C128.412 119.515 120.232 116.23 113.927 110.789Z" fill="#F9A000" fill-rule="evenodd">
+        </path>
+        <path clip-rule="evenodd" d="M113.927 110.789C121.691 104.089 126.614 94.1193 126.614 82.9866C126.614 71.854 121.691 61.8845 113.927 55.1846C106.163 61.8845 101.24 71.854 101.24 82.9866C101.24 94.1193 106.163 104.089 113.927 110.789Z" fill="#FF5E00" fill-rule="evenodd">
+        </path>
+       </g>
+       <defs>
+        <filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="167" id="filter0_d_353_4479" width="225.208" x="0" y="0">
+         <feFlood flood-opacity="0" result="BackgroundImageFix">
+         </feFlood>
+         <feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0">
+         </feColorMatrix>
+         <feOffset>
+         </feOffset>
+         <feGaussianBlur stdDeviation="10">
+         </feGaussianBlur>
+         <feComposite in2="hardAlpha" operator="out">
+         </feComposite>
+         <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0">
+         </feColorMatrix>
+         <feBlend in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow_353_4479">
+         </feBlend>
+         <feBlend in="SourceGraphic" in2="effect1_dropShadow_353_4479" mode="normal" result="shape">
+         </feBlend>
+        </filter>
+       </defs>
+      </svg>
+     </div>
+    </li>
+    <li class="ss-payment-item">
+     <div class="ss-payment-icon">
+      <svg fill="none" height="167" viewBox="0 0 226 167" width="226" xmlns="http://www.w3.org/2000/svg">
+       <g filter="url(#filter0_d_353_4566)">
+        <rect fill="white" height="124.354" rx="14.5521" stroke="#D9D9D9" stroke-width="2.64583" width="182.562" x="21.3229" y="21.3229">
+        </rect>
+        <path clip-rule="evenodd" d="M76.2253 106.033H65.0053L56.5916 73.9349C56.1923 72.4584 55.3444 71.153 54.0971 70.5378C50.9844 68.9917 47.5543 67.7613 43.8125 67.1407V65.9049H61.8871C64.3816 65.9049 66.2526 67.7613 66.5644 69.9172L70.9299 93.071L82.1444 65.9049H93.0526L76.2253 106.033ZM99.2891 106.033H88.6927L97.4182 65.9049H108.015L99.2891 106.033ZM121.724 77.0216C122.035 74.8603 123.906 73.6245 126.089 73.6245C129.519 73.3142 133.256 73.9348 136.374 75.4755L138.245 66.8356C135.126 65.5998 131.696 64.9792 128.584 64.9792C118.299 64.9792 110.815 70.5377 110.815 78.252C110.815 84.1207 116.116 87.2022 119.858 89.0585C123.906 90.9095 125.466 92.1453 125.154 93.9964C125.154 96.7729 122.035 98.0087 118.923 98.0087C115.181 98.0087 111.439 97.0832 108.015 95.5371L106.144 104.182C109.885 105.723 113.934 106.344 117.675 106.344C129.207 106.649 136.374 101.095 136.374 92.7606C136.374 82.2643 121.724 81.6491 121.724 77.0216ZM173.458 106.033L165.045 65.9049H156.007C154.136 65.9049 152.266 67.1407 151.642 68.9917L136.062 106.033H146.97L149.147 100.17H162.55L163.797 106.033H173.458ZM157.566 76.7111L160.679 91.8349H151.954L157.566 76.7111Z" fill="#172B85" fill-rule="evenodd">
+        </path>
+       </g>
+       <defs>
+        <filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="167" id="filter0_d_353_4566" width="225.208" x="0" y="0">
+         <feFlood flood-opacity="0" result="BackgroundImageFix">
+         </feFlood>
+         <feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0">
+         </feColorMatrix>
+         <feOffset>
+         </feOffset>
+         <feGaussianBlur stdDeviation="10">
+         </feGaussianBlur>
+         <feComposite in2="hardAlpha" operator="out">
+         </feComposite>
+         <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0">
+         </feColorMatrix>
+         <feBlend in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow_353_4566">
+         </feBlend>
+         <feBlend in="SourceGraphic" in2="effect1_dropShadow_353_4566" mode="normal" result="shape">
+         </feBlend>
+        </filter>
+       </defs>
+      </svg>
+     </div>
+    </li>
+   </ul>
+   <style>
+       /*
+           Section styling
+       */
+       .ss-payment-text {
+           width: 100%;
+           text-align: center;
+           margin: 0;
+           color: ;
+       }
+     
+       .ss-payment-list {
+           list-style: none;
+           display: flex;
+           flex-wrap:wrap;
+           justify-content:center;
+           padding: 0;
+           gap: 0px;
+           margin-top:-10px;
+       }
+       .ss-payment-item {
+           text-align: center;
+           padding: 0;
+           display: flex;           
+           justify-content: center;
+           align-items: center;
+       }
+       .ss-payment-icon {
+           display: flex;
+           justify-content: center;
+           
+       }
+     
+       .ss-payment-icon svg {
+           max-width:50px;
+           max-height: calc(50px * 0.66);
+       }
+   
+       .ss-payment-icon img {
+           max-width:50px;
+           max-height: calc(50px * 0.66);
+           margin: 0 px;
+       }
+     
+       .ss-payment-text {
+           margin-bottom: 3px;
+           font-size:14px;
+       }
+   
+       @media only screen and (max-width: 627px) {
+         .ss-payment-list {
+             gap: 0px;
+         }
+         
+         .ss-payment-icon svg {
+           max-width:50px;
+           max-height: calc(50px * 0.66);
+         }
+   
+         .ss-payment-icon img {
+           max-width:50px;
+           max-height: calc(50px * 0.66);
+         }
+       }
+       /*
+           Styles based on settings
+       */
+   
+   </style>
+          </div>
+            </div></div>
+            </div></div>
+    </div>
+    </div>
+  
+  
+    <div
+      
+      style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--mb:20px;--mb-tablet:20px;--mb-mobile:20px;--ta:left;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+      data-keep-class="true"
+      class="gPI8BJaHVQ gp-custom-code">
+      <div>
+    <div class="product-info__block-item" data-block-id="liquid_G8LA8A" data-block-type="liquid"><div class="product-info__liquid">
+              <div class="product-info__block-item" data-block-id="liquid_7mHG8P" data-block-type="liquid"><div class="product-info__liquid">
+              <div class="product-info__liquid">
+  <!-- VALORISE — Livraison dynamique (court, mobile, point animé) -->
+  <div class="valo-delivery" id="valoDelivery" role="status">
+    <style>
+      .valo-delivery{
+        display:flex;
+        align-items:center;
+        gap:6px;
+        justify-content:center;
+        font-size:12px;
+        font-weight:500;
+        color:#111;
+        background:transparent;
+        padding:4px 0;
+        white-space:nowrap;
+      }
+      .valo-delivery .dot{
+        width:9px;
+        height:9px;
+        border-radius:9999px;
+        background:rgba(34,197,94,.25);
+        box-shadow:0 0 0 0 rgba(34,197,94,.35);
+        animation:valoPulse 1.6s infinite;
+        flex-shrink:0;
+      }
+      /* TEXTE EN NOIR BOLD (MODIFICATION ICI) */
+      .valo-delivery b{
+        color:#000;
+        font-weight:700;
+      }
+      @keyframes valoPulse{
+        0%{box-shadow:0 0 0 0 rgba(34,197,94,.35);}
+        70%{box-shadow:0 0 0 6px rgba(34,197,94,0);}
+        100%{box-shadow:0 0 0 0 rgba(34,197,94,0);}
+      }
+      @media(max-width:420px){
+        .valo-delivery{
+          font-size:11px;
+          gap:5px;
+          white-space:normal;
+        }
+      }
+    </style>
+
+    <span class="dot" aria-hidden="true"></span>
+    <span id="valoDeliveryText">En stock · Livraison express <b>jeu 26 févr.</b> – <b>ven 27 févr.</b></span>
+
+    <script>
+      (function(){
+        const el = document.getElementById("valoDeliveryText");
+        const today = new Date();
+
+        // ajoute des jours en sautant le dimanche
+        function addDaysSkipSunday(date, days){
+          const d = new Date(date);
+          let added = 0;
+          while(added < days){
+            d.setDate(d.getDate() + 1);
+            if (d.getDay() !== 0) added++; // 0 = dimanche
+          }
+          return d;
+        }
+
+        // expédition le lendemain
+        const ship = new Date(today);
+        ship.setDate(ship.getDate() + 1);
+        if (ship.getDay() === 0) ship.setDate(ship.getDate() + 1); // si dimanche → lundi
+
+        // fenêtre 48–72h ouvrées
+        const min = addDaysSkipSunday(ship, 2);
+        const max = addDaysSkipSunday(ship, 3);
+
+        const opt = { weekday: "short", day: "numeric", month: "short" };
+        const s1 = min.toLocaleDateString("fr-FR", opt).replace(".", "");
+        const s2 = max.toLocaleDateString("fr-FR", opt).replace(".", "");
+
+        // version courte pour mobile
+        el.innerHTML = `En stock · Livraison express <b>${s1}</b> – <b>${s2}</b>`;
+      })();
+    </script>
+  </div>
+</div>
+            </div></div>
+            </div></div>
+    </div>
+    </div>
+  <div gp-el-wrapper style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%" class="g86dEZElFh ">
+      
+    <gp-accordion data-id="g86dEZElFh" class="gp-flex gp-flex-col gp-w-full" style="--gg:8px;border-radius:inherit"
+      gp-data='{"uid":"g86dEZElFh","setting":{"iconSvg":"<svg width=\"17\" height=\"16\" viewBox=\"0 0 17 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                  <path d=\"M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z\" fill=\"currentColor\"/>\n                  </svg>","isIconPlus":false,"activeKey":"1","expanded":false,"expandItem":false,"iconPosition":"right","iconGlobalSize":{"desktop":{"gap":"8px"}},"iconCollapse":"\n          <svg width=\"16\" height=\"16\" data-name=\"Caret-down-regular\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4.57576 6.77571C4.81007 6.5414 5.18997 6.5414 5.42429 6.77571L8.20002 9.55145L10.9758 6.77571C11.2101 6.5414 11.59 6.5414 11.8243 6.77571C12.0586 7.01003 12.0586 7.38993 11.8243 7.62424L8.62429 10.8242C8.38997 11.0586 8.01007 11.0586 7.77576 10.8242L4.57576 7.62424C4.34145 7.38993 4.34145 7.01003 4.57576 6.77571Z\" fill=\"currentColor\"/>\n</svg>\n          ","iconExpand":"\n       <svg width=\"16\" height=\"16\" data-name=\"Caret-up-regular\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M11.6243 9.82426C11.39 10.0586 11.0101 10.0586 10.7758 9.82426L8.00005 7.04853L5.22431 9.82426C4.99 10.0586 4.6101 10.0586 4.37579 9.82426C4.14147 9.58995 4.14147 9.21005 4.37579 8.97574L7.57579 5.77574C7.8101 5.54142 8.19 5.54142 8.42431 5.77574L11.6243 8.97574C11.8586 9.21005 11.8586 9.58995 11.6243 9.82426Z\" fill=\"currentColor\"/>\n</svg>\n","iconCollapseSize":16,"layoutHeader":"before-text","expandedMode":"single","configIconSize":"19","parentUid":"g86dEZElFh","childListNumber":[],"chidlrenUid":["gA7FzMmxwS","geGyu0-Nyl","gkJyYckRIJ"]},"styles":{"bgColor":{},"color":{"normal":"#151515"},"headerBorder":{},"textColor":{"normal":"#151515"},"iconColor":{"normal":"#0E5348"},"contentSizePadding":{"desktop":{"padding":{"type":"medium","top":"4px","left":"12px","bottom":"12px","right":"12px"},"gap":"8px"}},"headerContentPadding":{"desktop":{"padding":{"type":"medium","top":"8px","left":"12px","bottom":"12px","right":"12px"}}},"widthHeightSize":{"desktop":{"height":"auto","width":"100%"}}}}'
+        >
+        <div class=" gp-hidden gp-rotate-90 -gp-rotate-90 gp-rotate-180"></div>
+      
+          <div class="gp-flex" style="--jc:center">
+            
+  <div class="gp-overflow-clip gp-group" style="--text-hover-color:#151515;--icon-expand-hover-color:#151515;--icon-expand-active-color:#151515;--icon-active-color:#0E5348;--icon-hover-color:#0E5348;--w:100%;--w-tablet:100%;--w-mobile:100%;--bg:rgba(87, 87, 87, 0.06)">
+    <div data-index="0" class="g86dEZElFh gp-overflow-hidden gp-child-item-g86dEZElFh gp-accordion-item">
+      <div aria-hidden uid="gA7FzMmxwS" id="gA7FzMmxwS" data-index="0"
+        class="gp-flex gp-accordion-item_header gp-cursor-pointer gp-items-center gp-gap-[16px] g86dEZElFh gp-accordion-item-g86dEZElFh-0" style="--pl:12px;--pr:12px;--pt:8px;--pb:12px;--h:auto;--h-tablet:auto;--h-mobile:auto;--fd:row-reverse;--jc:space-between">
+        
+          <div class="gp-inline-flex">
+            <span style="--c:#151515;width:16px;height:16px"
+            data-index="0"
+            class="group-hover:[color:var(--icon-expand-hover-color)] gp-collapsible-icon gp-accordion-item_icon gp-inline-flex gp-items-center gp-justify-center gp-overflow-hidden gp-transition-all gp-duration-200 [&>svg]:!gp-h-[var(--height-iconCollapseSize)] [&>svg]:!gp-w-full">
+              
+          <svg width="16" height="16" data-name="Caret-down-regular" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.57576 6.77571C4.81007 6.5414 5.18997 6.5414 5.42429 6.77571L8.20002 9.55145L10.9758 6.77571C11.2101 6.5414 11.59 6.5414 11.8243 6.77571C12.0586 7.01003 12.0586 7.38993 11.8243 7.62424L8.62429 10.8242C8.38997 11.0586 8.01007 11.0586 7.77576 10.8242L4.57576 7.62424C4.34145 7.38993 4.34145 7.01003 4.57576 6.77571Z" fill="currentColor"/>
+</svg>
+          
+            </span>
+          </div>
+          
+        <div class="gp-flex gp-w-full gp-items-center gp-break-all" style="--gg:8px;--jc:left">
+          
+          <div class="gp-inline-flex" >
+            <span
+              class="group-hover:[color:var(--icon-hover-color)!important] gp-icon gp-inline-flex header-icon gp-items-center gp-justify-center gp-overflow-hidden [&>svg]:!gp-h-[var(--height-configIconSize)] [&>svg]:!gp-w-full"
+              style="--c:#0E5348;--hvr-c:#0E5348;width:19px;height:19px;--height:19px">
+              <svg height="20" width="20" data-name="leaf-filled" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256" fill="currentColor" data-id="508817742719746408">
+              <path fill="currentColor" strokeLinecap="round" strokeLinejoin="round" fill="currentColor" d="M223.45,40.07a8,8,0,0,0-7.52-7.52C139.8,28.08,78.82,51,52.82,94a87.09,87.09,0,0,0-12.76,49A101.72,101.72,0,0,0,46.7,175.2a4,4,0,0,0,6.61,1.43l85-86.3a8,8,0,0,1,11.32,11.32L56.74,195.94,42.55,210.13a8.2,8.2,0,0,0-.6,11.1,8,8,0,0,0,11.71.43l16.79-16.79c14.14,6.84,28.41,10.57,42.56,11.07q1.67.06,3.33.06A86.93,86.93,0,0,0,162,203.18C205,177.18,227.93,116.21,223.45,40.07Z" /></svg></span>
+          </div>
+          
+          
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id
+        
+        style="--c:#151515;--dynamic-source-color:#F4F4F4"
+      >
+      <div  >
+        <div
+          data-gp-text
+          class="gp-overflow-hidden gp-accordion-text-content group-hover:[color:var(--text-hover-color)!important] gp-g-paragraph-1  gp-text-instant"
+          style="--w:100%;--tdt:auto;word-break:break-word;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gg86dEZElFh_childItem_0 }}
+        </div>
+      </div>
+    </div>
+    
+          
+        </div>
+      </div>
+      <div data-index="0" data-show="false" class="gp-accordion-item_body gp-transition-all gp-grid gp-duration-500 gp-overflow-hidden gp-grid-rows-[0fr]" style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)">
+        <div data-index="0" class="gp-accordion-item_body-inner gp-transition-all gp-duration-500 gp-min-h-0" style="--pl:12px;--pr:12px">
+          <div
+      data-same-height-display-contents
+      
+      class="gwtvud69ib gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gzj99GSGa_"
+        class="gzj99GSGa_"
+        style="--ta:left;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="gp-g-paragraph-1  gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#151515;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggzj99GSGa__text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+          </div>
+            
+          <div class="gp-flex" style="--jc:center">
+            
+  <div class="gp-overflow-clip gp-group" style="--text-hover-color:#151515;--icon-expand-hover-color:#151515;--icon-expand-active-color:#151515;--icon-active-color:#0E5348;--icon-hover-color:#0E5348;--w:100%;--w-tablet:100%;--w-mobile:100%;--bg:rgba(87, 87, 87, 0.06)">
+    <div data-index="1" class="g86dEZElFh gp-overflow-hidden gp-child-item-g86dEZElFh gp-accordion-item">
+      <div aria-hidden uid="geGyu0-Nyl" id="geGyu0-Nyl" data-index="1"
+        class="gp-flex gp-accordion-item_header gp-cursor-pointer gp-items-center gp-gap-[16px] g86dEZElFh gp-accordion-item-g86dEZElFh-1" style="--pl:12px;--pr:12px;--pt:8px;--pb:12px;--h:auto;--h-tablet:auto;--h-mobile:auto;--fd:row-reverse;--jc:space-between">
+        
+          <div class="gp-inline-flex">
+            <span style="--c:#151515;width:16px;height:16px"
+            data-index="1"
+            class="group-hover:[color:var(--icon-expand-hover-color)] gp-collapsible-icon gp-accordion-item_icon gp-inline-flex gp-items-center gp-justify-center gp-overflow-hidden gp-transition-all gp-duration-200 [&>svg]:!gp-h-[var(--height-iconCollapseSize)] [&>svg]:!gp-w-full">
+              
+          <svg width="16" height="16" data-name="Caret-down-regular" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.57576 6.77571C4.81007 6.5414 5.18997 6.5414 5.42429 6.77571L8.20002 9.55145L10.9758 6.77571C11.2101 6.5414 11.59 6.5414 11.8243 6.77571C12.0586 7.01003 12.0586 7.38993 11.8243 7.62424L8.62429 10.8242C8.38997 11.0586 8.01007 11.0586 7.77576 10.8242L4.57576 7.62424C4.34145 7.38993 4.34145 7.01003 4.57576 6.77571Z" fill="currentColor"/>
+</svg>
+          
+            </span>
+          </div>
+          
+        <div class="gp-flex gp-w-full gp-items-center gp-break-all" style="--gg:8px;--jc:left">
+          
+          <div class="gp-inline-flex" >
+            <span
+              class="group-hover:[color:var(--icon-hover-color)!important] gp-icon gp-inline-flex header-icon gp-items-center gp-justify-center gp-overflow-hidden [&>svg]:!gp-h-[var(--height-configIconSize)] [&>svg]:!gp-w-full"
+              style="--c:#0E5348;--hvr-c:#0E5348;width:19px;height:19px;--height:19px">
+              <svg height="20" width="20" data-name="heart-straight-filled" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256" fill="currentColor" data-id="508817739182440808">
+              <path fill="currentColor" strokeLinecap="round" strokeLinejoin="round" fill="currentColor" d="M240,98a57.63,57.63,0,0,1-17,41L133.7,229.62a8,8,0,0,1-11.4,0L33,139a58,58,0,0,1,82-82.1L128,69.05l13.09-12.19A58,58,0,0,1,240,98Z" /></svg></span>
+          </div>
+          
+          
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id
+        
+        style="--c:#151515;--dynamic-source-color:#F4F4F4"
+      >
+      <div  >
+        <div
+          data-gp-text
+          class="gp-overflow-hidden gp-accordion-text-content group-hover:[color:var(--text-hover-color)!important] gp-g-paragraph-1  gp-text-instant"
+          style="--w:100%;--tdt:auto;word-break:break-word;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gg86dEZElFh_childItem_1 }}
+        </div>
+      </div>
+    </div>
+    
+          
+        </div>
+      </div>
+      <div data-index="1" data-show="false" class="gp-accordion-item_body gp-transition-all gp-grid gp-duration-500 gp-overflow-hidden gp-grid-rows-[0fr]" style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)">
+        <div data-index="1" class="gp-accordion-item_body-inner gp-transition-all gp-duration-500 gp-min-h-0" style="--pl:12px;--pr:12px">
+          <div
+      data-same-height-display-contents
+      
+      class="giw4aVC_if gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gtRZwPisNX"
+        class="gtRZwPisNX"
+        style="--ta:left;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="gp-g-paragraph-1  gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#151515;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggtRZwPisNX_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+          </div>
+            
+          <div class="gp-flex" style="--jc:center">
+            
+  <div class="gp-overflow-clip gp-group" style="--text-hover-color:#151515;--icon-expand-hover-color:#151515;--icon-expand-active-color:#151515;--icon-active-color:#0E5348;--icon-hover-color:#0E5348;--w:100%;--w-tablet:100%;--w-mobile:100%;--bg:rgba(87, 87, 87, 0.06)">
+    <div data-index="2" class="g86dEZElFh gp-overflow-hidden gp-child-item-g86dEZElFh gp-accordion-item">
+      <div aria-hidden uid="gkJyYckRIJ" id="gkJyYckRIJ" data-index="2"
+        class="gp-flex gp-accordion-item_header gp-cursor-pointer gp-items-center gp-gap-[16px] g86dEZElFh gp-accordion-item-g86dEZElFh-2" style="--pl:12px;--pr:12px;--pt:8px;--pb:12px;--h:auto;--h-tablet:auto;--h-mobile:auto;--fd:row-reverse;--jc:space-between">
+        
+          <div class="gp-inline-flex">
+            <span style="--c:#151515;width:16px;height:16px"
+            data-index="2"
+            class="group-hover:[color:var(--icon-expand-hover-color)] gp-collapsible-icon gp-accordion-item_icon gp-inline-flex gp-items-center gp-justify-center gp-overflow-hidden gp-transition-all gp-duration-200 [&>svg]:!gp-h-[var(--height-iconCollapseSize)] [&>svg]:!gp-w-full">
+              
+          <svg width="16" height="16" data-name="Caret-down-regular" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.57576 6.77571C4.81007 6.5414 5.18997 6.5414 5.42429 6.77571L8.20002 9.55145L10.9758 6.77571C11.2101 6.5414 11.59 6.5414 11.8243 6.77571C12.0586 7.01003 12.0586 7.38993 11.8243 7.62424L8.62429 10.8242C8.38997 11.0586 8.01007 11.0586 7.77576 10.8242L4.57576 7.62424C4.34145 7.38993 4.34145 7.01003 4.57576 6.77571Z" fill="currentColor"/>
+</svg>
+          
+            </span>
+          </div>
+          
+        <div class="gp-flex gp-w-full gp-items-center gp-break-all" style="--gg:8px;--jc:left">
+          
+          <div class="gp-inline-flex" >
+            <span
+              class="group-hover:[color:var(--icon-hover-color)!important] gp-icon gp-inline-flex header-icon gp-items-center gp-justify-center gp-overflow-hidden [&>svg]:!gp-h-[var(--height-configIconSize)] [&>svg]:!gp-w-full"
+              style="--c:#0E5348;--hvr-c:#0E5348;width:19px;height:19px;--height:19px">
+              <svg height="20" width="20" data-name="question-mark-filled" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256" fill="currentColor" data-id="508817752785879400">
+              <path fill="currentColor" strokeLinecap="round" strokeLinejoin="round" fill="currentColor" d="M200,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V40A16,16,0,0,0,200,24ZM136,143.28V144a8,8,0,0,1-16,0v-8a8,8,0,0,1,8-8c13.23,0,24-9,24-20s-10.77-20-24-20-24,9-24,20v4a8,8,0,0,1-16,0v-4c0-19.85,17.94-36,40-36s40,16.15,40,36C168,125.38,154.23,139.93,136,143.28ZM140,180a12,12,0,1,1-12-12A12,12,0,0,1,140,180Z" /></svg></span>
+          </div>
+          
+          
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id
+        
+        style="--c:#151515;--dynamic-source-color:#F4F4F4"
+      >
+      <div  >
+        <div
+          data-gp-text
+          class="gp-overflow-hidden gp-accordion-text-content group-hover:[color:var(--text-hover-color)!important] gp-g-paragraph-1  gp-text-instant"
+          style="--w:100%;--tdt:auto;word-break:break-word;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gg86dEZElFh_childItem_2 }}
+        </div>
+      </div>
+    </div>
+    
+          
+        </div>
+      </div>
+      <div data-index="2" data-show="false" class="gp-accordion-item_body gp-transition-all gp-grid gp-duration-500 gp-overflow-hidden gp-grid-rows-[0fr]" style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)">
+        <div data-index="2" class="gp-accordion-item_body-inner gp-transition-all gp-duration-500 gp-min-h-0" style="--pl:12px;--pr:12px">
+          <div
+      data-same-height-display-contents
+      
+      class="gymDaqh9QD gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="g0H0UmKZ5f"
+        class="g0H0UmKZ5f"
+        style="--ta:left;--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--op:100%;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="gp-g-paragraph-1  gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#151515;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gg0H0UmKZ5f_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+          </div>
+            
+    </gp-accordion>
+    
+    <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-accordion-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+    
+  
+      </div>
+    </div>
+
+      
+    </gp-row>
+  
+  
+    </div>
+
+      
+    </gp-row>
+  
+  
+    </div>
+
+      
+    </gp-row>
+  
+  
+          {%- endform -%}
+        </product-form>
+      </gp-product>
+      {%- assign product = gpBkProduct -%}
+    {% else %}
+      <div class="gp-text-center">{{ 'gempages.Product.product_not_found' | t }}</div>
+    {% endif %}
+    <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-product-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+  
+    </div>
+
+      
+    </gp-row>
+  
+        </section>
+      
+  
+    
+{% schema %}
+  {
+    "presets": [{ "name": "PRODUCT" }],
+    "name": "PRODUCT",
+    "tag": "section",
+    "class": "gps-607881697198867030 gps gpsil",
+    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/j8f0pt-e4/apps/gempages-cro/app/shopify/edit?pageType=THEME_SECTION&editorId=607881697198867030)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"off_lazy_script"},{"type":"text","label":"Checksum","id":"checksum"},{"type":"html","id":"ggV9waVpfPQ_text","label":"ggV9waVpfPQ_text","default":"<p><span style=\"font-size:14px;\">Un puissant mélange d'herbes pour <strong>réduire les gonflements, stimuler la circulation</strong>&nbsp;</span></p><p><span style=\"font-size:14px;\">et soutenir la désintoxication quotidienne.</span></p>"},{"type":"html","id":"ggvd0yrJTM2_label","label":"ggvd0yrJTM2_label","default":"Ajouter au Panier"},{"type":"html","id":"ggvd0yrJTM2_outOfStockLabel","label":"ggvd0yrJTM2_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"ggvd0yrJTM2_unavailableLabel","label":"ggvd0yrJTM2_unavailableLabel","default":"Unavailable"},{"type":"html","id":"gg86dEZElFh_childItem_0","label":"gg86dEZElFh_childItem_0","default":"<p><strong>INGRÉDIENTS</strong></p>"},{"type":"html","id":"gg86dEZElFh_childItem_1","label":"gg86dEZElFh_childItem_1","default":"<p><strong>LES BIENFAITS</strong></p>"},{"type":"html","id":"gg86dEZElFh_childItem_2","label":"gg86dEZElFh_childItem_2","default":"<p>CONSEILS D&#039;UTILISATION</p>"},{"type":"html","id":"ggzj99GSGa__text","label":"ggzj99GSGa__text","default":"<p>Chaque ingrédient est soigneusement sélectionné pour soutenir les voies de désintoxication naturelles de votre corps :</p><ul><li><strong>Pièces Aériennes De Clevers :&nbsp;</strong>Encourage le flux lymphatique et un nettoyage doux</li><li><strong>Extrait de fleur de trèfle rouge :&nbsp;</strong>Favorise une circulation saine et une peau claire</li><li><strong>Écorce de cendres épinceuses :&nbsp;</strong>Augmente l'énergie et favorise la microcirculation</li><li><strong>Racine de Stillingia :&nbsp;</strong>Aide à la désintoxication douce et au drainage naturel</li></ul>"},{"type":"html","id":"ggtRZwPisNX_text","label":"ggtRZwPisNX_text","default":"<ul><li><strong>Relance la circulation lymphatique</strong> là où elle stagne</li><li><strong>Diminue les gonflements</strong> du visage, des jambes et du ventre</li><li><strong>Aide à réguler la rétention</strong> d’eau de façon naturelle</li><li><strong>Allège les ballonnements</strong> et apaise l’inconfort digestif</li><li><strong>Apporte plus de vitalité</strong> et de légèreté au quotidien</li><li><strong>Sans alcool, sans OGM</strong>, doux pour le corps et l’esprit</li></ul>"},{"type":"html","id":"gg0H0UmKZ5f_text","label":"gg0H0UmKZ5f_text","default":"<p>Prenez <strong>1 à 2 compte-gouttes (1 à 2 ml) </strong>une ou deux fois par jour. Ajouter à l'eau, au thé ou au jus, ou placer directement sous la langue. Pour de meilleurs résultats, utilisez régulièrement et restez hydraté tout au long de la journée.</p>"}],
+    "blocks": [{"type": "@app"}],
+    "locales": {}
+  }
+{% endschema %}
