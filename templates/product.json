@@ -194,28 +194,10 @@
         "ggHcO1rZC2q_unavailableLabel": "Unavailable",
         "ggBoZW_Na6V_childItem_0": "<p><strong>INGRÉDIENTS</strong></p>",
         "ggBoZW_Na6V_childItem_1": "<p><strong>LES BIENFAITS</strong></p>",
-        "ggBoZW_Na6V_childItem_2": "<p>CONSEILS D'UTILISATION</p>",
+        "ggBoZW_Na6V_childItem_2": "<p><b>CONSEILS D'UTILISATION</b></p>",
         "ggIelU5Ve4g_text": "<p>Chaque ingrédient est soigneusement sélectionné pour soutenir les voies de désintoxication naturelles de votre corps :</p><ul>\n<li>\n<strong>Pièces Aériennes De Clevers : </strong>Encourage le flux lymphatique et un nettoyage doux</li>\n<li>\n<strong>Extrait de fleur de trèfle rouge : </strong>Favorise une circulation saine et une peau claire</li>\n<li>\n<strong>Écorce de cendres épinceuses : </strong>Augmente l'énergie et favorise la microcirculation</li>\n<li>\n<strong>Racine de Stillingia : </strong>Aide à la désintoxication douce et au drainage naturel</li>\n</ul>",
         "gg_SiVRRPeR_text": "<ul>\n<li>\n<strong>Relance la circulation lymphatique</strong> là où elle stagne</li>\n<li>\n<strong>Diminue les gonflements</strong> du visage, des jambes et du ventre</li>\n<li>\n<strong>Aide à réguler la rétention</strong> d’eau de façon naturelle</li>\n<li>\n<strong>Allège les ballonnements</strong> et apaise l’inconfort digestif</li>\n<li>\n<strong>Apporte plus de vitalité</strong> et de légèreté au quotidien</li>\n<li>\n<strong>Sans alcool, sans OGM</strong>, doux pour le corps et l’esprit</li>\n</ul>",
         "ggIdX9csY3T_text": "<p>Prenez <strong>1 à 2 compte-gouttes (1 à 2 ml) </strong>une ou deux fois par jour. Ajouter à l'eau, au thé ou au jus, ou placer directement sous la langue. Pour de meilleurs résultats, utilisez régulièrement et restez hydraté tout au long de la journée.</p>"
-      }
-    },
-    "gp_global_section_607882442593796868_kiBTUE": {
-      "type": "gp-global-section-607882442593796868",
-      "name": "PRODUCT BLOCK",
-      "settings": {
-        "section_preload": "off_lazy_script",
-        "checksum": "",
-        "gg7GAfujMnM_text": "<p><span style=\"font-size:14px;\">Un puissant mélange d'herbes pour <strong>réduire les gonflements, stimuler la circulation</strong> </span></p><p><span style=\"font-size:14px;\">et soutenir la désintoxication quotidienne.</span></p>",
-        "gg0zdxMgN38_label": "Ajouter au Panier",
-        "gg0zdxMgN38_outOfStockLabel": "Out of stock",
-        "gg0zdxMgN38_unavailableLabel": "Unavailable",
-        "ggUaD_W36ng_childItem_0": "<p><strong>INGRÉDIENTS</strong></p>",
-        "ggUaD_W36ng_childItem_1": "<p><strong>LES BIENFAITS</strong></p>",
-        "ggUaD_W36ng_childItem_2": "<p><b>CONSEILS D'UTILISATION</b></p>",
-        "gga5M7UnJhX_text": "<p>Chaque ingrédient est soigneusement sélectionné pour soutenir les voies de désintoxication naturelles de votre corps :</p><ul>\n<li>\n<strong>Pièces Aériennes De Clevers : </strong>Encourage le flux lymphatique et un nettoyage doux</li>\n<li>\n<strong>Extrait de fleur de trèfle rouge : </strong>Favorise une circulation saine et une peau claire</li>\n<li>\n<strong>Écorce de cendres épinceuses : </strong>Augmente l'énergie et favorise la microcirculation</li>\n<li>\n<strong>Racine de Stillingia : </strong>Aide à la désintoxication douce et au drainage naturel</li>\n</ul>",
-        "gggIY__1v-n_text": "<ul>\n<li>\n<strong>Relance la circulation lymphatique</strong> là où elle stagne</li>\n<li>\n<strong>Diminue les gonflements</strong> du visage, des jambes et du ventre</li>\n<li>\n<strong>Aide à réguler la rétention</strong> d’eau de façon naturelle</li>\n<li>\n<strong>Allège les ballonnements</strong> et apaise l’inconfort digestif</li>\n<li>\n<strong>Apporte plus de vitalité</strong> et de légèreté au quotidien</li>\n<li>\n<strong>Sans alcool, sans OGM</strong>, doux pour le corps et l’esprit</li>\n</ul>",
-        "gg4Vg63fPm5_text": "<p>Prenez <strong>1 à 2 compte-gouttes (1 à 2 ml) </strong>une ou deux fois par jour. Ajouter à l'eau, au thé ou au jus, ou placer directement sous la langue. Pour de meilleurs résultats, utilisez régulièrement et restez hydraté tout au long de la journée.</p>"
       }
     },
     "gp_shopify_original_section_607882266063929942": {
@@ -252,7 +234,6 @@
   "order": [
     "main",
     "gp_global_section_607882845699965850_xKC7LE",
-    "gp_global_section_607882442593796868_kiBTUE",
     "gp_shopify_original_section_607882266063929942"
   ]
 }
