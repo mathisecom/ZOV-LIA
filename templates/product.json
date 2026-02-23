@@ -469,22 +469,6 @@
         "feature_text_color": "#01322d"
       }
     },
-    "scrolling_text_MeVaRm": {
-      "type": "scrolling-text",
-      "name": "Scrolling text",
-      "settings": {
-        "full_width": true,
-        "text": "✓ Testé en Laboratoire‎ ‎ ‎ ‎ ✓ Certifié GMP ‎ ‎ ‎ ✓ Ingrédients Validés par la Science ‎ ‎ ‎ ✓ Non-Testé sur les Animaux ‎ ‎ ‎ ✓ Actifs de Hautes Qualité",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 7,
-        "background": "#f9fffd",
-        "background_gradient": "",
-        "text_color": "#01322d",
-        "text_gradient": ""
-      }
-    },
     "media_with_text_htUCGi": {
       "type": "media-with-text",
       "blocks": {
@@ -521,6 +505,186 @@
         "alternate_media_position": false,
         "spacing": "none"
       }
+    },
+    "scrolling_text_MeVaRm": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "✓ Testé en Laboratoire‎ ‎ ‎ ‎ ✓ Certifié GMP ‎ ‎ ‎ ✓ Ingrédients Validés par la Science ‎ ‎ ‎ ✓ Non-Testé sur les Animaux ‎ ‎ ‎ ✓ Actifs de Hautes Qualité",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 7,
+        "background": "#f9fffd",
+        "background_gradient": "",
+        "text_color": "#01322d",
+        "text_gradient": ""
+      }
+    },
+    "tabsvs_EKqbrq": {
+      "type": "tabsvs",
+      "blocks": {
+        "heading_qYeRxU": {
+          "type": "heading",
+          "settings": {
+            "text": "NOUS VS EUX",
+            "heading_tag": "h2",
+            "font_size": 38,
+            "mobile_font_size": 24,
+            "italic": true,
+            "use_gradient": true,
+            "gradient_start": "#01322d",
+            "gradient_end": "#01322d",
+            "heading_color": "#121212"
+          }
+        },
+        "subtitle_UNHCCA": {
+          "type": "subtitle",
+          "settings": {
+            "text": "Pourquoi ce sérum change tout pour vos jambes.",
+            "font_size": 14,
+            "font_weight": "400",
+            "subtitle_color": "#01322d"
+          }
+        },
+        "button_Pggh6Y": {
+          "type": "button",
+          "settings": {
+            "button": "COMMENCER AUJOURDHUI",
+            "url": "",
+            "open_in_new_tab": false,
+            "button_style": "non_outline",
+            "button_custom": false,
+            "button_font": "josefin_sans_n4",
+            "button_size": 14,
+            "button_size_mobile": 14,
+            "button_advanced": false,
+            "button_height": 100,
+            "button_padding_horizontal": 40,
+            "button_padding_horizontal_mobile": 32,
+            "button_padding_vertical": 20,
+            "button_padding_vertical_mobile": 20,
+            "button_radius": 100,
+            "button_border_thickness": 1,
+            "button_mt": 16,
+            "button_mt_mobile": 16,
+            "button_custom_styling": true,
+            "button_full_width_mobile": true,
+            "button_color": "#FFFFFF",
+            "button_hover_color": "#FFFFFF",
+            "button_bg_color": "#0d4c42",
+            "button_bg_hover_color": "#2D2D2D",
+            "button_border_color": "#1A1A1A",
+            "button_border_hover_color": "#1A1A1A",
+            "button_shadow_color": "#000000"
+          }
+        },
+        "feature_row_6V4EbH": {
+          "type": "feature_row",
+          "settings": {
+            "feature_name": "Multivitamins",
+            "primary_has_feature": true,
+            "competitor_has_feature": false
+          }
+        },
+        "feature_row_crYPwK": {
+          "type": "feature_row",
+          "settings": {
+            "feature_name": "Antioxidants",
+            "primary_has_feature": true,
+            "competitor_has_feature": false
+          }
+        },
+        "feature_row_9rdHnm": {
+          "type": "feature_row",
+          "settings": {
+            "feature_name": "Gut-friendly Bacteria",
+            "primary_has_feature": true,
+            "competitor_has_feature": false
+          }
+        },
+        "feature_row_8LTfBg": {
+          "type": "feature_row",
+          "settings": {
+            "feature_name": "Gut-friendly Fibre",
+            "primary_has_feature": true,
+            "competitor_has_feature": false
+          }
+        },
+        "feature_row_9QJ7Ly": {
+          "type": "feature_row",
+          "settings": {
+            "feature_name": "High Quality Adaptogens",
+            "primary_has_feature": true,
+            "competitor_has_feature": false
+          }
+        },
+        "text_row_UqUVwj": {
+          "type": "text_row",
+          "settings": {
+            "feature_name": "Benefits in",
+            "primary_text": "One Scoop",
+            "competitor_text": "Multi-Supp."
+          }
+        }
+      },
+      "block_order": [
+        "heading_qYeRxU",
+        "subtitle_UNHCCA",
+        "button_Pggh6Y",
+        "feature_row_6V4EbH",
+        "feature_row_crYPwK",
+        "feature_row_9rdHnm",
+        "feature_row_8LTfBg",
+        "feature_row_9QJ7Ly",
+        "text_row_UqUVwj"
+      ],
+      "name": "SS - Comparison table #29",
+      "settings": {
+        "primary_title": "R-01",
+        "primary_badge": "Convenient",
+        "competitor_title": "Others",
+        "competitor_badge": "Tedious",
+        "content_align": "center",
+        "content_align_mobile": "center",
+        "layout_direction": "heading_first",
+        "content_gap": 64,
+        "column_width": 140,
+        "column_radius": 16,
+        "row_padding": 16,
+        "image_width": 70,
+        "product_title_size": 18,
+        "feature_font_size": 15,
+        "feature_font_weight": "600",
+        "show_dividers": true,
+        "divider_thickness": 1,
+        "icon_size": 22,
+        "gradient_start": "#ffffff",
+        "gradient_end": "#f4f4f4",
+        "primary_column_use_gradient": false,
+        "primary_column_color": "#01322d",
+        "primary_column_gradient_start": "#121212",
+        "primary_column_gradient_end": "#404040",
+        "primary_column_text_color": "#ffffff",
+        "feature_text_color": "#121212",
+        "competitor_text_color": "#121212",
+        "divider_color": "#e0e0e0",
+        "check_color": "#ffffff",
+        "cross_color": "#121212",
+        "cross_stroke_style": "transparent",
+        "badge_background": "#ffffff26",
+        "badge_icon_color": "#ffffff",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "padding_sides": 24,
+        "mobile_padding_top": 28,
+        "mobile_padding_bottom": 28,
+        "mobile_padding_sides": 16,
+        "width": "page",
+        "content_width": 1200,
+        "lazy": true
+      }
     }
   },
   "order": [
@@ -532,7 +696,8 @@
     "logoscroll_RNiLap",
     "before_after_image_KDpNMy",
     "whyicons_3ntymb",
+    "media_with_text_htUCGi",
     "scrolling_text_MeVaRm",
-    "media_with_text_htUCGi"
+    "tabsvs_EKqbrq"
   ]
 }
