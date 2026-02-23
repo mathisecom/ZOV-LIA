@@ -403,6 +403,92 @@
         "drag_cursor_color": "#000000"
       }
     },
+    "media_with_text_YkFtN9": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_kYyk8t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1771499439950_h692te_4abc5da2-aa14-4017-a210-2d4dc43a6a39.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "COMMENCER AUJOURD'HUI",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#01322d",
+            "text_gradient": "",
+            "button_background": "#01322d",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_kYyk8t"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
+    "whyitsworks_ERbzVL": {
+      "type": "whyitsworks",
+      "blocks": {
+        "benefit_card_iyhKwa": {
+          "type": "benefit_card",
+          "settings": {
+            "featured": true,
+            "title": "The Carb-Blocker Secret Weapon",
+            "description": "Powered by clinical-grade Garcinia Cambogia, Lunari helps block the enzyme your body uses to turn carbohydrates into fat storage. It's your insurance policy for pasta night, sushi dates, and those 'oops' meals that usually derail your progress. Instead of storing carbs as fat, your body is encouraged to use them for energy or pass them through. Think of it as a metabolic safety net that lets you live your life without the next-day scale spike."
+          }
+        },
+        "benefit_card_9ffPtj": {
+          "type": "benefit_card",
+          "settings": {
+            "featured": false,
+            "title": "Digestive Freedom You Can Feel",
+            "description": "Bloating isn't just uncomfortable—it's a confidence killer. Lunari is infused with Pomegranate Extract and Maltodextrin (a prebiotic fiber) that keeps your digestive system moving smoothly. Say goodbye to heavy, sluggish feeling after lunch. No more awkward tight dresses because you're worried about your stomach."
+          }
+        },
+        "benefit_card_xDzYkc": {
+          "type": "benefit_card",
+          "settings": {
+            "featured": false,
+            "title": "Zero-Friction Compliance = Real Results",
+            "description": "The best supplement in the world is worthless if it's sitting in your drawer. Lunari was designed for real life: no pills to choke down, no water required, no shaker bottles to clean. Just tear open a delicious pomegranate jelly stick and enjoy it anywhere."
+          }
+        }
+      },
+      "block_order": [
+        "benefit_card_iyhKwa",
+        "benefit_card_9ffPtj",
+        "benefit_card_xDzYkc"
+      ],
+      "name": "Why It Works - Benefits",
+      "settings": {
+        "badge_text": "WHY IT WORKS",
+        "title": "Lunari is Different",
+        "subtitle": "Discover what makes Lunari different from everything else you've tried.",
+        "button_text": "GET STARTED NOW",
+        "button_link": "",
+        "guarantee_text": "90-day money back guarantee",
+        "background_color": "#f9fffd",
+        "text_color": "#01322d",
+        "card_background_color": "#ffffff",
+        "border_color": "#f5f5f5",
+        "accent_color": "#0d4c42",
+        "button_background_color": "#0d4c42",
+        "button_text_color": "#ffffff"
+      }
+    },
     "whyicons_3ntymb": {
       "type": "whyicons",
       "blocks": {
@@ -1059,8 +1145,10 @@
     "press_B7cGzi",
     "logoscroll_RNiLap",
     "before_after_image_KDpNMy",
+    "media_with_text_YkFtN9",
     "whyicons_3ntymb",
     "media_with_text_htUCGi",
+    "whyitsworks_ERbzVL",
     "multi_column_z3xjV7",
     "media_with_text_3tCrUH",
     "scrolling_text_MeVaRm",
