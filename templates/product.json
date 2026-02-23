@@ -230,6 +230,19 @@
         "gg4Vg63fPm5_text": "<p>Prenez <strong>1 à 2 compte-gouttes (1 à 2 ml) </strong>une ou deux fois par jour. Ajouter à l'eau, au thé ou au jus, ou placer directement sous la langue. Pour de meilleurs résultats, utilisez régulièrement et restez hydraté tout au long de la journée.</p>"
       }
     },
+    "custom_liquid_PaWGaa": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\n  <title>Batch Section</title>\n  <link href=\"https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Figtree:wght@400;500;600&display=swap\" rel=\"stylesheet\"/>\n</head>\n<body style=\"background:#eee; margin:0;\">\n\n<style>\n/* Wrapper : alignement droite PC, centré mobile, sans padding haut */\n.bb-wrapper {\n  box-sizing: border-box;\n  width: 100%;\n  display: flex;\n  justify-content: flex-end;\n  padding: 0 40px 40px;\n}\n\n.batch-block {\n  box-sizing: border-box;\n  background: #F9FFFD;\n  border: 1px solid #0E5348;\n  border-radius: 10px;\n  padding: 18px 18px 16px;\n  font-family: \"Figtree\", sans-serif;\n  max-width: 480px;\n  width: 100%;\n}\n\n.batch-block .bb-heading {\n  line-height: 1.5;\n  color: #0E5348;\n  font-weight: 400;\n  margin: 0 0 14px;\n  font-family: \"Faculty Glyphic\", serif;\n  font-size: 15px;\n}\n\n.bb-row {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin-bottom: 10px;\n}\n\n.bb-label {\n  font-size: 12px;\n  font-weight: 600;\n  color: #0E5348;\n  width: 28%;\n  flex-shrink: 0;\n  letter-spacing: 0.02em;\n  font-family: \"Faculty Glyphic\", serif;\n}\n\n.bb-bar {\n  box-sizing: border-box;\n  position: relative;\n  flex: 1;\n  background: #F9FFFD;\n  border: 1px solid #0E5348;\n  border-radius: 6px;\n  padding: 6px 11px;\n  font-size: 12px;\n  font-weight: 500;\n  color: #0E5348;\n  overflow: hidden;\n  z-index: 1;\n  font-family: \"Figtree\", sans-serif;\n}\n\n.bb-bar .bb-fill {\n  position: absolute;\n  left: 0; top: 0; bottom: 0;\n  background: rgba(14,83,72,0.15);\n  border-radius: 6px;\n  z-index: 0;\n  transition: width 0.8s ease;\n}\n\n.bb-bar span {\n  position: relative;\n  z-index: 1;\n  display: block;\n}\n\n.bb-footer {\n  font-size: 12px;\n  color: #0E5348;\n  margin: 12px 0 0;\n  padding-top: 10px;\n  border-top: 1px dashed rgba(14,83,72,0.3);\n  font-weight: 500;\n  font-family: \"Figtree\", sans-serif;\n}\n\n@media(max-width: 767px){\n  .bb-wrapper {\n    justify-content: center;\n    padding: 0 16px 24px;\n  }\n  .batch-block {\n    max-width: 100%;\n  }\n  .bb-label { font-size: 10px; }\n  .bb-bar   { font-size: 10px; }\n}\n</style>\n\n<div class=\"bb-wrapper\">\n  <div class=\"batch-block\">\n    <p class=\"bb-heading\">Chaque lot est produit en quantité limitée, selon les récoltes disponibles, sans surproduction ni stockage inutile.</p>\n\n    <div class=\"bb-row\">\n      <div class=\"bb-label\">Janvier</div>\n      <div class=\"bb-bar\" data-start=\"\" data-end=\"\" data-number=\"1200\">\n        <div class=\"bb-fill\" style=\"width:100%\"></div>\n        <span>✔️ 1 200 flacons épuisés</span>\n      </div>\n    </div>\n\n    <div class=\"bb-row\">\n      <div class=\"bb-label\">Mars</div>\n      <div class=\"bb-bar\" data-start=\"02/16/2026\" data-end=\"03/15/2026\" data-number=\"2000\">\n        <div class=\"bb-fill\" style=\"width:0%\"></div>\n        <span>⏳ <em>0</em> / 2 000 flacons réservés</span>\n      </div>\n    </div>\n\n    <div class=\"bb-row\">\n      <div class=\"bb-label\">Prochain lot</div>\n      <div class=\"bb-bar\" data-start=\"\" data-end=\"\" data-number=\"0\">\n        <div class=\"bb-fill\" style=\"width:0%\"></div>\n        <span>🌿 Récolte en cours</span>\n      </div>\n    </div>\n\n    <div class=\"bb-footer\">👉 Réservez dès maintenant pour garantir votre cure avant rupture de stock</div>\n  </div>\n</div>\n\n<script>\ndocument.querySelectorAll('.bb-bar').forEach(el => {\n  const startStr = el.dataset.start;\n  const endStr   = el.dataset.end;\n  const total    = parseInt(el.dataset.number, 10) || 0;\n\n  if (!startStr || !endStr || !total) return;\n\n  const startDate = new Date(startStr);\n  const endDate   = new Date(endStr);\n  const now       = new Date();\n\n  let pct = 0, sold = 0;\n\n  if (now >= endDate) { pct = 100; sold = total; }\n  else if (now > startDate) {\n    const progress = (now - startDate) / (endDate - startDate);\n    pct  = Math.round(progress * 100);\n    sold = Math.round(progress * total);\n  }\n\n  el.querySelector('.bb-fill').style.width = pct + '%';\n  el.querySelectorAll('em').forEach(em => em.textContent = sold.toLocaleString('fr-FR'));\n});\n</script>\n\n</body>\n</html>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "presslogo_B9RciW": {
       "type": "presslogo",
       "disabled": true,
@@ -1396,6 +1409,7 @@
     "main",
     "gp_global_section_607882845699965850_xKC7LE",
     "gp_shopify_original_section_607882266063929942",
+    "custom_liquid_PaWGaa",
     "presslogo_B9RciW",
     "press_B7cGzi",
     "logoscroll_RNiLap",
