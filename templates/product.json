@@ -694,7 +694,7 @@
         "feature_row_6V4EbH": {
           "type": "feature_row",
           "settings": {
-            "feature_name": "Multivitamins",
+            "feature_name": "Jambes légères dès les premiers jours",
             "primary_has_feature": true,
             "competitor_has_feature": false
           }
@@ -702,7 +702,7 @@
         "feature_row_crYPwK": {
           "type": "feature_row",
           "settings": {
-            "feature_name": "Antioxidants",
+            "feature_name": "Rééquilibre la rétention d'eau hormonale",
             "primary_has_feature": true,
             "competitor_has_feature": false
           }
@@ -710,7 +710,7 @@
         "feature_row_9rdHnm": {
           "type": "feature_row",
           "settings": {
-            "feature_name": "Gut-friendly Bacteria",
+            "feature_name": "Silhouette redessinée naturellement",
             "primary_has_feature": true,
             "competitor_has_feature": false
           }
@@ -718,7 +718,7 @@
         "feature_row_8LTfBg": {
           "type": "feature_row",
           "settings": {
-            "feature_name": "Gut-friendly Fibre",
+            "feature_name": "Plantes cliniquement étudiées",
             "primary_has_feature": true,
             "competitor_has_feature": false
           }
@@ -726,17 +726,17 @@
         "feature_row_9QJ7Ly": {
           "type": "feature_row",
           "settings": {
-            "feature_name": "High Quality Adaptogens",
+            "feature_name": "S'intègre à votre routine",
             "primary_has_feature": true,
             "competitor_has_feature": false
           }
         },
-        "text_row_UqUVwj": {
-          "type": "text_row",
+        "feature_row_ipDKUf": {
+          "type": "feature_row",
           "settings": {
-            "feature_name": "Benefits in",
-            "primary_text": "One Scoop",
-            "competitor_text": "Multi-Supp."
+            "feature_name": "Différence avant/après claire",
+            "primary_has_feature": true,
+            "competitor_has_feature": false
           }
         }
       },
@@ -749,7 +749,7 @@
         "feature_row_9rdHnm",
         "feature_row_8LTfBg",
         "feature_row_9QJ7Ly",
-        "text_row_UqUVwj"
+        "feature_row_ipDKUf"
       ],
       "name": "SS - Comparison table #29",
       "settings": {
@@ -760,17 +760,17 @@
         "content_align": "center",
         "content_align_mobile": "center",
         "layout_direction": "heading_first_vertical",
-        "content_gap": 64,
-        "column_width": 140,
-        "column_radius": 16,
+        "content_gap": 52,
+        "column_width": 135,
+        "column_radius": 12,
         "row_padding": 16,
-        "image_width": 70,
+        "image_width": 65,
         "product_title_size": 18,
         "feature_font_size": 15,
         "feature_font_weight": "600",
         "show_dividers": true,
         "divider_thickness": 1,
-        "icon_size": 22,
+        "icon_size": 24,
         "gradient_start": "#ffffff",
         "gradient_end": "#f4f4f4",
         "primary_column_use_gradient": false,
@@ -778,11 +778,11 @@
         "primary_column_gradient_start": "#121212",
         "primary_column_gradient_end": "#404040",
         "primary_column_text_color": "#ffffff",
-        "feature_text_color": "#121212",
-        "competitor_text_color": "#121212",
+        "feature_text_color": "#01322d",
+        "competitor_text_color": "#01322d",
         "divider_color": "#e0e0e0",
         "check_color": "#ffffff",
-        "cross_color": "#121212",
+        "cross_color": "#01322d",
         "cross_stroke_style": "transparent",
         "badge_background": "#ffffff26",
         "badge_icon_color": "#ffffff",
@@ -791,9 +791,93 @@
         "padding_sides": 24,
         "mobile_padding_top": 28,
         "mobile_padding_bottom": 28,
-        "mobile_padding_sides": 16,
+        "mobile_padding_sides": 12,
         "width": "custom",
         "content_width": 800,
+        "lazy": true
+      }
+    },
+    "logoscroll_rkEp83": {
+      "type": "logoscroll",
+      "blocks": {
+        "image_X94MYw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5xl6wO-OiO.jpg",
+            "url": ""
+          }
+        },
+        "image_Gffrfn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lwMGLDsyp6.jpg",
+            "url": ""
+          }
+        },
+        "image_NagwmL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/XnklpBK3gb.jpg",
+            "url": ""
+          }
+        },
+        "image_rWWyQN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nta9nYgB_b.jpg",
+            "url": ""
+          }
+        },
+        "image_PibTBH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BfIK0d9JGx.jpg",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_X94MYw",
+        "image_Gffrfn",
+        "image_NagwmL",
+        "image_rWWyQN",
+        "image_PibTBH"
+      ],
+      "name": "SS - Scrolling logo cloud #5",
+      "settings": {
+        "layout_radius": 30,
+        "layout_border_thickness": 0,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "heading_height": 130,
+        "scrolling_velocity": 16,
+        "scrolling_velocity_mobile": 18,
+        "scrolling_direction": "left",
+        "pause_hover": false,
+        "scrolling_gap": 70,
+        "scrolling_gap_mobile": 30,
+        "card_width_desktop": 180,
+        "card_width_mobile": 160,
+        "heading_color": "#121212",
+        "layout_bg_color": "#FFFFFF",
+        "layout_border_color": "#121212",
+        "background_color": "#FFFFFF",
+        "border_color": "#121212",
+        "margin_top": 32,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
         "lazy": true
       }
     },
@@ -980,6 +1064,7 @@
     "media_with_text_3tCrUH",
     "scrolling_text_MeVaRm",
     "tabsvs_EKqbrq",
+    "logoscroll_rkEp83",
     "rich_text_4NcypC",
     "testimonials_hnRBeG",
     "faq_WqUb4U"
