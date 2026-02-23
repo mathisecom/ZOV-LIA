@@ -357,14 +357,14 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Relance naturellement votre drainage lymphatique",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "link_text": "",
-            "link_url": "",
+            "content": "<p>Notre formule stimule la circulation lymphatique pour fluidifier les échanges et favoriser l'élimination des liquides stagnants. </p><p><strong>Résultat : moins de lourdeur, moins de gonflement, plus de légèreté au quotidien.</strong></p>",
+            "link_text": "COMMENCER AUJOURD'HUI",
+            "link_url": "shopify://products/drainant-lymphatique",
             "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#01322d",
             "text_gradient": "",
-            "button_background": "",
+            "button_background": "#01322d",
             "button_text_color": ""
           }
         }
