@@ -798,6 +798,42 @@
         "spacing": "none"
       }
     },
+    "media_with_text_cWt4Gg": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_3FTctj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GouttesDeDrainageLymphatique_ProductShot.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Relance naturellement votre drainage lymphatique",
+            "content": "<p>Notre formule stimule la circulation lymphatique pour fluidifier les échanges et favoriser l'élimination des liquides stagnants. </p><p><strong>Résultat : moins de lourdeur, moins de gonflement, plus de légèreté au quotidien.</strong></p>",
+            "link_text": "COMMENCER AUJOURD'HUI",
+            "link_url": "#shopify-section-template--28737387036997__gp_global_section_607882845699965850_xKC7LE",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#01322d",
+            "text_gradient": "",
+            "button_background": "#01322d",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_3FTctj"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
     "text_with_icons_ANzPkj": {
       "type": "text-with-icons",
       "blocks": {
@@ -811,8 +847,8 @@
             "icon_background_type": "circle",
             "icon_background": "#f9fffd",
             "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+            "title": "Jambes plus légères",
+            "content": "<p>Sensation immédiate de légèreté et confort au quotidien.</p>"
           }
         },
         "item_8mXhCP": {
@@ -825,8 +861,8 @@
             "icon_background_type": "circle",
             "icon_background": "#f9fffd",
             "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+            "title": "Silhouette affinée",
+            "content": "<p>Moins de rétention d’eau, silhouette plus harmonieuse.</p>"
           }
         },
         "item_p4Rxie": {
@@ -839,8 +875,8 @@
             "icon_background_type": "circle",
             "icon_background": "#f9fffd",
             "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Your payment information is processed securely.</p>"
+            "title": "Corps allégé",
+            "content": "<p>Moins de gonflements, meilleure circulation dès les premiers jours.</p>"
           }
         }
       },
@@ -1370,6 +1406,7 @@
     "media_with_text_htUCGi",
     "multi_column_QFwkXx",
     "media_with_text_3tCrUH",
+    "media_with_text_cWt4Gg",
     "text_with_icons_ANzPkj",
     "scrolling_text_MeVaRm",
     "tabsvs_EKqbrq",
