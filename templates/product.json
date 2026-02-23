@@ -229,11 +229,19 @@
         "gggIY__1v-n_text": "<ul>\n<li>\n<strong>Relance la circulation lymphatique</strong> là où elle stagne</li>\n<li>\n<strong>Diminue les gonflements</strong> du visage, des jambes et du ventre</li>\n<li>\n<strong>Aide à réguler la rétention</strong> d’eau de façon naturelle</li>\n<li>\n<strong>Allège les ballonnements</strong> et apaise l’inconfort digestif</li>\n<li>\n<strong>Apporte plus de vitalité</strong> et de légèreté au quotidien</li>\n<li>\n<strong>Sans alcool, sans OGM</strong>, doux pour le corps et l’esprit</li>\n</ul>",
         "gg4Vg63fPm5_text": "<p>Prenez <strong>1 à 2 compte-gouttes (1 à 2 ml) </strong>une ou deux fois par jour. Ajouter à l'eau, au thé ou au jus, ou placer directement sous la langue. Pour de meilleurs résultats, utilisez régulièrement et restez hydraté tout au long de la journée.</p>"
       }
+    },
+    "presslogo_B9RciW": {
+      "type": "presslogo",
+      "name": "Logos Presse",
+      "settings": {
+        "title": "ILS PARLENT DE NOUS"
+      }
     }
   },
   "order": [
     "main",
     "gp_global_section_607882845699965850_xKC7LE",
-    "gp_shopify_original_section_607882266063929942"
+    "gp_shopify_original_section_607882266063929942",
+    "presslogo_B9RciW"
   ]
 }
