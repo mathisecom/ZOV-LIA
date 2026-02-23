@@ -506,6 +506,42 @@
         "spacing": "none"
       }
     },
+    "media_with_text_3tCrUH": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_fD9eAN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_6xygic6xygic6xyg_21d32279-a920-4b96-aff7-0acdedb1c50e.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Une expertise au service de votre bien-être lymphatique",
+            "content": "<p>Anne crée chaque formule <strong>Zovélia</strong> en s'appuyant sur sa maîtrise du fonctionnement lymphatique.</p><p><em><strong>Les ingrédients sont rigoureusement sélectionnés pour :</strong></em></p><ul><li>Stimuler la fluidité lymphatique</li><li>Favoriser l'élimination naturelle</li><li>Soulager rétention et lourdeurs</li></ul><p>Une approche épurée : que des actifs utiles, rien de superflu. Chaque composant a un rôle précis.</p>",
+            "link_text": "COMMENCER AUJOURD'HUI",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#01322d",
+            "text_gradient": "",
+            "button_background": "#01322d",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_fD9eAN"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
     "scrolling_text_MeVaRm": {
       "type": "scrolling-text",
       "name": "Scrolling text",
@@ -684,42 +720,6 @@
         "width": "custom",
         "content_width": 800,
         "lazy": true
-      }
-    },
-    "media_with_text_3tCrUH": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_fD9eAN": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Gemini_Generated_Image_6xygic6xygic6xyg_21d32279-a920-4b96-aff7-0acdedb1c50e.jpg",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Une expertise au service de votre bien-être lymphatique",
-            "content": "<p>Anne crée chaque formule <strong>Zovélia</strong> en s'appuyant sur sa maîtrise du fonctionnement lymphatique.</p><p><em><strong>Les ingrédients sont rigoureusement sélectionnés pour :</strong></em></p><ul><li>Stimuler la fluidité lymphatique</li><li>Favoriser l'élimination naturelle</li><li>Soulager rétention et lourdeurs</li></ul><p>Une approche épurée : que des actifs utiles, rien de superflu. Chaque composant a un rôle précis.</p>",
-            "link_text": "COMMENCER AUJOURD'HUI",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#01322d",
-            "text_gradient": "",
-            "button_background": "#01322d",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_fD9eAN"
-      ],
-      "name": "Media with text",
-      "settings": {
-        "full_width": false,
-        "alternate_media_position": false,
-        "spacing": "none"
       }
     },
     "rich_text_4NcypC": {
@@ -901,9 +901,9 @@
     "before_after_image_KDpNMy",
     "whyicons_3ntymb",
     "media_with_text_htUCGi",
+    "media_with_text_3tCrUH",
     "scrolling_text_MeVaRm",
     "tabsvs_EKqbrq",
-    "media_with_text_3tCrUH",
     "rich_text_4NcypC",
     "testimonials_hnRBeG",
     "faq_WqUb4U"
