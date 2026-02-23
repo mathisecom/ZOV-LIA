@@ -376,6 +376,33 @@
         "lazy": true
       }
     },
+    "before_after_image_KDpNMy": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Before/after",
+        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
+        "before_image": "shopify://shop_images/gempages_584723707562295877-6fa8e13a-08a6-4b44-8b36-cbc5aa662c25.webp",
+        "before_image_mobile": "shopify://shop_images/gempages_584723707562295877-6fa8e13a-08a6-4b44-8b36-cbc5aa662c25.webp",
+        "after_image": "shopify://shop_images/gempages_584723707562295877-b0890c2c-78b7-4c20-b173-bb955762da93.webp",
+        "after_image_mobile": "shopify://shop_images/gempages_584723707562295877-b0890c2c-78b7-4c20-b173-bb955762da93.webp",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "bottom",
+        "before_text": "",
+        "after_text": "",
+        "drag_initial_position": 50,
+        "background": "#f9fffd",
+        "background_gradient": "",
+        "text_color": "#01322d",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
     "media_with_text_htUCGi": {
       "type": "media-with-text",
       "blocks": {
@@ -421,6 +448,7 @@
     "presslogo_B9RciW",
     "press_B7cGzi",
     "logoscroll_RNiLap",
+    "before_after_image_KDpNMy",
     "media_with_text_htUCGi"
   ]
 }
