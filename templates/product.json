@@ -439,56 +439,6 @@
         "spacing": "none"
       }
     },
-    "whyitsworks_ERbzVL": {
-      "type": "whyitsworks",
-      "blocks": {
-        "benefit_card_iyhKwa": {
-          "type": "benefit_card",
-          "settings": {
-            "featured": true,
-            "title": "The Carb-Blocker Secret Weapon",
-            "description": "Powered by clinical-grade Garcinia Cambogia, Lunari helps block the enzyme your body uses to turn carbohydrates into fat storage. It's your insurance policy for pasta night, sushi dates, and those 'oops' meals that usually derail your progress. Instead of storing carbs as fat, your body is encouraged to use them for energy or pass them through. Think of it as a metabolic safety net that lets you live your life without the next-day scale spike."
-          }
-        },
-        "benefit_card_9ffPtj": {
-          "type": "benefit_card",
-          "settings": {
-            "featured": false,
-            "title": "Digestive Freedom You Can Feel",
-            "description": "Bloating isn't just uncomfortable—it's a confidence killer. Lunari is infused with Pomegranate Extract and Maltodextrin (a prebiotic fiber) that keeps your digestive system moving smoothly. Say goodbye to heavy, sluggish feeling after lunch. No more awkward tight dresses because you're worried about your stomach."
-          }
-        },
-        "benefit_card_xDzYkc": {
-          "type": "benefit_card",
-          "settings": {
-            "featured": false,
-            "title": "Zero-Friction Compliance = Real Results",
-            "description": "The best supplement in the world is worthless if it's sitting in your drawer. Lunari was designed for real life: no pills to choke down, no water required, no shaker bottles to clean. Just tear open a delicious pomegranate jelly stick and enjoy it anywhere."
-          }
-        }
-      },
-      "block_order": [
-        "benefit_card_iyhKwa",
-        "benefit_card_9ffPtj",
-        "benefit_card_xDzYkc"
-      ],
-      "name": "Why It Works - Benefits",
-      "settings": {
-        "badge_text": "WHY IT WORKS",
-        "title": "Lunari is Different",
-        "subtitle": "Discover what makes Lunari different from everything else you've tried.",
-        "button_text": "GET STARTED NOW",
-        "button_link": "",
-        "guarantee_text": "90-day money back guarantee",
-        "background_color": "#f9fffd",
-        "text_color": "#01322d",
-        "card_background_color": "#ffffff",
-        "border_color": "#f5f5f5",
-        "accent_color": "#0d4c42",
-        "button_background_color": "#0d4c42",
-        "button_text_color": "#ffffff"
-      }
-    },
     "whyicons_3ntymb": {
       "type": "whyicons",
       "blocks": {
@@ -590,6 +540,59 @@
         "full_width": false,
         "alternate_media_position": false,
         "spacing": "none"
+      }
+    },
+    "whyitsworks_ERbzVL": {
+      "type": "whyitsworks",
+      "blocks": {
+        "benefit_card_iyhKwa": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T010913.437.png",
+            "featured": true,
+            "title": "Des fluides piégés qui exercent une tension",
+            "description": "L'accumulation de liquides comprime vos tissus de l'intérieur. Conséquence directe : cette sensation de lourdeur dans les jambes, d'abdomen distendu, de traits tirés au réveil."
+          }
+        },
+        "benefit_card_9ffPtj": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T010825.172.png",
+            "featured": true,
+            "title": "Un système d'évacuation défaillant",
+            "description": "Lorsque votre circulation lymphatique perd en efficacité, elle ne remplit plus son rôle de nettoyage. Déchets cellulaires, substances usagées et impuretés s'accumulent. Votre corps peine à se débarrasser du superflu."
+          }
+        },
+        "benefit_card_xDzYkc": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011017.376.png",
+            "featured": true,
+            "title": "Des parois fragilisées qui laissent fuir",
+            "description": "Vos vaisseaux lymphatiques, endommagés avec le temps, deviennent perméables. Le liquide s'échappe et s'installe dans vos tissus. C'est l'origine de ce gonflement persistant et de cette pesanteur qui ne vous quitte plus."
+          }
+        }
+      },
+      "block_order": [
+        "benefit_card_iyhKwa",
+        "benefit_card_9ffPtj",
+        "benefit_card_xDzYkc"
+      ],
+      "name": "Why It Works - Benefits",
+      "settings": {
+        "badge_text": "WHY IT WORKS",
+        "title": "Le secret de la rétention d'eau",
+        "subtitle": "Le problème ne vient ni de votre alimentation, ni de votre activité physique.\n<br><b>Voici le vrai mécanisme :</b>",
+        "button_text": "GET STARTED NOW",
+        "button_link": "",
+        "guarantee_text": "90-day money back guarantee",
+        "background_color": "#f9fffd",
+        "text_color": "#01322d",
+        "card_background_color": "#ffffff",
+        "border_color": "#f5f5f5",
+        "accent_color": "#0d4c42",
+        "button_background_color": "#0d4c42",
+        "button_text_color": "#ffffff"
       }
     },
     "multi_column_z3xjV7": {
