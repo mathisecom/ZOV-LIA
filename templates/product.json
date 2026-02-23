@@ -349,7 +349,7 @@
         "heading_size_mobile": 18,
         "heading_height": 130,
         "scrolling_velocity": 16,
-        "scrolling_velocity_mobile": 14,
+        "scrolling_velocity_mobile": 18,
         "scrolling_direction": "left",
         "pause_hover": false,
         "scrolling_gap": 70,
@@ -375,6 +375,43 @@
         "section_radius": 0,
         "lazy": true
       }
+    },
+    "media_with_text_htUCGi": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_gYj3QP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T004836.216.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T010533.332.png",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Votre Allié Quotidien Anti-Rétention",
+            "content": "<p>Les gouttes <strong>Zovélia </strong>aident votre corps à éliminer en douceur les fluides emprisonnés, <strong>pour une sensation de légèreté, de dégonflement et de confort au quotidien.</strong></p><p>Quelques gouttes avant le coucher favorisent le drainage naturel, la circulation et l'équilibre hydrique. <strong>Un geste simple. Une différence visible.</strong></p>",
+            "link_text": "OBTENIR MAINTENANT",
+            "link_url": "",
+            "background": "#01322d",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#01322d"
+          }
+        }
+      },
+      "block_order": [
+        "image_gYj3QP"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
     }
   },
   "order": [
@@ -383,6 +420,7 @@
     "gp_shopify_original_section_607882266063929942",
     "presslogo_B9RciW",
     "press_B7cGzi",
-    "logoscroll_RNiLap"
+    "logoscroll_RNiLap",
+    "media_with_text_htUCGi"
   ]
 }
