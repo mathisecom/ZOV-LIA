@@ -403,6 +403,72 @@
         "drag_cursor_color": "#000000"
       }
     },
+    "whyicons_3ntymb": {
+      "type": "whyicons",
+      "blocks": {
+        "feature_RYWEhb": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011510.151.png",
+            "text": "<b>Soutien lymphatique</b>"
+          }
+        },
+        "feature_aPPVBJ": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011120.177.png",
+            "text": "<b>Visage & Corps Dégonflés</b>"
+          }
+        },
+        "feature_j39xxy": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011205.153.png",
+            "text": "<b>Drainage Naturel</b>"
+          }
+        },
+        "feature_n84wCL": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011333.165.png",
+            "text": "<b>Soutien Hormonal</b>"
+          }
+        },
+        "feature_zMD4eJ": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011233.400.png",
+            "text": "<b>Énergie & Vitalité</b>"
+          }
+        },
+        "feature_AWQK4V": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011305.248.png",
+            "text": "<b>Détox Naturelle</b>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_RYWEhb",
+        "feature_aPPVBJ",
+        "feature_j39xxy",
+        "feature_n84wCL",
+        "feature_zMD4eJ",
+        "feature_AWQK4V"
+      ],
+      "name": "Why Smileactives",
+      "settings": {
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "background_color": "#f9fffd",
+        "title": "Pourquoi Faire Confiance À Zovélia ?",
+        "title_color": "#01322d",
+        "subtitle": "",
+        "subtitle_color": "#01322d",
+        "feature_text_color": "#01322d"
+      }
+    },
     "media_with_text_htUCGi": {
       "type": "media-with-text",
       "blocks": {
@@ -449,6 +515,7 @@
     "press_B7cGzi",
     "logoscroll_RNiLap",
     "before_after_image_KDpNMy",
+    "whyicons_3ntymb",
     "media_with_text_htUCGi"
   ]
 }
