@@ -565,6 +565,82 @@
         "button_text_color": "#ffffff"
       }
     },
+    "multi_column_z3xjV7": {
+      "type": "multi-column",
+      "blocks": {
+        "item_zXCxGV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002028.620_fd1dae00-2a81-45ee-9668-f6166bdd024c.jpg",
+            "column_size": "4",
+            "title": "Gaillet gratteron – Galium aparine",
+            "heading_tag": "h4",
+            "content": "<p>→ <strong>L’activateur lymphatique naturel </strong>Cette plante <strong>débloque la circulation interne</strong> et aide le corps à <strong>éliminer l’eau piégée</strong>, pas seulement l’<strong>eau superficielle</strong>.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_wpiiJh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002046.249.jpg",
+            "column_size": "4",
+            "title": "Trèfle rouge – Trifolium pratense",
+            "heading_tag": "h4",
+            "content": "<p>→ <strong>L’équilibre féminin </strong>Aide le corps à <strong>stabiliser les cycles hormonaux</strong> qui favorisent la <strong>rétention d’eau</strong>, les <strong>gonflements matinaux</strong> et le <strong>visage gonflé</strong>.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_UPCHYi": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002053.831.jpg",
+            "column_size": "4",
+            "title": "Stillingia – Stillingia sylvatica",
+            "heading_tag": "h4",
+            "content": "<p>→ <strong>Le purificateur en profondeur </strong>Plante peu commune qui agit dans les <strong>tissus profonds</strong> pour <strong>dissoudre les déchets accumulés</strong>, à l’origine de la <strong>lourdeur</strong> et de la <strong>pression interne</strong>.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_ywYjLN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002100.551.jpg",
+            "column_size": "4",
+            "title": "Frêne épineux – Zanthoxylum americanum",
+            "heading_tag": "h4",
+            "content": "<p>→ <strong>Le stimulant circulatoire </strong>Réactive la <strong>microcirculation</strong> et remet en mouvement les <strong>fluides stagnants</strong> dans les zones les plus sensibles : <strong>visage</strong>, <strong>mâchoire</strong>, <strong>chevilles</strong>.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_zXCxGV",
+        "item_wpiiJh",
+        "item_UPCHYi",
+        "item_ywYjLN"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Ce Qui Rend Nos Gouttes Si Efficaces !",
+        "content": "<p>Notre <strong>mélange botanique</strong> n’agit pas comme une simple <strong>détox</strong>. Chaque <strong>plante</strong> joue un <strong>rôle spécifique et complémentaire</strong> :</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#01322d"
+      }
+    },
     "media_with_text_htUCGi": {
       "type": "media-with-text",
       "blocks": {
@@ -670,82 +746,6 @@
         "title": "Votre transformation, Étape par Étape",
         "content": "<p>À quoi vous attendre en prenant quotidiennement notre<strong> cure de drainage lymphatique.</strong></p>",
         "background": "#f9fffd",
-        "background_gradient": "",
-        "text_color": "#01322d"
-      }
-    },
-    "multi_column_z3xjV7": {
-      "type": "multi-column",
-      "blocks": {
-        "item_zXCxGV": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002028.620_fd1dae00-2a81-45ee-9668-f6166bdd024c.jpg",
-            "column_size": "4",
-            "title": "Gaillet gratteron – Galium aparine",
-            "heading_tag": "h4",
-            "content": "<p>→ <strong>L’activateur lymphatique naturel </strong>Cette plante <strong>débloque la circulation interne</strong> et aide le corps à <strong>éliminer l’eau piégée</strong>, pas seulement l’<strong>eau superficielle</strong>.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_wpiiJh": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002046.249.jpg",
-            "column_size": "4",
-            "title": "Trèfle rouge – Trifolium pratense",
-            "heading_tag": "h4",
-            "content": "<p>→ <strong>L’équilibre féminin </strong>Aide le corps à <strong>stabiliser les cycles hormonaux</strong> qui favorisent la <strong>rétention d’eau</strong>, les <strong>gonflements matinaux</strong> et le <strong>visage gonflé</strong>.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_UPCHYi": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002053.831.jpg",
-            "column_size": "4",
-            "title": "Stillingia – Stillingia sylvatica",
-            "heading_tag": "h4",
-            "content": "<p>→ <strong>Le purificateur en profondeur </strong>Plante peu commune qui agit dans les <strong>tissus profonds</strong> pour <strong>dissoudre les déchets accumulés</strong>, à l’origine de la <strong>lourdeur</strong> et de la <strong>pression interne</strong>.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_ywYjLN": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002100.551.jpg",
-            "column_size": "4",
-            "title": "Frêne épineux – Zanthoxylum americanum",
-            "heading_tag": "h4",
-            "content": "<p>→ <strong>Le stimulant circulatoire </strong>Réactive la <strong>microcirculation</strong> et remet en mouvement les <strong>fluides stagnants</strong> dans les zones les plus sensibles : <strong>visage</strong>, <strong>mâchoire</strong>, <strong>chevilles</strong>.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_zXCxGV",
-        "item_wpiiJh",
-        "item_UPCHYi",
-        "item_ywYjLN"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "Ce Qui Rend Nos Gouttes Si Efficaces !",
-        "content": "<p>Notre <strong>mélange botanique</strong> n’agit pas comme une simple <strong>détox</strong>. Chaque <strong>plante</strong> joue un <strong>rôle spécifique et complémentaire</strong> :</p>",
-        "background": "",
         "background_gradient": "",
         "text_color": "#01322d"
       }
@@ -1290,9 +1290,9 @@
     "whyicons_3ntymb",
     "clinicalresults_HQcqrY",
     "whyitsworks_ERbzVL",
+    "multi_column_z3xjV7",
     "media_with_text_htUCGi",
     "multi_column_QFwkXx",
-    "multi_column_z3xjV7",
     "media_with_text_3tCrUH",
     "scrolling_text_MeVaRm",
     "tabsvs_EKqbrq",
