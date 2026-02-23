@@ -507,7 +507,7 @@
         "subtitle": "",
         "percentage_color": "#0d4c42",
         "button_text": "COMMENCER AUJOURD'HUI",
-        "button_link": "",
+        "button_link": "#shopify-section-template--28737387036997__gp_global_section_607882845699965850_xKC7LE",
         "button_background": "#01322d",
         "button_text_color": "#FFFFFF"
       }
@@ -554,7 +554,7 @@
         "title": "Le secret de la rétention d'eau",
         "subtitle": "Le problème ne vient ni de votre alimentation, ni de votre activité physique.\n<br><b>Voici le vrai mécanisme :</b>",
         "button_text": "COMMENCER AUJOURD'HUI",
-        "button_link": "",
+        "button_link": "#shopify-section-template--28737387036997__gp_global_section_607882845699965850_xKC7LE",
         "guarantee_text": "30 Jours Satisfait ou Remboursé",
         "background_color": "#f9fffd",
         "text_color": "#01322d",
@@ -582,7 +582,7 @@
             "title": "Votre Allié Quotidien Anti-Rétention",
             "content": "<p>Les gouttes <strong>Zovélia </strong>aident votre corps à éliminer en douceur les fluides emprisonnés, <strong>pour une sensation de légèreté, de dégonflement et de confort au quotidien.</strong></p><p>Quelques gouttes avant le coucher favorisent le drainage naturel, la circulation et l'équilibre hydrique. <strong>Un geste simple. Une différence visible.</strong></p>",
             "link_text": "OBTENIR MAINTENANT",
-            "link_url": "",
+            "link_url": "#shopify-section-template--28737387036997__gp_global_section_607882845699965850_xKC7LE",
             "background": "#01322d",
             "background_gradient": "",
             "text_color": "#ffffff",
@@ -766,7 +766,7 @@
             "title": "Une expertise au service de votre bien-être lymphatique",
             "content": "<p>Anne crée chaque formule <strong>Zovélia</strong> en s'appuyant sur sa maîtrise du fonctionnement lymphatique.</p><p><em><strong>Les ingrédients sont rigoureusement sélectionnés pour :</strong></em></p><ul><li>Stimuler la fluidité lymphatique</li><li>Favoriser l'élimination naturelle</li><li>Soulager rétention et lourdeurs</li></ul><p>Une approche épurée : que des actifs utiles, rien de superflu. Chaque composant a un rôle précis.</p>",
             "link_text": "COMMENCER AUJOURD'HUI",
-            "link_url": "",
+            "link_url": "#shopify-section-template--28737387036997__gp_global_section_607882845699965850_xKC7LE",
             "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#01322d",
@@ -832,7 +832,7 @@
           "type": "button",
           "settings": {
             "button": "COMMENCER AUJOURDHUI",
-            "url": "",
+            "url": "#shopify-section-template--28737387036997__gp_global_section_607882845699965850_xKC7LE",
             "open_in_new_tab": false,
             "button_style": "non_outline",
             "button_custom": false,
@@ -1053,6 +1053,12 @@
     "rich_text_4NcypC": {
       "type": "rich-text",
       "blocks": {
+        "subheading_YXxUWE": {
+          "type": "subheading",
+          "settings": {
+            "text": "ILS EN PARLENT MIEUX QUE NOUS"
+          }
+        },
         "heading_NMwFA9": {
           "type": "heading",
           "settings": {
@@ -1064,6 +1070,7 @@
         }
       },
       "block_order": [
+        "subheading_YXxUWE",
         "heading_NMwFA9"
       ],
       "name": "Rich text",
@@ -1073,7 +1080,7 @@
         "text_position": "center",
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#01322d"
       }
     },
     "testimonials_hnRBeG": {
