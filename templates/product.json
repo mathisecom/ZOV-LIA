@@ -1171,29 +1171,37 @@
         "item_Vmjmnw": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Comment ce complément agit-il réellement ?",
+            "content": "<p>Notre formule liquide agit en stimulant le système lymphatique, souvent négligé, mais essentiel pour éliminer les toxines, les excès d’eau et réduire les gonflements. Les plantes comme le gaillet favorisent naturellement le drainage et relancent la circulation lymphatique pour une silhouette plus légère, de l’intérieur.</p>"
           }
         },
         "item_mg3BJr": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Quand vais-je voir les premiers résultats ?",
+            "content": "<p>De nombreuses utilisatrices rapportent une sensation de légèreté dès les premiers jours. Pour un résultat visible (jambes moins gonflées, peau plus ferme, réduction de la cellulite aqueuse), une cure de 3 à 6 semaines est recommandée. L’effet s’intensifie avec la régularité.</p>"
           }
         },
         "item_bjUhJt": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Combien de temps dure une cure ?",
+            "content": "<p>Un Flacon contient l’équivalent de 30 jours. Pour des résultats optimaux et durables, nous conseillons une cure d’au moins 2 à 3 mois. Idéalement, à renouveler à chaque changement de saison ou en période de forte rétention d’eau.</p>"
+          }
+        },
+        "item_DM7UWq": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce 100 % naturel ?",
+            "content": "<p>Oui. Ce complément est exclusivement formulé à base d’extraits de plantes reconnues pour leurs propriétés drainantes et détoxifiante.</p>"
           }
         }
       },
       "block_order": [
         "item_Vmjmnw",
         "item_mg3BJr",
-        "item_bjUhJt"
+        "item_bjUhJt",
+        "item_DM7UWq"
       ],
       "name": "FAQ",
       "settings": {
