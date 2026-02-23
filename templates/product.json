@@ -243,7 +243,7 @@
         "quote_pMfUH7": {
           "type": "quote",
           "settings": {
-            "logo": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000829.919.png",
+            "logo": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000842.181.png",
             "logo_width": 50,
             "author": "Julia M.",
             "content": "\"Visage visiblement plus fin et moins gonflé dès la première semaine. J'adore!\"",
@@ -256,8 +256,8 @@
           "settings": {
             "logo": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000836.717.png",
             "logo_width": 50,
-            "author": "",
-            "content": "Write some content about what they says about your store.",
+            "author": "Aline B.",
+            "content": "\"Très efficace. Ma peau est plus tonique et mon visage paraît plus reposé au réveil.\"",
             "show_rating": true,
             "rating": 4
           }
@@ -265,10 +265,21 @@
         "quote_HXrrcW": {
           "type": "quote",
           "settings": {
-            "logo": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000842.181.png",
+            "logo": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000829.919.png",
             "logo_width": 50,
-            "author": "",
-            "content": "Write some content about what they says about your store.",
+            "author": "Sarah M.",
+            "content": "\"Un rituel simple qui change tout. Mon teint est plus éclatant et mon visage visiblement moins bouffi.\"",
+            "show_rating": true,
+            "rating": 4
+          }
+        },
+        "quote_74RWq9": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000819.153.png",
+            "logo_width": 50,
+            "author": "Nina P.",
+            "content": "\"Après quelques jours, mon visage est plus détendu, moins enflé et plus harmonieux.\"",
             "show_rating": true,
             "rating": 4
           }
@@ -277,7 +288,8 @@
       "block_order": [
         "quote_pMfUH7",
         "quote_7Exree",
-        "quote_HXrrcW"
+        "quote_HXrrcW",
+        "quote_74RWq9"
       ],
       "name": "Press",
       "settings": {
