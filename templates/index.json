@@ -400,6 +400,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/cramp_2.png",
             "mobile_icon_width": 48,
             "icon_width": 48,
             "icon_background_type": "circle",
@@ -413,6 +414,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/cramp_3.png",
             "mobile_icon_width": 48,
             "icon_width": 48,
             "icon_background_type": "circle",
