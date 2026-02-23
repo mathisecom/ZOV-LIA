@@ -542,59 +542,6 @@
         "spacing": "none"
       }
     },
-    "whyitsworks_ERbzVL": {
-      "type": "whyitsworks",
-      "blocks": {
-        "benefit_card_iyhKwa": {
-          "type": "benefit_card",
-          "settings": {
-            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T010913.437.png",
-            "featured": true,
-            "title": "Des fluides piégés qui exercent une tension",
-            "description": "L'accumulation de liquides comprime vos tissus de l'intérieur. Conséquence directe : cette sensation de lourdeur dans les jambes, d'abdomen distendu, de traits tirés au réveil."
-          }
-        },
-        "benefit_card_9ffPtj": {
-          "type": "benefit_card",
-          "settings": {
-            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T010825.172.png",
-            "featured": true,
-            "title": "Un système d'évacuation défaillant",
-            "description": "Lorsque votre circulation lymphatique perd en efficacité, elle ne remplit plus son rôle de nettoyage. Déchets cellulaires, substances usagées et impuretés s'accumulent. Votre corps peine à se débarrasser du superflu."
-          }
-        },
-        "benefit_card_xDzYkc": {
-          "type": "benefit_card",
-          "settings": {
-            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011017.376.png",
-            "featured": true,
-            "title": "Des parois fragilisées qui laissent fuir",
-            "description": "Vos vaisseaux lymphatiques, endommagés avec le temps, deviennent perméables. Le liquide s'échappe et s'installe dans vos tissus. C'est l'origine de ce gonflement persistant et de cette pesanteur qui ne vous quitte plus."
-          }
-        }
-      },
-      "block_order": [
-        "benefit_card_iyhKwa",
-        "benefit_card_9ffPtj",
-        "benefit_card_xDzYkc"
-      ],
-      "name": "Why It Works - Benefits",
-      "settings": {
-        "badge_text": "La vraie cause du gonflement",
-        "title": "Le secret de la rétention d'eau",
-        "subtitle": "Le problème ne vient ni de votre alimentation, ni de votre activité physique.\n<br><b>Voici le vrai mécanisme :</b>",
-        "button_text": "COMMENCER AUJOURD'HUI",
-        "button_link": "",
-        "guarantee_text": "90-day money back guarantee",
-        "background_color": "#f9fffd",
-        "text_color": "#01322d",
-        "card_background_color": "#ffffff",
-        "border_color": "#f5f5f5",
-        "accent_color": "#0d4c42",
-        "button_background_color": "#0d4c42",
-        "button_text_color": "#ffffff"
-      }
-    },
     "multi_column_z3xjV7": {
       "type": "multi-column",
       "blocks": {
@@ -669,6 +616,131 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "whyitsworks_ERbzVL": {
+      "type": "whyitsworks",
+      "blocks": {
+        "benefit_card_iyhKwa": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T010913.437.png",
+            "featured": true,
+            "title": "Des fluides piégés qui exercent une tension",
+            "description": "L'accumulation de liquides comprime vos tissus de l'intérieur. Conséquence directe : cette sensation de lourdeur dans les jambes, d'abdomen distendu, de traits tirés au réveil."
+          }
+        },
+        "benefit_card_9ffPtj": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T010825.172.png",
+            "featured": true,
+            "title": "Un système d'évacuation défaillant",
+            "description": "Lorsque votre circulation lymphatique perd en efficacité, elle ne remplit plus son rôle de nettoyage. Déchets cellulaires, substances usagées et impuretés s'accumulent. Votre corps peine à se débarrasser du superflu."
+          }
+        },
+        "benefit_card_xDzYkc": {
+          "type": "benefit_card",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011017.376.png",
+            "featured": true,
+            "title": "Des parois fragilisées qui laissent fuir",
+            "description": "Vos vaisseaux lymphatiques, endommagés avec le temps, deviennent perméables. Le liquide s'échappe et s'installe dans vos tissus. C'est l'origine de ce gonflement persistant et de cette pesanteur qui ne vous quitte plus."
+          }
+        }
+      },
+      "block_order": [
+        "benefit_card_iyhKwa",
+        "benefit_card_9ffPtj",
+        "benefit_card_xDzYkc"
+      ],
+      "name": "Why It Works - Benefits",
+      "settings": {
+        "badge_text": "La vraie cause du gonflement",
+        "title": "Le secret de la rétention d'eau",
+        "subtitle": "Le problème ne vient ni de votre alimentation, ni de votre activité physique.\n<br><b>Voici le vrai mécanisme :</b>",
+        "button_text": "COMMENCER AUJOURD'HUI",
+        "button_link": "",
+        "guarantee_text": "90-day money back guarantee",
+        "background_color": "#f9fffd",
+        "text_color": "#01322d",
+        "card_background_color": "#ffffff",
+        "border_color": "#f5f5f5",
+        "accent_color": "#0d4c42",
+        "button_background_color": "#0d4c42",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "multi_column_QFwkXx": {
+      "type": "multi-column",
+      "blocks": {
+        "item_ec7RGG": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Semaine 1 — Début du drainage",
+            "heading_tag": "h4",
+            "content": "<p><em><strong>« Tu as l'air en forme ! »</strong></em><br/>Visage moins gonflé au réveil, ventre qui dégonfle, bagues qui glissent mieux.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_LhdpAN": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Semaine 2 — Circulation relancée",
+            "heading_tag": "h4",
+            "content": "<p><em><strong>« Je me sens moins lourde ! »</strong></em><br/>Jambes légères même en fin de journée, sensation de gonflement qui s'estompe.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_GgTKmy": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Semaine 3 — Confort & équilibre",
+            "heading_tag": "h4",
+            "content": "<p><em><strong>« Mon corps commence enfin à répondre »</strong></em><br/>Silhouette plus fine dans le miroir, envie de porter des vêtements ajustés.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_iGwjbf": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Mois 2–3+ — Résultats consolidés",
+            "heading_tag": "h4",
+            "content": "<p><em><strong>« Je me sens plus sûre de moi »</strong></em><br/>Plus d'énergie au quotidien, confiance retrouvée, vous vous accordez plus de temps pour vous.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_ec7RGG",
+        "item_LhdpAN",
+        "item_GgTKmy",
+        "item_iGwjbf"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "About",
+        "title": "Featured content",
+        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#01322d"
       }
     },
     "media_with_text_3tCrUH": {
@@ -1151,8 +1223,9 @@
     "media_with_text_YkFtN9",
     "whyicons_3ntymb",
     "media_with_text_htUCGi",
-    "whyitsworks_ERbzVL",
     "multi_column_z3xjV7",
+    "whyitsworks_ERbzVL",
+    "multi_column_QFwkXx",
     "media_with_text_3tCrUH",
     "scrolling_text_MeVaRm",
     "tabsvs_EKqbrq",
