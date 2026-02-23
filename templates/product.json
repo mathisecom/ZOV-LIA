@@ -469,6 +469,22 @@
         "feature_text_color": "#01322d"
       }
     },
+    "scrolling_text_MeVaRm": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "✓ Testé en Laboratoire‎ ‎ ‎ ‎ ✓ Certifié GMP ‎ ‎ ‎ ✓ Ingrédients Validés par la Science ‎ ‎ ‎ ✓ Non-Testé sur les Animaux ‎ ‎ ‎ ✓ Actifs de Hautes Qualité",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 7,
+        "background": "#f9fffd",
+        "background_gradient": "",
+        "text_color": "#01322d",
+        "text_gradient": ""
+      }
+    },
     "media_with_text_htUCGi": {
       "type": "media-with-text",
       "blocks": {
@@ -516,6 +532,7 @@
     "logoscroll_RNiLap",
     "before_after_image_KDpNMy",
     "whyicons_3ntymb",
+    "scrolling_text_MeVaRm",
     "media_with_text_htUCGi"
   ]
 }
