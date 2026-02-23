@@ -369,9 +369,9 @@
         "card_width_desktop": 180,
         "card_width_mobile": 160,
         "heading_color": "#121212",
-        "layout_bg_color": "#FFFFFF",
+        "layout_bg_color": "#ffffff",
         "layout_border_color": "#121212",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "border_color": "#121212",
         "margin_top": 0,
         "margin_bottom": 12,
@@ -521,7 +521,7 @@
         "button_text": "COMMENCER AUJOURD'HUI",
         "button_link": "#shopify-section-template--28737387036997__gp_global_section_607882845699965850_xKC7LE",
         "button_background": "#01322d",
-        "button_text_color": "#FFFFFF"
+        "button_text_color": "#ffffff"
       }
     },
     "whyitsworks_ERbzVL": {
@@ -863,12 +863,12 @@
             "button_mt_mobile": 16,
             "button_custom_styling": true,
             "button_full_width_mobile": true,
-            "button_color": "#FFFFFF",
-            "button_hover_color": "#FFFFFF",
+            "button_color": "#ffffff",
+            "button_hover_color": "#ffffff",
             "button_bg_color": "#0d4c42",
-            "button_bg_hover_color": "#2D2D2D",
-            "button_border_color": "#1A1A1A",
-            "button_border_hover_color": "#1A1A1A",
+            "button_bg_hover_color": "#2d2d2d",
+            "button_border_color": "#1a1a1a",
+            "button_border_hover_color": "#1a1a1a",
             "button_shadow_color": "#000000"
           }
         },
@@ -1043,9 +1043,9 @@
         "card_width_desktop": 180,
         "card_width_mobile": 160,
         "heading_color": "#121212",
-        "layout_bg_color": "#FFFFFF",
+        "layout_bg_color": "#ffffff",
         "layout_border_color": "#121212",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "border_color": "#121212",
         "margin_top": 32,
         "margin_bottom": 0,
@@ -1152,7 +1152,7 @@
             "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000842.181.png",
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
+            "rating": 5,
             "author": "Lisa K.",
             "title": "Peau plus fraîche et tonique",
             "content": "<p>Effet drainant impressionnant, mes traits sont plus sculptés et ma peau paraît plus ferme. Je suis vraiment ravie.</p>"
