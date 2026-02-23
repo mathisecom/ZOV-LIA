@@ -798,6 +798,70 @@
         "spacing": "none"
       }
     },
+    "text_with_icons_ANzPkj": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_xhbLGY": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/cramp_1.png",
+            "mobile_icon_width": 48,
+            "icon_width": 48,
+            "icon_background_type": "circle",
+            "icon_background": "#f9fffd",
+            "icon_color": "",
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+          }
+        },
+        "item_8mXhCP": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/cramp_2.png",
+            "mobile_icon_width": 48,
+            "icon_width": 48,
+            "icon_background_type": "circle",
+            "icon_background": "#f9fffd",
+            "icon_color": "",
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+          }
+        },
+        "item_p4Rxie": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/cramp_3.png",
+            "mobile_icon_width": 48,
+            "icon_width": 48,
+            "icon_background_type": "circle",
+            "icon_background": "#f9fffd",
+            "icon_color": "",
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_xhbLGY",
+        "item_8mXhCP",
+        "item_p4Rxie"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "scrolling_text_MeVaRm": {
       "type": "scrolling-text",
       "name": "Scrolling text",
@@ -1306,6 +1370,7 @@
     "media_with_text_htUCGi",
     "multi_column_QFwkXx",
     "media_with_text_3tCrUH",
+    "text_with_icons_ANzPkj",
     "scrolling_text_MeVaRm",
     "tabsvs_EKqbrq",
     "logoscroll_rkEp83",
