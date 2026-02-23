@@ -9,46 +9,6 @@
  */
 {
   "sections": {
-    "gp_shopify_original_section_606709124989715030": {
-      "type": "gp-section-606709124989715030",
-      "blocks": {
-        "gp_app_kaching-bundles_ggqZBBZfSO": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{ product }}"
-          }
-        }
-      },
-      "block_order": [
-        "gp_app_kaching-bundles_ggqZBBZfSO"
-      ],
-      "settings": {
-        "section_preload": "true",
-        "checksum": "",
-        "ggV9waVpfPQ_text": "<p><span style=\"font-size:14px;\">Un puissant mélange d'herbes pour <strong>réduire les gonflements, stimuler la circulation</strong>&nbsp;</span></p><p><span style=\"font-size:14px;\">et soutenir la désintoxication quotidienne.</span></p>",
-        "ggvd0yrJTM2_label": "Ajouter au Panier",
-        "ggvd0yrJTM2_outOfStockLabel": "Out of stock",
-        "ggvd0yrJTM2_unavailableLabel": "Unavailable",
-        "gg86dEZElFh_childItem_0": "<p><strong>INGRÉDIENTS</strong></p>",
-        "gg86dEZElFh_childItem_1": "<p><strong>LES BIENFAITS</strong></p>",
-        "gg86dEZElFh_childItem_2": "<p>CONSEILS D&#039;UTILISATION</p>",
-        "ggzj99GSGa__text": "<p>Chaque ingrédient est soigneusement sélectionné pour soutenir les voies de désintoxication naturelles de votre corps :</p><ul><li><strong>Pièces Aériennes De Clevers :&nbsp;</strong>Encourage le flux lymphatique et un nettoyage doux</li><li><strong>Extrait de fleur de trèfle rouge :&nbsp;</strong>Favorise une circulation saine et une peau claire</li><li><strong>Écorce de cendres épinceuses :&nbsp;</strong>Augmente l'énergie et favorise la microcirculation</li><li><strong>Racine de Stillingia :&nbsp;</strong>Aide à la désintoxication douce et au drainage naturel</li></ul>",
-        "ggtRZwPisNX_text": "<ul><li><strong>Relance la circulation lymphatique</strong> là où elle stagne</li><li><strong>Diminue les gonflements</strong> du visage, des jambes et du ventre</li><li><strong>Aide à réguler la rétention</strong> d’eau de façon naturelle</li><li><strong>Allège les ballonnements</strong> et apaise l’inconfort digestif</li><li><strong>Apporte plus de vitalité</strong> et de légèreté au quotidien</li><li><strong>Sans alcool, sans OGM</strong>, doux pour le corps et l’esprit</li></ul>",
-        "gg0H0UmKZ5f_text": "<p>Prenez <strong>1 à 2 compte-gouttes (1 à 2 ml) </strong>une ou deux fois par jour. Ajouter à l'eau, au thé ou au jus, ou placer directement sous la langue. Pour de meilleurs résultats, utilisez régulièrement et restez hydraté tout au long de la journée.</p>"
-      }
-    },
-    "gp_shopify_original_section_606717951818597124": {
-      "type": "gp-section-606717951818597124",
-      "settings": {
-        "checksum": ""
-      }
-    },
-    "gp_shopify_original_section_606873108636238596": {
-      "type": "gp-section-606873108636238596",
-      "settings": {
-        "checksum": ""
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -203,6 +163,7 @@
         "collapsible_text_rMRpY4",
         "collapsible_text_fjrKbn"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
@@ -220,12 +181,59 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "gp_global_section_607882442593796868_kiBTUE": {
+      "type": "gp-global-section-607882442593796868",
+      "name": "PRODUCT BLOCK",
+      "settings": {
+        "section_preload": "off_lazy_script",
+        "checksum": "",
+        "gg7GAfujMnM_text": "<p><span style=\"font-size:14px;\">Un puissant mélange d'herbes pour <strong>réduire les gonflements, stimuler la circulation</strong> </span></p><p><span style=\"font-size:14px;\">et soutenir la désintoxication quotidienne.</span></p>",
+        "gg0zdxMgN38_label": "Ajouter au Panier",
+        "gg0zdxMgN38_outOfStockLabel": "Out of stock",
+        "gg0zdxMgN38_unavailableLabel": "Unavailable",
+        "ggUaD_W36ng_childItem_0": "<p><strong>INGRÉDIENTS</strong></p>",
+        "ggUaD_W36ng_childItem_1": "<p><strong>LES BIENFAITS</strong></p>",
+        "ggUaD_W36ng_childItem_2": "<p><b>CONSEILS D'UTILISATION</b></p>",
+        "gga5M7UnJhX_text": "<p>Chaque ingrédient est soigneusement sélectionné pour soutenir les voies de désintoxication naturelles de votre corps :</p><ul>\n<li>\n<strong>Pièces Aériennes De Clevers : </strong>Encourage le flux lymphatique et un nettoyage doux</li>\n<li>\n<strong>Extrait de fleur de trèfle rouge : </strong>Favorise une circulation saine et une peau claire</li>\n<li>\n<strong>Écorce de cendres épinceuses : </strong>Augmente l'énergie et favorise la microcirculation</li>\n<li>\n<strong>Racine de Stillingia : </strong>Aide à la désintoxication douce et au drainage naturel</li>\n</ul>",
+        "gggIY__1v-n_text": "<ul>\n<li>\n<strong>Relance la circulation lymphatique</strong> là où elle stagne</li>\n<li>\n<strong>Diminue les gonflements</strong> du visage, des jambes et du ventre</li>\n<li>\n<strong>Aide à réguler la rétention</strong> d’eau de façon naturelle</li>\n<li>\n<strong>Allège les ballonnements</strong> et apaise l’inconfort digestif</li>\n<li>\n<strong>Apporte plus de vitalité</strong> et de légèreté au quotidien</li>\n<li>\n<strong>Sans alcool, sans OGM</strong>, doux pour le corps et l’esprit</li>\n</ul>",
+        "gg4Vg63fPm5_text": "<p>Prenez <strong>1 à 2 compte-gouttes (1 à 2 ml) </strong>une ou deux fois par jour. Ajouter à l'eau, au thé ou au jus, ou placer directement sous la langue. Pour de meilleurs résultats, utilisez régulièrement et restez hydraté tout au long de la journée.</p>"
+      }
+    },
+    "gp_shopify_original_section_607882266063929942": {
+      "type": "gp-section-607882266063929942",
+      "blocks": {
+        "gp_app_kaching-bundles_g1nYzd6GRF": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "drainant-lymphatique",
+            "manual_deal_block_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "gp_app_kaching-bundles_g1nYzd6GRF"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_preload": "true",
+        "checksum": "",
+        "gg7GAfujMnM_text": "<p><span style=\"font-size:14px;\">Un puissant mélange d'herbes pour <strong>réduire les gonflements, stimuler la circulation</strong> </span></p><p><span style=\"font-size:14px;\">et soutenir la désintoxication quotidienne.</span></p>",
+        "gg0zdxMgN38_label": "Ajouter au Panier",
+        "gg0zdxMgN38_outOfStockLabel": "Out of stock",
+        "gg0zdxMgN38_unavailableLabel": "Unavailable",
+        "ggUaD_W36ng_childItem_0": "<p><strong>INGRÉDIENTS</strong></p>",
+        "ggUaD_W36ng_childItem_1": "<p><strong>LES BIENFAITS</strong></p>",
+        "ggUaD_W36ng_childItem_2": "<p>CONSEILS D'UTILISATION</p>",
+        "gga5M7UnJhX_text": "<p>Chaque ingrédient est soigneusement sélectionné pour soutenir les voies de désintoxication naturelles de votre corps :</p><ul>\n<li>\n<strong>Pièces Aériennes De Clevers : </strong>Encourage le flux lymphatique et un nettoyage doux</li>\n<li>\n<strong>Extrait de fleur de trèfle rouge : </strong>Favorise une circulation saine et une peau claire</li>\n<li>\n<strong>Écorce de cendres épinceuses : </strong>Augmente l'énergie et favorise la microcirculation</li>\n<li>\n<strong>Racine de Stillingia : </strong>Aide à la désintoxication douce et au drainage naturel</li>\n</ul>",
+        "gggIY__1v-n_text": "<ul>\n<li>\n<strong>Relance la circulation lymphatique</strong> là où elle stagne</li>\n<li>\n<strong>Diminue les gonflements</strong> du visage, des jambes et du ventre</li>\n<li>\n<strong>Aide à réguler la rétention</strong> d’eau de façon naturelle</li>\n<li>\n<strong>Allège les ballonnements</strong> et apaise l’inconfort digestif</li>\n<li>\n<strong>Apporte plus de vitalité</strong> et de légèreté au quotidien</li>\n<li>\n<strong>Sans alcool, sans OGM</strong>, doux pour le corps et l’esprit</li>\n</ul>",
+        "gg4Vg63fPm5_text": "<p>Prenez <strong>1 à 2 compte-gouttes (1 à 2 ml) </strong>une ou deux fois par jour. Ajouter à l'eau, au thé ou au jus, ou placer directement sous la langue. Pour de meilleurs résultats, utilisez régulièrement et restez hydraté tout au long de la journée.</p>"
+      }
     }
   },
   "order": [
     "main",
-    "gp_shopify_original_section_606709124989715030",
-    "gp_shopify_original_section_606717951818597124",
-    "gp_shopify_original_section_606873108636238596"
+    "gp_global_section_607882442593796868_kiBTUE",
+    "gp_shopify_original_section_607882266063929942"
   ]
 }
