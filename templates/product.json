@@ -245,8 +245,8 @@
           "settings": {
             "logo": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000829.919.png",
             "logo_width": 50,
-            "author": "",
-            "content": "Write some content about what they says about your store.",
+            "author": "Julia M.",
+            "content": "\"Visage visiblement plus fin et moins gonflé dès la première semaine. J'adore!\"",
             "show_rating": true,
             "rating": 4
           }
@@ -382,8 +382,8 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "Before/after",
-        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
+        "title": "Éliminez les Gonflements et Révélez un Corps Ferme et Affiné",
+        "content": "<p><strong>Zovélia </strong>active votre système lymphatique, régénère votre peau et booste votre vitalité</p>",
         "before_image": "shopify://shop_images/gempages_584723707562295877-6fa8e13a-08a6-4b44-8b36-cbc5aa662c25.webp",
         "before_image_mobile": "shopify://shop_images/gempages_584723707562295877-6fa8e13a-08a6-4b44-8b36-cbc5aa662c25.webp",
         "after_image": "shopify://shop_images/gempages_584723707562295877-b0890c2c-78b7-4c20-b173-bb955762da93.webp",
@@ -461,7 +461,7 @@
       "settings": {
         "padding_top": 60,
         "padding_bottom": 60,
-        "background_color": "#f9fffd",
+        "background_color": "#ffffff",
         "title": "Pourquoi Faire Confiance À Zovélia ?",
         "title_color": "#01322d",
         "subtitle": "",
@@ -490,7 +490,7 @@
           "type": "stat",
           "settings": {
             "percentage": "92%",
-            "description": "of subjects reported it was easy to use"
+            "description": "disent avoir moins de fringales et un esprit plus clair"
           }
         }
       },
@@ -520,7 +520,7 @@
           "settings": {
             "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T010825.172.png",
             "featured": true,
-            "title": "Des fluides piégés qui exercent une tension",
+            "title": "1. Des fluides piégés qui exercent une tension",
             "description": "L'accumulation de liquides comprime vos tissus de l'intérieur. Conséquence directe : cette sensation de lourdeur dans les jambes, d'abdomen distendu, de traits tirés au réveil."
           }
         },
@@ -529,7 +529,7 @@
           "settings": {
             "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T010913.437.png",
             "featured": true,
-            "title": "Un système d'évacuation défaillant",
+            "title": "2. Un système d'évacuation défaillant",
             "description": "Lorsque votre circulation lymphatique perd en efficacité, elle ne remplit plus son rôle de nettoyage. Déchets cellulaires, substances usagées et impuretés s'accumulent. Votre corps peine à se débarrasser du superflu."
           }
         },
@@ -538,7 +538,7 @@
           "settings": {
             "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011017.376.png",
             "featured": true,
-            "title": "Des parois fragilisées qui laissent fuir",
+            "title": "3. Des parois fragilisées qui laissent fuir",
             "description": "Vos vaisseaux lymphatiques, endommagés avec le temps, deviennent perméables. Le liquide s'échappe et s'installe dans vos tissus. C'est l'origine de ce gonflement persistant et de cette pesanteur qui ne vous quitte plus."
           }
         }
@@ -555,7 +555,7 @@
         "subtitle": "Le problème ne vient ni de votre alimentation, ni de votre activité physique.\n<br><b>Voici le vrai mécanisme :</b>",
         "button_text": "COMMENCER AUJOURD'HUI",
         "button_link": "",
-        "guarantee_text": "90-day money back guarantee",
+        "guarantee_text": "30 Jours Satisfait ou Remboursé",
         "background_color": "#f9fffd",
         "text_color": "#01322d",
         "card_background_color": "#ffffff",
