@@ -808,10 +808,10 @@
         "heading_qYeRxU": {
           "type": "heading",
           "settings": {
-            "text": "NOUS VS EUX",
+            "text": "Nous VS Les Autres",
             "heading_tag": "h2",
             "font_size": 38,
-            "mobile_font_size": 24,
+            "mobile_font_size": 28,
             "italic": true,
             "use_gradient": true,
             "gradient_start": "#01322d",
