@@ -506,6 +506,81 @@
         "spacing": "none"
       }
     },
+    "multi_column_z3xjV7": {
+      "type": "multi-column",
+      "blocks": {
+        "item_zXCxGV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002028.620_fd1dae00-2a81-45ee-9668-f6166bdd024c.jpg",
+            "column_size": "4",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_wpiiJh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002046.249.jpg",
+            "column_size": "4",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_UPCHYi": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_ywYjLN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002100.551.jpg",
+            "column_size": "4",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_zXCxGV",
+        "item_wpiiJh",
+        "item_UPCHYi",
+        "item_ywYjLN"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Ce Qui Rend Nos Gouttes Si Efficaces !",
+        "content": "<p>Notre <strong>mélange botanique</strong> n’agit pas comme une simple <strong>détox</strong>. Chaque <strong>plante</strong> joue un <strong>rôle spécifique et complémentaire</strong> :</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "media_with_text_3tCrUH": {
       "type": "media-with-text",
       "blocks": {
@@ -901,6 +976,7 @@
     "before_after_image_KDpNMy",
     "whyicons_3ntymb",
     "media_with_text_htUCGi",
+    "multi_column_z3xjV7",
     "media_with_text_3tCrUH",
     "scrolling_text_MeVaRm",
     "tabsvs_EKqbrq",
