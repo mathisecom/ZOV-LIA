@@ -236,12 +236,153 @@
       "settings": {
         "title": "ILS PARLENT DE NOUS"
       }
+    },
+    "press_B7cGzi": {
+      "type": "press",
+      "blocks": {
+        "quote_pMfUH7": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000829.919.png",
+            "logo_width": 50,
+            "author": "",
+            "content": "Write some content about what they says about your store.",
+            "show_rating": true,
+            "rating": 4
+          }
+        },
+        "quote_7Exree": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000836.717.png",
+            "logo_width": 50,
+            "author": "",
+            "content": "Write some content about what they says about your store.",
+            "show_rating": true,
+            "rating": 4
+          }
+        },
+        "quote_HXrrcW": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000842.181.png",
+            "logo_width": 50,
+            "author": "",
+            "content": "Write some content about what they says about your store.",
+            "show_rating": true,
+            "rating": 4
+          }
+        }
+      },
+      "block_order": [
+        "quote_pMfUH7",
+        "quote_7Exree",
+        "quote_HXrrcW"
+      ],
+      "name": "Press",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "logoscroll_RNiLap": {
+      "type": "logoscroll",
+      "blocks": {
+        "image_qCLKEN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5xl6wO-OiO.jpg",
+            "url": ""
+          }
+        },
+        "image_dmfqzW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lwMGLDsyp6.jpg",
+            "url": ""
+          }
+        },
+        "image_JdpgKQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/XnklpBK3gb.jpg",
+            "url": ""
+          }
+        },
+        "image_D6Tqqm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nta9nYgB_b.jpg",
+            "url": ""
+          }
+        },
+        "image_ctiPh3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BfIK0d9JGx.jpg",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qCLKEN",
+        "image_dmfqzW",
+        "image_JdpgKQ",
+        "image_D6Tqqm",
+        "image_ctiPh3"
+      ],
+      "name": "SS - Scrolling logo cloud #5",
+      "settings": {
+        "layout_radius": 30,
+        "layout_border_thickness": 0,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "heading_height": 130,
+        "scrolling_velocity": 16,
+        "scrolling_velocity_mobile": 14,
+        "scrolling_direction": "left",
+        "pause_hover": false,
+        "scrolling_gap": 70,
+        "scrolling_gap_mobile": 30,
+        "card_width_desktop": 180,
+        "card_width_mobile": 160,
+        "heading_color": "#121212",
+        "layout_bg_color": "#FFFFFF",
+        "layout_border_color": "#121212",
+        "background_color": "#FFFFFF",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
     "main",
     "gp_global_section_607882845699965850_xKC7LE",
     "gp_shopify_original_section_607882266063929942",
-    "presslogo_B9RciW"
+    "presslogo_B9RciW",
+    "press_B7cGzi",
+    "logoscroll_RNiLap"
   ]
 }
