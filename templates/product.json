@@ -692,8 +692,8 @@
         "heading_NMwFA9": {
           "type": "heading",
           "settings": {
-            "text": "+800 Cl",
-            "heading_tag": "h1",
+            "text": "+800 Clientes Satisfaites",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -718,10 +718,11 @@
         "testimonial_pqNHNh": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/Nta9nYgB_b.jpg",
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "John S.",
+            "author": "Julia S.",
             "title": "Testimonial 1",
             "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
           }
@@ -729,6 +730,7 @@
         "testimonial_hJ9wUK": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000819.153.png",
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
@@ -740,6 +742,7 @@
         "testimonial_J3Cfty": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000829.919.png",
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
@@ -747,12 +750,38 @@
             "title": "Testimonial 3",
             "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
           }
+        },
+        "testimonial_4Xcp64": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000836.717.png",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_QPTFkR": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000842.181.png",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
         }
       },
       "block_order": [
         "testimonial_pqNHNh",
         "testimonial_hJ9wUK",
-        "testimonial_J3Cfty"
+        "testimonial_J3Cfty",
+        "testimonial_4Xcp64",
+        "testimonial_QPTFkR"
       ],
       "name": "Testimonials",
       "settings": {
@@ -771,6 +800,59 @@
         "testimonial_card_background": "",
         "testimonial_card_text_color": ""
       }
+    },
+    "faq_WqUb4U": {
+      "type": "faq",
+      "blocks": {
+        "item_Vmjmnw": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_mg3BJr": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_bjUhJt": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_Vmjmnw",
+        "item_mg3BJr",
+        "item_bjUhJt"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Quesions Fréquentes",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "Temps Moyen de Réponse : 24H",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "#effefa",
+        "background_gradient": "",
+        "text_color": "#01322d",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -786,6 +868,7 @@
     "scrolling_text_MeVaRm",
     "tabsvs_EKqbrq",
     "rich_text_4NcypC",
-    "testimonials_hnRBeG"
+    "testimonials_hnRBeG",
+    "faq_WqUb4U"
   ]
 }
