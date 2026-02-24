@@ -465,7 +465,7 @@
         "heading_LEPW9w": {
           "type": "heading",
           "settings": {
-            "text": "Pourquoi ce sérum change tout pour vos jambes.",
+            "text": "Nous VS Les Autres",
             "heading_tag": "h2",
             "font_size": 40,
             "mobile_font_size": 28,
@@ -479,7 +479,7 @@
         "subtitle_fJQLBY": {
           "type": "subtitle",
           "settings": {
-            "text": "",
+            "text": "Pourquoi ce sérum change tout pour vos jambes.",
             "font_size": 14,
             "font_weight": "400",
             "subtitle_color": "#01322d"
