@@ -111,7 +111,7 @@
           "settings": {
             "title": "Contactez-Nous",
             "content": "<p>Assistance par email : <em>contact@zovélia.com</em></p><p>De 8h à 18h, du Lundi au Vendredi </p>",
-            "enable_follow_on_shop": true
+            "enable_follow_on_shop": false
           }
         },
         "text_nhAQic": {
@@ -119,7 +119,7 @@
           "settings": {
             "title": "À Propos",
             "content": "<p>Zovélia vous accompagne avec une solution 100% naturelle de<strong> drainage lymphatique</strong>. Retrouver <strong>légèreté</strong>, <strong>vitalité</strong> et <strong>bien-être</strong> au quotidien n’a jamais été aussi simple.</p>",
-            "enable_follow_on_shop": true
+            "enable_follow_on_shop": false
           }
         }
       },
