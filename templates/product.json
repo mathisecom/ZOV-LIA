@@ -538,49 +538,6 @@
         "button_text_color": "#ffffff"
       }
     },
-    "slideshow_ntFxH4": {
-      "type": "slideshow",
-      "blocks": {
-        "image_EiRkWg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-02-25_a_08.43.04.png",
-            "mobile_image": "shopify://shop_images/Capture_d_ecran_2026-02-25_a_08.43.04.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_EiRkWg"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "show_initial_transition": false,
-        "image_size": "auto",
-        "controls_type": "numbers",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 5,
-        "background": "#F2F2F2",
-        "background_gradient": ""
-      }
-    },
     "whyitsworks_ERbzVL": {
       "type": "whyitsworks",
       "blocks": {
@@ -1488,7 +1445,6 @@
     "before_after_image_KDpNMy",
     "whyicons_3ntymb",
     "clinicalresults_HQcqrY",
-    "slideshow_ntFxH4",
     "whyitsworks_ERbzVL",
     "multi_column_z3xjV7",
     "media_with_text_htUCGi",
