@@ -9,20 +9,8 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QF5e.ttf) format('truetype');
 }
-@font-face {
-  font-family: 'Figtree';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_dNQF5e.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Figtree';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_ehR15e.ttf) format('truetype');
-}
+
+
 @font-face {
   font-family: 'Figtree';
   font-style: normal;
@@ -35,60 +23,9 @@
 @font-face {
   font-family: 'Figtree';
   font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QF5e.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Figtree';
-  font-style: normal;
   font-weight: 500;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_dNQF5e.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Figtree';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_ehR15e.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Figtree';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_eYR15e.ttf) format('truetype');
-}
-
-
-@font-face {
-  font-family: 'Figtree';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QF5e.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Figtree';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_dNQF5e.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Figtree';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_ehR15e.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Figtree';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_eYR15e.ttf) format('truetype');
 }
 
 
@@ -186,7 +123,7 @@
         data-id="gbXDmsTGKN"
         
         
-        gp-context='{"productId": {{ product.id }}, "preSelectedOptionIds": [], "isSyncProduct": "true", "hasPreSelected": true, "variantSelected": {{ variant | json | escape }},  "inventory_management": {{ variant.inventory_management | json | escape  }}, "inventory_policy": {{ variant.inventory_policy | json | escape }}, "inventoryQuantity": {{ variant.inventory_quantity }}, "quantity": 1, "formId": "{{ product_form_id }}" }'
+        gp-context='{"productId": {{ product.id }}, "preSelectedOptionIds": [], "isSyncProduct": "true", "hasPreSelected": true, "variantSelected": {{ variant | json | escape }},  "inventory_management": {{ variant.inventory_management | json | escape  }}, "inventory_policy": {{ variant.inventory_policy | json | escape }}, "inventoryQuantity": {{ variant.inventory_quantity | default: 0 }}, "quantity": 1, "formId": "{{ product_form_id }}" }'
         gp-data='{"variantSelected": {{ variant | json | escape }}, "quantity": 1, "productUrl":{{ product.url | json | escape }}, "productHandle":{{ product.handle | json | escape }}, "collectionUrl": {{ collection.url | json | escape }}, "collectionHandle": {{ collection.handle | json | escape }}}'
       >
         <product-form class="product-form">
@@ -241,7 +178,7 @@
       gp-data='
     {
       "id":"geHzbHJtuo",
-      "pageContext": {"pageType":"","sectionName":"","isPreviewing":false,"isOptimizePlan":false,"isTranslateWithLocale":false,"isLazyLoadSection":true,"isLazyLoadImage":false,"hasCollectionHandle":true,"numberOfProductOfProductList":0,"pageBackground":"","fontType":"","primaryLocale":"","showPriceCurrency":false,"enableLazyLoadImage":false},
+      "pageContext": {"pageType":"","sectionName":"","isPreviewing":false,"isOptimizePlan":false,"isTranslateWithLocale":false,"isLazyLoadSection":true,"isLazyLoadImage":false,"hasCollectionHandle":false,"numberOfProductOfProductList":0,"pageBackground":"","fontType":"","primaryLocale":"","showPriceCurrency":false,"enableLazyLoadImage":false},
       "setting":{"arrowIcon":"<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM10.6828 8.13017C10.5266 7.95661 10.2734 7.95661 10.1172 8.13017C9.96095 8.30374 9.96095 8.58515 10.1172 8.75871L13.0343 12L10.1172 15.2413C9.96095 15.4149 9.96095 15.6963 10.1172 15.8698C10.2734 16.0434 10.5266 16.0434 10.6828 15.8698L13.8828 12.3143C14.0391 12.1407 14.0391 11.8593 13.8828 11.6857L10.6828 8.13017Z\" fill=\"currentColor\"/>\n    </svg>","arrowIconColor":"#000000","arrowNavBorder":{"border":"none","borderType":"none","borderWidth":"1px","isCustom":false,"width":"1px 1px 1px 1px"},"arrowNavRadius":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"none"},"borderActive":{"border":"solid","borderType":"none","borderWidth":"2px","color":"rgba(87, 87, 87, 0.31)","isCustom":true,"width":"1px 1px 1px 1px"},"clickOpenLightBox":{"desktop":false},"dragToScroll":true,"ftArrowIcon":"<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM10.6828 8.13017C10.5266 7.95661 10.2734 7.95661 10.1172 8.13017C9.96095 8.30374 9.96095 8.58515 10.1172 8.75871L13.0343 12L10.1172 15.2413C9.96095 15.4149 9.96095 15.6963 10.1172 15.8698C10.2734 16.0434 10.5266 16.0434 10.6828 15.8698L13.8828 12.3143C14.0391 12.1407 14.0391 11.8593 13.8828 11.6857L10.6828 8.13017Z\" fill=\"currentColor\"/>\n    </svg>","ftArrowIconColor":"#000000","ftArrowNavBorder":{"border":"none","borderType":"none","borderWidth":"1px","isCustom":false,"width":"1px 1px 1px 1px"},"ftArrowNavRadius":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"none"},"ftClickOpenLightBox":{"desktop":"none"},"ftDotActiveColor":{"desktop":"line-3"},"ftDotColor":{"desktop":"bg-1"},"ftDotGapToCarousel":{"desktop":16},"ftDotSize":{"desktop":12},"ftDotStyle":{"desktop":"none"},"ftDragToScroll":true,"ftLoop":{"desktop":false},"ftNavigationPosition":{"desktop":"none"},"ftPauseOnHover":true,"ftSpeed":1,"galleryHoverEffect":"none","galleryZoom":150,"galleryZoomType":"default","hoverEffect":"none","loop":{"desktop":true},"navigationPosition":{"desktop":"none"},"otherImage":0,"pauseOnHover":true,"preDisplay":"1st-available-variant","preload":false,"qualityPercent":{"desktop":100},"qualityType":{"desktop":"finest"},"speed":1,"type":{"desktop":"slider"},"typeDisplay":"all-images","zoom":150,"zoomType":"default"},
       "styles":{"align":{"desktop":"flex-start"},"corner":{"bblr":"4px","bbrr":"4px","btlr":"4px","btrr":"4px","radiusType":"custom"},"ftCorner":{"bblr":"6px","bbrr":"6px","btlr":"6px","btrr":"6px","radiusType":"custom"},"ftLayout":{"desktop":"cover"},"ftShape":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"itemSpacing":{"desktop":"var(--g-s-s)","mobile":"9px"},"layout":{"desktop":"cover"},"position":{"desktop":"bottom-center","mobile":"bottom-center"},"ratioLayout":{"desktop":[2,10]},"ratioLayoutRight":{"desktop":[10,2]},"shape":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"shapeFor1Col":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"shapeFor2Col":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"50%"}},"shapeForBottom":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"20%"},"mobile":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"25%","customShapeValue":"","height":"","gap":""}},"shapeForFtOnly":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"100%"}},"shapeForInside":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"20%"}},"shapeForInsideBottom":{"desktop":{"shape":"square","shapeLinked":true,"shapeValue":"1/1","width":"20%"}},"spacing":{"desktop":"16px","mobile":"var(--g-s-s)"}},
       "productUrl":{{product.url | json | escape}},
@@ -1248,7 +1185,7 @@
           class=" gp-text-instant gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Figtree, 'Figtree'), var(--g-font-body, body);--weight:400;--size:14px;--size-tablet:16px;--size-mobile:12px;--lh:180%;--lh-tablet:180%;--lh-mobile:180%;--c:#000000;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
         >
-          {{ section.settings.ggV9waVpfPQ_text | replace: '$locationOrigin', locationOrigin }}
+          <p><span style="font-size:14px;">{{ section.settings.ggV9waVpfPQ_text | replace: '$locationOrigin', locationOrigin }}</span></p>
         </div>
       </div>
     </div>
@@ -2057,7 +1994,7 @@ STOCK LIMITÉ!    </span>
             </span>
           </div>
           
-        <div class="gp-flex gp-w-full gp-items-center gp-break-all" style="--gg:8px;--jc:left">
+        <div class="gp-flex gp-w-full gp-items-center gp-break-all" style="--gg:8px;--jc:left;--ta:left">
           
           <div class="gp-inline-flex" >
             <span
@@ -2079,7 +2016,7 @@ STOCK LIMITÉ!    </span>
           class="gp-overflow-hidden gp-accordion-text-content group-hover:[color:var(--text-hover-color)!important] gp-g-paragraph-1  gp-text-instant"
           style="--w:100%;--tdt:auto;word-break:break-word;overflow:hidden;--tdl:"
         >
-          {{ section.settings.gg86dEZElFh_childItem_0 }}
+          <p><strong>{{ section.settings.gg86dEZElFh_childItem_0 }}</strong></p>
         </div>
       </div>
     </div>
@@ -2138,7 +2075,7 @@ STOCK LIMITÉ!    </span>
             </span>
           </div>
           
-        <div class="gp-flex gp-w-full gp-items-center gp-break-all" style="--gg:8px;--jc:left">
+        <div class="gp-flex gp-w-full gp-items-center gp-break-all" style="--gg:8px;--jc:left;--ta:left">
           
           <div class="gp-inline-flex" >
             <span
@@ -2160,7 +2097,7 @@ STOCK LIMITÉ!    </span>
           class="gp-overflow-hidden gp-accordion-text-content group-hover:[color:var(--text-hover-color)!important] gp-g-paragraph-1  gp-text-instant"
           style="--w:100%;--tdt:auto;word-break:break-word;overflow:hidden;--tdl:"
         >
-          {{ section.settings.gg86dEZElFh_childItem_1 }}
+          <p><strong>{{ section.settings.gg86dEZElFh_childItem_1 }}</strong></p>
         </div>
       </div>
     </div>
@@ -2187,7 +2124,7 @@ STOCK LIMITÉ!    </span>
           class="gp-g-paragraph-1  gp-text-instant gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#151515;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
         >
-          {{ section.settings.ggtRZwPisNX_text | replace: '$locationOrigin', locationOrigin }}
+          <ul><li>{{ section.settings.ggtRZwPisNX_text | replace: '$locationOrigin', locationOrigin }}</li></ul>
         </div>
       </div>
     </div>
@@ -2219,7 +2156,7 @@ STOCK LIMITÉ!    </span>
             </span>
           </div>
           
-        <div class="gp-flex gp-w-full gp-items-center gp-break-all" style="--gg:8px;--jc:left">
+        <div class="gp-flex gp-w-full gp-items-center gp-break-all" style="--gg:8px;--jc:left;--ta:left">
           
           <div class="gp-inline-flex" >
             <span
@@ -2241,7 +2178,7 @@ STOCK LIMITÉ!    </span>
           class="gp-overflow-hidden gp-accordion-text-content group-hover:[color:var(--text-hover-color)!important] gp-g-paragraph-1  gp-text-instant"
           style="--w:100%;--tdt:auto;word-break:break-word;overflow:hidden;--tdl:"
         >
-          {{ section.settings.gg86dEZElFh_childItem_2 }}
+          <p>{{ section.settings.gg86dEZElFh_childItem_2 }}</p>
         </div>
       </div>
     </div>
@@ -2268,7 +2205,7 @@ STOCK LIMITÉ!    </span>
           class="gp-g-paragraph-1  gp-text-instant gp-text"
           style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#151515;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
         >
-          {{ section.settings.gg0H0UmKZ5f_text | replace: '$locationOrigin', locationOrigin }}
+          <p>{{ section.settings.gg0H0UmKZ5f_text | replace: '$locationOrigin', locationOrigin }}</p>
         </div>
       </div>
     </div>
@@ -2329,7 +2266,7 @@ STOCK LIMITÉ!    </span>
     "name": "PRODUCT",
     "tag": "section",
     "class": "gps-607881697198867030 gps gpsil",
-    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/j8f0pt-e4/apps/gempages-cro/app/shopify/edit?pageType=THEME_SECTION&editorId=607881697198867030)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"off_lazy_script"},{"type":"text","label":"Checksum","id":"checksum"},{"type":"html","id":"ggV9waVpfPQ_text","label":"ggV9waVpfPQ_text","default":"<p><span style=\"font-size:14px;\">Un puissant mélange d'herbes pour <strong>réduire les gonflements, stimuler la circulation</strong>&nbsp;</span></p><p><span style=\"font-size:14px;\">et soutenir la désintoxication quotidienne.</span></p>"},{"type":"html","id":"ggvd0yrJTM2_label","label":"ggvd0yrJTM2_label","default":"Ajouter au Panier"},{"type":"html","id":"ggvd0yrJTM2_outOfStockLabel","label":"ggvd0yrJTM2_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"ggvd0yrJTM2_unavailableLabel","label":"ggvd0yrJTM2_unavailableLabel","default":"Unavailable"},{"type":"html","id":"gg86dEZElFh_childItem_0","label":"gg86dEZElFh_childItem_0","default":"<p><strong>INGRÉDIENTS</strong></p>"},{"type":"html","id":"gg86dEZElFh_childItem_1","label":"gg86dEZElFh_childItem_1","default":"<p><strong>LES BIENFAITS</strong></p>"},{"type":"html","id":"gg86dEZElFh_childItem_2","label":"gg86dEZElFh_childItem_2","default":"<p>CONSEILS D&#039;UTILISATION</p>"},{"type":"html","id":"ggzj99GSGa__text","label":"ggzj99GSGa__text","default":"<p>Chaque ingrédient est soigneusement sélectionné pour soutenir les voies de désintoxication naturelles de votre corps :</p><ul><li><strong>Pièces Aériennes De Clevers :&nbsp;</strong>Encourage le flux lymphatique et un nettoyage doux</li><li><strong>Extrait de fleur de trèfle rouge :&nbsp;</strong>Favorise une circulation saine et une peau claire</li><li><strong>Écorce de cendres épinceuses :&nbsp;</strong>Augmente l'énergie et favorise la microcirculation</li><li><strong>Racine de Stillingia :&nbsp;</strong>Aide à la désintoxication douce et au drainage naturel</li></ul>"},{"type":"html","id":"ggtRZwPisNX_text","label":"ggtRZwPisNX_text","default":"<ul><li><strong>Relance la circulation lymphatique</strong> là où elle stagne</li><li><strong>Diminue les gonflements</strong> du visage, des jambes et du ventre</li><li><strong>Aide à réguler la rétention</strong> d’eau de façon naturelle</li><li><strong>Allège les ballonnements</strong> et apaise l’inconfort digestif</li><li><strong>Apporte plus de vitalité</strong> et de légèreté au quotidien</li><li><strong>Sans alcool, sans OGM</strong>, doux pour le corps et l’esprit</li></ul>"},{"type":"html","id":"gg0H0UmKZ5f_text","label":"gg0H0UmKZ5f_text","default":"<p>Prenez <strong>1 à 2 compte-gouttes (1 à 2 ml) </strong>une ou deux fois par jour. Ajouter à l'eau, au thé ou au jus, ou placer directement sous la langue. Pour de meilleurs résultats, utilisez régulièrement et restez hydraté tout au long de la journée.</p>"}],
+    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/j8f0pt-e4/apps/gempages-cro/app/shopify/edit?pageType=THEME_SECTION&editorId=607881697198867030)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"off_lazy_script"},{"type":"text","label":"Checksum","id":"checksum"},{"type":"html","id":"ggV9waVpfPQ_text","label":"ggV9waVpfPQ_text","default":"Un puissant mélange d'herbes pour <strong>réduire les gonflements, stimuler la circulation</strong>&nbsp;</span></p><p><span style=\"font-size:14px;\">et soutenir la désintoxication quotidienne."},{"type":"html","id":"ggvd0yrJTM2_label","label":"ggvd0yrJTM2_label","default":"Ajouter au Panier"},{"type":"html","id":"ggvd0yrJTM2_outOfStockLabel","label":"ggvd0yrJTM2_outOfStockLabel","default":"Out of stock"},{"type":"html","id":"ggvd0yrJTM2_unavailableLabel","label":"ggvd0yrJTM2_unavailableLabel","default":"Unavailable"},{"type":"html","id":"gg86dEZElFh_childItem_0","label":"gg86dEZElFh_childItem_0","default":"INGRÉDIENTS"},{"type":"html","id":"gg86dEZElFh_childItem_1","label":"gg86dEZElFh_childItem_1","default":"LES BIENFAITS"},{"type":"html","id":"gg86dEZElFh_childItem_2","label":"gg86dEZElFh_childItem_2","default":"CONSEILS D&#039;UTILISATION"},{"type":"html","id":"ggzj99GSGa__text","label":"ggzj99GSGa__text","default":"<p>Chaque ingrédient est soigneusement sélectionné pour soutenir les voies de désintoxication naturelles de votre corps :</p><ul><li><strong>Pièces Aériennes De Clevers :&nbsp;</strong>Encourage le flux lymphatique et un nettoyage doux</li><li><strong>Extrait de fleur de trèfle rouge :&nbsp;</strong>Favorise une circulation saine et une peau claire</li><li><strong>Écorce de cendres épinceuses :&nbsp;</strong>Augmente l'énergie et favorise la microcirculation</li><li><strong>Racine de Stillingia :&nbsp;</strong>Aide à la désintoxication douce et au drainage naturel</li></ul>"},{"type":"html","id":"ggtRZwPisNX_text","label":"ggtRZwPisNX_text","default":"<strong>Relance la circulation lymphatique</strong> là où elle stagne</li><li><strong>Diminue les gonflements</strong> du visage, des jambes et du ventre</li><li><strong>Aide à réguler la rétention</strong> d’eau de façon naturelle</li><li><strong>Allège les ballonnements</strong> et apaise l’inconfort digestif</li><li><strong>Apporte plus de vitalité</strong> et de légèreté au quotidien</li><li><strong>Sans alcool, sans OGM</strong>, doux pour le corps et l’esprit"},{"type":"html","id":"gg0H0UmKZ5f_text","label":"gg0H0UmKZ5f_text","default":"Prenez <strong>1 à 2 compte-gouttes (1 à 2 ml) </strong>une ou deux fois par jour. Ajouter à l'eau, au thé ou au jus, ou placer directement sous la langue. Pour de meilleurs résultats, utilisez régulièrement et restez hydraté tout au long de la journée."}],
     "blocks": [{"type": "@app"}],
     "locales": {}
   }
