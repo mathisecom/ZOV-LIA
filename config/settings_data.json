@@ -9,74 +9,74 @@
  */
 {
   "current": {
-    "section_vertical_spacing": "small",
-    "section_boxed_horizontal_spacing": "small",
-    "button_border_radius": 60,
-    "input_border_radius": 8,
+    "background": "#ffffff",
     "block_border_radius": 24,
     "block_shadow_opacity": 10,
     "block_shadow_vertical_offset": 18,
+    "blocks": {
+      "11532412952436166569": {
+        "disabled": false,
+        "settings": {},
+        "type": "shopify://apps/loox-reviews/blocks/loox-inject/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e"
+      },
+      "13223602749629917723": {
+        "disabled": false,
+        "settings": {},
+        "type": "shopify://apps/kaching-cart/blocks/embed/7705621e-3c0f-4e97-9d29-5c8528b19fb7"
+      },
+      "15557474716127144420": {
+        "disabled": false,
+        "settings": {},
+        "type": "shopify://apps/kaching-bundles/blocks/app-embed-block/6c637362-a106-4a32-94ac-94dcfd68cdb8"
+      },
+      "17198465164502963513": {
+        "disabled": false,
+        "settings": {},
+        "type": "shopify://apps/parcelwill-parcel-panel/blocks/app.embed/fc785c3f-90e0-4c98-a20c-7cde9ba5e4b5"
+      },
+      "6478312753674380289": {
+        "disabled": false,
+        "settings": {},
+        "type": "shopify://apps/gempages-builder/blocks/embed-gp-script-head/20b379d4-1b20-474c-a6ca-665c331919f3"
+      },
+      "8778269090131883189": {
+        "disabled": false,
+        "settings": {},
+        "type": "shopify://apps/kaching-bundles/blocks/app-embed-block-v2/6c637362-a106-4a32-94ac-94dcfd68cdb8"
+      }
+    },
+    "button_border_radius": 60,
     "button_style": "fill",
-    "background": "#ffffff",
-    "text_color": "#000000",
-    "header_background": "#ffffff",
-    "header_text_color": "#000000",
-    "footer_background": "#01322d",
-    "footer_text_color": "#ffffff",
-    "primary_button_background": "#000000",
-    "primary_button_text_color": "#ffffff",
-    "secondary_button_background": "#01322d",
-    "secondary_button_text_color": "#ffffff",
-    "product_card_text_color": "#1a1a1a",
-    "product_rating_color": "#34b678",
-    "product_on_sale_accent": "#01322d",
-    "product_primary_badge_background": "#803cee",
-    "heading_font": "faculty_glyphic_n4",
-    "heading_font_size": "small",
-    "heading_letter_spacing": -2,
-    "text_font": "figtree_n4",
-    "heading_apparition": "split_fade",
-    "product_color_display": "swatch",
-    "product_info_alignment": "start",
-    "cart_type": "drawer",
     "cart_icon": "tote_bag",
     "cart_show_free_shipping_threshold": true,
-    "favicon": "shopify://shop_images/zovelia_32x32_7e6df23b-6168-406a-9bb7-bf7bc455ec2f.png",
+    "cart_type": "drawer",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [],
-    "blocks": {
-      "13223602749629917723": {
-        "type": "shopify://apps/kaching-cart/blocks/embed/7705621e-3c0f-4e97-9d29-5c8528b19fb7",
-        "disabled": false,
-        "settings": {}
-      },
-      "15557474716127144420": {
-        "type": "shopify://apps/kaching-bundles/blocks/app-embed-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-        "disabled": false,
-        "settings": {}
-      },
-      "8778269090131883189": {
-        "type": "shopify://apps/kaching-bundles/blocks/app-embed-block-v2/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-        "disabled": false,
-        "settings": {}
-      },
-      "17198465164502963513": {
-        "type": "shopify://apps/parcelwill-parcel-panel/blocks/app.embed/fc785c3f-90e0-4c98-a20c-7cde9ba5e4b5",
-        "disabled": false,
-        "settings": {}
-      },
-      "11532412952436166569": {
-        "type": "shopify://apps/loox-reviews/blocks/loox-inject/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-        "disabled": false,
-        "settings": {}
-      },
-      "6478312753674380289": {
-        "type": "shopify://apps/gempages-builder/blocks/embed-gp-script-head/20b379d4-1b20-474c-a6ca-665c331919f3",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "favicon": "shopify://shop_images/zovelia_32x32_7e6df23b-6168-406a-9bb7-bf7bc455ec2f.png",
+    "footer_background": "#01322d",
+    "footer_text_color": "#ffffff",
+    "header_background": "#ffffff",
+    "header_text_color": "#000000",
+    "heading_apparition": "split_fade",
+    "heading_font": "faculty_glyphic_n4",
+    "heading_font_size": "small",
+    "heading_letter_spacing": -2,
+    "input_border_radius": 8,
+    "primary_button_background": "#000000",
+    "primary_button_text_color": "#ffffff",
+    "product_card_text_color": "#1a1a1a",
+    "product_color_display": "swatch",
+    "product_info_alignment": "start",
+    "product_on_sale_accent": "#01322d",
+    "product_primary_badge_background": "#803cee",
+    "product_rating_color": "#34b678",
+    "secondary_button_background": "#01322d",
+    "secondary_button_text_color": "#ffffff",
+    "section_boxed_horizontal_spacing": "small",
+    "section_vertical_spacing": "small",
+    "text_color": "#000000",
+    "text_font": "figtree_n4"
   },
   "presets": {
     "Home": {

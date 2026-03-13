@@ -8,62 +8,955 @@
  * ------------------------------------------------------------
  */
 {
+  "order": [
+    "slideshow_7VhzCn",
+    "logoscroll_QdmVnG",
+    "media_with_text_qXf7qK",
+    "whyicons_yKGyV7",
+    "multi_column_rExXPT",
+    "media_with_text_wAFeV6",
+    "media_with_text_iabHRk",
+    "text_with_icons_hgf8Wy",
+    "scrolling_text_erxBgG",
+    "tabsvs_UJEzPJ",
+    "logoscroll_JrgLGB",
+    "rich_text_zG8a9r",
+    "testimonials_dPaBmc",
+    "faq"
+  ],
   "sections": {
     "faq": {
-      "type": "faq",
-      "blocks": {
-        "166442457738b23caf-0": {
-          "type": "item",
-          "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
-          }
-        },
-        "166442457738b23caf-1": {
-          "type": "item",
-          "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
-          }
-        },
-        "166442457738b23caf-2": {
-          "type": "item",
-          "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
-          }
-        }
-      },
       "block_order": [
         "166442457738b23caf-0",
         "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "166442457738b23caf-2",
+        "item_AYWAgU",
+        "item_pUGCMa",
+        "item_3apWbM",
+        "item_r3xfjn",
+        "item_96YEnB"
       ],
-      "disabled": true,
+      "blocks": {
+        "166442457738b23caf-0": {
+          "settings": {
+            "content": "<p>Notre formule liquide agit en stimulant le système lymphatique, souvent négligé, mais essentiel pour éliminer les toxines, les excès d’eau et réduire les gonflements. Les plantes comme le gaillet favorisent naturellement le drainage et relancent la circulation lymphatique pour une silhouette plus légère, de l’intérieur.</p>",
+            "title": "Comment ce complément agit-il réellement ?"
+          },
+          "type": "item"
+        },
+        "166442457738b23caf-1": {
+          "settings": {
+            "content": "<p>De nombreuses utilisatrices rapportent une sensation de légèreté dès les premiers jours. Pour un résultat visible (jambes moins gonflées, peau plus ferme, réduction de la cellulite aqueuse), une cure de 3 à 6 semaines est recommandée. L’effet s’intensifie avec la régularité.</p>",
+            "title": "Quand vais-je voir les premiers résultats ?"
+          },
+          "type": "item"
+        },
+        "166442457738b23caf-2": {
+          "settings": {
+            "content": "<p>Un Flacon contient l’équivalent de 30 jours. Pour des résultats optimaux et durables, nous conseillons une cure d’au moins 2 à 3 mois. Idéalement, à renouveler à chaque changement de saison ou en période de forte rétention d’eau.</p>",
+            "title": "Combien de temps dure une cure ?"
+          },
+          "type": "item"
+        },
+        "item_3apWbM": {
+          "settings": {
+            "content": "<p>Dosage recommandé : 1/4 de cuillère à café par jour, correspondant à environ 1 à 2 ml dans un grand verre d’eau, 1 à 2 fois par jour, idéalement le matin à jeun ou après un repas léger. Astuce : l’ajouter à une bouteille d’eau pour boire tout au long de la journée facilite la prise.</p>",
+            "title": "Comment le prendre ?"
+          },
+          "type": "item"
+        },
+        "item_96YEnB": {
+          "settings": {
+            "content": "<p><strong>Pas forcément.</strong>Ce produit aide à relancer en douceur la circulation lymphatique et l’élimination des excès d’eau et des toxines. Certaines personnes peuvent ressentir un besoin urinaire légèrement plus fréquent les premiers jours, signe que le corps se détoxifie.</p>",
+            "title": "Est-ce que je vais devoir aller souvent aux toilettes ?"
+          },
+          "type": "item"
+        },
+        "item_AYWAgU": {
+          "settings": {
+            "content": "<p>Oui. Ce complément est exclusivement formulé à base d’extraits de plantes reconnues pour leurs propriétés drainantes et détoxifiante.</p>",
+            "title": "Est-ce 100 % naturel ?"
+          },
+          "type": "item"
+        },
+        "item_pUGCMa": {
+          "settings": {
+            "content": "<p>La formule est bien tolérée. Toutefois, en raison de l’effet drainant, il est conseillé de bien s’hydrater. Elle est déconseillée aux femmes enceintes ou allaitantes, ainsi qu’aux personnes sous traitement diurétique sans avis médical.</p>",
+            "title": "Y a-t-il des effets secondaires ?"
+          },
+          "type": "item"
+        },
+        "item_r3xfjn": {
+          "settings": {
+            "content": "<p>Oui, par cycles. Nous recommandons des cures de 1 à 3 mois avec une pause d’1 mois entre chaque si prise prolongée. C’est idéal pour soutenir le corps à chaque changement de saison ou en cas de sensation de lourdeur accrue.</p>",
+            "title": "Puis-je en prendre toute l’année ?"
+          },
+          "type": "item"
+        }
+      },
       "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
-        "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "background": "#ffffff",
+        "accordion_background": "",
+        "accordion_text_color": "",
+        "answer_time": "Temps Moyen de Réponse : 24H",
+        "background": "#effefa",
         "background_gradient": "",
-        "text_color": "",
+        "button_background": "",
+        "button_text": "",
+        "button_text_color": "",
+        "button_url": "",
+        "content": "",
+        "full_width": true,
         "heading_color": "",
         "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
-      }
+        "subheading": "",
+        "support_hours": "",
+        "team_avatar_width": 160,
+        "text_color": "#01322d",
+        "text_position": "center",
+        "title": "Questions Fréquentes"
+      },
+      "type": "faq"
+    },
+    "logoscroll_JrgLGB": {
+      "block_order": [
+        "image_UPrfQn",
+        "image_69mMx4",
+        "image_xVxwwJ",
+        "image_rnD3pb",
+        "image_Pezpcx",
+        "image_9zqzLT"
+      ],
+      "blocks": {
+        "image_69mMx4": {
+          "settings": {
+            "image": "shopify://shop_images/BfIK0d9JGx.jpg",
+            "url": ""
+          },
+          "type": "image"
+        },
+        "image_9zqzLT": {
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-18T225734.158.jpg",
+            "url": ""
+          },
+          "type": "image"
+        },
+        "image_Pezpcx": {
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-18T225751.349.jpg",
+            "url": ""
+          },
+          "type": "image"
+        },
+        "image_UPrfQn": {
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-18T225556.657.jpg",
+            "url": ""
+          },
+          "type": "image"
+        },
+        "image_rnD3pb": {
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-18T225556.657.jpg",
+            "url": ""
+          },
+          "type": "image"
+        },
+        "image_xVxwwJ": {
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-18T225703.347.jpg",
+            "url": ""
+          },
+          "type": "image"
+        }
+      },
+      "name": "SS - Scrolling logo cloud #5",
+      "settings": {
+        "background_color": "#ffffff",
+        "border_color": "#121212",
+        "border_thickness": 0,
+        "card_width_desktop": 170,
+        "card_width_mobile": 140,
+        "content_width": 1200,
+        "full_width": false,
+        "heading": "",
+        "heading_color": "#121212",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_height": 130,
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "layout_bg_color": "#ffffff",
+        "layout_border_color": "#121212",
+        "layout_border_thickness": 0,
+        "layout_radius": 30,
+        "lazy": true,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "margin_top": 20,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "padding_top": 20,
+        "pause_hover": false,
+        "scrolling_direction": "left",
+        "scrolling_gap": 44,
+        "scrolling_gap_mobile": 20,
+        "scrolling_velocity": 30,
+        "scrolling_velocity_mobile": 20,
+        "section_radius": 0
+      },
+      "type": "logoscroll"
+    },
+    "logoscroll_QdmVnG": {
+      "block_order": [
+        "image_cGctw7",
+        "image_JBGLan",
+        "image_4PNQPC",
+        "image_3neTip"
+      ],
+      "blocks": {
+        "image_3neTip": {
+          "settings": {
+            "image": "shopify://shop_images/elle-logo_1.webp",
+            "url": ""
+          },
+          "type": "image"
+        },
+        "image_4PNQPC": {
+          "settings": {
+            "image": "shopify://shop_images/bazaar-logo_1.webp",
+            "url": ""
+          },
+          "type": "image"
+        },
+        "image_JBGLan": {
+          "settings": {
+            "image": "shopify://shop_images/vogue-logo_1.webp",
+            "url": ""
+          },
+          "type": "image"
+        },
+        "image_cGctw7": {
+          "settings": {
+            "image": "shopify://shop_images/Nouveau_projet_11_1a44539b-de54-42e0-b727-749c1dd15817.png",
+            "url": ""
+          },
+          "type": "image"
+        }
+      },
+      "name": "SS - Scrolling logo cloud #5",
+      "settings": {
+        "background_color": "#ffffff",
+        "border_color": "#121212",
+        "border_thickness": 0,
+        "card_width_desktop": 130,
+        "card_width_mobile": 100,
+        "content_width": 1200,
+        "full_width": false,
+        "heading": "",
+        "heading_color": "#121212",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_height": 130,
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "layout_bg_color": "#ffffff",
+        "layout_border_color": "#121212",
+        "layout_border_thickness": 0,
+        "layout_radius": 30,
+        "lazy": true,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "margin_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "padding_top": 12,
+        "pause_hover": false,
+        "scrolling_direction": "left",
+        "scrolling_gap": 70,
+        "scrolling_gap_mobile": 30,
+        "scrolling_velocity": 18,
+        "scrolling_velocity_mobile": 12,
+        "section_radius": 0
+      },
+      "type": "logoscroll"
+    },
+    "media_with_text_iabHRk": {
+      "block_order": [
+        "image_UCHhpE"
+      ],
+      "blocks": {
+        "image_UCHhpE": {
+          "settings": {
+            "background": "#ffffff",
+            "background_gradient": "",
+            "button_background": "#01322d",
+            "button_text_color": "",
+            "content": "<p>Notre formule stimule la circulation lymphatique pour fluidifier les échanges et favoriser l'élimination des liquides stagnants. </p><p><strong>Résultat : moins de lourdeur, moins de gonflement, plus de légèreté au quotidien.</strong></p>",
+            "icon": "none",
+            "icon_width": 48,
+            "image": "shopify://shop_images/Capture_d_ecran_2026-02-25_a_08.43.04.png",
+            "link_text": "COMMENCER AUJOURD'HUI",
+            "link_url": "shopify://products/drainant-lymphatique",
+            "media_position": "end",
+            "media_width": 50,
+            "subheading": "",
+            "text_color": "#01322d",
+            "text_gradient": "",
+            "text_position": "place-self-center text-center",
+            "title": "Relance naturellement votre drainage lymphatique"
+          },
+          "type": "image"
+        }
+      },
+      "name": "Media with text",
+      "settings": {
+        "alternate_media_position": false,
+        "full_width": true,
+        "spacing": "none"
+      },
+      "type": "media-with-text"
+    },
+    "media_with_text_qXf7qK": {
+      "block_order": [
+        "image_X9VpLn"
+      ],
+      "blocks": {
+        "image_X9VpLn": {
+          "settings": {
+            "background": "#01322d",
+            "background_gradient": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#01322d",
+            "content": "<p>Les gouttes <strong>Zovélia </strong>aident votre corps à éliminer en douceur les fluides emprisonnés, <strong>pour une sensation de légèreté, de dégonflement et de confort au quotidien.</strong></p><p>Quelques gouttes avant le coucher favorisent le drainage naturel, la circulation et l'équilibre hydrique. <strong>Un geste simple. Une différence visible.</strong></p>",
+            "custom_icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T010533.332.png",
+            "icon": "none",
+            "icon_width": 64,
+            "image": "shopify://shop_images/1771499439950_h692te_4abc5da2-aa14-4017-a210-2d4dc43a6a39.jpg",
+            "link_text": "COMMENCER AUJOURDHUI",
+            "link_url": "shopify://products/drainant-lymphatique",
+            "media_position": "start",
+            "media_width": 50,
+            "subheading": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "text_position": "place-self-center text-center",
+            "title": "Votre Allié Quotidien Anti-Rétention"
+          },
+          "type": "image"
+        }
+      },
+      "name": "Media with text",
+      "settings": {
+        "alternate_media_position": false,
+        "full_width": false,
+        "spacing": "none"
+      },
+      "type": "media-with-text"
+    },
+    "media_with_text_wAFeV6": {
+      "block_order": [
+        "image_heEyTV"
+      ],
+      "blocks": {
+        "image_heEyTV": {
+          "settings": {
+            "background": "#f9fffd",
+            "background_gradient": "",
+            "button_background": "#01322d",
+            "button_text_color": "",
+            "content": "<p>Anne crée chaque formule <strong>Zovélia</strong> en s'appuyant sur sa maîtrise du fonctionnement lymphatique.</p><p><em><strong>Les ingrédients sont rigoureusement sélectionnés pour :</strong></em></p><ul><li>Stimuler la fluidité lymphatique</li><li>Favoriser l'élimination naturelle</li><li>Soulager rétention et lourdeurs</li></ul><p>Une approche épurée : que des actifs utiles, rien de superflu. Chaque composant a un rôle précis.</p>",
+            "icon": "none",
+            "icon_width": 48,
+            "image": "shopify://shop_images/Gemini_Generated_Image_6xygic6xygic6xyg_21d32279-a920-4b96-aff7-0acdedb1c50e.jpg",
+            "link_text": "COMMENCER AUJOURD'HUI",
+            "link_url": "shopify://products/drainant-lymphatique",
+            "media_position": "start",
+            "media_width": 50,
+            "subheading": "",
+            "text_color": "#01322d",
+            "text_gradient": "",
+            "text_position": "place-self-center text-center",
+            "title": "Une expertise au service de votre bien-être lymphatique"
+          },
+          "type": "image"
+        }
+      },
+      "name": "Media with text",
+      "settings": {
+        "alternate_media_position": false,
+        "full_width": false,
+        "spacing": "none"
+      },
+      "type": "media-with-text"
+    },
+    "multi_column_rExXPT": {
+      "block_order": [
+        "item_Ajq9Kw",
+        "item_6EpMyF",
+        "item_Wn6R9g",
+        "item_t7QbdB"
+      ],
+      "blocks": {
+        "item_6EpMyF": {
+          "settings": {
+            "column_size": "4",
+            "content": "<p>→ <strong>L’équilibre féminin </strong>Aide le corps à <strong>stabiliser les cycles hormonaux</strong> qui favorisent la <strong>rétention d’eau</strong>, les <strong>gonflements matinaux</strong> et le <strong>visage gonflé</strong>.</p>",
+            "heading_tag": "h5",
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002046.249.jpg",
+            "link_style": "link",
+            "link_text": "",
+            "link_url": "",
+            "title": "Trèfle rouge – Trifolium pratense"
+          },
+          "type": "item"
+        },
+        "item_Ajq9Kw": {
+          "settings": {
+            "column_size": "4",
+            "content": "<p>→ <strong>L’activateur lymphatique naturel </strong>Cette plante <strong>débloque la circulation interne</strong> et aide le corps à <strong>éliminer l’eau piégée</strong>, pas seulement l’<strong>eau superficielle</strong>.</p>",
+            "heading_tag": "h5",
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002028.620_fd1dae00-2a81-45ee-9668-f6166bdd024c.jpg",
+            "link_style": "link",
+            "link_text": "",
+            "link_url": "",
+            "title": "Gaillet gratteron – Galium aparine"
+          },
+          "type": "item"
+        },
+        "item_Wn6R9g": {
+          "settings": {
+            "column_size": "4",
+            "content": "<p>→ <strong>Le purificateur en profondeur </strong>Plante peu commune qui agit dans les <strong>tissus profonds</strong> pour <strong>dissoudre les déchets accumulés</strong>, à l’origine de la <strong>lourdeur</strong> et de la <strong>pression interne</strong>.</p>",
+            "heading_tag": "h5",
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002053.831.jpg",
+            "link_style": "link",
+            "link_text": "",
+            "link_url": "",
+            "title": "Stillingia – Stillingia sylvatica"
+          },
+          "type": "item"
+        },
+        "item_t7QbdB": {
+          "settings": {
+            "column_size": "4",
+            "content": "<p>→ <strong>Le stimulant circulatoire </strong>Réactive la <strong>microcirculation</strong> et remet en mouvement les <strong>fluides stagnants</strong> dans les zones les plus sensibles : <strong>visage</strong>, <strong>mâchoire</strong>, <strong>chevilles</strong>.</p>",
+            "heading_tag": "h5",
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T002100.551.jpg",
+            "link_style": "link",
+            "link_text": "",
+            "link_url": "",
+            "title": "Frêne épineux – Zanthoxylum americanum"
+          },
+          "type": "item"
+        }
+      },
+      "name": "Multi-column",
+      "settings": {
+        "background": "",
+        "background_gradient": "",
+        "content": "<p>Notre <strong>mélange botanique</strong> n’agit pas comme une simple <strong>détox</strong>. Chaque <strong>plante</strong> joue un <strong>rôle spécifique et complémentaire</strong> :</p>",
+        "full_width": true,
+        "gap": "small",
+        "stack_on_mobile": false,
+        "subheading": "",
+        "text_alignment": "center",
+        "text_color": "#01322d",
+        "title": "Ce Qui Rend Nos Gouttes Si Efficaces !"
+      },
+      "type": "multi-column"
+    },
+    "rich_text_zG8a9r": {
+      "block_order": [
+        "subheading_eTkrmh",
+        "heading_tEUqq7"
+      ],
+      "blocks": {
+        "heading_tEUqq7": {
+          "settings": {
+            "gradient": "",
+            "heading_tag": "h2",
+            "text": "+800 Clientes Satisfaites",
+            "text_color": ""
+          },
+          "type": "heading"
+        },
+        "subheading_eTkrmh": {
+          "settings": {
+            "text": "ILS EN PARLENT MIEUX QUE NOUS"
+          },
+          "type": "subheading"
+        }
+      },
+      "name": "Rich text",
+      "settings": {
+        "background": "",
+        "background_gradient": "",
+        "content_width": "small",
+        "full_width": true,
+        "text_color": "#01322d",
+        "text_position": "center"
+      },
+      "type": "rich-text"
+    },
+    "scrolling_text_erxBgG": {
+      "name": "Scrolling text",
+      "settings": {
+        "background": "#f9fffd",
+        "background_gradient": "",
+        "full_width": true,
+        "scrolling_mode": "auto",
+        "scrolling_speed": 6,
+        "text": "✓ Testé en Laboratoire‎ ‎ ‎ ‎ ✓ Certifié GMP ‎ ‎ ‎ ✓ Ingrédients Validés par la Science ‎ ‎ ‎ ✓ Non-Testé sur les Animaux ‎ ‎ ‎ ✓ Actifs de Hautes Qualité",
+        "text_color": "#01322d",
+        "text_gradient": "",
+        "text_size": "xsmall",
+        "text_style": "fill"
+      },
+      "type": "scrolling-text"
+    },
+    "slideshow_7VhzCn": {
+      "block_order": [
+        "image_yrriTV"
+      ],
+      "blocks": {
+        "image_yrriTV": {
+          "settings": {
+            "background": "",
+            "background_gradient": "",
+            "button_background": "#ffffff",
+            "button_link": "",
+            "button_text": "",
+            "button_text_color": "#000000",
+            "content_max_width": 780,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "heading_tag": "h0",
+            "image": "shopify://shop_images/BANNER_PC_18.jpg",
+            "mobile_image": "shopify://shop_images/BANNER_MOBILE_72.jpg",
+            "mobile_text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "subheading": "",
+            "text_color": "#ffffff",
+            "title": ""
+          },
+          "type": "image"
+        }
+      },
+      "name": "Slideshow",
+      "settings": {
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "controls_type": "dots",
+        "cycle_speed": 6,
+        "full_width": true,
+        "image_size": "auto",
+        "show_initial_transition": false,
+        "transition_type": "fade_with_text"
+      },
+      "type": "slideshow"
+    },
+    "tabsvs_UJEzPJ": {
+      "block_order": [
+        "heading_LEPW9w",
+        "subtitle_fJQLBY",
+        "button_i6HmEM",
+        "feature_row_rjNLq7",
+        "feature_row_LtUEmJ",
+        "feature_row_GNqpnp",
+        "feature_row_7MwU7Y",
+        "feature_row_fY3JLj",
+        "feature_row_cnAYGd"
+      ],
+      "blocks": {
+        "button_i6HmEM": {
+          "settings": {
+            "button": "COMMENCER AUJOURDHUI",
+            "button_advanced": false,
+            "button_bg_color": "#0e5348",
+            "button_bg_hover_color": "#0e5348",
+            "button_border_color": "#1a1a1a",
+            "button_border_hover_color": "#1a1a1a",
+            "button_border_thickness": 1,
+            "button_color": "#ffffff",
+            "button_custom": false,
+            "button_custom_styling": true,
+            "button_font": "josefin_sans_n4",
+            "button_full_width_mobile": true,
+            "button_height": 100,
+            "button_hover_color": "#ffffff",
+            "button_mt": 16,
+            "button_mt_mobile": 16,
+            "button_padding_horizontal": 40,
+            "button_padding_horizontal_mobile": 32,
+            "button_padding_vertical": 20,
+            "button_padding_vertical_mobile": 20,
+            "button_radius": 100,
+            "button_shadow_color": "#0e5348",
+            "button_size": 14,
+            "button_size_mobile": 14,
+            "button_style": "non_outline",
+            "open_in_new_tab": false,
+            "url": "shopify://products/drainant-lymphatique"
+          },
+          "type": "button"
+        },
+        "feature_row_7MwU7Y": {
+          "settings": {
+            "competitor_has_feature": false,
+            "feature_name": "Plantes cliniquement étudiées",
+            "primary_has_feature": true
+          },
+          "type": "feature_row"
+        },
+        "feature_row_GNqpnp": {
+          "settings": {
+            "competitor_has_feature": false,
+            "feature_name": "Silhouette redessinée naturellement",
+            "primary_has_feature": true
+          },
+          "type": "feature_row"
+        },
+        "feature_row_LtUEmJ": {
+          "settings": {
+            "competitor_has_feature": false,
+            "feature_name": "Rééquilibre la rétention d'eau hormonale",
+            "primary_has_feature": true
+          },
+          "type": "feature_row"
+        },
+        "feature_row_cnAYGd": {
+          "settings": {
+            "competitor_has_feature": false,
+            "feature_name": "Différence avant/après claire",
+            "primary_has_feature": true
+          },
+          "type": "feature_row"
+        },
+        "feature_row_fY3JLj": {
+          "settings": {
+            "competitor_has_feature": false,
+            "feature_name": "S'intègre à votre routine",
+            "primary_has_feature": true
+          },
+          "type": "feature_row"
+        },
+        "feature_row_rjNLq7": {
+          "settings": {
+            "competitor_has_feature": false,
+            "feature_name": "Jambes légères dès les premiers jours",
+            "primary_has_feature": true
+          },
+          "type": "feature_row"
+        },
+        "heading_LEPW9w": {
+          "settings": {
+            "font_size": 40,
+            "gradient_end": "#404040",
+            "gradient_start": "#121212",
+            "heading_color": "#121212",
+            "heading_tag": "h2",
+            "italic": true,
+            "mobile_font_size": 28,
+            "text": "",
+            "use_gradient": true
+          },
+          "type": "heading"
+        },
+        "subtitle_fJQLBY": {
+          "settings": {
+            "font_size": 14,
+            "font_weight": "400",
+            "subtitle_color": "#01322d",
+            "text": "Pourquoi ce sérum change tout pour vos jambes."
+          },
+          "type": "subtitle"
+        }
+      },
+      "name": "SS - Comparison table #29",
+      "settings": {
+        "badge_background": "#ffffff26",
+        "badge_icon_color": "#ffffff",
+        "check_color": "#ffffff",
+        "column_radius": 16,
+        "column_width": 140,
+        "competitor_badge": "",
+        "competitor_text_color": "#01322d",
+        "competitor_title": "Autres",
+        "content_align": "center",
+        "content_align_mobile": "center",
+        "content_gap": 64,
+        "content_width": 800,
+        "cross_color": "#01322d",
+        "cross_stroke_style": "transparent",
+        "divider_color": "#e0e0e0",
+        "divider_thickness": 1,
+        "feature_font_size": 15,
+        "feature_font_weight": "600",
+        "feature_text_color": "#01322d",
+        "gradient_end": "#f4f4f4",
+        "gradient_start": "#ffffff",
+        "icon_size": 22,
+        "image_width": 70,
+        "layout_direction": "heading_first_vertical",
+        "lazy": true,
+        "mobile_padding_bottom": 40,
+        "mobile_padding_sides": 16,
+        "mobile_padding_top": 40,
+        "padding_bottom": 60,
+        "padding_sides": 24,
+        "padding_top": 60,
+        "primary_badge": "Vérifiée",
+        "primary_column_color": "#01322d",
+        "primary_column_gradient_end": "#404040",
+        "primary_column_gradient_start": "#121212",
+        "primary_column_text_color": "#ffffff",
+        "primary_column_use_gradient": false,
+        "primary_title": "Zovélia",
+        "product_title_size": 18,
+        "row_padding": 16,
+        "show_dividers": true,
+        "width": "custom"
+      },
+      "type": "tabsvs"
+    },
+    "testimonials_dPaBmc": {
+      "block_order": [
+        "testimonial_cLyixe",
+        "testimonial_9Ad839",
+        "testimonial_bpXMC4",
+        "testimonial_bFLFCB",
+        "testimonial_UFkcC4",
+        "testimonial_U8xFd7"
+      ],
+      "blocks": {
+        "testimonial_9Ad839": {
+          "settings": {
+            "author": "Mary U.",
+            "content": "<p>Très agréable à utiliser et surtout efficace. Mon visage dégonfle visiblement et mes traits sont plus détendus.</p>",
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000819.153.png",
+            "rating": 5,
+            "round_avatar": true,
+            "show_rating": true,
+            "title": "Effet drainant immédiat"
+          },
+          "type": "testimonial"
+        },
+        "testimonial_U8xFd7": {
+          "settings": {
+            "author": "Laurianne G.",
+            "content": "<p>Visage plus sculpté, sensation de fraîcheur et vraie amélioration dès les premières utilisations.</p>",
+            "image": "shopify://shop_images/lwMGLDsyp6.jpg",
+            "rating": 5,
+            "round_avatar": true,
+            "show_rating": true,
+            "title": "Résultats rapides et visibles"
+          },
+          "type": "testimonial"
+        },
+        "testimonial_UFkcC4": {
+          "settings": {
+            "author": "Lisa K.",
+            "content": "<p>Effet drainant impressionnant, mes traits sont plus sculptés et ma peau paraît plus ferme. Je suis vraiment ravie.</p>",
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000842.181.png",
+            "rating": 5,
+            "round_avatar": true,
+            "show_rating": true,
+            "title": "Peau plus fraîche et tonique"
+          },
+          "type": "testimonial"
+        },
+        "testimonial_bFLFCB": {
+          "settings": {
+            "author": "Océane L.",
+            "content": "<p>Après quelques jours seulement, j’ai remarqué que mon visage est moins enflé au réveil et paraît plus reposé.</p>",
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000836.717.png",
+            "rating": 4,
+            "round_avatar": true,
+            "show_rating": true,
+            "title": "Traits visiblement affinés"
+          },
+          "type": "testimonial"
+        },
+        "testimonial_bpXMC4": {
+          "settings": {
+            "author": "Joshua A.",
+            "content": "<p>Un petit geste quotidien qui change tout. Je me sens plus légère, moins bouffie et ma peau est plus lumineuse.</p>",
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T000829.919.png",
+            "rating": 4,
+            "round_avatar": true,
+            "show_rating": true,
+            "title": "Sensation de légèreté au réveil"
+          },
+          "type": "testimonial"
+        },
+        "testimonial_cLyixe": {
+          "settings": {
+            "author": "Julia S.",
+            "content": "<p>J’ai vu une vraie différence dès la première semaine : mon visage est plus affiné, moins gonflé et beaucoup plus frais chaque matin.</p>",
+            "image": "shopify://shop_images/Nta9nYgB_b.jpg",
+            "rating": 4,
+            "round_avatar": true,
+            "show_rating": true,
+            "title": "Visage plus fin en quelques jours"
+          },
+          "type": "testimonial"
+        }
+      },
+      "name": "Testimonials",
+      "settings": {
+        "background": "",
+        "background_gradient": "",
+        "content": "",
+        "full_width": true,
+        "heading_color": "",
+        "heading_gradient": "",
+        "link_text": "",
+        "link_url": "",
+        "stack_testimonials": false,
+        "subheading": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": "",
+        "text_color": "",
+        "title": ""
+      },
+      "type": "testimonials"
+    },
+    "text_with_icons_hgf8Wy": {
+      "block_order": [
+        "item_jjbnay",
+        "item_PAM6K6",
+        "item_ckWcUx"
+      ],
+      "blocks": {
+        "item_PAM6K6": {
+          "settings": {
+            "content": "<p>Moins de rétention d’eau, silhouette plus harmonieuse.</p>",
+            "custom_icon": "shopify://shop_images/cramp_2.png",
+            "icon": "picto-coupon",
+            "icon_background": "#f9fffd",
+            "icon_background_type": "circle",
+            "icon_color": "",
+            "icon_width": 48,
+            "mobile_icon_width": 48,
+            "title": "Silhouette affinée"
+          },
+          "type": "item"
+        },
+        "item_ckWcUx": {
+          "settings": {
+            "content": "<p>Moins de gonflements, meilleure circulation dès les premiers jours.</p>",
+            "custom_icon": "shopify://shop_images/cramp_3.png",
+            "icon": "picto-coupon",
+            "icon_background": "#f9fffd",
+            "icon_background_type": "circle",
+            "icon_color": "",
+            "icon_width": 48,
+            "mobile_icon_width": 48,
+            "title": "Corps allégé"
+          },
+          "type": "item"
+        },
+        "item_jjbnay": {
+          "settings": {
+            "content": "<p>Sensation immédiate de légèreté et confort au quotidien.</p>",
+            "custom_icon": "shopify://shop_images/cramp_1.png",
+            "icon": "picto-coupon",
+            "icon_background": "#f9fffd",
+            "icon_background_type": "circle",
+            "icon_color": "",
+            "icon_width": 48,
+            "mobile_icon_width": 48,
+            "title": "Jambes plus légères"
+          },
+          "type": "item"
+        }
+      },
+      "name": "Text with icons",
+      "settings": {
+        "background": "",
+        "background_gradient": "",
+        "full_width": true,
+        "heading_tag": "h5",
+        "icon_spacing": "medium",
+        "stack_on_mobile": false,
+        "text_alignment": "center",
+        "text_color": "#01322d",
+        "title": ""
+      },
+      "type": "text-with-icons"
+    },
+    "whyicons_yKGyV7": {
+      "block_order": [
+        "feature_hwJTpj",
+        "feature_e8KmLc",
+        "feature_CAj3kX",
+        "feature_nLbiqp",
+        "feature_kRRPEp",
+        "feature_nQVjWV"
+      ],
+      "blocks": {
+        "feature_CAj3kX": {
+          "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011205.153.png",
+            "text": "<b>Drainage Naturel</b>"
+          },
+          "type": "feature"
+        },
+        "feature_e8KmLc": {
+          "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011120.177.png",
+            "text": "<b>Visage & Corps Dégonflés</b>"
+          },
+          "type": "feature"
+        },
+        "feature_hwJTpj": {
+          "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011510.151.png",
+            "text": "<b>Soutien lymphatique</b>"
+          },
+          "type": "feature"
+        },
+        "feature_kRRPEp": {
+          "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011233.400.png",
+            "text": "<b>Énergie & Vitalité</b>"
+          },
+          "type": "feature"
+        },
+        "feature_nLbiqp": {
+          "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011333.165.png",
+            "text": "<b>Soutien Hormonal</b>"
+          },
+          "type": "feature"
+        },
+        "feature_nQVjWV": {
+          "settings": {
+            "icon": "shopify://shop_images/CREA_1080X1080_-_2026-02-19T011305.248.png",
+            "text": "<b>Détox Naturelle</b>"
+          },
+          "type": "feature"
+        }
+      },
+      "name": "Why Smileactives",
+      "settings": {
+        "background_color": "#f9fffd",
+        "feature_text_color": "#01322d",
+        "padding_bottom": 45,
+        "padding_top": 45,
+        "subtitle": "",
+        "subtitle_color": "#01322d",
+        "title": "Les bienfaits de Zovélia",
+        "title_color": "#01322d"
+      },
+      "type": "whyicons"
     }
-  },
-  "order": [
-    "faq"
-  ]
+  }
 }
