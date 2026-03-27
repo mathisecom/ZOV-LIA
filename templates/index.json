@@ -15,8 +15,8 @@
         "image_yrriTV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BANNER_PC_18.jpg",
-            "mobile_image": "shopify://shop_images/BANNER_MOBILE_72.jpg",
+            "image": "shopify://shop_images/ChatGPT_Image_24_mars_2026_23_27_26.png",
+            "mobile_image": "shopify://shop_images/ChatGPT_Image_24_mars_2026_23_27_26.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -349,7 +349,7 @@
         "image_UCHhpE": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Capture_d_ecran_2026-02-25_a_08.43.04.png",
+            "image": "shopify://shop_images/Capture_d_ecran_2026-03-27_a_20.57.18.png",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center text-center",
